@@ -1,0 +1,19 @@
+current_obj_i(2,trn,39).
+ 
+called_tree_i(0,39,1,4).
+called_tree_i(0,39,13,1).
+called_tree_i(0,39,13,155).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tbus002,[],[],[],39).
+ 
+ 
+obj_parms_i([ 'short aP0_RBRCOD','String aP1_Gx_mode','String aP2_SISTEMA','String aP3_USUARIO' ],[ [ 'Rbrcod',inout ],[ 'Mode',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

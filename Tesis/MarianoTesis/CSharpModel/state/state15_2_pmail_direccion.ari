@@ -1,0 +1,16 @@
+current_obj_i(2,proc,70).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pmail_direccion,[],[],[],70).
+ 
+ 
+obj_parms_i([ 'String aP0_SENDER_NAME','String aP1_SENDER_ADDRESS','String aP2_PASSWORD','String aP3_DIR_MAIL','String aP4_CC_MAIL','String aP5_CCI_MAIL','String aP6_ASUNTO','String aP7_MENSAJE' ],[ [ 'Sender_name',inout ],[ 'Sender_address',inout ],[ 'Password',inout ],[ 'Dir_mail',inout ],[ 'Cc_mail',inout ],[ 'Cci_mail',inout ],[ 'Asunto',inout ],[ 'Mensaje',inout ] ]).
+ 
+ 
+ 
+ 

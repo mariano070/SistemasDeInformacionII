@@ -1,0 +1,31 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>35</ObjId>
+<ObjName>SEG006I</ObjName>
+<ObjDesc>INSERTA EN SEG006</ObjDesc>
+<ObjPgmName>SEG006I</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'PRS_NRO' attribute is not in a table (Source, Line: 1, Char: 34)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRS_NRO' attribute is not in a table (Source, Line: 5, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRS_CAD' attribute is not in a table (Source, Line: 6, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRS_NRO' attribute is not in a table (Source, Line: 14, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRS_CAD' attribute is not in a table (Source, Line: 15, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRS_INI' attribute is not in a table (Source, Line: 16, Char: 2)</Token></Message></Error></Errors></ObjectSpec>

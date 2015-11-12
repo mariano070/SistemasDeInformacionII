@@ -1,0 +1,230 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>23</ObjId>
+<ObjName>TSEG002TPRM005WC</ObjName>
+<ObjDesc>TSEG002 TPRM005 WC</ObjDesc>
+<ObjPgmName>TSEG002TPRM005WC</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0023</MsgCode>
+<Location>
+<Type>Source</Type>
+<Line>18</Line></Location>
+<Message>
+<Token>Parameter </Token>
+<Token>PRM5_USU</Token>
+<Sp></Sp>
+<Token>linking</Token>
+<Sp></Sp>
+<Token>TPRM005</Token>
+<Token> has wrong type.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0023</MsgCode>
+<Location>
+<Type>Source</Type>
+<Line>18</Line></Location>
+<Message>
+<Token>Parameter </Token>
+<Token>PRM5_ZNA</Token>
+<Sp></Sp>
+<Token>linking</Token>
+<Sp></Sp>
+<Token>TPRM005</Token>
+<Token> has wrong type.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0024</MsgCode>
+<Location>
+<Type>Source</Type>
+<Line>18</Line></Location>
+<Message>
+<Token>Not enough parameters </Token>
+<Token>linking</Token>
+<Sp></Sp>
+<Token>TPRM005</Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0023</MsgCode>
+<Location>
+<Type>Events</Type>
+<Line>23</Line></Location>
+<Message>
+<Token>Parameter </Token>
+<Token>&amp;PRM5_USU</Token>
+<Sp></Sp>
+<Token>calling</Token>
+<Sp></Sp>
+<Token>TPRM005</Token>
+<Token> has wrong type.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0023</MsgCode>
+<Location>
+<Type>Events</Type>
+<Line>23</Line></Location>
+<Message>
+<Token>Parameter </Token>
+<Token>nullvalue(PRM5_ZNA)</Token>
+<Sp></Sp>
+<Token>calling</Token>
+<Sp></Sp>
+<Token>TPRM005</Token>
+<Token> has wrong type.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0024</MsgCode>
+<Location>
+<Type>Events</Type>
+<Line>23</Line></Location>
+<Message>
+<Token>Not enough parameters </Token>
+<Token>calling</Token>
+<Sp></Sp>
+<Token>TPRM005</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>IsAuthorized</ObjName>
+<ObjPgmName>IsAuthorized</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Isauthorized</VarId>
+<VarName>&amp;IsAuthorized</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>NotAuthorized</ObjName>
+<ObjPgmName>NotAuthorized</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Pgmname</VarId>
+<VarName>&amp;Pgmname</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Grid.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITPRM005</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>'DoInsert'</EventName>
+<CALL>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>19</ObjId>
+<ObjName>TPRM005</ObjName>
+<ObjPgmName>TPRM005</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Parameters>
+<Token>TrnMode</Token>
+<Token>.Insert</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Token>nullvalue(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute>
+<Token>)</Token></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'PREPARETRANSACTION'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Suggests></Suggests></ObjectSpec>

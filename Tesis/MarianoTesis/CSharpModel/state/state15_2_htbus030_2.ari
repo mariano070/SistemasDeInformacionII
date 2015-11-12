@@ -1,0 +1,23 @@
+current_obj_i(2,web,71).
+ 
+called_tree_i(13,71,1,4).
+called_tree_i(13,71,1,17).
+called_tree_i(13,71,1,18).
+called_tree_i(13,71,0,1).
+called_tree_i(13,71,13,3).
+called_tree_i(13,71,13,63).
+called_tree_i(13,71,13,171).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(htbus030_2,[],[],[],71).
+ 
+ 
+obj_parms_i([ 'int aP0_pTTBUS_Id' ],[ [ 'Pttbus_id',out ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,92 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>88</ObjId>
+<ObjName>Gx0060</ObjName>
+<ObjDesc>Selection List Actualización de identificadores de bienes de uso</ObjDesc>
+<ObjPgmName>Gx0060</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pttbus5_ididentificador</VarId>
+<VarName>&amp;pTTBUS5_IdIdentificador</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>6</TableId>
+<TableName>TTBUS005</TableName>
+<Description>Maestro de Identificadores</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>TTBUS5_IdIdentificador</AttriName>
+<Description>Cod. Identificador</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS005</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>TTBUS5_IdIdentificador</AttriName>
+<Description>Cod. Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus5_ididentificador</VarId>
+<VarName>&amp;cTTBUS5_IdIdentificador</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>TTBUS5_DescIdentificador</AttriName>
+<Description>Desc. Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus5_descidentificador</VarId>
+<VarName>&amp;cTTBUS5_DescIdentificador</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>TTBUS005</TableName>
+<Description>Maestro de Identificadores</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>TTBUS5_IdIdentificador</AttriName>
+<Description>Cod. Identificador</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

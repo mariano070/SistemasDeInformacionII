@@ -1,0 +1,16 @@
+current_obj_i(2,proc,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbus020,[],[],[],0).
+ 
+ 
+obj_parms_i([ 'String aP0_NOMBRE_REPORTE','String aP1_TTBUS20_Estacion','String aP2_USUARIO' ],[ [ 'NOMBRE_REPORTE',inout ],[ 'TTBUS20_Estacion',inout ],[ 'USUARIO',inout ] ]).
+ 
+ 
+ 
+ 

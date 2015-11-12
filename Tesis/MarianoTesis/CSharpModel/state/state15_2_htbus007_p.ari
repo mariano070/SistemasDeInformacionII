@@ -1,0 +1,20 @@
+current_obj_i(2,web,56).
+ 
+called_tree_i(13,56,1,4).
+called_tree_i(13,56,1,99).
+called_tree_i(13,56,0,7).
+called_tree_i(13,56,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(htbus007_p,[],[],[],56).
+ 
+ 
+obj_parms_i([ 'String aP0_SISTEMA','String aP1_USUARIO' ],[ [ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

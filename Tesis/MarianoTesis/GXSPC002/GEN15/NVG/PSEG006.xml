@@ -1,0 +1,54 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>88</ObjId>
+<ObjName>PSEG006</ObjName>
+<ObjDesc>COPIA USUARIOS</ObjDesc>
+<ObjPgmName>PSEG006</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<MsgCode>spc0027</MsgCode>
+<Message>
+<Token>No relationship found among attributes</Token>
+<Token> in group starting at line </Token>
+<Token>15</Token>
+<Token></Token>
+<Token>. Attributes: </Token>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token> are incompatible with: </Token>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token>.</Token></Message></Error></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuvie</VarId>
+<VarName>&amp;USUVIE</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usunue</VarId>
+<VarName>&amp;USUNUE</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

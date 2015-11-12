@@ -1,0 +1,64 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>69</ObjId>
+<ObjName>PTBUS150</ObjName>
+<ObjDesc>Alta masiva de bienes de uso (trazabilidad)</ObjDesc>
+<ObjPgmName>PTBUS150</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Source, Line: 56, Char: 4)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Source, Line: 57, Char: 4)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Source, Line: 58, Char: 4)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Source, Line: 59, Char: 4)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Source, Line: 60, Char: 4)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Source, Line: 115, Char: 12)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Source, Line: 116, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HDW_IDT' attribute is not in a table (Source, Line: 117, Char: 4)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Source, Line: 121, Char: 12)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Source, Line: 121, Char: 20)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Source, Line: 121, Char: 28)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Source, Line: 121, Char: 36)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Source, Line: 122, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Source, Line: 123, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Source, Line: 124, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Source, Line: 125, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_IDT' attribute is not in a table (Source, Line: 126, Char: 4)</Token></Message></Error></Errors></ObjectSpec>

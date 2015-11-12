@@ -1,0 +1,1 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Objects><Object name="DPTabsMenuTrazabilidad" id="3" type="DataProvider"><DefaultOutput type="PivotTable" /></Object><Object name="DPTabsMenuTrazabilidad2" id="4" type="DataProvider"><DefaultOutput type="PivotTable" /></Object><Object name="DPTabsMenuData" id="5" type="DataProvider"><DefaultOutput type="PivotTable" /></Object></Objects>

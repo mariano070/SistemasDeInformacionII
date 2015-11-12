@@ -1,0 +1,338 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>46</ObjId>
+<ObjName>PTBUS014_4</ObjName>
+<ObjDesc>Listado de bienes por responsable (en pdf)</ObjDesc>
+<ObjPgmName>PTBUS014_4</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>File</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>HTTP</CallProtocol>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Nombre_reporte</VarId>
+<VarName>&amp;NOMBRE_REPORTE</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus7_codresp</VarId>
+<VarName>&amp;TTBUS7_CodResp</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus_rubrobien</VarId>
+<VarName>&amp;TTBUS_RubroBien</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>18</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UTTBUS014_1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>214</AttriId>
+<AttriName>TTBUS14_CodRubro</AttriName>
+<Description>Rubro</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus_rubrobien</VarId>
+<VarName>&amp;TTBUS_RubroBien</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus_rubrobien</VarId>
+<VarName>&amp;TTBUS_RubroBien</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>TTBUS14_IdBien</AttriName>
+<Description>Id bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>5</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>Break</LevelType>
+<LevelBeginRow>27</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>TTBUS14_MarcaEnvio</AttriName>
+<Description>Marca de Envio</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UTTBUS014_1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>@TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>TTBUS14_IdBien</AttriName>
+<Description>Id bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>6</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>Break</LevelType>
+<LevelBeginRow>44</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>TTBUS14_MarcaEnvio</AttriName>
+<Description>Marca de Envio</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>TTBUS14_IdBien</AttriName>
+<Description>Id bien de uso</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UTTBUS014_1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>@TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Sp></Sp>
+<Token>and</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>TTBUS14_MarcaEnvio</AttriName>
+<Description>Marca de Envio</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>@TTBUS14_MarcaEnvio</AttriName>
+<Description>Marca de Envio</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>TTBUS14_IdBien</AttriName>
+<Description>Id bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>19</ObjId>
+<ObjName>PTBUS007</ObjName>
+<ObjPgmName>PTBUS007</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Band</VarId>
+<VarName>&amp;band</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus_id</VarId>
+<VarName>&amp;TTBUS_Id</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<Levels></Levels></Level></Levels></Level></Levels></Level>
+<Level>
+<LevelNumber>7</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Delete</Type></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>70</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>TTBUS14_IdBien</AttriName>
+<Description>Id bien de uso</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS014_1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>213</AttriId>
+<AttriName>TTBUS14_CodResponsable</AttriName>
+<Description>Código de Responsable</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>TTBUS14_IdBien</AttriName>
+<Description>Id bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>12</TableId>
+<TableName>TTBUS014_1</TableName>
+<Description>Auxiliar para Informe de Bienes por Responsable</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

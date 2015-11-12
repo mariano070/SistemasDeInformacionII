@@ -1,0 +1,20 @@
+current_obj_i(2,web,32).
+ 
+called_tree_i(13,32,1,2).
+called_tree_i(13,32,1,4).
+called_tree_i(13,32,0,17).
+called_tree_i(13,32,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gestoresgeneral,[],[],[],32).
+ 
+ 
+obj_parms_i([ 'String aP0_GestorCod' ],[ [ 260,in ] ]).
+ 
+ 
+ 
+ 

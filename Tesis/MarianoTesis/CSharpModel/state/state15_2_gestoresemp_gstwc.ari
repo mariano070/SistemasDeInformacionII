@@ -1,0 +1,21 @@
+current_obj_i(2,web,34).
+ 
+called_tree_i(13,34,1,2).
+called_tree_i(13,34,1,4).
+called_tree_i(13,34,0,22).
+called_tree_i(13,34,13,4).
+called_tree_i(13,34,13,41).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gestoresemp_gstwc,[],[],[],34).
+ 
+ 
+obj_parms_i([ 'String aP0_GstEmpCod' ],[ [ 'Gstempcod',in ] ]).
+ 
+ 
+ 
+ 

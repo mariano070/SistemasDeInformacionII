@@ -1,0 +1,17 @@
+current_obj_i(2,trn,2).
+ 
+called_tree_i(0,2,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tcol000,[],[],[],2).
+ 
+ 
+obj_parms_i([ 'long aP0_PRC_NRO' ],[ [ 79,inout ] ]).
+ 
+ 
+ 
+ 

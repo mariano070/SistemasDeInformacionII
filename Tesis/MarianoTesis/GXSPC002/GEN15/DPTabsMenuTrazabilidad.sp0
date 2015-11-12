@@ -1,0 +1,445 @@
+spec_i([ mnproc,3,'DPTabs Menu Trazabilidad','DPTabsMenuTrazabilidad',0,spa,'10_1_5-42940' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('Folder',o(8,'DropDownTabsMenu'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'TabsMenuData'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','DPTabs Menu Trazabilidad')).
+rule_i(0,prop('ObjName','DPTabsMenuTrazabilidad')).
+rule_i(0,rule([ a(22,[ 'Rfr','"Renovar"','5' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Sistema','Usuario','Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Sistema',in ],[ 'Usuario',in ],[ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Gxm3tabsmenudata_sections',[ 'Gxm3tabsmenudata_sections',o('TabsMenuData.TabsMenuDataItem.SectionsItem'),0,0,'',0,'Gxm3tabsmenudata_sections','',9 ]).
+attri_i('Gxm1tabsmenudata',[ 'Gxm1tabsmenudata',o('TabsMenuData.TabsMenuDataItem'),0,0,'',0,'Gxm1tabsmenudata','',8 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('TabsMenuData.TabsMenuDataItem')),0,0,'',0,'Gxm2rootcol','',7 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',6 ]).
+attri_i('Sistema',[ 'SISTEMA',char,15,0,'',0,'SISTEMA','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(3,1,1,cmd,3,[ t('',107,3,0),t('Gxm1tabsmenudata',23,3,0),t(=,10,3,0),t([ 'TabsMenuData.TabsMenuDataItem',[ t('(',0,3,0),t(')',4,3,0) ],n ],46,3,0) ]).
+b_line_i([ 3,1 ],1,1,cmd,3,[ t('',107,3,0),t([ t('Gxm2rootcol',23,3,0),t('add(',1,3,0) ],31,3,0),t('Gxm1tabsmenudata',23,3,0),t(')',4,3,0) ]).
+b_line_i(5,1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1tabsmenudata',23,5,0),t('Menuid',3,5,0) ],29,5,0),t(=,10,5,0),t('1',3,5,0) ]).
+b_line_i(6,1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1tabsmenudata',23,5,0),t('Menutitle',3,5,0) ],29,5,0),t(=,10,5,0),t('"Actualización"',3,5,0) ]).
+b_line_i(7,1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1tabsmenudata',23,5,0),t('Menudescription',3,5,0) ],29,5,0),t(=,10,5,0),t('"Acceso Actualización Trazabilidad"',3,5,0) ]).
+b_line_i(11,1,1,cmd,5,[ t('',107,5,0),t('Gxm3tabsmenudata_sections',23,5,0),t(=,10,5,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,11,0),t(')',4,11,0) ],n ],46,5,0) ]).
+b_line_i([ 11,1 ],1,1,cmd,5,[ t('',107,5,0),t([ t('Gxm1tabsmenudata',23,11,0),t('Sections',3,11,0),t('add(',1,11,0) ],31,11,0),t('Gxm3tabsmenudata_sections',23,5,0),t(')',4,5,0) ]).
+b_line_i(13,1,1,cmd,7,[ t('',107,7,0),t([ t('Gxm3tabsmenudata_sections',23,7,0),t('Sectionid',3,7,0) ],29,7,0),t(=,10,7,0),t('1',3,7,0) ]).
+b_line_i(14,1,1,cmd,7,[ t('',107,7,0),t([ t('Gxm3tabsmenudata_sections',23,7,0),t('Sectiontitle',3,7,0) ],29,7,0),t(=,10,7,0),t('"Actualización de Bienes de Uso"',3,7,0) ]).
+b_line_i(15,1,1,cmd,7,[ t('',107,7,0),t([ t('Gxm3tabsmenudata_sections',23,7,0),t('Sectiondescription',3,7,0) ],29,7,0),t(=,10,7,0),t('"Actualización de Bienes de Uso"',3,7,0) ]).
+b_line_i(16,1,1,cmd,7,[ t('',107,7,0),t([ t('Gxm3tabsmenudata_sections',23,7,0),t('Sectionurl',3,7,0) ],29,7,0),t(=,10,7,0),t('link(',1,7,0),t(o(13,'HTBUS001_prev'),28,7,0),t(',',7,7,0),t('Sistema',23,7,0),t(',',7,7,0),t('Usuario',23,7,0),t(')',4,7,0) ]).
+b_line_i(18,1,1,cmd,7,[ t('',107,7,0),t('Gxm3tabsmenudata_sections',23,7,0),t(=,10,7,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,18,0),t(')',4,18,0) ],n ],46,7,0) ]).
+b_line_i([ 18,1 ],1,1,cmd,7,[ t('',107,7,0),t([ t('Gxm1tabsmenudata',23,18,0),t('Sections',3,18,0),t('add(',1,18,0) ],31,18,0),t('Gxm3tabsmenudata_sections',23,7,0),t(')',4,7,0) ]).
+b_line_i(20,1,1,cmd,9,[ t('',107,9,0),t([ t('Gxm3tabsmenudata_sections',23,9,0),t('Sectionid',3,9,0) ],29,9,0),t(=,10,9,0),t('2',3,9,0) ]).
+b_line_i(21,1,1,cmd,9,[ t('',107,9,0),t([ t('Gxm3tabsmenudata_sections',23,9,0),t('Sectiontitle',3,9,0) ],29,9,0),t(=,10,9,0),t('"Administrador de Cambio de Posiciones"',3,9,0) ]).
+b_line_i(22,1,1,cmd,9,[ t('',107,9,0),t([ t('Gxm3tabsmenudata_sections',23,9,0),t('Sectiondescription',3,9,0) ],29,9,0),t(=,10,9,0),t('"Administrador de Cambio de Posiciones"',3,9,0) ]).
+b_line_i(23,1,1,cmd,9,[ t('',107,9,0),t([ t('Gxm3tabsmenudata_sections',23,9,0),t('Sectionurl',3,9,0) ],29,9,0),t(=,10,9,0),t('link(',1,9,0),t(o(13,'HTBUS020'),28,9,0),t(',',7,9,0),t('Sistema',23,9,0),t(',',7,9,0),t('Usuario',23,9,0),t(')',4,9,0) ]).
+b_line_i(25,1,1,cmd,9,[ t('',107,9,0),t('Gxm3tabsmenudata_sections',23,9,0),t(=,10,9,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,25,0),t(')',4,25,0) ],n ],46,9,0) ]).
+b_line_i([ 25,1 ],1,1,cmd,9,[ t('',107,9,0),t([ t('Gxm1tabsmenudata',23,25,0),t('Sections',3,25,0),t('add(',1,25,0) ],31,25,0),t('Gxm3tabsmenudata_sections',23,9,0),t(')',4,9,0) ]).
+b_line_i(27,1,1,cmd,11,[ t('',107,11,0),t([ t('Gxm3tabsmenudata_sections',23,11,0),t('Sectionid',3,11,0) ],29,11,0),t(=,10,11,0),t('3',3,11,0) ]).
+b_line_i(28,1,1,cmd,11,[ t('',107,11,0),t([ t('Gxm3tabsmenudata_sections',23,11,0),t('Sectiontitle',3,11,0) ],29,11,0),t(=,10,11,0),t('"Administración Bajas Bienes de Uso"',3,11,0) ]).
+b_line_i(29,1,1,cmd,11,[ t('',107,11,0),t([ t('Gxm3tabsmenudata_sections',23,11,0),t('Sectiondescription',3,11,0) ],29,11,0),t(=,10,11,0),t('"Administración Bajas Bienes de Uso"',3,11,0) ]).
+b_line_i(30,1,1,cmd,11,[ t('',107,11,0),t([ t('Gxm3tabsmenudata_sections',23,11,0),t('Sectionurl',3,11,0) ],29,11,0),t(=,10,11,0),t('link(',1,11,0),t(o(13,'HTBUS001b'),28,11,0),t(',',7,11,0),t('Sistema',23,11,0),t(',',7,11,0),t('Usuario',23,11,0),t(')',4,11,0) ]).
+b_line_i(34,1,1,cmd,11,[ t('',107,11,0),t('Gxm1tabsmenudata',23,11,0),t(=,10,11,0),t([ 'TabsMenuData.TabsMenuDataItem',[ t('(',0,34,0),t(')',4,34,0) ],n ],46,11,0) ]).
+b_line_i([ 34,1 ],1,1,cmd,11,[ t('',107,11,0),t([ t('Gxm2rootcol',23,34,0),t('add(',1,34,0) ],31,34,0),t('Gxm1tabsmenudata',23,11,0),t(')',4,11,0) ]).
+b_line_i(36,1,1,cmd,13,[ t('',107,13,0),t([ t('Gxm1tabsmenudata',23,13,0),t('Menuid',3,13,0) ],29,13,0),t(=,10,13,0),t('2',3,13,0) ]).
+b_line_i(37,1,1,cmd,13,[ t('',107,13,0),t([ t('Gxm1tabsmenudata',23,13,0),t('Menutitle',3,13,0) ],29,13,0),t(=,10,13,0),t('"Informes"',3,13,0) ]).
+b_line_i(38,1,1,cmd,13,[ t('',107,13,0),t([ t('Gxm1tabsmenudata',23,13,0),t('Menudescription',3,13,0) ],29,13,0),t(=,10,13,0),t('"Acceso Menú de Informes"',3,13,0) ]).
+b_line_i(42,1,1,cmd,13,[ t('',107,13,0),t('Gxm3tabsmenudata_sections',23,13,0),t(=,10,13,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,42,0),t(')',4,42,0) ],n ],46,13,0) ]).
+b_line_i([ 42,1 ],1,1,cmd,13,[ t('',107,13,0),t([ t('Gxm1tabsmenudata',23,42,0),t('Sections',3,42,0),t('add(',1,42,0) ],31,42,0),t('Gxm3tabsmenudata_sections',23,13,0),t(')',4,13,0) ]).
+b_line_i(44,1,1,cmd,15,[ t('',107,15,0),t([ t('Gxm3tabsmenudata_sections',23,15,0),t('Sectionid',3,15,0) ],29,15,0),t(=,10,15,0),t('1',3,15,0) ]).
+b_line_i(45,1,1,cmd,15,[ t('',107,15,0),t([ t('Gxm3tabsmenudata_sections',23,15,0),t('Sectiontitle',3,15,0) ],29,15,0),t(=,10,15,0),t('"Envíos Pendientes de Recepción"',3,15,0) ]).
+b_line_i(46,1,1,cmd,15,[ t('',107,15,0),t([ t('Gxm3tabsmenudata_sections',23,15,0),t('Sectiondescription',3,15,0) ],29,15,0),t(=,10,15,0),t('"Informe de Envíos Pendientes de Recepción"',3,15,0) ]).
+b_line_i(47,1,1,cmd,15,[ t('',107,15,0),t([ t('Gxm3tabsmenudata_sections',23,15,0),t('Sectionurl',3,15,0) ],29,15,0),t(=,10,15,0),t('link(',1,15,0),t(o(13,'HTBUS011'),28,15,0),t(',',7,15,0),t('Sistema',23,15,0),t(',',7,15,0),t('Usuario',23,15,0),t(')',4,15,0) ]).
+b_line_i(49,1,1,cmd,15,[ t('',107,15,0),t('Gxm3tabsmenudata_sections',23,15,0),t(=,10,15,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,49,0),t(')',4,49,0) ],n ],46,15,0) ]).
+b_line_i([ 49,1 ],1,1,cmd,15,[ t('',107,15,0),t([ t('Gxm1tabsmenudata',23,49,0),t('Sections',3,49,0),t('add(',1,49,0) ],31,49,0),t('Gxm3tabsmenudata_sections',23,15,0),t(')',4,15,0) ]).
+b_line_i(51,1,1,cmd,17,[ t('',107,17,0),t([ t('Gxm3tabsmenudata_sections',23,17,0),t('Sectionid',3,17,0) ],29,17,0),t(=,10,17,0),t('2',3,17,0) ]).
+b_line_i(52,1,1,cmd,17,[ t('',107,17,0),t([ t('Gxm3tabsmenudata_sections',23,17,0),t('Sectiontitle',3,17,0) ],29,17,0),t(=,10,17,0),t('"Movimientos de Bienes de Uso"',3,17,0) ]).
+b_line_i(53,1,1,cmd,17,[ t('',107,17,0),t([ t('Gxm3tabsmenudata_sections',23,17,0),t('Sectiondescription',3,17,0) ],29,17,0),t(=,10,17,0),t('"Informe de Movimientos de Bienes de Uso"',3,17,0) ]).
+b_line_i(54,1,1,cmd,17,[ t('',107,17,0),t([ t('Gxm3tabsmenudata_sections',23,17,0),t('Sectionurl',3,17,0) ],29,17,0),t(=,10,17,0),t('link(',1,17,0),t(o(13,'HTBUS013'),28,17,0),t(',',7,17,0),t('Sistema',23,17,0),t(',',7,17,0),t('Usuario',23,17,0),t(')',4,17,0) ]).
+b_line_i(56,1,1,cmd,17,[ t('',107,17,0),t('Gxm3tabsmenudata_sections',23,17,0),t(=,10,17,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,56,0),t(')',4,56,0) ],n ],46,17,0) ]).
+b_line_i([ 56,1 ],1,1,cmd,17,[ t('',107,17,0),t([ t('Gxm1tabsmenudata',23,56,0),t('Sections',3,56,0),t('add(',1,56,0) ],31,56,0),t('Gxm3tabsmenudata_sections',23,17,0),t(')',4,17,0) ]).
+b_line_i(58,1,1,cmd,19,[ t('',107,19,0),t([ t('Gxm3tabsmenudata_sections',23,19,0),t('Sectionid',3,19,0) ],29,19,0),t(=,10,19,0),t('3',3,19,0) ]).
+b_line_i(59,1,1,cmd,19,[ t('',107,19,0),t([ t('Gxm3tabsmenudata_sections',23,19,0),t('Sectiontitle',3,19,0) ],29,19,0),t(=,10,19,0),t('"Bienes por Posición o por Responsable"',3,19,0) ]).
+b_line_i(60,1,1,cmd,19,[ t('',107,19,0),t([ t('Gxm3tabsmenudata_sections',23,19,0),t('Sectiondescription',3,19,0) ],29,19,0),t(=,10,19,0),t('"Informe de Bienes por Posición o por Responsable"',3,19,0) ]).
+b_line_i(61,1,1,cmd,19,[ t('',107,19,0),t([ t('Gxm3tabsmenudata_sections',23,19,0),t('Sectionurl',3,19,0) ],29,19,0),t(=,10,19,0),t('link(',1,19,0),t(o(13,'HTBUS014'),28,19,0),t(',',7,19,0),t('Sistema',23,19,0),t(',',7,19,0),t('Usuario',23,19,0),t(')',4,19,0) ]).
+b_line_i(63,1,1,cmd,19,[ t('',107,19,0),t('Gxm3tabsmenudata_sections',23,19,0),t(=,10,19,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,63,0),t(')',4,63,0) ],n ],46,19,0) ]).
+b_line_i([ 63,1 ],1,1,cmd,19,[ t('',107,19,0),t([ t('Gxm1tabsmenudata',23,63,0),t('Sections',3,63,0),t('add(',1,63,0) ],31,63,0),t('Gxm3tabsmenudata_sections',23,19,0),t(')',4,19,0) ]).
+b_line_i(65,1,1,cmd,21,[ t('',107,21,0),t([ t('Gxm3tabsmenudata_sections',23,21,0),t('Sectionid',3,21,0) ],29,21,0),t(=,10,21,0),t('4',3,21,0) ]).
+b_line_i(66,1,1,cmd,21,[ t('',107,21,0),t([ t('Gxm3tabsmenudata_sections',23,21,0),t('Sectiontitle',3,21,0) ],29,21,0),t(=,10,21,0),t('"Bienes e Identificadores"',3,21,0) ]).
+b_line_i(67,1,1,cmd,21,[ t('',107,21,0),t([ t('Gxm3tabsmenudata_sections',23,21,0),t('Sectiondescription',3,21,0) ],29,21,0),t(=,10,21,0),t('"Informe de Bienes e Identificadores"',3,21,0) ]).
+b_line_i(68,1,1,cmd,21,[ t('',107,21,0),t([ t('Gxm3tabsmenudata_sections',23,21,0),t('Sectionurl',3,21,0) ],29,21,0),t(=,10,21,0),t('link(',1,21,0),t(o(13,'HTBUS016'),28,21,0),t(',',7,21,0),t('Sistema',23,21,0),t(',',7,21,0),t('Usuario',23,21,0),t(')',4,21,0) ]).
+b_line_i(72,1,1,cmd,21,[ t('',107,21,0),t('Gxm1tabsmenudata',23,21,0),t(=,10,21,0),t([ 'TabsMenuData.TabsMenuDataItem',[ t('(',0,72,0),t(')',4,72,0) ],n ],46,21,0) ]).
+b_line_i([ 72,1 ],1,1,cmd,21,[ t('',107,21,0),t([ t('Gxm2rootcol',23,72,0),t('add(',1,72,0) ],31,72,0),t('Gxm1tabsmenudata',23,21,0),t(')',4,21,0) ]).
+b_line_i(74,1,1,cmd,23,[ t('',107,23,0),t([ t('Gxm1tabsmenudata',23,23,0),t('Menuid',3,23,0) ],29,23,0),t(=,10,23,0),t('3',3,23,0) ]).
+b_line_i(75,1,1,cmd,23,[ t('',107,23,0),t([ t('Gxm1tabsmenudata',23,23,0),t('Menutitle',3,23,0) ],29,23,0),t(=,10,23,0),t('"Tablas"',3,23,0) ]).
+b_line_i(76,1,1,cmd,23,[ t('',107,23,0),t([ t('Gxm1tabsmenudata',23,23,0),t('Menudescription',3,23,0) ],29,23,0),t(=,10,23,0),t('"Acceso Menú de Tablas"',3,23,0) ]).
+b_line_i(80,1,1,cmd,23,[ t('',107,23,0),t('Gxm3tabsmenudata_sections',23,23,0),t(=,10,23,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,80,0),t(')',4,80,0) ],n ],46,23,0) ]).
+b_line_i([ 80,1 ],1,1,cmd,23,[ t('',107,23,0),t([ t('Gxm1tabsmenudata',23,80,0),t('Sections',3,80,0),t('add(',1,80,0) ],31,80,0),t('Gxm3tabsmenudata_sections',23,23,0),t(')',4,23,0) ]).
+b_line_i(82,1,1,cmd,25,[ t('',107,25,0),t([ t('Gxm3tabsmenudata_sections',23,25,0),t('Sectionid',3,25,0) ],29,25,0),t(=,10,25,0),t('1',3,25,0) ]).
+b_line_i(83,1,1,cmd,25,[ t('',107,25,0),t([ t('Gxm3tabsmenudata_sections',23,25,0),t('Sectiontitle',3,25,0) ],29,25,0),t(=,10,25,0),t('"Identificadores"',3,25,0) ]).
+b_line_i(84,1,1,cmd,25,[ t('',107,25,0),t([ t('Gxm3tabsmenudata_sections',23,25,0),t('Sectiondescription',3,25,0) ],29,25,0),t(=,10,25,0),t('"Identificadores"',3,25,0) ]).
+b_line_i(85,1,1,cmd,25,[ t('',107,25,0),t([ t('Gxm3tabsmenudata_sections',23,25,0),t('Sectionurl',3,25,0) ],29,25,0),t(=,10,25,0),t('link(',1,25,0),t(o(13,'HTBUS005'),28,25,0),t(',',7,25,0),t('Sistema',23,25,0),t(',',7,25,0),t('Usuario',23,25,0),t(')',4,25,0) ]).
+b_line_i(87,1,1,cmd,25,[ t('',107,25,0),t('Gxm3tabsmenudata_sections',23,25,0),t(=,10,25,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,87,0),t(')',4,87,0) ],n ],46,25,0) ]).
+b_line_i([ 87,1 ],1,1,cmd,25,[ t('',107,25,0),t([ t('Gxm1tabsmenudata',23,87,0),t('Sections',3,87,0),t('add(',1,87,0) ],31,87,0),t('Gxm3tabsmenudata_sections',23,25,0),t(')',4,25,0) ]).
+b_line_i(89,1,1,cmd,27,[ t('',107,27,0),t([ t('Gxm3tabsmenudata_sections',23,27,0),t('Sectionid',3,27,0) ],29,27,0),t(=,10,27,0),t('2',3,27,0) ]).
+b_line_i(90,1,1,cmd,27,[ t('',107,27,0),t([ t('Gxm3tabsmenudata_sections',23,27,0),t('Sectiontitle',3,27,0) ],29,27,0),t(=,10,27,0),t('"Rubros"',3,27,0) ]).
+b_line_i(91,1,1,cmd,27,[ t('',107,27,0),t([ t('Gxm3tabsmenudata_sections',23,27,0),t('Sectiondescription',3,27,0) ],29,27,0),t(=,10,27,0),t('"Rubros"',3,27,0) ]).
+b_line_i(92,1,1,cmd,27,[ t('',107,27,0),t([ t('Gxm3tabsmenudata_sections',23,27,0),t('Sectionurl',3,27,0) ],29,27,0),t(=,10,27,0),t('link(',1,27,0),t(o(13,'HBUS002'),28,27,0),t(',',7,27,0),t('Sistema',23,27,0),t(',',7,27,0),t('Usuario',23,27,0),t(')',4,27,0) ]).
+b_line_i(94,1,1,cmd,27,[ t('',107,27,0),t('Gxm3tabsmenudata_sections',23,27,0),t(=,10,27,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,94,0),t(')',4,94,0) ],n ],46,27,0) ]).
+b_line_i([ 94,1 ],1,1,cmd,27,[ t('',107,27,0),t([ t('Gxm1tabsmenudata',23,94,0),t('Sections',3,94,0),t('add(',1,94,0) ],31,94,0),t('Gxm3tabsmenudata_sections',23,27,0),t(')',4,27,0) ]).
+b_line_i(96,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxm3tabsmenudata_sections',23,29,0),t('Sectionid',3,29,0) ],29,29,0),t(=,10,29,0),t('3',3,29,0) ]).
+b_line_i(97,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxm3tabsmenudata_sections',23,29,0),t('Sectiontitle',3,29,0) ],29,29,0),t(=,10,29,0),t('"Proveedores"',3,29,0) ]).
+b_line_i(98,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxm3tabsmenudata_sections',23,29,0),t('Sectiondescription',3,29,0) ],29,29,0),t(=,10,29,0),t('"Proveedores"',3,29,0) ]).
+b_line_i(99,1,1,cmd,29,[ t('',107,29,0),t([ t('Gxm3tabsmenudata_sections',23,29,0),t('Sectionurl',3,29,0) ],29,29,0),t(=,10,29,0),t('link(',1,29,0),t(o(13,'HM124FPROV'),28,29,0),t(',',7,29,0),t('Sistema',23,29,0),t(',',7,29,0),t('Usuario',23,29,0),t(')',4,29,0) ]).
+b_line_i(101,1,1,cmd,29,[ t('',107,29,0),t('Gxm3tabsmenudata_sections',23,29,0),t(=,10,29,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,101,0),t(')',4,101,0) ],n ],46,29,0) ]).
+b_line_i([ 101,1 ],1,1,cmd,29,[ t('',107,29,0),t([ t('Gxm1tabsmenudata',23,101,0),t('Sections',3,101,0),t('add(',1,101,0) ],31,101,0),t('Gxm3tabsmenudata_sections',23,29,0),t(')',4,29,0) ]).
+b_line_i(103,1,1,cmd,31,[ t('',107,31,0),t([ t('Gxm3tabsmenudata_sections',23,31,0),t('Sectionid',3,31,0) ],29,31,0),t(=,10,31,0),t('4',3,31,0) ]).
+b_line_i(104,1,1,cmd,31,[ t('',107,31,0),t([ t('Gxm3tabsmenudata_sections',23,31,0),t('Sectiontitle',3,31,0) ],29,31,0),t(=,10,31,0),t('"Posiciones"',3,31,0) ]).
+b_line_i(105,1,1,cmd,31,[ t('',107,31,0),t([ t('Gxm3tabsmenudata_sections',23,31,0),t('Sectiondescription',3,31,0) ],29,31,0),t(=,10,31,0),t('"Posiciones"',3,31,0) ]).
+b_line_i(106,1,1,cmd,31,[ t('',107,31,0),t([ t('Gxm3tabsmenudata_sections',23,31,0),t('Sectionurl',3,31,0) ],29,31,0),t(=,10,31,0),t('link(',1,31,0),t(o(13,'HTBUS053'),28,31,0),t(',',7,31,0),t('Sistema',23,31,0),t(',',7,31,0),t('Usuario',23,31,0),t(')',4,31,0) ]).
+b_line_i(108,1,1,cmd,31,[ t('',107,31,0),t('Gxm3tabsmenudata_sections',23,31,0),t(=,10,31,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,108,0),t(')',4,108,0) ],n ],46,31,0) ]).
+b_line_i([ 108,1 ],1,1,cmd,31,[ t('',107,31,0),t([ t('Gxm1tabsmenudata',23,108,0),t('Sections',3,108,0),t('add(',1,108,0) ],31,108,0),t('Gxm3tabsmenudata_sections',23,31,0),t(')',4,31,0) ]).
+b_line_i(110,1,1,cmd,33,[ t('',107,33,0),t([ t('Gxm3tabsmenudata_sections',23,33,0),t('Sectionid',3,33,0) ],29,33,0),t(=,10,33,0),t('5',3,33,0) ]).
+b_line_i(111,1,1,cmd,33,[ t('',107,33,0),t([ t('Gxm3tabsmenudata_sections',23,33,0),t('Sectiontitle',3,33,0) ],29,33,0),t(=,10,33,0),t('"Usuarios"',3,33,0) ]).
+b_line_i(112,1,1,cmd,33,[ t('',107,33,0),t([ t('Gxm3tabsmenudata_sections',23,33,0),t('Sectiondescription',3,33,0) ],29,33,0),t(=,10,33,0),t('"Usuarios"',3,33,0) ]).
+b_line_i(113,1,1,cmd,33,[ t('',107,33,0),t([ t('Gxm3tabsmenudata_sections',23,33,0),t('Sectionurl',3,33,0) ],29,33,0),t(=,10,33,0),t('link(',1,33,0),t(o(13,'HSEG102'),28,33,0),t(',',7,33,0),t('Sistema',23,33,0),t(',',7,33,0),t('Usuario',23,33,0),t(')',4,33,0) ]).
+b_line_i(115,1,1,cmd,33,[ t('',107,33,0),t('Gxm3tabsmenudata_sections',23,33,0),t(=,10,33,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,115,0),t(')',4,115,0) ],n ],46,33,0) ]).
+b_line_i([ 115,1 ],1,1,cmd,33,[ t('',107,33,0),t([ t('Gxm1tabsmenudata',23,115,0),t('Sections',3,115,0),t('add(',1,115,0) ],31,115,0),t('Gxm3tabsmenudata_sections',23,33,0),t(')',4,33,0) ]).
+b_line_i(117,1,1,cmd,35,[ t('',107,35,0),t([ t('Gxm3tabsmenudata_sections',23,35,0),t('Sectionid',3,35,0) ],29,35,0),t(=,10,35,0),t('6',3,35,0) ]).
+b_line_i(118,1,1,cmd,35,[ t('',107,35,0),t([ t('Gxm3tabsmenudata_sections',23,35,0),t('Sectiontitle',3,35,0) ],29,35,0),t(=,10,35,0),t('"Administradores"',3,35,0) ]).
+b_line_i(119,1,1,cmd,35,[ t('',107,35,0),t([ t('Gxm3tabsmenudata_sections',23,35,0),t('Sectiondescription',3,35,0) ],29,35,0),t(=,10,35,0),t('"Administradores"',3,35,0) ]).
+b_line_i(120,1,1,cmd,35,[ t('',107,35,0),t([ t('Gxm3tabsmenudata_sections',23,35,0),t('Sectionurl',3,35,0) ],29,35,0),t(=,10,35,0),t('link(',1,35,0),t(o(13,'HTBUS008'),28,35,0),t(',',7,35,0),t('Sistema',23,35,0),t(',',7,35,0),t('Usuario',23,35,0),t(')',4,35,0) ]).
+b_line_i(122,1,1,cmd,35,[ t('',107,35,0),t('Gxm3tabsmenudata_sections',23,35,0),t(=,10,35,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,122,0),t(')',4,122,0) ],n ],46,35,0) ]).
+b_line_i([ 122,1 ],1,1,cmd,35,[ t('',107,35,0),t([ t('Gxm1tabsmenudata',23,122,0),t('Sections',3,122,0),t('add(',1,122,0) ],31,122,0),t('Gxm3tabsmenudata_sections',23,35,0),t(')',4,35,0) ]).
+b_line_i(124,1,1,cmd,37,[ t('',107,37,0),t([ t('Gxm3tabsmenudata_sections',23,37,0),t('Sectionid',3,37,0) ],29,37,0),t(=,10,37,0),t('7',3,37,0) ]).
+b_line_i(125,1,1,cmd,37,[ t('',107,37,0),t([ t('Gxm3tabsmenudata_sections',23,37,0),t('Sectiontitle',3,37,0) ],29,37,0),t(=,10,37,0),t('"Responsables"',3,37,0) ]).
+b_line_i(126,1,1,cmd,37,[ t('',107,37,0),t([ t('Gxm3tabsmenudata_sections',23,37,0),t('Sectiondescription',3,37,0) ],29,37,0),t(=,10,37,0),t('"Responsables"',3,37,0) ]).
+b_line_i(127,1,1,cmd,37,[ t('',107,37,0),t([ t('Gxm3tabsmenudata_sections',23,37,0),t('Sectionurl',3,37,0) ],29,37,0),t(=,10,37,0),t('link(',1,37,0),t(o(13,'HTBUS007'),28,37,0),t(',',7,37,0),t('Sistema',23,37,0),t(',',7,37,0),t('Usuario',23,37,0),t(')',4,37,0) ]).
+b_line_i(129,1,1,cmd,37,[ t('',107,37,0),t('Gxm3tabsmenudata_sections',23,37,0),t(=,10,37,0),t([ 'TabsMenuData.TabsMenuDataItem.SectionsItem',[ t('(',0,129,0),t(')',4,129,0) ],n ],46,37,0) ]).
+b_line_i([ 129,1 ],1,1,cmd,37,[ t('',107,37,0),t([ t('Gxm1tabsmenudata',23,129,0),t('Sections',3,129,0),t('add(',1,129,0) ],31,129,0),t('Gxm3tabsmenudata_sections',23,37,0),t(')',4,37,0) ]).
+b_line_i(131,1,1,cmd,39,[ t('',107,39,0),t([ t('Gxm3tabsmenudata_sections',23,39,0),t('Sectionid',3,39,0) ],29,39,0),t(=,10,39,0),t('8',3,39,0) ]).
+b_line_i(132,1,1,cmd,39,[ t('',107,39,0),t([ t('Gxm3tabsmenudata_sections',23,39,0),t('Sectiontitle',3,39,0) ],29,39,0),t(=,10,39,0),t('"Permisos"',3,39,0) ]).
+b_line_i(133,1,1,cmd,39,[ t('',107,39,0),t([ t('Gxm3tabsmenudata_sections',23,39,0),t('Sectiondescription',3,39,0) ],29,39,0),t(=,10,39,0),t('"Permisos"',3,39,0) ]).
+b_line_i(134,1,1,cmd,39,[ t('',107,39,0),t([ t('Gxm3tabsmenudata_sections',23,39,0),t('Sectionurl',3,39,0) ],29,39,0),t(=,10,39,0),t('link(',1,39,0),t(o(13,'HTBUS007_p'),28,39,0),t(',',7,39,0),t('Sistema',23,39,0),t(',',7,39,0),t('Usuario',23,39,0),t(')',4,39,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,13,0 ],name,'TabsMenuData').
+struct_dt_i([ 26,13,0 ],namespace,'MarianoTesis').
+struct_dt_i([ 26,13,0 ],'ObjName','TabsMenuData').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Tabs Menu Data').
+struct_dt_i([ 26,13,0 ],'ExternalName','TabsMenuData').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','MarianoTesis').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,15 ]).
+struct_dt_i([ 26,13,15 ],name,'TabsMenuDataItem').
+struct_dt_i([ 26,13,15 ],namespace,'MarianoTesis.TabsMenuData').
+struct_dt_i([ 26,13,16 ],name,'SectionsItem').
+struct_dt_i([ 26,13,16 ],namespace,'MarianoTesis.TabsMenuData.TabsMenuDataItem').
+struct_dt_i([ 26,13,0 ],camelname,'Tabsmenudata').
+struct_dt_i([ 26,13,15 ],camelname,'Tabsmenudataitem').
+struct_dt_i([ 26,13,16 ],camelname,'Sectionsitem').
+struct_dt_i([ 26,13,0 ],fullname,'TabsMenuData').
+struct_dt_i([ 26,13,15 ],fullname,'TabsMenuData.TabsMenuDataItem').
+struct_dt_i([ 26,13,16 ],fullname,'TabsMenuData.TabsMenuDataItem.SectionsItem').
+struct_dt_i([ 26,13,0 ],modified,yes).
+struct_dt_i([ 26,13,15 ],modified,yes).
+struct_dt_i([ 26,13,16 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,13,15 ],1,name,'Menuid').
+struct_dt_elem_i([ 26,13,15 ],1,camelname,'MenuId').
+struct_dt_elem_i([ 26,13,15 ],1,length,4).
+struct_dt_elem_i([ 26,13,15 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,15 ],1,sign,0).
+struct_dt_elem_i([ 26,13,15 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,13,15 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,13,15 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,15 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,15 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,15 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,15 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,15 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,15 ],2,name,'Menutitle').
+struct_dt_elem_i([ 26,13,15 ],2,camelname,'MenuTitle').
+struct_dt_elem_i([ 26,13,15 ],2,basedon,22).
+struct_dt_elem_i([ 26,13,15 ],2,length,20).
+struct_dt_elem_i([ 26,13,15 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,15 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,13,15 ],2,pic,'').
+struct_dt_elem_i([ 26,13,15 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,15 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,15 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,15 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,15 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,15 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,15 ],3,name,'Menudescription').
+struct_dt_elem_i([ 26,13,15 ],3,camelname,'MenuDescription').
+struct_dt_elem_i([ 26,13,15 ],3,basedon,21).
+struct_dt_elem_i([ 26,13,15 ],3,length,40).
+struct_dt_elem_i([ 26,13,15 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,15 ],3,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,13,15 ],3,pic,'').
+struct_dt_elem_i([ 26,13,15 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,15 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,15 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,15 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,15 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,15 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,15 ],4,name,'Menuurl').
+struct_dt_elem_i([ 26,13,15 ],4,camelname,'MenuURL').
+struct_dt_elem_i([ 26,13,15 ],4,basedon,5).
+struct_dt_elem_i([ 26,13,15 ],4,length,1000).
+struct_dt_elem_i([ 26,13,15 ],4,decimals,0).
+struct_dt_elem_i([ 26,13,15 ],4,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,13,15 ],4,pic,'').
+struct_dt_elem_i([ 26,13,15 ],4,collection,'False').
+struct_dt_elem_i([ 26,13,15 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,13,15 ],4,'XmlName','').
+struct_dt_elem_i([ 26,13,15 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,15 ],4,soaptype,'').
+struct_dt_elem_i([ 26,13,15 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,15 ],5,name,'Sections').
+struct_dt_elem_i([ 26,13,15 ],5,camelname,'Sections').
+struct_dt_elem_i([ 26,13,15 ],5,type,[ [ 26,13,16 ],0,0 ]).
+struct_dt_elem_i([ 26,13,15 ],5,pic,'').
+struct_dt_elem_i([ 26,13,15 ],5,collection,'True').
+struct_dt_elem_i([ 26,13,15 ],5,'ObjName','Sections').
+struct_dt_elem_i([ 26,13,15 ],5,'ObjDesc','Sections').
+struct_dt_elem_i([ 26,13,15 ],5,'CollectionItemName','SectionsItem').
+struct_dt_elem_i([ 26,13,15 ],5,'XmlName','').
+struct_dt_elem_i([ 26,13,15 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,15 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,13,16 ],1,name,'Sectionid').
+struct_dt_elem_i([ 26,13,16 ],1,camelname,'SectionId').
+struct_dt_elem_i([ 26,13,16 ],1,length,4).
+struct_dt_elem_i([ 26,13,16 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,16 ],1,sign,0).
+struct_dt_elem_i([ 26,13,16 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,13,16 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,13,16 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,16 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,16 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,16 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,16 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,16 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,16 ],2,name,'Sectiontitle').
+struct_dt_elem_i([ 26,13,16 ],2,camelname,'SectionTitle').
+struct_dt_elem_i([ 26,13,16 ],2,basedon,22).
+struct_dt_elem_i([ 26,13,16 ],2,length,20).
+struct_dt_elem_i([ 26,13,16 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,16 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,13,16 ],2,pic,'').
+struct_dt_elem_i([ 26,13,16 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,16 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,16 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,16 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,16 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,16 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,16 ],3,name,'Sectiondescription').
+struct_dt_elem_i([ 26,13,16 ],3,camelname,'SectionDescription').
+struct_dt_elem_i([ 26,13,16 ],3,basedon,21).
+struct_dt_elem_i([ 26,13,16 ],3,length,40).
+struct_dt_elem_i([ 26,13,16 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,16 ],3,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,13,16 ],3,pic,'').
+struct_dt_elem_i([ 26,13,16 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,16 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,16 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,16 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,16 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,16 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,16 ],4,name,'Sectionurl').
+struct_dt_elem_i([ 26,13,16 ],4,camelname,'SectionURL').
+struct_dt_elem_i([ 26,13,16 ],4,basedon,5).
+struct_dt_elem_i([ 26,13,16 ],4,length,1000).
+struct_dt_elem_i([ 26,13,16 ],4,decimals,0).
+struct_dt_elem_i([ 26,13,16 ],4,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,13,16 ],4,pic,'').
+struct_dt_elem_i([ 26,13,16 ],4,collection,'False').
+struct_dt_elem_i([ 26,13,16 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,13,16 ],4,'XmlName','').
+struct_dt_elem_i([ 26,13,16 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,16 ],4,soaptype,'').
+struct_dt_elem_i([ 26,13,16 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,15 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,13,15 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,13,16 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,13,16 ],2,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,13,16 ],2,pic,'ZZZZZZZ9').
+ 
+ 
+ 
+ 
+pgm_parm_i(web,56,'HTBUS007_P',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,57,'HTBUS007',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,55,'HTBUS008',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,177,'HSEG102',[ [ char,15,0,0 ],[ char,8,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,189,'HTBUS053',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,197,'HM124FPROV',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,190,'HBUS002',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,43,'HTBUS005',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,49,'HTBUS016',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,48,'HTBUS014',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,47,'HTBUS013',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,46,'HTBUS011',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,51,'HTBUS001B',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,50,'HTBUS020',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,11,'HTBUS001_PREV',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

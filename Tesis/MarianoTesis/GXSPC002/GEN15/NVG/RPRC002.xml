@@ -1,0 +1,31 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>31</ObjId>
+<ObjName>RPRC002</ObjName>
+<ObjDesc>CONTROL TOPES PROCESOS ACTIVOS</ObjDesc>
+<ObjPgmName>RPRC002</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'PRC_NRO' attribute is not in a table (Source, Line: 9, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_INV' attribute is not in a table (Source, Line: 10, Char: 11)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_EST' attribute is not in a table (Source, Line: 11, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_EST' attribute is not in a table (Source, Line: 11, Char: 23)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_EST' attribute is not in a table (Source, Line: 11, Char: 38)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_NOM' attribute is not in a table (Source, Line: 13, Char: 12)</Token></Message></Error></Errors></ObjectSpec>

@@ -1,0 +1,144 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>25</ObjId>
+<ObjName>TBUS000_AUX</ObjName>
+<ObjDesc>Auxiliar de bienes de uso</ObjDesc>
+<ObjPgmName>TBUS000_AUX</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>25</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>352</AttriId>
+<AttriName>BUS_AUX_ID</AttriName>
+<Description>Id de auxiliar</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>BUS_AUX_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>354</AttriId>
+<AttriName>BUS_AUX_DES</AttriName>
+<Description>DESCRIPCIÓN DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>355</AttriId>
+<AttriName>BUS_AUX_FAL</AttriName>
+<Description>FECHA DE ALTA DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>BUS_AUX_FAD</AttriName>
+<Description>FECHA DE ADQUISICIÓN DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>357</AttriId>
+<AttriName>BUS_AUX_NCO</AttriName>
+<Description>NUMERO DEL COMP. DE COMPRA</Description></Attribute>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>BUS_AUX_COM</AttriName>
+<Description>COMPROBANTE DE COMPRA</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>BUS_AUX_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>354</AttriId>
+<AttriName>BUS_AUX_DES</AttriName>
+<Description>DESCRIPCIÓN DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>355</AttriId>
+<AttriName>BUS_AUX_FAL</AttriName>
+<Description>FECHA DE ALTA DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>BUS_AUX_FAD</AttriName>
+<Description>FECHA DE ADQUISICIÓN DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>357</AttriId>
+<AttriName>BUS_AUX_NCO</AttriName>
+<Description>NUMERO DEL COMP. DE COMPRA</Description></Attribute>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>BUS_AUX_COM</AttriName>
+<Description>COMPROBANTE DE COMPRA</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>108</ObjId>
+<ObjName>Gx00P0</ObjName>
+<ObjPgmName>Gx00P0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>352</AttriId>
+<AttriName>BUS_AUX_ID</AttriName>
+<Description>Id de auxiliar</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

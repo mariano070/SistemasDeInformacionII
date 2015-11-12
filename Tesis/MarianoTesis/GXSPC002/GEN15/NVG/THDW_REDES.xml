@@ -1,0 +1,311 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>41</ObjId>
+<ObjName>THDW_REDES</ObjName>
+<ObjDesc>Redes de una Ubicación de Hardware</ObjDesc>
+<ObjPgmName>THDW_REDES</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Thdw_ubi_cod_</VarId>
+<VarName>&amp;THDW_UBI_COD_</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Red_id</VarId>
+<VarName>&amp;Red_Id</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Sistema</VarId>
+<VarName>&amp;SISTEMA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>39</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>39</TableId>
+<TableName>THDW_REDES</TableName>
+<Description>REDES</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>39</TableId>
+<TableName>THDW_REDES</TableName>
+<Description>REDES</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>THDW_UBI_COD_</AttriName>
+<Description>Código de Ubicación de Red</Description></Attribute>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>Red_Id</AttriName>
+<Description>Id de Red</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>26</TableId>
+<TableName>THDW_UBICACIONES_</TableName>
+<Description>Ubicaciones de Redes de Hardware</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>THDW_UBI_COD_</AttriName>
+<Description>Código de Ubicación de Red</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules>
+<ActionType>BusinessRule</ActionType>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>81</ObjId>
+<ObjName>PHDW_REDES</ObjName>
+<ObjPgmName>PHDW_REDES</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>THDW_UBI_COD_</AttriName>
+<Description>Código de Ubicación de Red</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>Red_Id</AttriName>
+<Description>Id de Red</Description></Attribute></Parameters>
+<IF>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>'INS'</Token></IF></CALL></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>39</TableId>
+<TableName>THDW_REDES</TableName>
+<Description>REDES</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>Red_Id</AttriName>
+<Description>Id de Red</Description></Attribute>
+<Attribute>
+<AttriId>301</AttriId>
+<AttriName>Red_Descripcion</AttriName>
+<Description>Descripción de Red</Description></Attribute>
+<Attribute>
+<AttriId>308</AttriId>
+<AttriName>Red_DireccionDesdeB1</AttriName>
+<Description>Dirección IP Desde Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>309</AttriId>
+<AttriName>Red_DireccionDesdeB2</AttriName>
+<Description>Dirección IP Desde Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>310</AttriId>
+<AttriName>Red_DireccionDesdeB3</AttriName>
+<Description>Dirección IP Desde Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>315</AttriId>
+<AttriName>Red_DireccionDesdeB4</AttriName>
+<Description>Dirección IP Desde Byte 4</Description></Attribute>
+<Attribute>
+<AttriId>316</AttriId>
+<AttriName>Red_DireccionHastaB1</AttriName>
+<Description>Dirección IP Hasta Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>317</AttriId>
+<AttriName>Red_DireccionHastaB2</AttriName>
+<Description>Dirección IP Hasta Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>318</AttriId>
+<AttriName>Red_DireccionHastaB3</AttriName>
+<Description>Dirección IP Hasta Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>319</AttriId>
+<AttriName>Red_DireccionHastaB4</AttriName>
+<Description>Dirección IP Hasta Byte 4</Description></Attribute>
+<Attribute>
+<AttriId>320</AttriId>
+<AttriName>Red_MascaraB1</AttriName>
+<Description>Máscara de Red Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>321</AttriId>
+<AttriName>Red_MascaraB2</AttriName>
+<Description>Máscara de Red Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>322</AttriId>
+<AttriName>Red_MascaraB3</AttriName>
+<Description>Máscara de Red Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>323</AttriId>
+<AttriName>Red_MascaraB4</AttriName>
+<Description>Máscara de Red Byte 4</Description></Attribute>
+<Attribute>
+<AttriId>324</AttriId>
+<AttriName>Red_PuertaEnlaceB1</AttriName>
+<Description>Puerta de Enlace Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>325</AttriId>
+<AttriName>Red_PuertaEnlaceB2</AttriName>
+<Description>Puerta de Enlace Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>326</AttriId>
+<AttriName>Red_PuertaEnlaceB3</AttriName>
+<Description>Puerta de Enlace Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>327</AttriId>
+<AttriName>Red_PuertaEnlaceB4</AttriName>
+<Description>Puerta de Enlace Byte 4</Description></Attribute>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>THDW_UBI_COD_</AttriName>
+<Description>Código de Ubicación de Red</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>39</TableId>
+<TableName>THDW_REDES</TableName>
+<Description>REDES</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>301</AttriId>
+<AttriName>Red_Descripcion</AttriName>
+<Description>Descripción de Red</Description></Attribute>
+<Attribute>
+<AttriId>308</AttriId>
+<AttriName>Red_DireccionDesdeB1</AttriName>
+<Description>Dirección IP Desde Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>309</AttriId>
+<AttriName>Red_DireccionDesdeB2</AttriName>
+<Description>Dirección IP Desde Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>310</AttriId>
+<AttriName>Red_DireccionDesdeB3</AttriName>
+<Description>Dirección IP Desde Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>315</AttriId>
+<AttriName>Red_DireccionDesdeB4</AttriName>
+<Description>Dirección IP Desde Byte 4</Description></Attribute>
+<Attribute>
+<AttriId>316</AttriId>
+<AttriName>Red_DireccionHastaB1</AttriName>
+<Description>Dirección IP Hasta Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>317</AttriId>
+<AttriName>Red_DireccionHastaB2</AttriName>
+<Description>Dirección IP Hasta Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>318</AttriId>
+<AttriName>Red_DireccionHastaB3</AttriName>
+<Description>Dirección IP Hasta Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>319</AttriId>
+<AttriName>Red_DireccionHastaB4</AttriName>
+<Description>Dirección IP Hasta Byte 4</Description></Attribute>
+<Attribute>
+<AttriId>320</AttriId>
+<AttriName>Red_MascaraB1</AttriName>
+<Description>Máscara de Red Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>321</AttriId>
+<AttriName>Red_MascaraB2</AttriName>
+<Description>Máscara de Red Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>322</AttriId>
+<AttriName>Red_MascaraB3</AttriName>
+<Description>Máscara de Red Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>323</AttriId>
+<AttriName>Red_MascaraB4</AttriName>
+<Description>Máscara de Red Byte 4</Description></Attribute>
+<Attribute>
+<AttriId>324</AttriId>
+<AttriName>Red_PuertaEnlaceB1</AttriName>
+<Description>Puerta de Enlace Byte 1</Description></Attribute>
+<Attribute>
+<AttriId>325</AttriId>
+<AttriName>Red_PuertaEnlaceB2</AttriName>
+<Description>Puerta de Enlace Byte 2</Description></Attribute>
+<Attribute>
+<AttriId>326</AttriId>
+<AttriName>Red_PuertaEnlaceB3</AttriName>
+<Description>Puerta de Enlace Byte 3</Description></Attribute>
+<Attribute>
+<AttriId>327</AttriId>
+<AttriName>Red_PuertaEnlaceB4</AttriName>
+<Description>Puerta de Enlace Byte 4</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>39</TableId>
+<TableName>THDW_REDES</TableName>
+<Description>REDES</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>39</TableId>
+<TableName>THDW_REDES</TableName>
+<Description>REDES</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>170</ObjId>
+<ObjName>Gx0130</ObjName>
+<ObjPgmName>Gx0130</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>THDW_UBI_COD_</AttriName>
+<Description>Código de Ubicación de Red</Description></Attribute>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>Red_Id</AttriName>
+<Description>Id de Red</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

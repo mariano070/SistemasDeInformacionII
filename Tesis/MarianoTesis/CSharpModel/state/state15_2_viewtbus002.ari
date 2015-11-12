@@ -1,0 +1,27 @@
+current_obj_i(2,web,150).
+ 
+called_tree_i(13,150,1,2).
+called_tree_i(13,150,1,4).
+called_tree_i(13,150,13,1).
+called_tree_i(13,150,13,4).
+called_tree_i(13,150,13,6).
+called_tree_i(13,150,13,118).
+called_tree_i(13,150,13,150).
+called_tree_i(13,150,13,151).
+called_tree_i(13,150,13,152).
+called_tree_i(13,150,13,153).
+called_tree_i(13,150,13,154).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(viewtbus002,[],[],[],150).
+ 
+ 
+obj_parms_i([ 'short aP0_RBR_COD','String aP1_TabCode' ],[ [ 'Rbr_cod',in ],[ 'Tabcode',in ] ]).
+ 
+ 
+ 
+ 

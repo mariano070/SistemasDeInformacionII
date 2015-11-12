@@ -1,0 +1,73 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>25</ObjId>
+<ObjName>PLOG000</ObjName>
+<ObjDesc>AGREGA REGISTRO LOG INTRANET</ObjDesc>
+<ObjPgmName>PLOG000</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'LOG_NRO' attribute is not in a table (Source, Line: 40, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_MOM' attribute is not in a table (Source, Line: 41, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_NIO' attribute is not in a table (Source, Line: 42, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_MES' attribute is not in a table (Source, Line: 43, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_DIA' attribute is not in a table (Source, Line: 44, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_HOR' attribute is not in a table (Source, Line: 45, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_MIN' attribute is not in a table (Source, Line: 46, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_SEG' attribute is not in a table (Source, Line: 47, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_FSE' attribute is not in a table (Source, Line: 48, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_SYS' attribute is not in a table (Source, Line: 49, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_PRG' attribute is not in a table (Source, Line: 50, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_PRD' attribute is not in a table (Source, Line: 51, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_TPR' attribute is not in a table (Source, Line: 52, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_USR' attribute is not in a table (Source, Line: 53, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_WST' attribute is not in a table (Source, Line: 54, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_SCC' attribute is not in a table (Source, Line: 55, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_NRC' attribute is not in a table (Source, Line: 56, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_PRO' attribute is not in a table (Source, Line: 58, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_NUT' attribute is not in a table (Source, Line: 59, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'LOG_NUC' attribute is not in a table (Source, Line: 60, Char: 2)</Token></Message></Error></Errors></ObjectSpec>

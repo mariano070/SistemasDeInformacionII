@@ -1,0 +1,124 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>38</ObjId>
+<ObjName>PRC002</ObjName>
+<ObjDesc>VERSIONES DE PROCESOS BATCH</ObjDesc>
+<ObjPgmName>PRC002</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>36</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>36</TableId>
+<TableName>PRC002</TableName>
+<Description>VERSIONES DE PROCESOS BATCH</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>36</TableId>
+<TableName>PRC002</TableName>
+<Description>VERSIONES DE PROCESOS BATCH</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>99</AttriId>
+<AttriName>VprPrc</AttriName>
+<Description>Nombre de proceso (en COLA)</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>36</TableId>
+<TableName>PRC002</TableName>
+<Description>VERSIONES DE PROCESOS BATCH</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>99</AttriId>
+<AttriName>VprPrc</AttriName>
+<Description>Nombre de proceso (en COLA)</Description></Attribute>
+<Attribute>
+<AttriId>100</AttriId>
+<AttriName>VprNombreX</AttriName>
+<Description>Nombre para version X</Description></Attribute>
+<Attribute>
+<AttriId>101</AttriId>
+<AttriName>VprVer</AttriName>
+<Description>Version de ejecutable (&quot; &quot; 9, &quot;X&quot; X) </Description></Attribute>
+<Attribute>
+<AttriId>410</AttriId>
+<AttriName>VprObs</AttriName>
+<Description>Observaciones</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>36</TableId>
+<TableName>PRC002</TableName>
+<Description>VERSIONES DE PROCESOS BATCH</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>100</AttriId>
+<AttriName>VprNombreX</AttriName>
+<Description>Nombre para version X</Description></Attribute>
+<Attribute>
+<AttriId>101</AttriId>
+<AttriName>VprVer</AttriName>
+<Description>Version de ejecutable (&quot; &quot; 9, &quot;X&quot; X) </Description></Attribute>
+<Attribute>
+<AttriId>410</AttriId>
+<AttriName>VprObs</AttriName>
+<Description>Observaciones</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>36</TableId>
+<TableName>PRC002</TableName>
+<Description>VERSIONES DE PROCESOS BATCH</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>36</TableId>
+<TableName>PRC002</TableName>
+<Description>VERSIONES DE PROCESOS BATCH</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>169</ObjId>
+<ObjName>Gx0100</ObjName>
+<ObjPgmName>Gx0100</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>99</AttriId>
+<AttriName>VprPrc</AttriName>
+<Description>Nombre de proceso (en COLA)</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

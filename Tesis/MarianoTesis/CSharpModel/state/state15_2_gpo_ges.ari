@@ -1,0 +1,24 @@
+current_obj_i(2,trn,21).
+ 
+called_tree_i(0,21,1,2).
+called_tree_i(0,21,1,4).
+called_tree_i(0,21,13,1).
+called_tree_i(0,21,13,4).
+called_tree_i(0,21,13,36).
+called_tree_i(0,21,13,93).
+called_tree_i(0,21,13,94).
+ 
+ 
+ij_main_object(gpo_ges,'Gestores por Grupo','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(gpo_ges,[],[],[],21).
+ 
+ 
+obj_parms_i([ 'String aP0_Gx_mode','short aP1_Grupo_Cod','String aP2_Ges_Cod' ],[ [ 'Mode',in ],[ 'Grupo_cod',in ],[ 'Ges_cod',in ] ]).
+ 
+ 
+ 
+ 

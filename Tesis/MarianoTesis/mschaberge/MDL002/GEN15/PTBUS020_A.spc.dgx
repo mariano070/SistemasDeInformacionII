@@ -1,0 +1,350 @@
+spec_i([ proc,101,'Busca Descripción de Responsable de Envío','PTBUS020_A',78,spa,'10_1_5-42940' ]).
+
+
+struct_i(2,1,[],[]).
+
+
+level_i(2,[ 7,[ [ 7,many ],[ 546,one ] ],[],[],[ [ [ 7,546 ],[ 33,35,36 ] ] ],[ [ [ 7,546 ],[] ] ],[ 33 ],'ITTBUS007',[ 7,[ [ [],'Ttbus7_pos',33 ] ] ],[] ]).
+
+
+tw_i(2,[ [ 546,[ [ 7,35,6 ] ] ] ]).
+
+
+lwi_i(2,[ [] ]).
+
+
+level_option_i(2,usr_condition,y).
+
+
+ta_i(2,[ [ [ 7,33 ],[ 7,35 ],[ 546,36 ] ] ]).
+
+
+las_i(2,[ [ 33,35,36 ] ]).
+
+
+lac_i(2,[ [] ]).
+
+
+default_i(e('Output',2,2,'''SCR''')).
+
+
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Busca Descripción de Responsable de Envío')).
+rule_i(0,prop('ObjName','PTBUS020_A')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ttbus7_pos','Dsec_cre','Sec_dre' ],[])).
+rule_i(0,parmio([ [ 'Ttbus7_pos',in ],[ 'Dsec_cre',out ],[ 'Sec_dre',out ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+
+
+a_i(1,1,f,'Err',[],[ [],[ t('0',3),t(';',18) ] ]).
+a_i(2,2,t,7,[],[ [ [ [],'Ttbus7_pos',33 ] ],'ITTBUS007',[] ]).
+a_i(3,2,r,546,[],[ [ [ 7,35,6 ] ],'USUI01',[] ]).
+
+
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Ttbus7_pos').
+v_i(t,o,2,33).
+v_i(t,o,2,35).
+v_i(r,i,3,35).
+v_i(r,o,3,36).
+
+
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',5 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',6 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',0,'Error code','',7 ]).
+attri_i('Sesion',[ 'SESION',o(websession),8,0,'',0,'SESION','',8 ]).
+attri_i('Sec_dre',[ 'SEC_DRE',char,50,0,'',0,'SEC_ DRE','',9 ]).
+attri_i('Dsec_cre',[ 'dSEC_CRE',char,15,0,'',0,'d SEC_ CRE','',10 ]).
+attri_i('Ttbus7_pos',[ 'TTBUS7_Pos',int,3,0,'ZZ9',0,'TTBUS7_ Pos','',11 ]).
+attri_i('GXDID',[ 'GXDID',int,12,10,'9.9999999999',0,'SessionId','',12 ]).
+attri_i('Gxpgmname',[ 'Gxpgmname',char,50,0,'',0,'GXPGMNAME','',13 ]).
+attri_i('DGXRespString',[ 'DGXRespString',char,9999,0,'',0,'DGXRespString','',14 ]).
+attri_i('DGXResponse',[ 'xmlreader',o(xmlrdr),0,0,'',0,'DGXResponse','',15 ]).
+attri_i('Gxmessage',[ 'Gxmessage',char,9999,0,'',0,'GXmessage','',16 ]).
+attri_i('Gxlinenro',[ 'Gxlinenro',char,10,0,'',0,'GXLineNro','',17 ]).
+attri_i('Gxcmdkey',[ 'Gxcmdkey',char,10,0,'',0,'Gxcmdkey','',18 ]).
+attri_i('Gxnodebug',[ 'Gxnodebug',int,1,0,'9',0,'GXNoDebug','',19 ]).
+attri_i('Gxdebug',[ 'Gxdebug',o(httpclient),0,0,'',0,'GXdebug','',20 ]).
+attri_i('GXPBLVL',[ 'GXPBLVL',int,4,0,'ZZZ9',0,'Public Level','',21 ]).
+attri_i('Gxd_att',[ 'Gxd_att',int,1,0,'9',0,'gxd att','',22 ]).
+attri_i('Gxd_x',[ 'Gxd_x',int,4,0,'ZZZ9',0,'gxd x','',23 ]).
+attri_i('Gxd_y',[ 'Gxd_y',int,4,0,'ZZZ9',0,'gxd y','',24 ]).
+attri_i('DGXRULE',[ 'DGXRULE',char,10,0,'',0,'DGXRULE','',25 ]).
+attri_i('Gxspcver',[ 'Gxspcver',char,20,0,'',0,'Gxspcver','',26 ]).
+attri_i('Gxpbspcver',[ 'Gxpbspcver',int,4,0,'ZZZ9',0,'Public Spec Version','',27 ]).
+attri_i('GXD_6',[ 'GXD_6',char,16,0,'@!',0,'Aux variable for 'USU_COD' attribute','',28 ]).
+attri_i('GXD_35',[ 'GXD_35',char,16,0,'@!',0,'Aux variable for 'TTBUS7_CodResp' attribute','',29 ]).
+attri_i('GXD_36',[ 'GXD_36',char,50,0,'@!',0,'Aux variable for 'TTBUS7_DesResp' attribute','',30 ]).
+attri_i('GXD_33',[ 'GXD_33',int,3,0,'ZZ9',0,'Aux variable for 'TTBUS7_Pos' attribute','',31 ]).
+attri_i(6,[ 'USU_COD',char,16,0,'@!',0,'CODIGO','',0 ]).
+attri_i(35,[ 'TTBUS7_CodResp',char,16,0,'@!',0,'Código Responsable','',0 ]).
+attri_i(36,[ 'TTBUS7_DesResp',char,50,0,'@!',0,'Descripción Responsable','',0 ]).
+attri_i(33,[ 'TTBUS7_Pos',int,3,0,'ZZ9',0,'Id. de Posición','',0 ]).
+
+
+table_i(546,[ 'SEG002',[ 35,36 ],'Maestro de Usuarios','SEG002' ]).
+table_i(7,[ 'TTBUS007',[ 33,35 ],'Maestro de Responsables de Posiciones','TTBUS007' ]).
+
+
+index_i(7,[ 'ITTBUS007',u,[ 33 ],'ITTBUS007' ]).
+index_i(546,[ 'USUI01',u,[ 35 ],'USUI01' ]).
+
+
+start_i(2,0,0,[ [ [ 33,23,'Ttbus7_pos',= ] ],one ]).
+
+
+end_i(2,0,0,[ [ [ t(33,2),t(=,10),t('Ttbus7_pos',23) ] ] ]).
+
+
+map_i(546,a,36,[ 'USU_DES' ]).
+map_i(546,a,35,[ 'USU_COD' ]).
+
+
+break_i(2,nvg,1,[ 33 ],[ [ 33,36,35 ],[ 33 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+
+
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,4,4).
+b_group_i(2,1,lit,0,5,5).
+b_group_i(1,3,lit,0,10,0).
+
+
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i([ 1,100 ],1,1,cmd,0,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''1''',3,0,0) ]).
+b_line_i([ 1,101 ],1,1,cmd,0,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''107''',3,0,0) ]).
+b_line_i([ 1,102 ],1,1,cmd,0,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(1,1,1,cmd,0,[ t('',107,0,0),t('Dsec_cre',23,0,0),t(=,10,0,0),t('''''',3,0,0) ]).
+b_line_i([ 2,100 ],1,1,cmd,0,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''2''',3,0,0) ]).
+b_line_i([ 2,101 ],1,1,cmd,0,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''107''',3,0,0) ]).
+b_line_i([ 2,102 ],1,1,cmd,0,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(2,1,1,cmd,0,[ t('',107,0,0),t('Sec_dre',23,0,0),t(=,10,0,0),t('''''',3,0,0) ]).
+b_line_i([ 3,100 ],1,1,cmd,0,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''3''',3,0,0) ]).
+b_line_i([ 3,101 ],1,1,cmd,0,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''107''',3,0,0) ]).
+b_line_i([ 3,102 ],1,1,cmd,0,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',107,0,0),t([ t('Sesion',23,3,1),t('set(',1,3,9) ],31,3,1),t('''RespEnvio''',3,3,14),t(',',7,0,25),t('Dsec_cre',23,0,27),t(')',4,0,36) ]).
+b_line_i([ 4,100 ],1,1,cmd,0,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''4''',3,0,0) ]).
+b_line_i([ 4,101 ],1,1,cmd,0,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''121''',3,0,0) ]).
+b_line_i([ 4,102 ],1,1,cmd,0,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(4,2,1,cmd,5,[ t('',121,4,0),t('ORDER',39,4,10),t(33,2,4,10) ]).
+b_line_i([ 6,100 ],2,1,cmd,5,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''6''',3,0,0) ]).
+b_line_i([ 6,101 ],2,1,cmd,5,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''107''',3,0,0) ]).
+b_line_i([ 6,102 ],2,1,cmd,5,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(6,2,1,cmd,5,[ t('',107,5,0),t('Dsec_cre',23,5,0),t(=,10,5,0),t(35,2,5,0) ]).
+b_line_i([ 7,100 ],2,1,cmd,5,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''7''',3,0,0) ]).
+b_line_i([ 7,101 ],2,1,cmd,5,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''107''',3,0,0) ]).
+b_line_i([ 7,102 ],2,1,cmd,5,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(7,2,1,cmd,5,[ t('',107,5,0),t('Sec_dre',23,5,0),t(=,10,5,0),t(36,2,5,0) ]).
+b_line_i([ 8,100 ],2,1,cmd,5,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''8''',3,0,0) ]).
+b_line_i([ 8,101 ],2,1,cmd,5,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''107''',3,0,0) ]).
+b_line_i([ 8,102 ],2,1,cmd,5,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(8,2,1,cmd,5,[ t('',107,5,0),t([ t('Sesion',23,8,2),t('set(',1,8,10) ],31,8,2),t('''RespEnvio''',3,8,15),t(',',7,5,26),t('Dsec_cre',23,5,28),t(')',4,5,37) ]).
+b_line_i([ 9,100 ],2,1,cmd,5,[ t('',107,0,0),t('Gxlinenro',23,0,0),t(=,10,0,0),t('''9''',3,0,0) ]).
+b_line_i([ 9,101 ],2,1,cmd,5,[ t('',107,0,0),t('Gxcmdkey',23,0,0),t(=,10,0,0),t('''128''',3,0,0) ]).
+b_line_i([ 9,102 ],2,1,cmd,5,[ t('',145,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(9,2,1,cmd,5,[ t('',128,5,0) ]).
+b_line_i(10,1,3,cmd,0,[ t('',143,0,0),t('''GXDEBUG''',3,0,0) ]).
+b_line_i(11,1,3,cmd,0,[ t('',107,0,0),t('Gxpgmname',23,0,0),t(=,10,0,0),t('''84a12160-f59b-4ad7-a683-ea4481ac23e9-101''',3,0,0) ]).
+b_line_i(12,1,3,cmd,0,[ t('',107,0,0),t('Gxspcver',23,0,0),t(=,10,0,0),t('''635320734515949683''',3,0,0) ]).
+b_line_i(13,1,3,cmd,0,[ t('',109,0,0),t('GXDID',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(14,1,3,cmd,0,[ t('',107,0,0),t('GXDID',23,0,0),t(=,10,0,0),t('rseed(',1,0,0),t('int(',1,0,0),t('val(',1,0,0),t('systime(',1,0,0),t(')',4,0,0),t(')',4,0,0),t(')',4,0,0),t(')',4,0,0) ]).
+b_line_i(15,1,3,cmd,0,[ t('',107,0,0),t('GXDID',23,0,0),t(=,10,0,0),t('random(',1,0,0),t(')',4,0,0) ]).
+b_line_i(16,1,3,cmd,0,[ t('',111,0,0) ]).
+b_line_i(17,1,3,cmd,0,[ t('',109,0,0),t('Gxnodebug',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(18,1,3,cmd,0,[ t('',107,0,0),t('DGXRespString',23,0,0),t(=,10,0,0),t('''''',3,0,0) ]).
+b_line_i(19,1,3,cmd,0,[ t('',114,0,0),t('(',0,0,0),t('Gxnodebug',23,0,0),t(=,10,0,0),t('0',3,0,0),t(')',4,0,0),t('.AND.',9,0,0),t('(',0,0,0),t('DGXRespString',23,0,0),t(<>,10,0,0),t('''1''',3,0,0),t(')',4,0,0) ]).
+b_line_i(20,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('''|''',3,0,0),t(+,5,0,0),t('Gxpgmname',23,0,0),t(+,5,0,0),t('''&''',3,0,0) ]).
+b_line_i(21,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|GXLINENRO&''',3,0,0),t(+,5,0,0),t('Gxlinenro',23,0,0),t(+,5,0,0),t('''|/GXLINENRO&''',3,0,0) ]).
+b_line_i(22,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|GXDID&''',3,0,0),t(+,5,0,0),t('str(',1,0,0),t('GXDID',23,0,0),t(',',7,0,0),t('12',3,0,0),t(',',7,0,0),t('10',3,0,0),t(')',4,0,0),t(+,5,0,0),t('''|/GXDID&''',3,0,0) ]).
+b_line_i(23,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|GXCMDKEY&''',3,0,0),t(+,5,0,0),t('Gxcmdkey',23,0,0),t(+,5,0,0),t('''|/GXCMDKEY&''',3,0,0) ]).
+b_line_i(24,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|DGXRULE&''',3,0,0),t(+,5,0,0),t('DGXRULE',23,0,0),t(+,5,0,0),t('''|/DGXRULE&''',3,0,0) ]).
+b_line_i(25,1,3,cmd,0,[ t('',109,0,0),t('Gxpbspcver',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(26,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|DGXSPCVER&''',3,0,0),t(+,5,0,0),t('Gxspcver',23,0,0),t(+,5,0,0),t('''|/DGXSPCVER&''',3,0,0) ]).
+b_line_i(27,1,3,cmd,0,[ t('',107,0,0),t('Gxpbspcver',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(28,1,3,cmd,0,[ t('',111,0,0) ]).
+b_line_i(29,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|Err&''',3,0,0),t(+,5,0,0),t('str(',1,0,0),t('Err',23,0,0),t(',',7,0,0),t('3',3,0,0),t(',',7,0,0),t('0',3,0,0),t(')',4,0,0),t(+,5,0,0),t('''|/Err&''',3,0,0) ]).
+b_line_i(30,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|Sec_dre&''',3,0,0),t(+,5,0,0),t('Sec_dre',23,0,0),t(+,5,0,0),t('''|/Sec_dre&''',3,0,0) ]).
+b_line_i(31,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|Dsec_cre&''',3,0,0),t(+,5,0,0),t('Dsec_cre',23,0,0),t(+,5,0,0),t('''|/Dsec_cre&''',3,0,0) ]).
+b_line_i(32,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|Ttbus7_pos&''',3,0,0),t(+,5,0,0),t('str(',1,0,0),t('Ttbus7_pos',23,0,0),t(',',7,0,0),t('3',3,0,0),t(',',7,0,0),t('0',3,0,0),t(')',4,0,0),t(+,5,0,0),t('''|/Ttbus7_pos&''',3,0,0) ]).
+b_line_i(33,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|GXD_33&''',3,0,0),t(+,5,0,0),t('str(',1,0,0),t(33,2,0,0),t(',',7,0,0),t('3',3,0,0),t(',',7,0,0),t('0',3,0,0),t(')',4,0,0),t(+,5,0,0),t('''|/GXD_33&''',3,0,0) ]).
+b_line_i(34,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|GXD_35&''',3,0,0),t(+,5,0,0),t(35,2,0,0),t(+,5,0,0),t('''|/GXD_35&''',3,0,0) ]).
+b_line_i(35,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|GXD_36&''',3,0,0),t(+,5,0,0),t(36,2,0,0),t(+,5,0,0),t('''|/GXD_36&''',3,0,0) ]).
+b_line_i(36,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''|/''',3,0,0),t(+,5,0,0),t('Gxpgmname',23,0,0),t(+,5,0,0),t('''&88&''',3,0,0) ]).
+b_line_i(37,1,3,cmd,0,[ t('',107,0,0),t([ t('Gxdebug',23,0,0),t('Host',3,0,0) ],29,0,0),t(=,10,0,0),t('''DES1523''',3,0,0) ]).
+b_line_i(38,1,3,cmd,0,[ t('',107,0,0),t([ t('Gxdebug',23,0,0),t('Port',3,0,0) ],29,0,0),t(=,10,0,0),t('6776',3,0,0) ]).
+b_line_i(39,1,3,cmd,0,[ t('',107,0,0),t([ t('Gxdebug',23,0,0),t('Timeout',3,0,0) ],29,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(40,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('strreplace(',1,0,0),t('Gxmessage',23,0,0),t(',',7,0,0),t('''<''',3,0,0),t(',',7,0,0),t('''%27''',3,0,0),t(')',4,0,0) ]).
+b_line_i(41,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('strreplace(',1,0,0),t('Gxmessage',23,0,0),t(',',7,0,0),t('''>''',3,0,0),t(',',7,0,0),t('''%26''',3,0,0),t(')',4,0,0) ]).
+b_line_i(42,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('strreplace(',1,0,0),t('Gxmessage',23,0,0),t(',',7,0,0),t('chr(',1,0,0),t('10',3,0,0),t(')',4,0,0),t(',',7,0,0),t('''''',3,0,0),t(')',4,0,0) ]).
+b_line_i(43,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('strreplace(',1,0,0),t('Gxmessage',23,0,0),t(',',7,0,0),t('chr(',1,0,0),t('13',3,0,0),t(')',4,0,0),t(',',7,0,0),t('''%97''',3,0,0),t(')',4,0,0) ]).
+b_line_i(44,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('tobase64(',1,0,0),t('Gxmessage',23,0,0),t(')',4,0,0) ]).
+b_line_i(45,1,3,cmd,0,[ t('',107,0,0),t('Gxmessage',23,0,0),t(=,10,0,0),t('Gxmessage',23,0,0),t(+,5,0,0),t('''&''',3,0,0) ]).
+b_line_i(46,1,3,cmd,0,[ t('',107,0,0),t([ t('Gxdebug',23,0,0),t('addheader(',1,0,0) ],31,0,0),t('''$$8CDATA8''',3,0,0),t(',',7,0,0),t('Gxmessage',23,0,0),t(')',4,0,0) ]).
+b_line_i(47,1,3,cmd,0,[ t('',107,0,0),t([ t('Gxdebug',23,0,0),t('execute(',1,0,0) ],31,0,0),t('''GET''',3,0,0),t(',',7,0,0),t('''DebuGX''',3,0,0),t(')',4,0,0) ]).
+b_line_i(48,1,3,cmd,0,[ t('',107,0,0),t('Gxnodebug',23,0,0),t(=,10,0,0),t([ t('Gxdebug',23,0,0),t('Errcode',3,0,0) ],29,0,0) ]).
+b_line_i(49,1,3,cmd,0,[ t('',109,0,0),t('Gxnodebug',23,0,0),t(<>,10,0,0),t('0',3,0,0) ]).
+b_line_i(50,1,3,cmd,0,[ t('',141,0,0),t('''Warning: PTBUS020_A debuggable program. No debugger found at: DES1523''',3,0,0),t(')',4,0,0) ]).
+b_line_i(51,1,3,cmd,0,[ t('',141,0,0),t('''Description: ''',3,0,0),t(+,5,0,0),t([ t('Gxdebug',23,0,0),t('Errdescription',3,0,0) ],29,0,0),t(')',4,0,0) ]).
+b_line_i(52,1,3,cmd,0,[ t('',110,0,0) ]).
+b_line_i(53,1,3,cmd,0,[ t('',107,0,0),t('DGXRespString',23,0,0),t(=,10,0,0),t('trim(',1,0,0),t([ t('Gxdebug',23,0,0),t('tostring(',1,0,0) ],31,0,0),t(')',4,0,0),t(')',4,0,0) ]).
+b_line_i(54,1,3,cmd,0,[ t('',109,0,0),t('DGXRespString',23,0,0),t(<>,10,0,0),t('''1''',3,0,0) ]).
+b_line_i(55,1,3,cmd,0,[ t('',109,0,0),t('DGXRespString',23,0,0),t(=,10,0,0),t('''STOP''',3,0,0) ]).
+b_line_i(56,1,3,cmd,0,[ t('',183,0,0),t('throw new Exception("User Stopped");',3,0,0) ]).
+b_line_i(57,1,3,cmd,0,[ t('',111,0,0) ]).
+b_line_i(58,1,3,cmd,0,[ t('',107,0,0),t([ t('DGXResponse',23,0,0),t('openfromstring(',1,0,0) ],31,0,0),t('DGXRespString',23,0,0),t(')',4,0,0) ]).
+b_line_i(59,1,3,cmd,0,[ t('',107,0,0),t([ t('DGXResponse',23,0,0),t('setdocencoding(',1,0,0) ],31,0,0),t('''UTF-8''',3,0,0),t(')',4,0,0) ]).
+b_line_i(60,1,3,cmd,0,[ t('',107,0,0),t([ t('DGXResponse',23,0,0),t('read(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(61,1,3,cmd,0,[ t('',107,0,0),t([ t('DGXResponse',23,0,0),t('close(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(62,1,3,cmd,0,[ t('',111,0,0) ]).
+b_line_i(63,1,3,cmd,0,[ t('',111,0,0) ]).
+b_line_i(64,1,3,cmd,0,[ t('',115,0,0) ]).
+b_line_i(65,1,3,cmd,0,[ t('',111,0,0) ]).
+b_line_i(66,1,3,cmd,0,[ t('',107,0,0),t('DGXRULE',23,0,0),t(=,10,0,0),t('''0''',3,0,0) ]).
+b_line_i(67,1,3,cmd,0,[ t('',144,0,0) ]).
+
+
+page_layout_i([ 66,0,6 ]).
+
+
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+
+
+ppi_i([ 100,100 ]).
+
+
+grid_i(7,15).
+
+
+form_class_i(1,'Graphic').
+
+
+att_prop_i(2,33,'ExternalName','TTBUS7_Pos',d).
+att_prop_i(2,33,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,33,'EmptyAsNull','Yes',d).
+att_prop_i(2,33,'AUTONUMBER','0',d).
+att_prop_i(2,33,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,33,'AttRegEx','',d).
+att_prop_i(2,33,'AttValidationFailedMsg','',d).
+att_prop_i(2,33,'FullName','TTBUS7_Pos',v).
+att_prop_i(2,36,'ExternalName','TTBUS7_DesResp',d).
+att_prop_i(2,36,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,36,'EmptyAsNull','Yes',v).
+att_prop_i(2,36,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,36,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,36,'AttRegEx','',d).
+att_prop_i(2,36,'AttValidationFailedMsg','',d).
+att_prop_i(2,36,'FullName','TTBUS7_DesResp',v).
+att_prop_i(2,35,'ExternalName','TTBUS7_CodResp',d).
+att_prop_i(2,35,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,35,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'FullName','TTBUS7_CodResp',v).
+att_prop_i(2,6,'ExternalName','USU_COD',d).
+att_prop_i(2,6,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'FullName','USU_COD',v).
+
+
+tbl_prop_i(2,7,'AllDirSuper',[ [ 546,[ 35 ] ] ],v).
+tbl_prop_i(2,15,'DirSubor',[ [ 7,[ 35 ] ] ],v).
+tbl_prop_i(2,546,'DirSubor',[ [ 7,[ 35 ] ] ],v).
+tbl_prop_i(2,7,'DirSuper',[ [ 546,[ 35 ] ] ],v).
+tbl_prop_i(2,15,'CACHE_LEVEL','0',v).
+
+
+tbl_att_prop_i(2,7,33,'AllowNulls',n).
+tbl_att_prop_i(2,7,35,'AllowNulls',n).
+tbl_att_prop_i(2,546,35,'AllowNulls',n).
+
+
+a_alias_i(35,'TTBUS7_CodResp').
+a_alias_i(36,'TTBUS7_DesResp').

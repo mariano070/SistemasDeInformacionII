@@ -1,0 +1,2 @@
+gx.evt.autoSkip=false;function wwtseg000(){this.ServerClass="WWTSEG000";this.PackageName="GeneXus.Programs";this.setObjectType("web");this.hasEnterEvent=false;this.autoRefresh=true;this.SetStandaloneVars=function(){};this.e12362_client=function(){this.executeServerEvent("ENTER",true)};this.e13362_client=function(){this.executeServerEvent("CANCEL",true)};this.GXValidFnc=[];this.GXLastCtrlId=0;this.ServerEvents=["e12362_client","e13362_client"];this.SetStandaloneVars()}wwtseg000.prototype=new gx.GxObject;
+gx.setParentObj(new wwtseg000());

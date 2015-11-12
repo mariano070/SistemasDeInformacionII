@@ -1,0 +1,182 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>15</ObjId>
+<ObjName>TSEG002</ObjName>
+<ObjDesc>ACT. USUARIOS</ObjDesc>
+<ObjPgmName>TSEG002</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usucod</VarId>
+<VarName>&amp;USUCOD</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Sistema</VarId>
+<VarName>&amp;SISTEMA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>15</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>USU_DES</AttriName>
+<Description>DESCRIPCION</Description></Attribute>
+<Attribute>
+<AttriId>155</AttriId>
+<AttriName>USU_CLA</AttriName>
+<Description>CONTRASEÑA</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>USU_INT</AttriName>
+<Description>NRO. TELEFONO INTERNO</Description></Attribute>
+<Attribute>
+<AttriId>249</AttriId>
+<AttriName>USU_MAIW</AttriName>
+<Description>MAIL PARA OPERAR EN WEB</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>USU_DES</AttriName>
+<Description>DESCRIPCION</Description></Attribute>
+<Attribute>
+<AttriId>155</AttriId>
+<AttriName>USU_CLA</AttriName>
+<Description>CONTRASEÑA</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>USU_INT</AttriName>
+<Description>NRO. TELEFONO INTERNO</Description></Attribute>
+<Attribute>
+<AttriId>249</AttriId>
+<AttriName>USU_MAIW</AttriName>
+<Description>MAIL PARA OPERAR EN WEB</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>9</TableId>
+<TableName>TTBUS008</TableName>
+<Description>Maestro de Administradores del Sistema</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>Gx00F0</ObjName>
+<ObjPgmName>Gx00F0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

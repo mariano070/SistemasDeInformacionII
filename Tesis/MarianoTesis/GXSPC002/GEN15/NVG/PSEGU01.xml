@@ -1,0 +1,31 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>85</ObjId>
+<ObjName>PSEGU01</ObjName>
+<ObjDesc>GRABA ULTIMO NUMERO</ObjDesc>
+<ObjPgmName>PSEGU01</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ctlnum</VarId>
+<VarName>&amp;CTLNUM</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ctltdo</VarId>
+<VarName>&amp;CTLTDO</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

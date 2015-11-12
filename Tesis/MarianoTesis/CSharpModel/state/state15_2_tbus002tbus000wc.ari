@@ -1,0 +1,21 @@
+current_obj_i(2,web,152).
+ 
+called_tree_i(13,152,1,2).
+called_tree_i(13,152,1,4).
+called_tree_i(13,152,0,24).
+called_tree_i(13,152,13,4).
+called_tree_i(13,152,13,84).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tbus002tbus000wc,[],[],[],152).
+ 
+ 
+obj_parms_i([ 'short aP0_BUS_RUB' ],[ [ 'Bus_rub',in ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,376 @@
+spec_i([ proc,81,'Obtiene un nuevo ID de red','PHDW_REDES',78,spa,'10_1_5-42940' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 39,[ [ 39,many ] ],[],[],[ [ [ 39 ],[ 306,301,300 ] ] ],[ [ [ 39 ],[] ] ],[ 306,300 ],'ITHDW_UBICACIONES_REDES',[ 39,[ [ [],'Thdw_ubi_cod_',306 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+ 
+ta_i(2,[ [ [ 39,306 ],[ 39,301 ],[ 39,300 ] ] ]).
+ 
+las_i(2,[ [ 306,301,300 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''SCR''')).
+ 
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'CC_USER_PASS','')).
+rule_i(0,datastore(3,'CC_USER_ID','')).
+rule_i(0,datastore(3,'CC_SERVER','')).
+rule_i(0,datastore(3,'CC_DBNAME','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD','')).
+rule_i(0,datastore(3,'USER_ID','')).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','')).
+rule_i(0,datastore(3,'CS_DBNAME','')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DESARROLLO')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','')).
+rule_i(0,datastore(2,'CC_USER_ID','')).
+rule_i(0,datastore(2,'CC_SERVER','')).
+rule_i(0,datastore(2,'CC_DBNAME','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','')).
+rule_i(0,datastore(2,'USER_ID','')).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','')).
+rule_i(0,datastore(2,'CS_DBNAME','')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME',soporte_notebook)).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Obtiene un nuevo ID de red')).
+rule_i(0,prop('ObjName','PHDW_REDES')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Thdw_ubi_cod_','Red_id' ],[])).
+rule_i(0,parmio([ [ 'Thdw_ubi_cod_',in ],[ 'Red_id',out ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,39,[],[ [ [ [],'Thdw_ubi_cod_',306 ] ],'ITHDW_UBICACIONES_REDES',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Thdw_ubi_cod_').
+v_i(t,o,2,306).
+v_i(t,o,2,301).
+v_i(t,o,2,300).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',13 ]).
+attri_i(301,[ 'Red_Descripcion',char,30,0,'',0,'Descripción de Red','',0 ]).
+attri_i(300,[ 'Red_Id',int,10,0,'ZZZZZZZZZ9',0,'Id de Red','',0 ]).
+attri_i(306,[ 'THDW_UBI_COD_',int,10,0,'ZZZZZZZZZ9',0,'Código de Ubicación de Red','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Thdw_ubi_cod_',[ 'THDW_UBI_COD_',int,10,0,'ZZZZZZZZZ9',0,'THDW_ UBI_ COD_','',9 ]).
+attri_i('Red_id',[ 'Red_Id',int,10,0,'ZZZZZZZZZ9',0,'Red_ Id','',8 ]).
+ 
+table_i(39,[ 'THDW_REDES',[ 306,300,301 ],'REDES','THDW_REDES' ]).
+ 
+index_i(39,[ 'ITHDW_UBICACIONES_REDES',u,[ 306,300 ],'ITHDW_UBICACIONES_REDES' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 306,23,'Thdw_ubi_cod_',= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(306,2),t(=,10),t('Thdw_ubi_cod_',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ 306,300 ],[ [ 306,300,301 ],[ 306 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,3,lit,0,9,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,0,0),t('Red_id',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t('ORDER',39,3,10),t(306,2,3,10),t(300,2,3,24) ]).
+b_line_i(5,2,1,cmd,4,[ t('',112,4,0),t(301,2,4,13) ]).
+b_line_i(6,2,1,cmd,4,[]).
+b_line_i(7,2,1,cmd,4,[ t('',107,4,0),t('Red_id',23,4,0),t(=,10,4,0),t(300,2,4,0) ]).
+b_line_i(8,2,1,cmd,4,[ t('',128,4,0) ]).
+b_line_i(9,1,3,cmd,6,[]).
+b_line_i(10,1,3,cmd,6,[ t('',107,6,0),t('Red_id',23,6,0),t(=,10,6,0),t('Red_id',23,6,0),t(+,5,6,0),t('1',3,6,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,306,'ExternalName','THDW_UBI_COD_',d).
+att_prop_i(2,306,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,306,'EmptyAsNull','Yes',d).
+att_prop_i(2,306,'AUTONUMBER','-1',v).
+att_prop_i(2,306,'AUTONUMBER_START','1',d).
+att_prop_i(2,306,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,306,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,306,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,306,'AttRegEx','',d).
+att_prop_i(2,306,'AttValidationFailedMsg','',d).
+att_prop_i(2,306,'FullName','THDW_UBI_COD_',v).
+att_prop_i(2,300,'ExternalName','Red_Id',d).
+att_prop_i(2,300,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,300,'EmptyAsNull','Yes',d).
+att_prop_i(2,300,'AUTONUMBER','0',d).
+att_prop_i(2,300,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,300,'AttRegEx','',d).
+att_prop_i(2,300,'AttValidationFailedMsg','',d).
+att_prop_i(2,300,'FullName','Red_Id',v).
+att_prop_i(2,301,'ExternalName','Red_Descripcion',d).
+att_prop_i(2,301,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,301,'EmptyAsNull','Yes',d).
+att_prop_i(2,301,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,301,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,301,'AttRegEx','',d).
+att_prop_i(2,301,'AttValidationFailedMsg','',d).
+att_prop_i(2,301,'FullName','Red_Descripcion',v).
+ 
+ 
+tbl_att_prop_i(2,39,306,'AllowNulls',n).
+tbl_att_prop_i(2,39,300,'AllowNulls',n).
+tbl_att_prop_i(2,39,301,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

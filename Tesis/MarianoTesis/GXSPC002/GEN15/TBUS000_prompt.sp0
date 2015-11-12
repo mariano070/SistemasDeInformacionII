@@ -1,0 +1,1191 @@
+spec_i([ web,9,'Búsqueda de Bien de Uso en Contabilidad','TBUS000_prompt',0,spa,'10_1_5-42940' ]).
+ 
+struct_i(2,1,[ 19 ],[]).
+ 
+level_i(2,[ 24,[ [ 24,many ],[ 551,one ] ],[],[],[ [ [ 24,551 ],[ 103,178,174,59,55,170,54,4,3,61,1,8 ] ] ],[ [ [ 24,551 ],[] ] ],[ 8,1,3,4 ],'IBUS000',[],[] ]).
+ 
+tw_i(2,[ [ 551,[ [ 24,1,2 ] ] ] ]).
+ 
+lwi_i(2,[ [ c([ t(8,2),t('.LIKE.',10),t('Cbus_emp',23) ],[ 8 ]),c([ t(1,2),t(>=,10),t('Cbus_rub',23) ],[ 1 ]),c([ t(3,2),t(>=,10),t('Cbus_cod',23) ],[ 3 ]),c([ t(4,2),t(>=,10),t('Cbus_par',23) ],[ 4 ]),c([ t(54,2),t('.LIKE.',10),t('Cbus_des',23) ],[ 54 ]),c([ t(170,2),t(>=,10),t('Cbus_fal',23) ],[ 170 ]),c([ t(55,2),t(>=,10),t('Cbus_fad',23) ],[ 55 ]),c([ t(103,2),t(=,10),t('0',3) ],[ 103 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 24,103 ],[ 24,178 ],[ 24,174 ],[ 24,59 ],[ 24,55 ],[ 24,170 ],[ 24,54 ],[ 24,4 ],[ 24,3 ],[ 551,61 ],[ 24,1 ],[ 24,8 ] ] ]).
+ 
+las_i(2,[ [ 'Pbus_emp','Pbus_rub','Pbus_cod','Pbus_par','Cbus_emp','Cbus_rub','Cbus_cod','Cbus_par','Cbus_des','Cbus_fal','Cbus_fad',103,178,174,59,55,170,54,4,3,61,1,8 ] ]).
+ 
+lac_i(2,[ [ 'Cbus_emp','Cbus_rub','Cbus_cod','Cbus_par','Cbus_des','Cbus_fal','Cbus_fad' ] ]).
+ 
+ 
+lits_i('CODIGO DE EMPRESA',5,10).
+lits_i('RUBRO DEL BIEN',5,10).
+lits_i('NUMERO DE CODIGO DEL BIEN',5,10).
+lits_i('NUMERO DE PARTIDA DEL BIEN',5,10).
+lits_i('DESCRIPCION DEL BIEN',5,10).
+lits_i('FECHA DE ALTA DEL BIEN',5,10).
+lits_i('FECHA DE ADQUISICION DEL BIEN',5,10).
+ 
+cls_i([ 0,0 ],[ 5,151 ]).
+ 
+pos_i('Cbus_emp',[ 0,0,0 ]).
+pos_i('Cbus_rub',[ 0,0,0 ]).
+pos_i('Cbus_cod',[ 0,0,0 ]).
+pos_i('Cbus_par',[ 0,0,0 ]).
+pos_i('Cbus_des',[ 0,0,0 ]).
+pos_i('Cbus_fal',[ 0,0,0 ]).
+pos_i('Cbus_fad',[ 0,0,0 ]).
+pos_i(8,[ 1,2,0 ]).
+pos_i(1,[ 1,2,2 ]).
+pos_i(61,[ 1,2,7 ]).
+pos_i(3,[ 1,2,38 ]).
+pos_i(4,[ 1,2,43 ]).
+pos_i(54,[ 1,2,46 ]).
+pos_i(170,[ 1,2,97 ]).
+pos_i(55,[ 1,2,108 ]).
+pos_i(59,[ 1,2,119 ]).
+pos_i(174,[ 1,2,140 ]).
+pos_i(178,[ 1,2,151 ]).
+ 
+repeat_i(2,[ 1,2,[ 8,1,61,3,4,54,170,55,59,174,178 ],[] ]).
+ 
+ 
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'CC_USER_PASS','')).
+rule_i(0,datastore(3,'CC_USER_ID','')).
+rule_i(0,datastore(3,'CC_SERVER','')).
+rule_i(0,datastore(3,'CC_DBNAME','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD','')).
+rule_i(0,datastore(3,'USER_ID','')).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','')).
+rule_i(0,datastore(3,'CS_DBNAME','')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DESARROLLO')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','')).
+rule_i(0,datastore(2,'CC_USER_ID','')).
+rule_i(0,datastore(2,'CC_SERVER','')).
+rule_i(0,datastore(2,'CC_DBNAME','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','')).
+rule_i(0,datastore(2,'USER_ID','')).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','')).
+rule_i(0,datastore(2,'CS_DBNAME','')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME',soporte_notebook)).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'MPTrazabilidad'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Búsqueda de Bien de Uso en Contabilidad')).
+rule_i(0,prop('ObjName','TBUS000_prompt')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Pbus_emp','Pbus_rub','Pbus_cod','Pbus_par' ],[])).
+rule_i(0,parmio([ [ 'Pbus_emp',out ],[ 'Pbus_rub',out ],[ 'Pbus_cod',out ],[ 'Pbus_par',out ] ])).
+rule_i(0,order([ 8,1,3,4 ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,24,[],[ [],'IBUS000',[] ]).
+a_i(3,2,r,551,[],[ [ [ 24,1,2 ] ],'RBRI01',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,103).
+v_i(t,o,2,178).
+v_i(t,o,2,174).
+v_i(t,o,2,59).
+v_i(t,o,2,55).
+v_i(t,o,2,170).
+v_i(t,o,2,54).
+v_i(t,o,2,4).
+v_i(t,o,2,3).
+v_i(t,o,2,1).
+v_i(t,o,2,8).
+v_i(r,i,3,1).
+v_i(r,o,3,61).
+ 
+ 
+ 
+ 
+ 
+attri_i(2,[ 'RBR_COD',int,4,0,'ZZZ9',0,'CODIGO DE RUBRO','',0 ]).
+attri_i(103,[ 'BUS_IDT',int,8,0,'ZZZZZZZ9',0,'ID EN TRAZABILIDAD DE BIENES DE USO','',0 ]).
+attri_i(178,[ 'BUS_AMO',char,1,0,!,0,'RUBRO AMORTIZABLE','',0 ]).
+attri_i(174,[ 'BUS_FBA',date,8,0,'99/99/9999',0,'FECHA DE BAJA DEL BIEN','',0 ]).
+attri_i(59,[ 'BUS_TID',char,20,0,'@!',0,'BUS_ TID','',0 ]).
+attri_i(55,[ 'BUS_FAD',date,8,0,'99/99/9999',0,'FECHA DE ADQUISICION DEL BIEN','',0 ]).
+attri_i(170,[ 'BUS_FAL',date,8,0,'99/99/9999',0,'FECHA DE ALTA DEL BIEN','',0 ]).
+attri_i(54,[ 'BUS_DES',char,50,0,'@!',0,'DESCRIPCION DEL BIEN','',0 ]).
+attri_i(4,[ 'BUS_PAR',int,2,0,'Z9',0,'NUMERO DE PARTIDA DEL BIEN','',0 ]).
+attri_i(3,[ 'BUS_COD',int,4,0,'ZZZ9',0,'NUMERO DE CODIGO DEL BIEN','',0 ]).
+attri_i(61,[ 'BUS_RUD',char,30,0,'',0,'DESCRIPCIPCION RUBRO','',0 ]).
+attri_i(1,[ 'BUS_RUB',int,4,0,'ZZZ9',0,'RUBRO DEL BIEN','',0 ]).
+attri_i(8,[ 'BUS_EMP',char,1,0,!,0,'CODIGO DE EMPRESA','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',31 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',30 ]).
+attri_i('Pbus_ard',[ pBUS_ARD,char,30,0,'@!',0,'p BUS_ ARD','',29 ]).
+attri_i('Pbus_are',[ pBUS_ARE,int,4,0,'ZZZ9',0,'p BUS_ ARE','',28 ]).
+attri_i('Pbus_sed',[ pBUS_SED,char,30,0,'@!',0,'p BUS_ SED','',27 ]).
+attri_i('Pbus_sec',[ pBUS_SEC,int,2,0,'Z9',0,'p BUS_ SEC','',26 ]).
+attri_i('Pbus_des',[ pBUS_DES,char,50,0,'@!',0,'p BUS_ DES','',25 ]).
+attri_i('Pbus_fad',[ pBUS_FAD,date,8,0,'99/99/9999',0,'p BUS_ FAD','',24 ]).
+attri_i('Pbus_tid',[ pBUS_TID,char,20,0,'@!',0,'p BUS_ TID','',23 ]).
+attri_i('Pbus_tip',[ pBUS_TIP,int,3,0,'ZZ9',0,'p BUS_ TIP','',22 ]).
+attri_i('Pbus_rud',[ pBUS_RUD,char,30,0,'',0,'p BUS_ RUD','',21 ]).
+attri_i('Cbus_fad',[ cBUS_FAD,date,8,0,'99/99/9999',0,'FECHA DE ADQUISICION DEL BIEN','',20 ]).
+attri_i('Cbus_fal',[ cBUS_FAL,date,8,0,'99/99/9999',0,'FECHA DE ALTA DEL BIEN','',19 ]).
+attri_i('Cbus_des',[ cBUS_DES,char,50,0,'@!',0,'DESCRIPCION DEL BIEN','',18 ]).
+attri_i('Cbus_par',[ cBUS_PAR,int,2,0,'Z9',0,'NUMERO DE PARTIDA DEL BIEN','',17 ]).
+attri_i('Cbus_cod',[ cBUS_COD,int,4,0,'ZZZ9',0,'NUMERO DE CODIGO DEL BIEN','',16 ]).
+attri_i('Cbus_rub',[ cBUS_RUB,int,4,0,'ZZZ9',0,'RUBRO DEL BIEN','',15 ]).
+attri_i('Cbus_emp',[ cBUS_EMP,char,1,0,!,0,'CODIGO DE EMPRESA','',14 ]).
+attri_i('Pbus_par',[ pBUS_PAR,int,2,0,'Z9',0,'p BUS_ PAR','',13 ]).
+attri_i('Pbus_cod',[ pBUS_COD,int,4,0,'ZZZ9',0,'p BUS_ COD','',12 ]).
+attri_i('Pbus_rub',[ pBUS_RUB,int,4,0,'ZZZ9',0,'p BUS_ RUB','',11 ]).
+attri_i('Pbus_emp',[ pBUS_EMP,char,1,0,!,0,'p BUS_ EMP','',10 ]).
+attri_i('Bus_par',[ 'BUS_PAR',int,2,0,'Z9',0,'BUS_ PAR','',9 ]).
+attri_i('Bus_cod',[ 'BUS_COD',int,4,0,'ZZZ9',0,'BUS_ COD','',8 ]).
+attri_i('Bus_rub',[ 'BUS_RUB',int,4,0,'ZZZ9',0,'BUS_ RUB','',7 ]).
+attri_i('Bus_emp',[ 'BUS_EMP',char,1,0,!,0,'BUS_ EMP','',6 ]).
+attri_i('Bus_des',[ 'BUS_DES',char,50,0,'@!',0,'BUS_ DES','',5 ]).
+ 
+table_i(551,[ 'BUS002',[ 1,61 ],'BUS002','BUS002' ]).
+table_i(24,[ 'BUS000',[ 8,1,3,4,178,54,170,55,59,174,103 ],'BUS000','BUS000' ]).
+ 
+index_i(24,[ 'IBUS000',u,[ 8,1,3,4 ],'IBUS000' ]).
+index_i(551,[ 'RBRI01',u,[ 1 ],'RBRI01' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(551,a,61,[ 'RBR_DES' ]).
+map_i(551,a,1,[ 'RBR_COD' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ 8,1,3,4 ],[ [ 8,1,61,3,4,54,170,55,59,174,178 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Enter',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,1,0),t('Pbus_emp',23,1,0),t(=,10,1,0),t(8,2,1,0) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,1,0),t('Pbus_rub',23,1,0),t(=,10,1,0),t(1,2,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',107,1,0),t('Pbus_cod',23,1,0),t(=,10,1,0),t(3,2,1,0) ]).
+b_line_i(5,2,2,cmd,1,[ t('',107,1,0),t('Pbus_par',23,1,0),t(=,10,1,0),t(4,2,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',118,1,0) ]).
+b_line_i(7,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(1000,2,2,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,2,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,2,cmd,0,[ t('',147,0,0) ]).
+ 
+sf_break_i(49,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(errview))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,group(8))).
+html_sub_i(8,9,html_i(0,table(9))).
+html_sub_i(9,0,html_i(0,html('<TBODY>'))).
+html_sub_i(9,10,html_i(1,row(10))).
+html_sub_i(10,11,html_i(0,cell(11))).
+html_sub_i(11,12,html_i(0,t('CODIGO DE EMPRESA',3))).
+html_sub_i(10,13,html_i(1,cell(13))).
+html_sub_i(13,14,html_i(0,t('Cbus_emp',23))).
+html_sub_i(9,15,html_i(2,row(15))).
+html_sub_i(15,16,html_i(0,cell(16))).
+html_sub_i(16,17,html_i(0,t('RUBRO DEL BIEN',3))).
+html_sub_i(15,18,html_i(1,cell(18))).
+html_sub_i(18,19,html_i(0,t('Cbus_rub',23))).
+html_sub_i(9,20,html_i(3,row(20))).
+html_sub_i(20,21,html_i(0,cell(21))).
+html_sub_i(21,22,html_i(0,t('NUMERO DE CODIGO DEL BIEN',3))).
+html_sub_i(20,23,html_i(1,cell(23))).
+html_sub_i(23,24,html_i(0,t('Cbus_cod',23))).
+html_sub_i(9,25,html_i(4,row(25))).
+html_sub_i(25,26,html_i(0,cell(26))).
+html_sub_i(26,27,html_i(0,t('NUMERO DE PARTIDA DEL BIEN',3))).
+html_sub_i(25,28,html_i(1,cell(28))).
+html_sub_i(28,29,html_i(0,t('Cbus_par',23))).
+html_sub_i(9,30,html_i(5,row(30))).
+html_sub_i(30,31,html_i(0,cell(31))).
+html_sub_i(31,32,html_i(0,t('DESCRIPCION DEL BIEN',3))).
+html_sub_i(30,33,html_i(1,cell(33))).
+html_sub_i(33,34,html_i(0,t('Cbus_des',23))).
+html_sub_i(9,35,html_i(6,row(35))).
+html_sub_i(35,36,html_i(0,cell(36))).
+html_sub_i(36,37,html_i(0,t('FECHA DE ALTA DEL BIEN',3))).
+html_sub_i(35,38,html_i(1,cell(38))).
+html_sub_i(38,39,html_i(0,t('Cbus_fal',23))).
+html_sub_i(9,40,html_i(7,row(40))).
+html_sub_i(40,41,html_i(0,cell(41))).
+html_sub_i(41,42,html_i(0,t('FECHA DE ADQUISICION DEL BIEN',3))).
+html_sub_i(40,43,html_i(1,cell(43))).
+html_sub_i(43,44,html_i(0,t('Cbus_fad',23))).
+html_sub_i(9,0,html_i(8,html('</TBODY>'))).
+html_sub_i(2,45,html_i(3,row(45))).
+html_sub_i(45,46,html_i(0,cell(46))).
+html_sub_i(2,47,html_i(4,row(47))).
+html_sub_i(47,48,html_i(0,cell(48))).
+html_sub_i(48,49,html_i(0,s(49))).
+html_sub_i(2,61,html_i(5,row(61))).
+html_sub_i(61,62,html_i(0,cell(62))).
+html_sub_i(2,63,html_i(6,row(63))).
+html_sub_i(63,64,html_i(0,cell(64))).
+html_sub_i(2,0,html_i(7,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(5,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(87,px),v,[ measure ]).
+html_comp_i(2,'Width',measure(853,px),v,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Align',center,v,[ str ]).
+html_comp_i(5,'Controlname','Errviewer1',v,[ str ]).
+html_comp_i(5,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(5,'Displaymode',1,d,[ num ]).
+html_comp_i(5,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Class','FieldSet',v,[ str ]).
+html_comp_i(8,'Caption','Filtros',d,[ str ]).
+html_comp_i(8,'Id','Group1',v,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Id','Table3',v,[ str ]).
+html_comp_i(9,'Class','Table',v,[ str ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Backgroundgx','',d,[ str ]).
+html_comp_i(9,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Border','0',d,[ str ]).
+html_comp_i(9,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Cellpadding','1',d,[ str ]).
+html_comp_i(9,'Cellspacing','2',d,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Rules',none,d,[ str ]).
+html_comp_i(12,'Caption','CODIGO DE EMPRESA',d,[ str ]).
+html_comp_i(12,'Id','Textblockbus_emp',v,[ str ]).
+html_comp_i(12,'Class','TextBlock',d,[ str ]).
+html_comp_i(12,'Event','',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Gxformat',0,d,[ num ]).
+html_comp_i(12,'Title','',d,[ str ]).
+html_comp_i(12,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(12,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(12,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(14,'Attid',-14,v,[ num ]).
+html_comp_i(14,'Class','Attribute',d,[ str ]).
+html_comp_i(14,'Controlname','&Cbus_emp',d,[ str ]).
+html_comp_i(14,'Returnonclick',0,d,[ bool ]).
+html_comp_i(14,'Controltype',2,d,[ num ]).
+html_comp_i(14,'Inputtype',0,d,[ num ]).
+html_comp_i(14,'Editautocomplete',0,d,[ num ]).
+html_comp_i(14,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(14,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(14,'Readonly',0,d,[ bool ]).
+html_comp_i(14,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(14,'Ispassword',0,d,[ bool ]).
+html_comp_i(14,'Autoresize',-1,d,[ bool ]).
+html_comp_i(14,'Gxwidth',measure(1,chr),d,[ measure ]).
+html_comp_i(14,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(14,'Ismultiline',0,d,[ bool ]).
+html_comp_i(14,'Fill',-1,d,[ bool ]).
+html_comp_i(14,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(14,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(14,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(14,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(14,'Gxformat',0,d,[ num ]).
+html_comp_i(14,'Title','',d,[ str ]).
+html_comp_i(17,'Caption','RUBRO DEL BIEN',d,[ str ]).
+html_comp_i(17,'Id','Textblockbus_rub',v,[ str ]).
+html_comp_i(17,'Class','TextBlock',d,[ str ]).
+html_comp_i(17,'Event','',d,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Fill',-1,d,[ bool ]).
+html_comp_i(17,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(17,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(17,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(19,'Attid',-15,v,[ num ]).
+html_comp_i(19,'Class','Attribute',d,[ str ]).
+html_comp_i(19,'Controlname','&Cbus_rub',d,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Controltype',2,d,[ num ]).
+html_comp_i(19,'Inputtype',0,d,[ num ]).
+html_comp_i(19,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(19,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(19,'Readonly',0,d,[ bool ]).
+html_comp_i(19,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(19,'Ispassword',0,d,[ bool ]).
+html_comp_i(19,'Autoresize',-1,d,[ bool ]).
+html_comp_i(19,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(19,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(19,'Ismultiline',0,d,[ bool ]).
+html_comp_i(19,'Fill',-1,d,[ bool ]).
+html_comp_i(19,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(19,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(19,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(19,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(22,'Caption','NUMERO DE CODIGO DEL BIEN',d,[ str ]).
+html_comp_i(22,'Id','Textblockbus_cod',v,[ str ]).
+html_comp_i(22,'Class','TextBlock',d,[ str ]).
+html_comp_i(22,'Event','',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,d,[ bool ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Fill',-1,d,[ bool ]).
+html_comp_i(22,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(22,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(22,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(24,'Attid',-16,v,[ num ]).
+html_comp_i(24,'Class','Attribute',d,[ str ]).
+html_comp_i(24,'Controlname','&Cbus_cod',d,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Controltype',2,d,[ num ]).
+html_comp_i(24,'Inputtype',0,d,[ num ]).
+html_comp_i(24,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(24,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(24,'Readonly',0,d,[ bool ]).
+html_comp_i(24,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(24,'Ispassword',0,d,[ bool ]).
+html_comp_i(24,'Autoresize',-1,d,[ bool ]).
+html_comp_i(24,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(24,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(24,'Ismultiline',0,d,[ bool ]).
+html_comp_i(24,'Fill',-1,d,[ bool ]).
+html_comp_i(24,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(24,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(24,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(24,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(24,'Gxformat',0,d,[ num ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(27,'Caption','NUMERO DE PARTIDA DEL BIEN',d,[ str ]).
+html_comp_i(27,'Id','Textblockbus_par',v,[ str ]).
+html_comp_i(27,'Class','TextBlock',d,[ str ]).
+html_comp_i(27,'Event','',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(27,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(29,'Attid',-17,v,[ num ]).
+html_comp_i(29,'Class','Attribute',d,[ str ]).
+html_comp_i(29,'Controlname','&Cbus_par',d,[ str ]).
+html_comp_i(29,'Returnonclick',0,d,[ bool ]).
+html_comp_i(29,'Controltype',2,d,[ num ]).
+html_comp_i(29,'Inputtype',0,d,[ num ]).
+html_comp_i(29,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(29,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(29,'Readonly',0,d,[ bool ]).
+html_comp_i(29,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(29,'Ispassword',0,d,[ bool ]).
+html_comp_i(29,'Autoresize',-1,d,[ bool ]).
+html_comp_i(29,'Gxwidth',measure(2,chr),d,[ measure ]).
+html_comp_i(29,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(29,'Ismultiline',0,d,[ bool ]).
+html_comp_i(29,'Fill',-1,d,[ bool ]).
+html_comp_i(29,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(29,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(29,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(29,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(29,'Gxformat',0,d,[ num ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(32,'Caption','DESCRIPCION DEL BIEN',d,[ str ]).
+html_comp_i(32,'Id','Textblockbus_des',v,[ str ]).
+html_comp_i(32,'Class','TextBlock',d,[ str ]).
+html_comp_i(32,'Event','',d,[ str ]).
+html_comp_i(32,'Returnonclick',0,d,[ bool ]).
+html_comp_i(32,'Gxformat',0,d,[ num ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(32,'Fill',-1,d,[ bool ]).
+html_comp_i(32,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(32,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(32,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(34,'Attid',-18,v,[ num ]).
+html_comp_i(34,'Class','Attribute',d,[ str ]).
+html_comp_i(34,'Controlname','&Cbus_des',d,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Controltype',2,d,[ num ]).
+html_comp_i(34,'Inputtype',0,d,[ num ]).
+html_comp_i(34,'Editautocomplete',0,d,[ num ]).
+html_comp_i(34,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(34,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(34,'Readonly',0,d,[ bool ]).
+html_comp_i(34,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(34,'Ispassword',0,d,[ bool ]).
+html_comp_i(34,'Autoresize',-1,d,[ bool ]).
+html_comp_i(34,'Gxwidth',measure(50,chr),d,[ measure ]).
+html_comp_i(34,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(34,'Ismultiline',0,d,[ bool ]).
+html_comp_i(34,'Fill',-1,d,[ bool ]).
+html_comp_i(34,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(34,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(34,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(34,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(34,'Gxformat',0,d,[ num ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(37,'Caption','FECHA DE ALTA DEL BIEN',d,[ str ]).
+html_comp_i(37,'Id','Textblockbus_fal',v,[ str ]).
+html_comp_i(37,'Class','TextBlock',d,[ str ]).
+html_comp_i(37,'Event','',d,[ str ]).
+html_comp_i(37,'Returnonclick',0,d,[ bool ]).
+html_comp_i(37,'Gxformat',0,d,[ num ]).
+html_comp_i(37,'Title','',d,[ str ]).
+html_comp_i(37,'Fill',-1,d,[ bool ]).
+html_comp_i(37,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(37,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(37,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(39,'Attid',-19,v,[ num ]).
+html_comp_i(39,'Class','Attribute',d,[ str ]).
+html_comp_i(39,'Controlname','&Cbus_fal',d,[ str ]).
+html_comp_i(39,'Returnonclick',0,d,[ bool ]).
+html_comp_i(39,'Controltype',2,d,[ num ]).
+html_comp_i(39,'Inputtype',0,d,[ num ]).
+html_comp_i(39,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(39,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(39,'Readonly',0,d,[ bool ]).
+html_comp_i(39,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(39,'Ispassword',0,d,[ bool ]).
+html_comp_i(39,'Autoresize',-1,d,[ bool ]).
+html_comp_i(39,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(39,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(39,'Ismultiline',0,d,[ bool ]).
+html_comp_i(39,'Fill',-1,d,[ bool ]).
+html_comp_i(39,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(39,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(39,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(39,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(39,'Gxformat',0,d,[ num ]).
+html_comp_i(39,'Title','',d,[ str ]).
+html_comp_i(39,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(39,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(42,'Caption','FECHA DE ADQUISICION DEL BIEN',d,[ str ]).
+html_comp_i(42,'Id','Textblockbus_fad',v,[ str ]).
+html_comp_i(42,'Class','TextBlock',d,[ str ]).
+html_comp_i(42,'Event','',d,[ str ]).
+html_comp_i(42,'Returnonclick',0,d,[ bool ]).
+html_comp_i(42,'Gxformat',0,d,[ num ]).
+html_comp_i(42,'Title','',d,[ str ]).
+html_comp_i(42,'Fill',-1,d,[ bool ]).
+html_comp_i(42,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(42,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(42,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(44,'Attid',-20,v,[ num ]).
+html_comp_i(44,'Class','Attribute',d,[ str ]).
+html_comp_i(44,'Controlname','&Cbus_fad',d,[ str ]).
+html_comp_i(44,'Returnonclick',0,d,[ bool ]).
+html_comp_i(44,'Controltype',2,d,[ num ]).
+html_comp_i(44,'Inputtype',0,d,[ num ]).
+html_comp_i(44,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(44,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(44,'Readonly',0,d,[ bool ]).
+html_comp_i(44,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(44,'Ispassword',0,d,[ bool ]).
+html_comp_i(44,'Autoresize',-1,d,[ bool ]).
+html_comp_i(44,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(44,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(44,'Ismultiline',0,d,[ bool ]).
+html_comp_i(44,'Fill',-1,d,[ bool ]).
+html_comp_i(44,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(44,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(44,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(44,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(44,'Gxformat',0,d,[ num ]).
+html_comp_i(44,'Title','',d,[ str ]).
+html_comp_i(44,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(44,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(49,'Controlname','Grid1',v,[ str ]).
+html_comp_i(49,'Controlorder','',d,[ str ]).
+html_comp_i(49,'Controlwhere','',d,[ str ]).
+html_comp_i(49,'Iddataselector','',d,[ str ]).
+html_comp_i(49,'Rules',none,d,[ str ]).
+html_comp_i(49,'Sflrender','',d,[ str ]).
+html_comp_i(49,'Class','Grid',d,[ str ]).
+html_comp_i(49,'Autoresize',-1,d,[ bool ]).
+html_comp_i(49,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(49,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(49,'Backgroundgx','',d,[ str ]).
+html_comp_i(49,'Border','0',d,[ str ]).
+html_comp_i(49,'Backcolorstyle',3,v,[ num ]).
+html_comp_i(49,'Bordercolor',rgb(219,236,252),d,[ color ]).
+html_comp_i(49,'Maxrows',10,v,[ num ]).
+html_comp_i(49,'Title','',d,[ str ]).
+html_comp_i(49,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(49,'Linesbackcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(49,'Linesbackcolor2',rgb(229,229,229),d,[ color ]).
+html_comp_i(49,'Linesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(49,'Titlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(49,'Titlebackcolor',rgb(70,130,180),d,[ color ]).
+html_comp_i(49,'Titlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(49,'Align',left,d,[ str ]).
+html_comp_i(49,'Cellpadding','1',d,[ str ]).
+html_comp_i(49,'Cellspacing','2',d,[ str ]).
+html_comp_i(49,'Sortable',-1,d,[ bool ]).
+html_comp_i(49,'Allowdrop',0,d,[ bool ]).
+html_comp_i(49,'Allowdrag',0,d,[ bool ]).
+html_comp_i(49,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(49,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(49,'Allowselection',0,d,[ bool ]).
+html_comp_i(50,'Colattid',8,v,[ num ]).
+html_comp_i(50,'Controlname','Bus_emp',d,[ str ]).
+html_comp_i(50,'Class','Attribute',d,[ str ]).
+html_comp_i(50,'Returnonclick',0,d,[ bool ]).
+html_comp_i(50,'Eventgx','Enter',v,[ str ]).
+html_comp_i(50,'Controltype',2,d,[ num ]).
+html_comp_i(50,'Inputtype',0,d,[ num ]).
+html_comp_i(50,'Editautocomplete',0,d,[ num ]).
+html_comp_i(50,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(50,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(50,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(50,'Ispassword',0,d,[ bool ]).
+html_comp_i(50,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(50,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(50,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(50,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(50,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(50,'Coltitle','EMPRESA',d,[ str ]).
+html_comp_i(50,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(50,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(50,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(50,'Gxformat',0,d,[ num ]).
+html_comp_i(50,'Colvisible',-1,v,[ bool ]).
+html_comp_i(50,'Title','',d,[ str ]).
+html_comp_i(51,'Colattid',1,v,[ num ]).
+html_comp_i(51,'Controlname','Bus_rub',d,[ str ]).
+html_comp_i(51,'Class','Attribute',d,[ str ]).
+html_comp_i(51,'Returnonclick',0,d,[ bool ]).
+html_comp_i(51,'Eventgx','Enter',v,[ str ]).
+html_comp_i(51,'Controltype',2,d,[ num ]).
+html_comp_i(51,'Inputtype',0,d,[ num ]).
+html_comp_i(51,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(51,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(51,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(51,'Ispassword',0,d,[ bool ]).
+html_comp_i(51,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(51,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(51,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(51,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(51,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(51,'Coltitle','COD. RUBRO',d,[ str ]).
+html_comp_i(51,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(51,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(51,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(51,'Gxformat',0,d,[ num ]).
+html_comp_i(51,'Colvisible',-1,v,[ bool ]).
+html_comp_i(51,'Title','',d,[ str ]).
+html_comp_i(52,'Colattid',61,v,[ num ]).
+html_comp_i(52,'Controlname','Bus_rud',d,[ str ]).
+html_comp_i(52,'Class','Attribute',d,[ str ]).
+html_comp_i(52,'Returnonclick',0,d,[ bool ]).
+html_comp_i(52,'Eventgx','Enter',v,[ str ]).
+html_comp_i(52,'Controltype',2,d,[ num ]).
+html_comp_i(52,'Inputtype',0,d,[ num ]).
+html_comp_i(52,'Editautocomplete',0,d,[ num ]).
+html_comp_i(52,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(52,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(52,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(52,'Ispassword',0,d,[ bool ]).
+html_comp_i(52,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(52,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(52,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(52,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(52,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(52,'Coltitle','DESC. RUBRO',d,[ str ]).
+html_comp_i(52,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(52,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(52,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(52,'Gxformat',0,d,[ num ]).
+html_comp_i(52,'Colvisible',-1,d,[ bool ]).
+html_comp_i(52,'Title','',d,[ str ]).
+html_comp_i(53,'Colattid',3,v,[ num ]).
+html_comp_i(53,'Controlname','Bus_cod',d,[ str ]).
+html_comp_i(53,'Class','Attribute',d,[ str ]).
+html_comp_i(53,'Returnonclick',0,d,[ bool ]).
+html_comp_i(53,'Eventgx','Enter',v,[ str ]).
+html_comp_i(53,'Controltype',2,d,[ num ]).
+html_comp_i(53,'Inputtype',0,d,[ num ]).
+html_comp_i(53,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(53,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(53,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(53,'Ispassword',0,d,[ bool ]).
+html_comp_i(53,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(53,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(53,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(53,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(53,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(53,'Coltitle','CÓD. BIEN',d,[ str ]).
+html_comp_i(53,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(53,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(53,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(53,'Gxformat',0,d,[ num ]).
+html_comp_i(53,'Colvisible',-1,v,[ bool ]).
+html_comp_i(53,'Title','',d,[ str ]).
+html_comp_i(54,'Colattid',4,v,[ num ]).
+html_comp_i(54,'Controlname','Bus_par',d,[ str ]).
+html_comp_i(54,'Class','Attribute',d,[ str ]).
+html_comp_i(54,'Returnonclick',0,d,[ bool ]).
+html_comp_i(54,'Eventgx','Enter',v,[ str ]).
+html_comp_i(54,'Controltype',2,d,[ num ]).
+html_comp_i(54,'Inputtype',0,d,[ num ]).
+html_comp_i(54,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(54,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(54,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(54,'Ispassword',0,d,[ bool ]).
+html_comp_i(54,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(54,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(54,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(54,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(54,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(54,'Coltitle','PARTIDA',d,[ str ]).
+html_comp_i(54,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(54,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(54,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(54,'Gxformat',0,d,[ num ]).
+html_comp_i(54,'Colvisible',-1,v,[ bool ]).
+html_comp_i(54,'Title','',d,[ str ]).
+html_comp_i(55,'Colattid',54,v,[ num ]).
+html_comp_i(55,'Controlname','Bus_des',d,[ str ]).
+html_comp_i(55,'Class','Attribute',d,[ str ]).
+html_comp_i(55,'Returnonclick',0,d,[ bool ]).
+html_comp_i(55,'Eventgx','',d,[ str ]).
+html_comp_i(55,'Controltype',2,d,[ num ]).
+html_comp_i(55,'Inputtype',0,d,[ num ]).
+html_comp_i(55,'Editautocomplete',0,d,[ num ]).
+html_comp_i(55,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(55,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(55,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(55,'Ispassword',0,d,[ bool ]).
+html_comp_i(55,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(55,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(55,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(55,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(55,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(55,'Coltitle','DESCRIPCIÓN',d,[ str ]).
+html_comp_i(55,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(55,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(55,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(55,'Gxformat',0,d,[ num ]).
+html_comp_i(55,'Colvisible',-1,d,[ bool ]).
+html_comp_i(55,'Title','',d,[ str ]).
+html_comp_i(56,'Colattid',170,v,[ num ]).
+html_comp_i(56,'Controlname','Bus_fal',d,[ str ]).
+html_comp_i(56,'Class','Attribute',d,[ str ]).
+html_comp_i(56,'Returnonclick',0,d,[ bool ]).
+html_comp_i(56,'Eventgx','',d,[ str ]).
+html_comp_i(56,'Controltype',2,d,[ num ]).
+html_comp_i(56,'Inputtype',0,d,[ num ]).
+html_comp_i(56,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(56,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(56,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(56,'Ispassword',0,d,[ bool ]).
+html_comp_i(56,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(56,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(56,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(56,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(56,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(56,'Coltitle','ALTA',d,[ str ]).
+html_comp_i(56,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(56,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(56,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(56,'Gxformat',0,d,[ num ]).
+html_comp_i(56,'Colvisible',-1,d,[ bool ]).
+html_comp_i(56,'Title','',d,[ str ]).
+html_comp_i(56,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(56,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(57,'Colattid',55,v,[ num ]).
+html_comp_i(57,'Controlname','Bus_fad',d,[ str ]).
+html_comp_i(57,'Class','Attribute',d,[ str ]).
+html_comp_i(57,'Returnonclick',0,d,[ bool ]).
+html_comp_i(57,'Eventgx','',d,[ str ]).
+html_comp_i(57,'Controltype',2,d,[ num ]).
+html_comp_i(57,'Inputtype',0,d,[ num ]).
+html_comp_i(57,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(57,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(57,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(57,'Ispassword',0,d,[ bool ]).
+html_comp_i(57,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(57,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(57,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(57,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(57,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(57,'Coltitle','ADQUISICIÓN',d,[ str ]).
+html_comp_i(57,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(57,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(57,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(57,'Gxformat',0,d,[ num ]).
+html_comp_i(57,'Colvisible',-1,d,[ bool ]).
+html_comp_i(57,'Title','',d,[ str ]).
+html_comp_i(57,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(57,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(58,'Colattid',59,v,[ num ]).
+html_comp_i(58,'Controlname','Bus_tid',d,[ str ]).
+html_comp_i(58,'Class','Attribute',d,[ str ]).
+html_comp_i(58,'Returnonclick',0,d,[ bool ]).
+html_comp_i(58,'Eventgx','',d,[ str ]).
+html_comp_i(58,'Controltype',2,d,[ num ]).
+html_comp_i(58,'Inputtype',0,d,[ num ]).
+html_comp_i(58,'Editautocomplete',0,d,[ num ]).
+html_comp_i(58,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(58,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(58,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(58,'Ispassword',0,d,[ bool ]).
+html_comp_i(58,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(58,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(58,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(58,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(58,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(58,'Coltitle','TIPO',d,[ str ]).
+html_comp_i(58,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(58,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(58,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(58,'Gxformat',0,d,[ num ]).
+html_comp_i(58,'Colvisible',-1,d,[ bool ]).
+html_comp_i(58,'Title','',d,[ str ]).
+html_comp_i(59,'Colattid',174,v,[ num ]).
+html_comp_i(59,'Controlname','Bus_fba',d,[ str ]).
+html_comp_i(59,'Class','Attribute',d,[ str ]).
+html_comp_i(59,'Returnonclick',0,d,[ bool ]).
+html_comp_i(59,'Eventgx','',d,[ str ]).
+html_comp_i(59,'Controltype',2,d,[ num ]).
+html_comp_i(59,'Inputtype',0,d,[ num ]).
+html_comp_i(59,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(59,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(59,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(59,'Ispassword',0,d,[ bool ]).
+html_comp_i(59,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(59,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(59,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(59,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(59,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(59,'Coltitle','BAJA',d,[ str ]).
+html_comp_i(59,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(59,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(59,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(59,'Gxformat',0,d,[ num ]).
+html_comp_i(59,'Colvisible',-1,d,[ bool ]).
+html_comp_i(59,'Title','',d,[ str ]).
+html_comp_i(59,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(59,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(60,'Colattid',178,v,[ num ]).
+html_comp_i(60,'Controlname','Bus_amo',d,[ str ]).
+html_comp_i(60,'Class','Attribute',d,[ str ]).
+html_comp_i(60,'Returnonclick',0,d,[ bool ]).
+html_comp_i(60,'Eventgx','',d,[ str ]).
+html_comp_i(60,'Controltype',2,d,[ num ]).
+html_comp_i(60,'Inputtype',0,d,[ num ]).
+html_comp_i(60,'Editautocomplete',0,d,[ num ]).
+html_comp_i(60,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(60,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(60,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(60,'Ispassword',0,d,[ bool ]).
+html_comp_i(60,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(60,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(60,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(60,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(60,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(60,'Coltitle','AMORTIZABLE',d,[ str ]).
+html_comp_i(60,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(60,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(60,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(60,'Gxformat',0,d,[ num ]).
+html_comp_i(60,'Colvisible',-1,d,[ bool ]).
+html_comp_i(60,'Title','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0051,[ 'Supertype ',att(2,19),' cannot be instantiated. Use subtype ',att(2,61),' instead',[ ' in grid ''','Grid1','''' ],'.' ])).
+ 
+lit_i(5,1,comp(errview),[ ctlname('Errviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(12,1,t('CODIGO DE EMPRESA',3),[ ctlname('Textblockbus_emp') ]).
+lit_i(14,1,t('Cbus_emp',23),[ ctlname('&Cbus_emp'),ctrltype(edit,14),pos(14),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,t('RUBRO DEL BIEN',3),[ ctlname('Textblockbus_rub') ]).
+lit_i(19,1,t('Cbus_rub',23),[ ctlname('&Cbus_rub'),ctrltype(edit,19),pos(19),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(22,1,t('NUMERO DE CODIGO DEL BIEN',3),[ ctlname('Textblockbus_cod') ]).
+lit_i(24,1,t('Cbus_cod',23),[ ctlname('&Cbus_cod'),ctrltype(edit,24),pos(24),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(27,1,t('NUMERO DE PARTIDA DEL BIEN',3),[ ctlname('Textblockbus_par') ]).
+lit_i(29,1,t('Cbus_par',23),[ ctlname('&Cbus_par'),ctrltype(edit,29),pos(29),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(32,1,t('DESCRIPCION DEL BIEN',3),[ ctlname('Textblockbus_des') ]).
+lit_i(34,1,t('Cbus_des',23),[ ctlname('&Cbus_des'),ctrltype(edit,34),pos(34),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(37,1,t('FECHA DE ALTA DEL BIEN',3),[ ctlname('Textblockbus_fal') ]).
+lit_i(39,1,t('Cbus_fal',23),[ ctlname('&Cbus_fal'),ctrltype(edit,39),pos(39),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(42,1,t('FECHA DE ADQUISICION DEL BIEN',3),[ ctlname('Textblockbus_fad') ]).
+lit_i(44,1,t('Cbus_fad',23),[ ctlname('&Cbus_fad'),ctrltype(edit,44),pos(44),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(9,1,table(9),[ ctlname('Table3') ]).
+lit_i(8,1,group(8),[ ctlname('Group1') ]).
+lit_i(50,1,s(t(8,2),49),[ ctlname(8),ctrltype(edit,50),pos(50),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(51,1,s(t(1,2),49),[ ctlname(1),ctrltype(edit,51),pos(51),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(52,1,s(t(61,2),49),[ ctlname(61),ctrltype(edit,52),pos(52),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(53,1,s(t(3,2),49),[ ctlname(3),ctrltype(edit,53),pos(53),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(54,1,s(t(4,2),49),[ ctlname(4),ctrltype(edit,54),pos(54),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(55,1,s(t(54,2),49),[ ctlname(54),ctrltype(edit,55),pos(55),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(56,1,s(t(170,2),49),[ ctlname(170),ctrltype(edit,56),pos(56),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(57,1,s(t(55,2),49),[ ctlname(55),ctrltype(edit,57),pos(57),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(58,1,s(t(59,2),49),[ ctlname(59),ctrltype(edit,58),pos(58),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(59,1,s(t(174,2),49),[ ctlname(174),ctrltype(edit,59),pos(59),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(60,1,s(t(178,2),49),[ ctlname(178),ctrltype(edit,60),pos(60),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(49,1,s(49),[ ctlname('Grid1'),el([ t(8,2),t(1,2),t(61,2),t(3,2),t(4,2),t(54,2),t(170,2),t(55,2),t(59,2),t(174,2),t(178,2) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,8,'ExternalName','BUS_EMP',d).
+att_prop_i(2,8,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'FullName','BUS_EMP',v).
+att_prop_i(2,1,'ExternalName','BUS_RUB',d).
+att_prop_i(2,1,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,'AUTONUMBER','0',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'FullName','BUS_RUB',v).
+att_prop_i(2,61,'ExternalName','BUS_RUD',d).
+att_prop_i(2,61,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,61,'EmptyAsNull','Yes',d).
+att_prop_i(2,61,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,61,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,61,'AttRegEx','',d).
+att_prop_i(2,61,'AttValidationFailedMsg','',d).
+att_prop_i(2,61,'FullName','BUS_RUD',v).
+att_prop_i(2,3,'ExternalName','BUS_COD',d).
+att_prop_i(2,3,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,3,'EmptyAsNull','Yes',d).
+att_prop_i(2,3,'AUTONUMBER','0',d).
+att_prop_i(2,3,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,3,'AttRegEx','',d).
+att_prop_i(2,3,'AttValidationFailedMsg','',d).
+att_prop_i(2,3,'FullName','BUS_COD',v).
+att_prop_i(2,4,'ExternalName','BUS_PAR',d).
+att_prop_i(2,4,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,'AUTONUMBER','0',d).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'FullName','BUS_PAR',v).
+att_prop_i(2,54,'ExternalName','BUS_DES',d).
+att_prop_i(2,54,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,54,'EmptyAsNull','Yes',d).
+att_prop_i(2,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,54,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,54,'AttRegEx','',d).
+att_prop_i(2,54,'AttValidationFailedMsg','',d).
+att_prop_i(2,54,'FullName','BUS_DES',v).
+att_prop_i(2,170,'ExternalName','BUS_FAL',d).
+att_prop_i(2,170,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,170,'EmptyAsNull','Yes',d).
+att_prop_i(2,170,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,170,'AttRegEx','',d).
+att_prop_i(2,170,'AttValidationFailedMsg','',d).
+att_prop_i(2,170,'FullName','BUS_FAL',v).
+att_prop_i(2,55,'ExternalName','BUS_FAD',d).
+att_prop_i(2,55,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,55,'EmptyAsNull','Yes',d).
+att_prop_i(2,55,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,55,'AttRegEx','',d).
+att_prop_i(2,55,'AttValidationFailedMsg','',d).
+att_prop_i(2,55,'FullName','BUS_FAD',v).
+att_prop_i(2,59,'ExternalName','BUS_TID',d).
+att_prop_i(2,59,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,59,'EmptyAsNull','Yes',v).
+att_prop_i(2,59,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,59,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,59,'AttRegEx','',d).
+att_prop_i(2,59,'AttValidationFailedMsg','',d).
+att_prop_i(2,59,'FullName','BUS_TID',v).
+att_prop_i(2,174,'ExternalName','BUS_FBA',d).
+att_prop_i(2,174,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,174,'EmptyAsNull','Yes',d).
+att_prop_i(2,174,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,174,'AttRegEx','',d).
+att_prop_i(2,174,'AttValidationFailedMsg','',d).
+att_prop_i(2,174,'FullName','BUS_FBA',v).
+att_prop_i(2,178,'ExternalName','BUS_AMO',d).
+att_prop_i(2,178,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,178,'EmptyAsNull','Yes',d).
+att_prop_i(2,178,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,178,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,178,'AttRegEx','',d).
+att_prop_i(2,178,'AttValidationFailedMsg','',d).
+att_prop_i(2,178,'FullName','BUS_AMO',v).
+att_prop_i(2,103,'ExternalName','BUS_IDT',d).
+att_prop_i(2,103,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,103,'EmptyAsNull','Yes',d).
+att_prop_i(2,103,'AUTONUMBER','0',d).
+att_prop_i(2,103,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,103,'AttRegEx','',d).
+att_prop_i(2,103,'AttValidationFailedMsg','',d).
+att_prop_i(2,103,'FullName','BUS_IDT',v).
+att_prop_i(2,2,'ExternalName','RBR_COD',d).
+att_prop_i(2,2,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,2,'EmptyAsNull','Yes',d).
+att_prop_i(2,2,'AUTONUMBER','0',d).
+att_prop_i(2,2,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,2,'AttRegEx','',d).
+att_prop_i(2,2,'AttValidationFailedMsg','',d).
+att_prop_i(2,2,'FullName','RBR_COD',v).
+ 
+tbl_prop_i(2,24,'AllDirSuper',[ [ 551,[ 1 ] ] ],v).
+tbl_prop_i(2,37,'DirSubor',[ [ 24,[ 1 ] ] ],v).
+tbl_prop_i(2,551,'DirSubor',[ [ 24,[ 1 ] ] ],v).
+tbl_prop_i(2,24,'DirSuper',[ [ 551,[ 1 ] ] ],v).
+ 
+tbl_att_prop_i(2,24,8,'AllowNulls',n).
+tbl_att_prop_i(2,24,1,'AllowNulls',n).
+tbl_att_prop_i(2,24,3,'AllowNulls',n).
+tbl_att_prop_i(2,24,4,'AllowNulls',n).
+tbl_att_prop_i(2,24,178,'AllowNulls',n).
+tbl_att_prop_i(2,24,54,'AllowNulls',n).
+tbl_att_prop_i(2,24,170,'AllowNulls',n).
+tbl_att_prop_i(2,24,55,'AllowNulls',n).
+tbl_att_prop_i(2,24,59,'AllowNulls',n).
+tbl_att_prop_i(2,24,174,'AllowNulls',n).
+tbl_att_prop_i(2,24,103,'AllowNulls',n).
+tbl_att_prop_i(2,551,1,'AllowNulls',n).
+ 
+ 
+ 
+ 
+a_alias_i(1,'BUS_RUB').
+a_alias_i(61,'BUS_RUD').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

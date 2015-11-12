@@ -1,0 +1,16 @@
+current_obj_i(2,proc,52).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbus020_,[],[],[],52).
+ 
+ 
+obj_parms_i([ 'int aP0_TTBUS_Id','String aP1_TTBUS_Descripcion','String aP2_TTBUS20_Mensaje','String aP3_TTBUS20_MotivoEnvio','String aP4_TTBUS20_Observaciones','String aP5_USUARIO','DateTime aP6_TTBUS20_PlazoRecepcion' ],[ [ 'Ttbus_id',inout ],[ 'Ttbus_descripcion',inout ],[ 'Ttbus20_mensaje',inout ],[ 'Ttbus20_motivoenvio',inout ],[ 'Ttbus20_observaciones',inout ],[ 'Usuario',inout ],[ 'Ttbus20_plazorecepcion',inout ] ]).
+ 
+ 
+ 
+ 

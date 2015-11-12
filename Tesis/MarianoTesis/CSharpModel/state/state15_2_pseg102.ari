@@ -1,0 +1,17 @@
+current_obj_i(2,proc,99).
+ 
+called_tree_i(1,99,13,196).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pseg102,[],[],[],99).
+ 
+ 
+obj_parms_i([ 'String aP0_USUARIO' ],[ [ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

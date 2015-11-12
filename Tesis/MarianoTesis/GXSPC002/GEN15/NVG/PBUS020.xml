@@ -1,0 +1,37 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>77</ObjId>
+<ObjName>PBUS020</ObjName>
+<ObjDesc>Guardo último registro de bienes de uso cargado</ObjDesc>
+<ObjPgmName>PBUS020</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'BUS_AUX_ID' attribute is not in a table (Source, Line: 2, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_AUX_RUB' attribute is not in a table (Source, Line: 3, Char: 13)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_AUX_RUB' attribute is not in a table (Source, Line: 9, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_AUX_DES' attribute is not in a table (Source, Line: 10, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_AUX_FAL' attribute is not in a table (Source, Line: 11, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_AUX_FAD' attribute is not in a table (Source, Line: 12, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_AUX_NCO' attribute is not in a table (Source, Line: 13, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_AUX_COM' attribute is not in a table (Source, Line: 14, Char: 2)</Token></Message></Error></Errors></ObjectSpec>

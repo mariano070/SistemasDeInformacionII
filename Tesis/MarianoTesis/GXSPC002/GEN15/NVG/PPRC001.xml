@@ -1,0 +1,28 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>PPRC001</ObjName>
+<ObjDesc>EJECUTA UN PROCESO DE LA COLA BATCH</ObjDesc>
+<ObjPgmName>PPRC001</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'PRC_NRO' attribute is not in a table (Rules, Line: 1, Char: 6)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_NRO' attribute is not in a table (Source, Line: 1, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_INV' attribute is not in a table (Source, Line: 3, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_EST' attribute is not in a table (Source, Line: 6, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_INI' attribute is not in a table (Source, Line: 8, Char: 9)</Token></Message></Error></Errors></ObjectSpec>

@@ -1,0 +1,18 @@
+current_obj_i(2,trn,44).
+ 
+called_tree_i(0,44,13,1).
+called_tree_i(0,44,13,198).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tm124fprov,[],[],[],44).
+ 
+ 
+obj_parms_i([ 'int aP0_PV_NPRO','String aP1_Gx_mode','String aP2_SISTEMA','String aP3_USUARIO' ],[ [ 'Pv_npro',inout ],[ 'Mode',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

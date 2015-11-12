@@ -1,0 +1,372 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>97</ObjId>
+<ObjName>PTBUSSEG4</ObjName>
+<ObjDesc>ALTA EN TTBUS007PERMISOS</ObjDesc>
+<ObjPgmName>PTBUSSEG4</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usu_cod</VarId>
+<VarName>&amp;USU_COD</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus7_respaux</VarId>
+<VarName>&amp;TTBUS7_RESPAUX</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Permiso</VarId>
+<VarName>&amp;Permiso</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Modo</VarId>
+<VarName>&amp;Modo</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>6</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>TTBUS7_RespAux</AttriName>
+<Description>Responsable Auxiliar</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>14</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS007PERMISOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usu_cod</VarId>
+<VarName>&amp;USU_COD</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usu_cod</VarId>
+<VarName>&amp;USU_COD</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>22</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>TTBUS7_RespAux</AttriName>
+<Description>Responsable Auxiliar</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>5</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Delete</Type></Optimization></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>31</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS007PERMISOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usu_cod</VarId>
+<VarName>&amp;USU_COD</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usu_cod</VarId>
+<VarName>&amp;USU_COD</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

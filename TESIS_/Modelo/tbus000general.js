@@ -1,0 +1,386 @@
+/*
+               File: TBUS000General
+        Description: TBUS000 General
+             Author: GeneXus C# Generator version 10_1_5-42940
+       Generated on: 1/6/2014 11:8:2.48
+       Program type: Callable routine
+          Main DBMS: sqlserver
+*/
+gx.evt.autoSkip = false;
+function tbus000general(CmpContext) {
+   this.ServerClass =  "TBUS000General" ;
+   this.PackageName =  "GeneXus.Programs" ;
+   this.setObjectType("web");
+   this.setCmpContext(CmpContext);
+   this.ReadonlyForm = true;
+   this.hasEnterEvent = false;
+   this.autoRefresh = true;
+   this.SetStandaloneVars=function()
+   {
+   };
+   this.Valid_Bus_emp=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_EMP");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_rub=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_RUB");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_cod=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_COD");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_par=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_PAR");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_vua=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_VUA");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_vut=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_VUT");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_voa=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_VOA");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_aaa=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_AAA");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_aea=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_AEA");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_voh=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_VOH");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_aah=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_AAH");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.Valid_Bus_aeh=function()
+   {
+      try {
+         var gxballoon = gx.util.balloon.getNew("BUS_AEH");
+         this.AnyError  = 0;
+
+      }
+      catch(e){}
+      try {
+         if (gxballoon == null) return true; return gxballoon.show();
+      }
+      catch(e){}
+      return true ;
+   }
+   this.e132d2_client=function()
+   {
+      this.executeServerEvent("'DOUPDATE'", false);
+   };
+   this.e142d2_client=function()
+   {
+      this.executeServerEvent("'DODELETE'", false);
+   };
+   this.e152d2_client=function()
+   {
+      this.executeServerEvent("ENTER", true);
+   };
+   this.e162d2_client=function()
+   {
+      this.executeServerEvent("CANCEL", true);
+   };
+   this.GXValidFnc = [];
+   this.GXCtrlIds=[2,7,12,17,22,27,32,37,42,47,52,57,62,67,72,77,82,87,92,97,102,107,112,117,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134];
+   this.GXLastCtrlId =134;
+   this.GXValidFnc[2]={fld:"TBL2",grid:0};
+   this.GXValidFnc[5]={fld:"TEXTBLOCKBUS_EMP", format:0,grid:0};
+   this.GXValidFnc[7]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_emp,isvalid:null,fld:"BUS_EMP",gxz:"Z8BUS_EMP",gxold:"O8BUS_EMP",gxvar:"A8BUS_EMP",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A8BUS_EMP=Value},v2z:function(Value){gx.O.Z8BUS_EMP=Value},v2c:function(){gx.fn.setControlValue("BUS_EMP",gx.O.A8BUS_EMP,0)},c2v:function(){gx.O.A8BUS_EMP=this.val()},val:function(){return gx.fn.getControlValue("BUS_EMP")},nac:function(){return  false }};
+   this.GXValidFnc[10]={fld:"TEXTBLOCKBUS_RUB", format:0,grid:0};
+   this.GXValidFnc[12]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_rub,isvalid:null,rgrid:[],fld:"BUS_RUB",gxz:"Z1BUS_RUB",gxold:"O1BUS_RUB",gxvar:"A1BUS_RUB",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A1BUS_RUB=gx.num.intval(Value)},v2z:function(Value){gx.O.Z1BUS_RUB=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_RUB",gx.O.A1BUS_RUB,0)},c2v:function(){gx.O.A1BUS_RUB=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_RUB",'.')},nac:function(){return  false }};
+   this.GXValidFnc[15]={fld:"TEXTBLOCKBUS_COD", format:0,grid:0};
+   this.GXValidFnc[17]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_cod,isvalid:null,rgrid:[],fld:"BUS_COD",gxz:"Z3BUS_COD",gxold:"O3BUS_COD",gxvar:"A3BUS_COD",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A3BUS_COD=gx.num.intval(Value)},v2z:function(Value){gx.O.Z3BUS_COD=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_COD",gx.O.A3BUS_COD,0)},c2v:function(){gx.O.A3BUS_COD=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_COD",'.')},nac:function(){return  false }};
+   this.GXValidFnc[20]={fld:"TEXTBLOCKBUS_PAR", format:0,grid:0};
+   this.GXValidFnc[22]={lvl:0,type:"int",len:2,dec:0,sign:false,pic:"Z9",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_par,isvalid:null,rgrid:[],fld:"BUS_PAR",gxz:"Z4BUS_PAR",gxold:"O4BUS_PAR",gxvar:"A4BUS_PAR",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A4BUS_PAR=gx.num.intval(Value)},v2z:function(Value){gx.O.Z4BUS_PAR=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_PAR",gx.O.A4BUS_PAR,0)},c2v:function(){gx.O.A4BUS_PAR=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_PAR",'.')},nac:function(){return  false }};
+   this.GXValidFnc[25]={fld:"TEXTBLOCKBUS_DES", format:0,grid:0};
+   this.GXValidFnc[27]={lvl:0,type:"char",len:50,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_DES",gxz:"Z54BUS_DES",gxold:"O54BUS_DES",gxvar:"A54BUS_DES",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A54BUS_DES=Value},v2z:function(Value){gx.O.Z54BUS_DES=Value},v2c:function(){gx.fn.setControlValue("BUS_DES",gx.O.A54BUS_DES,0)},c2v:function(){gx.O.A54BUS_DES=this.val()},val:function(){return gx.fn.getControlValue("BUS_DES")},nac:function(){return  false }};
+   this.GXValidFnc[30]={fld:"TEXTBLOCKBUS_FAL", format:0,grid:0};
+   this.GXValidFnc[32]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_FAL",gxz:"Z170BUS_FAL",gxold:"O170BUS_FAL",gxvar:"A170BUS_FAL",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A170BUS_FAL=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z170BUS_FAL=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("BUS_FAL",gx.O.A170BUS_FAL,0)},c2v:function(){gx.O.A170BUS_FAL=this.val()},val:function(){return gx.fn.getControlValue("BUS_FAL")},nac:function(){return  false }};
+   this.GXValidFnc[35]={fld:"TEXTBLOCKBUS_FAD", format:0,grid:0};
+   this.GXValidFnc[37]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_FAD",gxz:"Z55BUS_FAD",gxold:"O55BUS_FAD",gxvar:"A55BUS_FAD",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A55BUS_FAD=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z55BUS_FAD=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("BUS_FAD",gx.O.A55BUS_FAD,0)},c2v:function(){gx.O.A55BUS_FAD=this.val()},val:function(){return gx.fn.getControlValue("BUS_FAD")},nac:function(){return  false }};
+   this.GXValidFnc[40]={fld:"TEXTBLOCKBUS_VUA", format:0,grid:0};
+   this.GXValidFnc[42]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_vua,isvalid:null,rgrid:[],fld:"BUS_VUA",gxz:"Z329BUS_VUA",gxold:"O329BUS_VUA",gxvar:"A329BUS_VUA",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A329BUS_VUA=gx.num.intval(Value)},v2z:function(Value){gx.O.Z329BUS_VUA=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_VUA",gx.O.A329BUS_VUA,0)},c2v:function(){gx.O.A329BUS_VUA=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_VUA",'.')},nac:function(){return  false }};
+   this.GXValidFnc[45]={fld:"TEXTBLOCKBUS_VAO", format:0,grid:0};
+   this.GXValidFnc[47]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_VAO",gxz:"Z330BUS_VAO",gxold:"O330BUS_VAO",gxvar:"A330BUS_VAO",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A330BUS_VAO=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z330BUS_VAO=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_VAO",gx.O.A330BUS_VAO,7,',')},c2v:function(){gx.O.A330BUS_VAO=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_VAO",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[50]={fld:"TEXTBLOCKBUS_COM", format:0,grid:0};
+   this.GXValidFnc[52]={lvl:0,type:"char",len:2,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_COM",gxz:"Z331BUS_COM",gxold:"O331BUS_COM",gxvar:"A331BUS_COM",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A331BUS_COM=Value},v2z:function(Value){gx.O.Z331BUS_COM=Value},v2c:function(){gx.fn.setControlValue("BUS_COM",gx.O.A331BUS_COM,0)},c2v:function(){gx.O.A331BUS_COM=this.val()},val:function(){return gx.fn.getControlValue("BUS_COM")},nac:function(){return  false }};
+   this.GXValidFnc[55]={fld:"TEXTBLOCKBUS_CBD", format:0,grid:0};
+   this.GXValidFnc[57]={lvl:0,type:"char",len:20,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_CBD",gxz:"Z350BUS_CBD",gxold:"O350BUS_CBD",gxvar:"A350BUS_CBD",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A350BUS_CBD=Value},v2z:function(Value){gx.O.Z350BUS_CBD=Value},v2c:function(){gx.fn.setControlValue("BUS_CBD",gx.O.A350BUS_CBD,0)},c2v:function(){gx.O.A350BUS_CBD=this.val()},val:function(){return gx.fn.getControlValue("BUS_CBD")},nac:function(){return  false }};
+   this.GXValidFnc[60]={fld:"TEXTBLOCKBUS_NCO", format:0,grid:0};
+   this.GXValidFnc[62]={lvl:0,type:"char",len:12,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_NCO",gxz:"Z333BUS_NCO",gxold:"O333BUS_NCO",gxvar:"A333BUS_NCO",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A333BUS_NCO=Value},v2z:function(Value){gx.O.Z333BUS_NCO=Value},v2c:function(){gx.fn.setControlValue("BUS_NCO",gx.O.A333BUS_NCO,0)},c2v:function(){gx.O.A333BUS_NCO=this.val()},val:function(){return gx.fn.getControlValue("BUS_NCO")},nac:function(){return  false }};
+   this.GXValidFnc[65]={fld:"TEXTBLOCKBUS_ARE", format:0,grid:0};
+   this.GXValidFnc[67]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_ARE",gxz:"Z171BUS_ARE",gxold:"O171BUS_ARE",gxvar:"A171BUS_ARE",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A171BUS_ARE=gx.num.intval(Value)},v2z:function(Value){gx.O.Z171BUS_ARE=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_ARE",gx.O.A171BUS_ARE,0)},c2v:function(){gx.O.A171BUS_ARE=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_ARE",'.')},nac:function(){return  false }};
+   this.GXValidFnc[70]={fld:"TEXTBLOCKBUS_ARD", format:0,grid:0};
+   this.GXValidFnc[72]={lvl:0,type:"char",len:30,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_ARD",gxz:"Z175BUS_ARD",gxold:"O175BUS_ARD",gxvar:"A175BUS_ARD",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A175BUS_ARD=Value},v2z:function(Value){gx.O.Z175BUS_ARD=Value},v2c:function(){gx.fn.setControlValue("BUS_ARD",gx.O.A175BUS_ARD,0)},c2v:function(){gx.O.A175BUS_ARD=this.val()},val:function(){return gx.fn.getControlValue("BUS_ARD")},nac:function(){return  false }};
+   this.GXValidFnc[75]={fld:"TEXTBLOCKBUS_SEC", format:0,grid:0};
+   this.GXValidFnc[77]={lvl:0,type:"int",len:2,dec:0,sign:false,pic:"Z9",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_SEC",gxz:"Z172BUS_SEC",gxold:"O172BUS_SEC",gxvar:"A172BUS_SEC",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A172BUS_SEC=gx.num.intval(Value)},v2z:function(Value){gx.O.Z172BUS_SEC=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_SEC",gx.O.A172BUS_SEC,0)},c2v:function(){gx.O.A172BUS_SEC=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_SEC",'.')},nac:function(){return  false }};
+   this.GXValidFnc[80]={fld:"TEXTBLOCKBUS_SED", format:0,grid:0};
+   this.GXValidFnc[82]={lvl:0,type:"char",len:30,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_SED",gxz:"Z176BUS_SED",gxold:"O176BUS_SED",gxvar:"A176BUS_SED",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A176BUS_SED=Value},v2z:function(Value){gx.O.Z176BUS_SED=Value},v2c:function(){gx.fn.setControlValue("BUS_SED",gx.O.A176BUS_SED,0)},c2v:function(){gx.O.A176BUS_SED=this.val()},val:function(){return gx.fn.getControlValue("BUS_SED")},nac:function(){return  false }};
+   this.GXValidFnc[85]={fld:"TEXTBLOCKBUS_TIP", format:0,grid:0};
+   this.GXValidFnc[87]={lvl:0,type:"int",len:3,dec:0,sign:false,pic:"ZZ9",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_TIP",gxz:"Z56BUS_TIP",gxold:"O56BUS_TIP",gxvar:"A56BUS_TIP",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A56BUS_TIP=gx.num.intval(Value)},v2z:function(Value){gx.O.Z56BUS_TIP=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_TIP",gx.O.A56BUS_TIP,0)},c2v:function(){gx.O.A56BUS_TIP=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_TIP",'.')},nac:function(){return  false }};
+   this.GXValidFnc[90]={fld:"TEXTBLOCKBUS_TID", format:0,grid:0};
+   this.GXValidFnc[92]={lvl:0,type:"char",len:20,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_TID",gxz:"Z59BUS_TID",gxold:"O59BUS_TID",gxvar:"A59BUS_TID",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A59BUS_TID=Value},v2z:function(Value){gx.O.Z59BUS_TID=Value},v2c:function(){gx.fn.setControlValue("BUS_TID",gx.O.A59BUS_TID,0)},c2v:function(){gx.O.A59BUS_TID=this.val()},val:function(){return gx.fn.getControlValue("BUS_TID")},nac:function(){return  false }};
+   this.GXValidFnc[95]={fld:"TEXTBLOCKBUS_FBA", format:0,grid:0};
+   this.GXValidFnc[97]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_FBA",gxz:"Z174BUS_FBA",gxold:"O174BUS_FBA",gxvar:"A174BUS_FBA",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A174BUS_FBA=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z174BUS_FBA=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("BUS_FBA",gx.O.A174BUS_FBA,0)},c2v:function(){gx.O.A174BUS_FBA=this.val()},val:function(){return gx.fn.getControlValue("BUS_FBA")},nac:function(){return  false }};
+   this.GXValidFnc[100]={fld:"TEXTBLOCKBUS_MBA", format:0,grid:0};
+   this.GXValidFnc[102]={lvl:0,type:"char",len:30,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_MBA",gxz:"Z334BUS_MBA",gxold:"O334BUS_MBA",gxvar:"A334BUS_MBA",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A334BUS_MBA=Value},v2z:function(Value){gx.O.Z334BUS_MBA=Value},v2c:function(){gx.fn.setControlValue("BUS_MBA",gx.O.A334BUS_MBA,0)},c2v:function(){gx.O.A334BUS_MBA=this.val()},val:function(){return gx.fn.getControlValue("BUS_MBA")},nac:function(){return  false }};
+   this.GXValidFnc[105]={fld:"TEXTBLOCKBUS_RUD", format:0,grid:0};
+   this.GXValidFnc[107]={lvl:0,type:"char",len:30,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_RUD",gxz:"Z61BUS_RUD",gxold:"O61BUS_RUD",gxvar:"A61BUS_RUD",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A61BUS_RUD=Value},v2z:function(Value){gx.O.Z61BUS_RUD=Value},v2c:function(){gx.fn.setControlValue("BUS_RUD",gx.O.A61BUS_RUD,0)},c2v:function(){gx.O.A61BUS_RUD=this.val()},val:function(){return gx.fn.getControlValue("BUS_RUD")},nac:function(){return  false }};
+   this.GXValidFnc[110]={fld:"TEXTBLOCKBUS_AMO", format:0,grid:0};
+   this.GXValidFnc[112]={lvl:0,type:"char",len:1,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_AMO",gxz:"Z178BUS_AMO",gxold:"O178BUS_AMO",gxvar:"A178BUS_AMO",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A178BUS_AMO=Value},v2z:function(Value){gx.O.Z178BUS_AMO=Value},v2c:function(){gx.fn.setControlValue("BUS_AMO",gx.O.A178BUS_AMO,0)},c2v:function(){gx.O.A178BUS_AMO=this.val()},val:function(){return gx.fn.getControlValue("BUS_AMO")},nac:function(){return  false }};
+   this.GXValidFnc[115]={fld:"TEXTBLOCKBUS_IDT", format:0,grid:0};
+   this.GXValidFnc[117]={lvl:0,type:"int",len:8,dec:0,sign:false,pic:"ZZZZZZZ9",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_IDT",gxz:"Z103BUS_IDT",gxold:"O103BUS_IDT",gxvar:"A103BUS_IDT",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A103BUS_IDT=gx.num.intval(Value)},v2z:function(Value){gx.O.Z103BUS_IDT=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_IDT",gx.O.A103BUS_IDT,0)},c2v:function(){gx.O.A103BUS_IDT=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_IDT",'.')},nac:function(){return  false }};
+   this.GXValidFnc[120]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_FPR",gxz:"Z340BUS_FPR",gxold:"O340BUS_FPR",gxvar:"A340BUS_FPR",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A340BUS_FPR=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z340BUS_FPR=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("BUS_FPR",gx.O.A340BUS_FPR,0)},c2v:function(){gx.O.A340BUS_FPR=this.val()},val:function(){return gx.fn.getControlValue("BUS_FPR")},nac:function(){return  false }};
+   this.GXValidFnc[121]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_vut,isvalid:null,rgrid:[],fld:"BUS_VUT",gxz:"Z335BUS_VUT",gxold:"O335BUS_VUT",gxvar:"A335BUS_VUT",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A335BUS_VUT=gx.num.intval(Value)},v2z:function(Value){gx.O.Z335BUS_VUT=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_VUT",gx.O.A335BUS_VUT,0)},c2v:function(){gx.O.A335BUS_VUT=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_VUT",'.')},nac:function(){return  false }};
+   this.GXValidFnc[122]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_COE",gxz:"Z336BUS_COE",gxold:"O336BUS_COE",gxvar:"A336BUS_COE",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A336BUS_COE=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z336BUS_COE=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_COE",gx.O.A336BUS_COE,7,',')},c2v:function(){gx.O.A336BUS_COE=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_COE",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[123]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_VOC",gxz:"Z341BUS_VOC",gxold:"O341BUS_VOC",gxvar:"A341BUS_VOC",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A341BUS_VOC=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z341BUS_VOC=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_VOC",gx.O.A341BUS_VOC,7,',')},c2v:function(){gx.O.A341BUS_VOC=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_VOC",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[124]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_voa,isvalid:null,rgrid:[],fld:"BUS_VOA",gxz:"Z337BUS_VOA",gxold:"O337BUS_VOA",gxvar:"A337BUS_VOA",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A337BUS_VOA=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z337BUS_VOA=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_VOA",gx.O.A337BUS_VOA,7,',')},c2v:function(){gx.O.A337BUS_VOA=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_VOA",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[125]={lvl:0,type:"decimal",len:10,dec:2,sign:false,pic:"ZZZZZZ9.99",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_aaa,isvalid:null,rgrid:[],fld:"BUS_AAA",gxz:"Z338BUS_AAA",gxold:"O338BUS_AAA",gxvar:"A338BUS_AAA",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A338BUS_AAA=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z338BUS_AAA=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_AAA",gx.O.A338BUS_AAA,2,',')},c2v:function(){gx.O.A338BUS_AAA=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_AAA",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[126]={lvl:0,type:"decimal",len:10,dec:2,sign:false,pic:"ZZZZZZ9.99",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_aea,isvalid:null,rgrid:[],fld:"BUS_AEA",gxz:"Z339BUS_AEA",gxold:"O339BUS_AEA",gxvar:"A339BUS_AEA",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A339BUS_AEA=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z339BUS_AEA=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_AEA",gx.O.A339BUS_AEA,2,',')},c2v:function(){gx.O.A339BUS_AEA=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_AEA",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[127]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_VAH",gxz:"Z342BUS_VAH",gxold:"O342BUS_VAH",gxvar:"A342BUS_VAH",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A342BUS_VAH=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z342BUS_VAH=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_VAH",gx.O.A342BUS_VAH,7,',')},c2v:function(){gx.O.A342BUS_VAH=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_VAH",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[128]={lvl:0,type:"date",len:10,dec:0,sign:false,ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,fld:"BUS_VHF",gxz:"Z343BUS_VHF",gxold:"O343BUS_VHF",gxvar:"A343BUS_VHF",dp:{f:0,st:false,wn:false,mf:false,pic:"99/99/9999",dec:0},ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A343BUS_VHF=gx.fn.toDatetimeValue(Value)},v2z:function(Value){gx.O.Z343BUS_VHF=gx.fn.toDatetimeValue(Value)},v2c:function(){gx.fn.setControlValue("BUS_VHF",gx.O.A343BUS_VHF,0)},c2v:function(){gx.O.A343BUS_VHF=this.val()},val:function(){return gx.fn.getControlValue("BUS_VHF")},nac:function(){return  false }};
+   this.GXValidFnc[129]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_voh,isvalid:null,rgrid:[],fld:"BUS_VOH",gxz:"Z344BUS_VOH",gxold:"O344BUS_VOH",gxvar:"A344BUS_VOH",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A344BUS_VOH=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z344BUS_VOH=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_VOH",gx.O.A344BUS_VOH,7,',')},c2v:function(){gx.O.A344BUS_VOH=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_VOH",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[130]={lvl:0,type:"decimal",len:10,dec:2,sign:false,pic:"ZZZZZZ9.99",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_aah,isvalid:null,rgrid:[],fld:"BUS_AAH",gxz:"Z345BUS_AAH",gxold:"O345BUS_AAH",gxvar:"A345BUS_AAH",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A345BUS_AAH=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z345BUS_AAH=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_AAH",gx.O.A345BUS_AAH,2,',')},c2v:function(){gx.O.A345BUS_AAH=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_AAH",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[131]={lvl:0,type:"decimal",len:10,dec:2,sign:false,pic:"ZZZZZZ9.99",ro:1,grid:0,gxgrid:null,fnc:this.Valid_Bus_aeh,isvalid:null,rgrid:[],fld:"BUS_AEH",gxz:"Z346BUS_AEH",gxold:"O346BUS_AEH",gxvar:"A346BUS_AEH",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A346BUS_AEH=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z346BUS_AEH=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_AEH",gx.O.A346BUS_AEH,2,',')},c2v:function(){gx.O.A346BUS_AEH=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_AEH",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[132]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_VRA",gxz:"Z347BUS_VRA",gxold:"O347BUS_VRA",gxvar:"A347BUS_VRA",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A347BUS_VRA=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z347BUS_VRA=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_VRA",gx.O.A347BUS_VRA,7,',')},c2v:function(){gx.O.A347BUS_VRA=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_VRA",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[133]={lvl:0,type:"decimal",len:18,dec:7,sign:false,pic:"ZZZZZZZZZ9.9999999",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_VRH",gxz:"Z348BUS_VRH",gxold:"O348BUS_VRH",gxvar:"A348BUS_VRH",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A348BUS_VRH=gx.fn.toDecimalValue(Value,',','.')},v2z:function(Value){gx.O.Z348BUS_VRH=gx.fn.toDecimalValue(Value,'.',',')},v2c:function(){gx.fn.setDecimalValue("BUS_VRH",gx.O.A348BUS_VRH,7,',')},c2v:function(){gx.O.A348BUS_VRH=this.val()},val:function(){return gx.fn.getDecimalValue("BUS_VRH",'.',',')},nac:function(){return  false }};
+   this.GXValidFnc[134]={lvl:0,type:"int",len:4,dec:0,sign:false,pic:"ZZZ9",ro:1,grid:0,gxgrid:null,fnc:null,isvalid:null,rgrid:[],fld:"BUS_VUR",gxz:"Z349BUS_VUR",gxold:"O349BUS_VUR",gxvar:"A349BUS_VUR",ucs:[],op:[],ip:[],nacdep:[],ctrltype:"edit",v2v:function(Value){gx.O.A349BUS_VUR=gx.num.intval(Value)},v2z:function(Value){gx.O.Z349BUS_VUR=gx.num.intval(Value)},v2c:function(){gx.fn.setControlValue("BUS_VUR",gx.O.A349BUS_VUR,0)},c2v:function(){gx.O.A349BUS_VUR=this.val()},val:function(){return gx.fn.getIntegerValue("BUS_VUR",'.')},nac:function(){return  false }};
+   this.A8BUS_EMP = "" ;
+   this.Z8BUS_EMP = "" ;
+   this.O8BUS_EMP = "" ;
+   this.A1BUS_RUB = 0 ;
+   this.Z1BUS_RUB = 0 ;
+   this.O1BUS_RUB = 0 ;
+   this.A3BUS_COD = 0 ;
+   this.Z3BUS_COD = 0 ;
+   this.O3BUS_COD = 0 ;
+   this.A4BUS_PAR = 0 ;
+   this.Z4BUS_PAR = 0 ;
+   this.O4BUS_PAR = 0 ;
+   this.A54BUS_DES = "" ;
+   this.Z54BUS_DES = "" ;
+   this.O54BUS_DES = "" ;
+   this.A170BUS_FAL = gx.date.nullDate() ;
+   this.Z170BUS_FAL = gx.date.nullDate() ;
+   this.O170BUS_FAL = gx.date.nullDate() ;
+   this.A55BUS_FAD = gx.date.nullDate() ;
+   this.Z55BUS_FAD = gx.date.nullDate() ;
+   this.O55BUS_FAD = gx.date.nullDate() ;
+   this.A329BUS_VUA = 0 ;
+   this.Z329BUS_VUA = 0 ;
+   this.O329BUS_VUA = 0 ;
+   this.A330BUS_VAO = 0 ;
+   this.Z330BUS_VAO = 0 ;
+   this.O330BUS_VAO = 0 ;
+   this.A331BUS_COM = "" ;
+   this.Z331BUS_COM = "" ;
+   this.O331BUS_COM = "" ;
+   this.A350BUS_CBD = "" ;
+   this.Z350BUS_CBD = "" ;
+   this.O350BUS_CBD = "" ;
+   this.A333BUS_NCO = "" ;
+   this.Z333BUS_NCO = "" ;
+   this.O333BUS_NCO = "" ;
+   this.A171BUS_ARE = 0 ;
+   this.Z171BUS_ARE = 0 ;
+   this.O171BUS_ARE = 0 ;
+   this.A175BUS_ARD = "" ;
+   this.Z175BUS_ARD = "" ;
+   this.O175BUS_ARD = "" ;
+   this.A172BUS_SEC = 0 ;
+   this.Z172BUS_SEC = 0 ;
+   this.O172BUS_SEC = 0 ;
+   this.A176BUS_SED = "" ;
+   this.Z176BUS_SED = "" ;
+   this.O176BUS_SED = "" ;
+   this.A56BUS_TIP = 0 ;
+   this.Z56BUS_TIP = 0 ;
+   this.O56BUS_TIP = 0 ;
+   this.A59BUS_TID = "" ;
+   this.Z59BUS_TID = "" ;
+   this.O59BUS_TID = "" ;
+   this.A174BUS_FBA = gx.date.nullDate() ;
+   this.Z174BUS_FBA = gx.date.nullDate() ;
+   this.O174BUS_FBA = gx.date.nullDate() ;
+   this.A334BUS_MBA = "" ;
+   this.Z334BUS_MBA = "" ;
+   this.O334BUS_MBA = "" ;
+   this.A61BUS_RUD = "" ;
+   this.Z61BUS_RUD = "" ;
+   this.O61BUS_RUD = "" ;
+   this.A178BUS_AMO = "" ;
+   this.Z178BUS_AMO = "" ;
+   this.O178BUS_AMO = "" ;
+   this.A103BUS_IDT = 0 ;
+   this.Z103BUS_IDT = 0 ;
+   this.O103BUS_IDT = 0 ;
+   this.A340BUS_FPR = gx.date.nullDate() ;
+   this.Z340BUS_FPR = gx.date.nullDate() ;
+   this.O340BUS_FPR = gx.date.nullDate() ;
+   this.A335BUS_VUT = 0 ;
+   this.Z335BUS_VUT = 0 ;
+   this.O335BUS_VUT = 0 ;
+   this.A336BUS_COE = 0 ;
+   this.Z336BUS_COE = 0 ;
+   this.O336BUS_COE = 0 ;
+   this.A341BUS_VOC = 0 ;
+   this.Z341BUS_VOC = 0 ;
+   this.O341BUS_VOC = 0 ;
+   this.A337BUS_VOA = 0 ;
+   this.Z337BUS_VOA = 0 ;
+   this.O337BUS_VOA = 0 ;
+   this.A338BUS_AAA = 0 ;
+   this.Z338BUS_AAA = 0 ;
+   this.O338BUS_AAA = 0 ;
+   this.A339BUS_AEA = 0 ;
+   this.Z339BUS_AEA = 0 ;
+   this.O339BUS_AEA = 0 ;
+   this.A342BUS_VAH = 0 ;
+   this.Z342BUS_VAH = 0 ;
+   this.O342BUS_VAH = 0 ;
+   this.A343BUS_VHF = gx.date.nullDate() ;
+   this.Z343BUS_VHF = gx.date.nullDate() ;
+   this.O343BUS_VHF = gx.date.nullDate() ;
+   this.A344BUS_VOH = 0 ;
+   this.Z344BUS_VOH = 0 ;
+   this.O344BUS_VOH = 0 ;
+   this.A345BUS_AAH = 0 ;
+   this.Z345BUS_AAH = 0 ;
+   this.O345BUS_AAH = 0 ;
+   this.A346BUS_AEH = 0 ;
+   this.Z346BUS_AEH = 0 ;
+   this.O346BUS_AEH = 0 ;
+   this.A347BUS_VRA = 0 ;
+   this.Z347BUS_VRA = 0 ;
+   this.O347BUS_VRA = 0 ;
+   this.A348BUS_VRH = 0 ;
+   this.Z348BUS_VRH = 0 ;
+   this.O348BUS_VRH = 0 ;
+   this.A349BUS_VUR = 0 ;
+   this.Z349BUS_VUR = 0 ;
+   this.O349BUS_VUR = 0 ;
+   this.ServerEvents = ["e132d2_client" ,"e142d2_client" ,"e152d2_client" ,"e162d2_client"];
+   this.SetStandaloneVars( );
+}

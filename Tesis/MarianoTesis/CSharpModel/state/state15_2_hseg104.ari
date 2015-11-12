@@ -1,0 +1,20 @@
+current_obj_i(2,web,182).
+ 
+called_tree_i(13,182,1,85).
+called_tree_i(13,182,0,43).
+called_tree_i(13,182,13,1).
+called_tree_i(13,182,13,184).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(hseg104,[],[],[],182).
+ 
+ 
+obj_parms_i([ 'String aP0_USUCOD','String aP1_USUDES','short aP2_SISCOD','String aP3_SISDES','String aP4_SISTEMA','String aP5_USUARIO' ],[ [ 'Usucod',inout ],[ 'Usudes',inout ],[ 'Siscod',inout ],[ 'Sisdes',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

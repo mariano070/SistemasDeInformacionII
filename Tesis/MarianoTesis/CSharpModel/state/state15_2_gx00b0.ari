@@ -1,0 +1,17 @@
+current_obj_i(2,web,104).
+ 
+called_tree_i(13,104,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00b0,[],[],[],104).
+ 
+ 
+obj_parms_i([ 'int aP0_pTTBUS3_IdBien','int aP1_pTTBUS3_NroAsoc' ],[ [ 'Pttbus3_idbien',out ],[ 'Pttbus3_nroasoc',out ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,22 @@
+current_obj_i(2,trn,17).
+ 
+called_tree_i(0,17,1,2).
+called_tree_i(0,17,1,4).
+called_tree_i(0,17,13,1).
+called_tree_i(0,17,13,4).
+called_tree_i(0,17,13,30).
+called_tree_i(0,17,13,31).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gestores,[],[],[],17).
+ 
+ 
+obj_parms_i([ 'String aP0_Gx_mode','String aP1_GestorCod' ],[ [ 'Mode',in ],[ 'Gestorcod',in ] ]).
+ 
+ 
+ 
+ 

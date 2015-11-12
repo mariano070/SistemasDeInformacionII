@@ -1,0 +1,105 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>186</ObjId>
+<ObjName>HSEG005</ObjName>
+<ObjDesc>Consulta de Sistemas Usuario</ObjDesc>
+<ObjPgmName>HSEG005</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usucod</VarId>
+<VarName>&amp;USUCOD</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>'First'</EventName></Event>
+<Event>
+<EventName>'Previous'</EventName></Event>
+<Event>
+<EventName>'Next'</EventName></Event>
+<Event>
+<EventName>'Last'</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITSEG004</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>27</TableId>
+<TableName>SEG001</TableName>
+<Description>Maestro de Programas</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Suggests></Suggests></ObjectSpec>

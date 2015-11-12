@@ -1,0 +1,16 @@
+current_obj_i(2,proc,95).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbusseg2,[],[],[],95).
+ 
+ 
+obj_parms_i([ 'String aP0_USU_COD','short aP1_Administrador','String aP2_Modo' ],[ [ 'Usu_cod',inout ],[ 'Administrador',inout ],[ 'Modo',inout ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,92 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>171</ObjId>
+<ObjName>HTBUS_RUB</ObjName>
+<ObjDesc>Lista de Selección de Rubros</ObjDesc>
+<ObjPgmName>HTBUS_RUB</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Prbr_cod</VarId>
+<VarName>&amp;pRBR_COD</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>37</TableId>
+<TableName>BUS002</TableName>
+<Description>Maestro de Rubros</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>RBR_COD</AttriName>
+<Description>CODIGO DE RUBRO</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>RBRI01</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>RBR_COD</AttriName>
+<Description>CODIGO DE RUBRO</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Crbr_cod</VarId>
+<VarName>&amp;cRBR_COD</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>RBR_DES</AttriName>
+<Description>DESCRIPCION DEL RUBRO</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Crbr_des</VarId>
+<VarName>&amp;cRBR_DES</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>37</TableId>
+<TableName>BUS002</TableName>
+<Description>Maestro de Rubros</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>RBR_COD</AttriName>
+<Description>CODIGO DE RUBRO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

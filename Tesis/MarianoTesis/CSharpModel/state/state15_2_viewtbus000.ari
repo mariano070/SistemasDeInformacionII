@@ -1,0 +1,23 @@
+current_obj_i(2,web,84).
+ 
+called_tree_i(13,84,1,2).
+called_tree_i(13,84,1,4).
+called_tree_i(13,84,13,1).
+called_tree_i(13,84,13,4).
+called_tree_i(13,84,13,6).
+called_tree_i(13,84,13,84).
+called_tree_i(13,84,13,85).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(viewtbus000,[],[],[],84).
+ 
+ 
+obj_parms_i([ 'String aP0_BUS_EMP','short aP1_BUS_RUB','short aP2_BUS_COD','short aP3_BUS_PAR','String aP4_TabCode' ],[ [ 'Bus_emp',in ],[ 'Bus_rub',in ],[ 'Bus_cod',in ],[ 'Bus_par',in ],[ 'Tabcode',in ] ]).
+ 
+ 
+ 
+ 

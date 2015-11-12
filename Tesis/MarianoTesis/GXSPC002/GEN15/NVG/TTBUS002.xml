@@ -1,0 +1,298 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>TTBUS002</ObjName>
+<ObjDesc>Historial de Ubicaciones de Bienes de Uso</ObjDesc>
+<ObjPgmName>TTBUS002</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>5</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>TTBUS2_IdBien</AttriName>
+<Description>Id Bien</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TTBUS2_CodPosDesde</AttriName>
+<Description>Código Posición Desde</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>TTBUS2_RespDesde</AttriName>
+<Description>Responsable de envío</Description></Attribute>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>TTBUS2_FechaEnvio</AttriName>
+<Description>Fecha de envío</Description></Attribute>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TTBUS2_CodPosHacia</AttriName>
+<Description>Código Posición Hacia</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>TTBUS2_RespHacia</AttriName>
+<Description>Responsable de recepción</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>TTBUS2_FechaRecepcion</AttriName>
+<Description>Fecha de recepción</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>TTBUS2_EstadoEnvio</AttriName>
+<Description>Estado de envío</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TTBUS2_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TTBUS2_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>TTBUS2_PlazoRecepcion</AttriName>
+<Description>Plazo para recepción del bien</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>TTBUS2_IdBien</AttriName>
+<Description>Id Bien</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TTBUS2_CodPosDesde</AttriName>
+<Description>Código Posición Desde</Description></Attribute>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>TTBUS2_RespDesde</AttriName>
+<Description>Responsable de envío</Description></Attribute>
+<Attribute>
+<AttriId>45</AttriId>
+<AttriName>TTBUS2_FechaEnvio</AttriName>
+<Description>Fecha de envío</Description></Attribute>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TTBUS2_CodPosHacia</AttriName>
+<Description>Código Posición Hacia</Description></Attribute>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>TTBUS2_RespHacia</AttriName>
+<Description>Responsable de recepción</Description></Attribute>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>TTBUS2_FechaRecepcion</AttriName>
+<Description>Fecha de recepción</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>TTBUS2_EstadoEnvio</AttriName>
+<Description>Estado de envío</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TTBUS2_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TTBUS2_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>TTBUS2_PlazoRecepcion</AttriName>
+<Description>Plazo para recepción del bien</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de Movimientos de Bienes de Uso</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>102</ObjId>
+<ObjName>Gx0050</ObjName>
+<ObjPgmName>Gx0050</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests>
+<Suggest>
+<ControlName>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TTBUS2_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute></ControlName>
+<SuggestType>2</SuggestType>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TTBUS2_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions>
+<Condition>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TTBUS2_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>@TTBUS2_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token></Condition></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>TTBUS2_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></Suggest>
+<Suggest>
+<ControlName>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TTBUS2_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute></ControlName>
+<SuggestType>2</SuggestType>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TTBUS2_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions>
+<Condition>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TTBUS2_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>@TTBUS2_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token></Condition></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>87</AttriId>
+<AttriName>TTBUS2_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></Suggest></Suggests></ObjectSpec>

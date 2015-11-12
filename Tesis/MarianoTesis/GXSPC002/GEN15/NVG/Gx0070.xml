@@ -1,0 +1,81 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>98</ObjId>
+<ObjName>Gx0070</ObjName>
+<ObjDesc>Selection List Administración de Responsables Trazabilidad</ObjDesc>
+<ObjPgmName>Gx0070</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pttbus7_pos</VarId>
+<VarName>&amp;pTTBUS7_Pos</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS007</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus7_pos</VarId>
+<VarName>&amp;cTTBUS7_Pos</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

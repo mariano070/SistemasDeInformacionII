@@ -1,0 +1,40 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>PTTBUS000_2</ObjName>
+<ObjDesc>Chequeos de duplicidad de cod. de hardware y/o de bien de uso en cont.</ObjDesc>
+<ObjPgmName>PTTBUS000_2</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Source, Line: 5, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Source, Line: 16, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Source, Line: 17, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Source, Line: 18, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Source, Line: 19, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Source, Line: 21, Char: 104)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Source, Line: 21, Char: 140)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Source, Line: 21, Char: 187)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Source, Line: 21, Char: 229)</Token></Message></Error></Errors></ObjectSpec>

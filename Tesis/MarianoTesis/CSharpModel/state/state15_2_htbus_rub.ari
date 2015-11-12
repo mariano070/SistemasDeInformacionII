@@ -1,0 +1,17 @@
+current_obj_i(2,web,171).
+ 
+called_tree_i(13,171,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(htbus_rub,[],[],[],171).
+ 
+ 
+obj_parms_i([ 'short aP0_pRBR_COD' ],[ [ 'Prbr_cod',out ] ]).
+ 
+ 
+ 
+ 

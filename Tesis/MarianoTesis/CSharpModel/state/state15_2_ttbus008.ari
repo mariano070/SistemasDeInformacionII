@@ -1,0 +1,19 @@
+current_obj_i(2,trn,8).
+ 
+called_tree_i(0,8,13,1).
+called_tree_i(0,8,13,30).
+called_tree_i(0,8,13,101).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ttbus008,[],[],[],8).
+ 
+ 
+obj_parms_i([ 'String aP0_TTBUS8_CodUsuario','String aP1_Gx_mode','String aP2_SISTEMA','String aP3_USUARIO' ],[ [ 'Ttbus8_codusuario',inout ],[ 'Mode',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

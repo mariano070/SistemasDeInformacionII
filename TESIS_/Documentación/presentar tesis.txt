@@ -1,0 +1,21 @@
+mari
+descripcion del problema
+objetivos
+beneficios
+
+yo
+alcance
+tecnologia usada
+funciones (las 2 primeras)
+
+mari
+funciones (las 3 ultimas)
+
+yo
+digrama de procesadores
+
+video
+
+mari
+diagrama de procesos
+

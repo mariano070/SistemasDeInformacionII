@@ -1,0 +1,16 @@
+current_obj_i(2,web,78).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(hsi_habilitado,[],[],[],78).
+ 
+ 
+obj_parms_i([ 'String aP0_USUARIO' ],[ [ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

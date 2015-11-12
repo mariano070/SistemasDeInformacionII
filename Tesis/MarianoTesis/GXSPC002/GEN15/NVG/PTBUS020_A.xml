@@ -1,0 +1,109 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>101</ObjId>
+<ObjName>PTBUS020_A</ObjName>
+<ObjDesc>Busca Descripción de Responsable de Envío</ObjDesc>
+<ObjPgmName>PTBUS020_A</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ttbus7_pos</VarId>
+<VarName>&amp;TTBUS7_Pos</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Dsec_cre</VarId>
+<VarName>&amp;dSEC_CRE</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Sec_dre</VarId>
+<VarName>&amp;SEC_DRE</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>5</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS007</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus7_pos</VarId>
+<VarName>&amp;TTBUS7_Pos</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus7_pos</VarId>
+<VarName>&amp;TTBUS7_Pos</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

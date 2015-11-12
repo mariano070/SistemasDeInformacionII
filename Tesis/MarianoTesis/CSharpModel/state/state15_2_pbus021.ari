@@ -1,0 +1,16 @@
+current_obj_i(2,proc,76).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pbus021,[],[],[],76).
+ 
+ 
+obj_parms_i([ 'short aP0_BUS_RUB','String aP1_BUS_DES','DateTime aP2_BUS_FAL','DateTime aP3_BUS_FAD','String aP4_BUS_NCO','String aP5_BUS_COM' ],[ [ 'Bus_rub',out ],[ 'Bus_des',out ],[ 'Bus_fal',out ],[ 'Bus_fad',out ],[ 'Bus_nco',out ],[ 'Bus_com',out ] ]).
+ 
+ 
+ 
+ 

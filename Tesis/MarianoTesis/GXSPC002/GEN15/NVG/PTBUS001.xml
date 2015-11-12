@@ -1,0 +1,191 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>22</ObjId>
+<ObjName>PTBUS001</ObjName>
+<ObjDesc>Controla que el bien en movimiento está asociado al usuario</ObjDesc>
+<ObjPgmName>PTBUS001</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Ttbus_id</VarId>
+<VarName>&amp;TTBUS_Id</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Band</VarId>
+<VarName>&amp;band</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>5</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS002</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>TTBUS2_IdBien</AttriName>
+<Description>Id Bien</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus_id</VarId>
+<VarName>&amp;TTBUS_Id</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>TTBUS2_EstadoEnvio</AttriName>
+<Description>Estado de envío</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>1</Token></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>21</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de Movimientos de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS002_DET</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus2_idmovimiento</VarId>
+<VarName>&amp;TTBUS2_IdMovimiento</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus2_idmovimiento</VarId>
+<VarName>&amp;TTBUS2_IdMovimiento</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de Movimientos de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

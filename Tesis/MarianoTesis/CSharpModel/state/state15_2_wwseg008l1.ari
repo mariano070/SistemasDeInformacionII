@@ -1,0 +1,24 @@
+current_obj_i(2,web,113).
+ 
+called_tree_i(13,113,1,2).
+called_tree_i(13,113,1,4).
+called_tree_i(13,113,0,30).
+called_tree_i(13,113,13,1).
+called_tree_i(13,113,13,4).
+called_tree_i(13,113,13,142).
+called_tree_i(13,113,13,145).
+ 
+ 
+ij_main_object(wwseg008l1,'Work With INFO MENUES X','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(wwseg008l1,[],[],[],113).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,23 @@
+current_obj_i(2,trn,29).
+ 
+called_tree_i(0,29,1,2).
+called_tree_i(0,29,1,4).
+called_tree_i(0,29,13,1).
+called_tree_i(0,29,13,4).
+called_tree_i(0,29,13,112).
+called_tree_i(0,29,13,160).
+called_tree_i(0,29,13,162).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(seg008,[],[],[],29).
+ 
+ 
+obj_parms_i([ 'String aP0_Gx_mode','short aP1_PRG_COD','int aP2_MNU_NIV' ],[ [ 'Mode',in ],[ 'Prg_cod',in ],[ 'Mnu_niv',in ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,448 @@
+spec_i([ proc,77,'Guardo último registro de bienes de uso cargado','PBUS020',78,spa,'10_1_5-42940' ]).
+ 
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(3,[ 25,[ [ 25,many ] ],[],[],[ [ [ 25 ],[ 358,357,356,355,354,353,352 ] ] ],[ [ [ 25 ],[] ] ],[ 352 ],'ITBUS000_AUX',[],[] ]).
+level_i(2,[ 25,[ [ 25,many ] ],[],[],[ [ [ 25 ],[ 353,352 ] ] ],[ [ [ 25 ],[] ] ],[ 352 ],'ITBUS000_AUX',[],[] ]).
+ 
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(3,[ [ [ 25,358 ],[ 25,357 ],[ 25,356 ],[ 25,355 ],[ 25,354 ],[ 25,353 ],[ 25,352 ] ] ]).
+ta_i(2,[ [ [ 25,353 ],[ 25,352 ] ] ]).
+ 
+las_i(3,[ [ 358,357,356,355,354,353,352 ] ]).
+las_i(2,[ [ 353,352 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''SCR''')).
+ 
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'CC_USER_PASS','')).
+rule_i(0,datastore(3,'CC_USER_ID','')).
+rule_i(0,datastore(3,'CC_SERVER','')).
+rule_i(0,datastore(3,'CC_DBNAME','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD','')).
+rule_i(0,datastore(3,'USER_ID','')).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','')).
+rule_i(0,datastore(3,'CS_DBNAME','')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DESARROLLO')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','')).
+rule_i(0,datastore(2,'CC_USER_ID','')).
+rule_i(0,datastore(2,'CC_SERVER','')).
+rule_i(0,datastore(2,'CC_DBNAME','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','')).
+rule_i(0,datastore(2,'USER_ID','')).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','')).
+rule_i(0,datastore(2,'CS_DBNAME','')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME',soporte_notebook)).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Guardo último registro de bienes de uso cargado')).
+rule_i(0,prop('ObjName','PBUS020')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Bus_rub','Bus_des','Bus_fal','Bus_fad','Bus_nco','Bus_com' ],[])).
+rule_i(0,parmio([ [ 'Bus_rub',in ],[ 'Bus_des',in ],[ 'Bus_fal',in ],[ 'Bus_fad',in ],[ 'Bus_nco',in ],[ 'Bus_com',in ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,25,[],[ [],'ITBUS000_AUX',[] ]).
+a_i(3,3,t,25,[],[ [],'ITBUS000_AUX',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,353).
+v_i(t,o,2,352).
+v_i(t,i,3,[]).
+v_i(t,o,3,358).
+v_i(t,o,3,357).
+v_i(t,o,3,356).
+v_i(t,o,3,355).
+v_i(t,o,3,354).
+v_i(t,o,3,353).
+v_i(t,o,3,352).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',19 ]).
+attri_i(354,[ 'BUS_AUX_DES',char,50,0,'',0,'DESCRIPCIÓN DEL BIEN','',0 ]).
+attri_i(355,[ 'BUS_AUX_FAL',date,8,0,'99/99/9999',0,'FECHA DE ALTA DEL BIEN','',0 ]).
+attri_i(356,[ 'BUS_AUX_FAD',date,8,0,'99/99/9999',0,'FECHA DE ADQUISICIÓN DEL BIEN','',0 ]).
+attri_i(357,[ 'BUS_AUX_NCO',char,12,0,'',0,'NUMERO DEL COMP. DE COMPRA','',0 ]).
+attri_i(358,[ 'BUS_AUX_COM',char,2,0,'',0,'COMPROBANTE DE COMPRA','',0 ]).
+attri_i(353,[ 'BUS_AUX_RUB',int,4,0,'ZZZ9',0,'RUBRO DEL BIEN','',0 ]).
+attri_i(352,[ 'BUS_AUX_ID',int,4,0,'ZZZ9',0,'Id de auxiliar','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',17 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',16 ]).
+attri_i('Sesion',[ 'SESION',o(websession),8,0,'',0,'SESION','',15 ]).
+attri_i('Bus_fad',[ 'BUS_FAD',date,8,0,'99/99/9999',0,'BUS_ FAD','',14 ]).
+attri_i('Nro_lectura',[ nro_lectura,int,1,0,'9',0,'Nro de lectura de datos','',13 ]).
+attri_i('Bus_rub',[ 'BUS_RUB',int,4,0,'ZZZ9',0,'BUS_ RUB','',12 ]).
+attri_i('Bus_nco',[ 'BUS_NCO',char,12,0,'999999999999',0,'BUS_ NCO','',11 ]).
+attri_i('Bus_fal',[ 'BUS_FAL',date,8,0,'99/99/9999',0,'BUS_ FAL','',10 ]).
+attri_i('Bus_des',[ 'BUS_DES',char,50,0,'@!',0,'BUS_ DES','',9 ]).
+attri_i('Bus_com',[ 'BUS_COM',char,2,0,'@!',0,'BUS_ COM','',8 ]).
+ 
+table_i(25,[ 'TBUS000_AUX',[ 352,353,354,355,356,357,358 ],'Auxiliar de bienes de uso','TBUS000_AUX' ]).
+ 
+index_i(25,[ 'ITBUS000_AUX',u,[ 352 ],'ITBUS000_AUX' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,25,d,[ [],[],'ITBUS000_AUX',[] ]).
+upd_i(3,25,i,[ [ 353,354,355,356,357,358 ],[],'ITBUS000_AUX',[ [ [],352,352 ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ 352 ],[ [ 352,353 ],[],[] ]).
+break_i(3,ins,1,[],[ [ 358,357,356,355,354,353 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,3,3).
+b_group_i(1,3,lit,0,6,4).
+b_group_i(1,4,ins,3,8,8).
+b_group_i(3,1,lit,0,9,9).
+b_group_i(1,5,lit,0,16,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,2,1,cmd,3,[ t('',121,2,0),t('ORDER',39,2,10),t(352,2,2,10) ]).
+b_line_i(3,2,1,cmd,3,[ t('',112,3,0),t(353,2,3,13) ]).
+b_line_i(4,2,1,cmd,3,[ t('',113,3,0) ]).
+b_line_i(5,2,1,cmd,3,[ t('',128,3,0) ]).
+b_line_i(6,1,3,cmd,4,[]).
+b_line_i(7,1,3,cmd,4,[]).
+b_line_i(8,3,1,cmd,9,[ t('',117,8,0) ]).
+b_line_i(9,3,1,cmd,9,[ t('',107,9,0),t(353,2,9,0),t(=,10,9,0),t('Bus_rub',23,9,0) ]).
+b_line_i(10,3,1,cmd,9,[ t('',107,9,0),t(354,2,9,0),t(=,10,9,0),t('Bus_des',23,9,0) ]).
+b_line_i(11,3,1,cmd,9,[ t('',107,9,0),t(355,2,9,0),t(=,10,9,0),t('Bus_fal',23,9,0) ]).
+b_line_i(12,3,1,cmd,9,[ t('',107,9,0),t(356,2,9,0),t(=,10,9,0),t('Bus_fad',23,9,0) ]).
+b_line_i(13,3,1,cmd,9,[ t('',107,9,0),t(357,2,9,0),t(=,10,9,0),t('Bus_nco',23,9,0) ]).
+b_line_i(14,3,1,cmd,9,[ t('',107,9,0),t(358,2,9,0),t(=,10,9,0),t('Bus_com',23,9,0) ]).
+b_line_i(15,3,1,cmd,9,[ t('',127,9,0) ]).
+b_line_i(16,1,5,cmd,12,[]).
+b_line_i(17,1,5,cmd,12,[ t('',107,12,0),t('Nro_lectura',23,12,0),t(=,10,12,0),t('0',3,12,0) ]).
+b_line_i(18,1,5,cmd,12,[ t('',107,12,0),t([ t('Sesion',23,18,1),t('set(',1,18,9) ],31,18,1),t('''nro_lectura''',3,18,14),t(',',7,12,27),t('trim(',1,12,28),t('str(',1,12,34),t('Nro_lectura',23,12,39),t(',',7,12,51),t('1',3,12,52),t(')',4,12,53),t(')',4,12,54),t(')',4,12,55) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,352,'ExternalName','BUS_AUX_ID',d).
+att_prop_i(2,352,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,352,'EmptyAsNull','Yes',d).
+att_prop_i(2,352,'AUTONUMBER','-1',v).
+att_prop_i(2,352,'AUTONUMBER_START','1',d).
+att_prop_i(2,352,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,352,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,352,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,352,'AttRegEx','',d).
+att_prop_i(2,352,'AttValidationFailedMsg','',d).
+att_prop_i(2,352,'FullName','BUS_AUX_ID',v).
+att_prop_i(2,353,'ExternalName','BUS_AUX_RUB',d).
+att_prop_i(2,353,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,353,'EmptyAsNull','Yes',d).
+att_prop_i(2,353,'AUTONUMBER','0',d).
+att_prop_i(2,353,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,353,'AttRegEx','',d).
+att_prop_i(2,353,'AttValidationFailedMsg','',d).
+att_prop_i(2,353,'FullName','BUS_AUX_RUB',v).
+att_prop_i(2,358,'ExternalName','BUS_AUX_COM',d).
+att_prop_i(2,358,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,358,'EmptyAsNull','Yes',d).
+att_prop_i(2,358,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,358,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,358,'AttRegEx','',d).
+att_prop_i(2,358,'AttValidationFailedMsg','',d).
+att_prop_i(2,358,'FullName','BUS_AUX_COM',v).
+att_prop_i(2,357,'ExternalName','BUS_AUX_NCO',d).
+att_prop_i(2,357,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,357,'EmptyAsNull','Yes',d).
+att_prop_i(2,357,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,357,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,357,'AttRegEx','',d).
+att_prop_i(2,357,'AttValidationFailedMsg','',d).
+att_prop_i(2,357,'FullName','BUS_AUX_NCO',v).
+att_prop_i(2,356,'ExternalName','BUS_AUX_FAD',d).
+att_prop_i(2,356,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,356,'EmptyAsNull','Yes',d).
+att_prop_i(2,356,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,356,'AttRegEx','',d).
+att_prop_i(2,356,'AttValidationFailedMsg','',d).
+att_prop_i(2,356,'FullName','BUS_AUX_FAD',v).
+att_prop_i(2,355,'ExternalName','BUS_AUX_FAL',d).
+att_prop_i(2,355,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,355,'EmptyAsNull','Yes',d).
+att_prop_i(2,355,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,355,'AttRegEx','',d).
+att_prop_i(2,355,'AttValidationFailedMsg','',d).
+att_prop_i(2,355,'FullName','BUS_AUX_FAL',v).
+att_prop_i(2,354,'ExternalName','BUS_AUX_DES',d).
+att_prop_i(2,354,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,354,'EmptyAsNull','Yes',d).
+att_prop_i(2,354,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,354,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,354,'AttRegEx','',d).
+att_prop_i(2,354,'AttValidationFailedMsg','',d).
+att_prop_i(2,354,'FullName','BUS_AUX_DES',v).
+ 
+ 
+tbl_att_prop_i(2,25,352,'AllowNulls',n).
+tbl_att_prop_i(2,25,352,'AUTONUMBER',y).
+tbl_att_prop_i(2,25,353,'AllowNulls',n).
+tbl_att_prop_i(2,25,354,'AllowNulls',n).
+tbl_att_prop_i(2,25,355,'AllowNulls',n).
+tbl_att_prop_i(2,25,356,'AllowNulls',n).
+tbl_att_prop_i(2,25,357,'AllowNulls',n).
+tbl_att_prop_i(2,25,358,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

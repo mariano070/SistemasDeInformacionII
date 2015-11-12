@@ -1,0 +1,17 @@
+current_obj_i(2,web,135).
+ 
+called_tree_i(13,135,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00w0,[],[],[],135).
+ 
+ 
+obj_parms_i([ 'short aP0_pSIS_COD' ],[ [ 'Psis_cod',out ] ]).
+ 
+ 
+ 
+ 

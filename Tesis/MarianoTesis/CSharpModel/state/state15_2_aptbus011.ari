@@ -1,0 +1,20 @@
+current_obj_i(2,proc,42).
+ 
+called_tree_i(1,42,1,19).
+called_tree_i(1,42,1,36).
+ 
+is_webproc_i(aptbus011).
+ 
+ij_main_object(aptbus011,'Informe de envíos pendientes de recepción','','""','HTTP').
+ 
+ 
+ 
+ 
+ij_object_dependency(aptbus011,[],[],[],42).
+ 
+ 
+obj_parms_i([ 'String aP0_USUARIO','String aP1_NOMBRE_REPORTE' ],[ [ 'Usuario',inout ],[ 'Nombre_reporte',inout ] ]).
+ 
+ 
+ 
+ 

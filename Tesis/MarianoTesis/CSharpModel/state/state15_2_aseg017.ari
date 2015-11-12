@@ -1,0 +1,18 @@
+current_obj_i(2,proc,91).
+ 
+ 
+is_webproc_i(aseg017).
+ 
+ij_main_object(aseg017,'LISTADO USUARIO-PROGRAMAS POR RESPONSABLE','','""','HTTP').
+ 
+ 
+ 
+ 
+ij_object_dependency(aseg017,[],[],[],91).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 
+ 

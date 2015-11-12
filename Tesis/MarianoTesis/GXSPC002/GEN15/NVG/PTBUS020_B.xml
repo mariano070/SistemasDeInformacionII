@@ -1,0 +1,92 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>102</ObjId>
+<ObjName>PTBUS020_B</ObjName>
+<ObjDesc>Busco descripción de posición</ObjDesc>
+<ObjPgmName>PTBUS020_B</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>W53des</VarId>
+<VarName>&amp;W53DES</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>3</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITT53FPOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>W53pos</VarId>
+<VarName>&amp;W53POS</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

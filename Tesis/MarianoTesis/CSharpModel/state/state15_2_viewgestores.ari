@@ -1,0 +1,25 @@
+current_obj_i(2,web,35).
+ 
+called_tree_i(13,35,1,2).
+called_tree_i(13,35,1,4).
+called_tree_i(13,35,13,1).
+called_tree_i(13,35,13,4).
+called_tree_i(13,35,13,6).
+called_tree_i(13,35,13,31).
+called_tree_i(13,35,13,32).
+called_tree_i(13,35,13,33).
+called_tree_i(13,35,13,35).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(viewgestores,[],[],[],35).
+ 
+ 
+obj_parms_i([ 'String aP0_GestorCod','String aP1_TabCode' ],[ [ 'Gestorcod',in ],[ 'Tabcode',in ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,20 @@
+current_obj_i(2,trn,15).
+ 
+called_tree_i(0,15,1,4).
+called_tree_i(0,15,1,98).
+called_tree_i(0,15,13,1).
+called_tree_i(0,15,13,30).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tseg002,[],[],[],15).
+ 
+ 
+obj_parms_i([ 'String aP0_USUCOD','String aP1_Gx_mode','String aP2_SISTEMA','String aP3_USUARIO' ],[ [ 'Usucod',inout ],[ 'Mode',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

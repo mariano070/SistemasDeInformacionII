@@ -1,0 +1,796 @@
+spec_i([ web,55,'Actualización de Administradores de Trazabilidad de Bienes de Uso','HTBUS008',0,spa,'10_1_5-42940' ]).
+ 
+struct_i(2,1,[ 'Context','Usuario' ],[]).
+ 
+level_i(2,[ 9,[ [ 9,many ],[ 548,one ] ],[],[],[ [ [ 9,548 ],[ 200,40 ] ] ],[ [ [ 9,548 ],[] ] ],[ 40 ],'IHTBUS008',[],[] ]).
+ 
+tw_i(2,[ [ 548,[ [ 9,40,6 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t('upper(',1),t(200,2),t(')',4),t(=,10),t('upper(',1),t('Ttbus8_desusuario',23),t(')',4) ],[ 200 ],[ t('trim(',1),t('Fttbus8_desusuario',23),t(')',4),t(<>,10),t('''''',3) ],[] ]).
+ 
+ 
+ 
+ta_i(2,[ [ [ 548,200 ],[ 9,40 ] ] ]).
+ 
+las_i(2,[ [ 'Sistema','Usuario','Fttbus8_desusuario',200,40 ] ]).
+ 
+lac_i(2,[ [ 'Fttbus8_desusuario' ] ]).
+ 
+ 
+lits_i('Apellido:',5,10).
+ 
+cls_i([ 0,0 ],[ 5,81 ]).
+ 
+pos_i('Fttbus8_desusuario',[ 0,0,0 ]).
+pos_i('Baja',[ 1,2,0 ]).
+pos_i('Edicion',[ 1,2,5 ]).
+pos_i('Visualizacion',[ 1,2,10 ]).
+pos_i(40,[ 1,2,15 ]).
+pos_i(200,[ 1,2,32 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Baja','Edicion','Visualizacion',40,200 ],[] ]).
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'MPTrazabilidad'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Actualización de Administradores de Trazabilidad de Bienes de Uso')).
+rule_i(0,prop('ObjName','HTBUS008')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Sistema','Usuario' ],[])).
+rule_i(0,parmio([ [ 'Sistema',inout ],[ 'Usuario',inout ] ])).
+rule_i(0,rule([ a(22,[ '''Alta''','''Alta''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Baja''','''Baja''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Edicion''','''Edicion''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Visualizacion''','''Visualizacion''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Buscar''','''Buscar''','' ]) ],[],[],[])).
+rule_i(0,rule([ a(22,[ '''Atrás''','''Atrás''','' ]) ],[],[],[])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,9,[],[ [],'IHTBUS008',[] ]).
+a_i(3,2,r,548,[],[ [ [ 9,40,6 ] ],'USUI01',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,40).
+v_i(r,i,3,40).
+v_i(r,o,3,200).
+ 
+ 
+ 
+ 
+ 
+attri_i(6,[ 'USU_COD',char,16,0,'@!',0,'CODIGO','',0 ]).
+attri_i(200,[ 'TTBUS8_DesUsuario',char,50,0,'@!',0,'Descripción de Usuario','',0 ]).
+attri_i(40,[ 'TTBUS8_CodUsuario',char,16,0,'@!',0,'Código de Usuario','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',15 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',14 ]).
+attri_i('Context',[ 'Context',o('Context'),0,0,'',0,'Context','',13 ]).
+attri_i('Ttbus8_desusuario',[ 'TTBUS8_DesUsuario',char,50,0,'@!',0,'TTBUS8_ Des Usuario','',12 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',11 ]).
+attri_i('Sistema',[ 'SISTEMA',char,15,0,'',0,'SISTEMA','',10 ]).
+attri_i('Fttbus8_desusuario',[ fTTBUS8_DesUsuario,char,50,0,'@!',0,'f TTBUS8_ Des Usuario','',9 ]).
+attri_i('Fttbus8_codusuario',[ fTTBUS8_CodUsuario,char,16,0,'@!',0,'f TTBUS8_ Cod Usuario','',8 ]).
+attri_i('Visualizacion',[ visualizacion,bits,4,0,'',0,visualizacion,'',7 ]).
+attri_i('Edicion',[ edicion,bits,4,0,'',0,edicion,'',6 ]).
+attri_i('Baja',[ baja,bits,4,0,'',0,baja,'',5 ]).
+ 
+table_i(9,[ 'TTBUS008',[ 40 ],'Maestro de Administradores del Sistema','TTBUS008' ]).
+table_i(548,[ 'SEG002',[ 40,200 ],'Maestro de Usuarios','SEG002' ]).
+ 
+index_i(9,[ 'IHTBUS008',u,[ 40 ],'IHTBUS008' ]).
+index_i(548,[ 'USUI01',u,[ 40 ],'USUI01' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(548,a,200,[ 'USU_DES' ]).
+map_i(548,a,40,[ 'USU_COD' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [ 40,200 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,9).
+b_group_i(2,3,lit,0,10,15).
+b_group_i(2,4,lit,0,16,19).
+b_group_i(2,5,lit,0,20,23).
+b_group_i(2,6,lit,0,24,27).
+b_group_i(2,7,lit,0,28,31).
+b_group_i(2,8,lit,0,32,35).
+b_group_i(2,9,lit,0,36,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',104,1,0),t(o(1,'LoadContext'),28,1,2),t('Context',23,1,20) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,1,0),t('Usuario',23,1,0),t(=,10,1,0),t([ t('Context',23,1,0),t('User',3,1,0) ],29,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',104,1,0),t(o(1,'PSEG102'),28,1,2),t('Usuario',23,1,16) ]).
+b_line_i(7,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(9,2,2,cmd,1,[ t('',146,1,0),t([ t('Grid1',3,9,7),t('Load',3,9,13) ],29,9,13) ]).
+b_line_i(10,2,3,cmd,1,[ t('',107,1,0),t([ t('Baja',23,10,2),t('fromimage(',1,10,8) ],31,10,2),t(i(98,'7695fe89-52c9-4b7e-871e-0e11548f823e'),69,1,19),t(')',4,1,31) ]).
+b_line_i(11,2,3,cmd,1,[ t('',107,1,0),t([ t('Edicion',23,11,2),t('fromimage(',1,11,11) ],31,11,2),t(i(98,'7c63c2b9-483e-4035-b512-febf9186a274'),69,1,22),t(')',4,1,34) ]).
+b_line_i(12,2,3,cmd,1,[ t('',107,1,0),t([ t('Visualizacion',23,12,2),t('fromimage(',1,12,17) ],31,12,2),t(i(98,'f11923b6-6acd-4a79-bfc0-0cfc6f3bced5'),69,1,28),t(')',4,1,41) ]).
+b_line_i(13,2,3,cmd,1,[ t('',107,0,0),t([ t('Grid1',3,0,0),t('load(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(13,2,3,cmd,1,[ t('',147,1,0) ]).
+b_line_i(15,2,3,cmd,1,[ t('',146,1,0),t('''Alta''',3,15,7) ]).
+b_line_i(16,2,4,cmd,1,[ t('',104,1,0),t(o(0,'TTBUS008'),28,1,2),t('''''',3,16,17),t(',',7,1,19),t('''INS''',3,16,21),t(',',7,1,26),t('Sistema',23,1,28),t(',',7,1,36),t('Usuario',23,1,38) ]).
+b_line_i(17,2,4,cmd,1,[ t('',147,1,0) ]).
+b_line_i(19,2,4,cmd,1,[ t('',146,1,0),t('''Baja''',3,19,7) ]).
+b_line_i(20,2,5,cmd,1,[ t('',104,1,0),t(o(0,'TTBUS008'),28,1,2),t(40,2,1,17),t(',',7,1,34),t('''DLT''',3,20,36),t(',',7,1,41),t('Sistema',23,1,43),t(',',7,1,51),t('Usuario',23,1,53) ]).
+b_line_i(21,2,5,cmd,1,[ t('',147,1,0) ]).
+b_line_i(23,2,5,cmd,1,[ t('',146,1,0),t('''Edicion''',3,23,7) ]).
+b_line_i(24,2,6,cmd,1,[ t('',104,1,0),t(o(0,'TTBUS008'),28,1,2),t(40,2,1,17),t(',',7,1,34),t('''UPD''',3,24,36),t(',',7,1,41),t('Sistema',23,1,43),t(',',7,1,51),t('Usuario',23,1,53) ]).
+b_line_i(25,2,6,cmd,1,[ t('',147,1,0) ]).
+b_line_i(27,2,6,cmd,1,[ t('',146,1,0),t('''Visualizacion''',3,27,7) ]).
+b_line_i(28,2,7,cmd,1,[ t('',104,1,0),t(o(0,'TTBUS008'),28,1,2),t(40,2,1,17),t(',',7,1,34),t('''DSP''',3,28,36),t(',',7,1,41),t('Sistema',23,1,43),t(',',7,1,51),t('Usuario',23,1,53) ]).
+b_line_i(29,2,7,cmd,1,[ t('',147,1,0) ]).
+b_line_i(31,2,7,cmd,1,[ t('',146,1,0),t('''Buscar''',3,31,7) ]).
+b_line_i(32,2,8,cmd,1,[ t('',107,1,0),t('Ttbus8_desusuario',23,1,0),t(=,10,1,0),t('''%''',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('Fttbus8_desusuario',23,1,0),t(')',4,1,0),t(+,5,1,0),t('''%''',3,1,0) ]).
+b_line_i(33,2,8,cmd,1,[ t('',147,1,0) ]).
+b_line_i(35,2,8,cmd,1,[ t('',146,1,0),t('''Atrás''',3,35,7) ]).
+b_line_i(36,2,9,cmd,1,[ t('',104,1,0),t(o(13,'HTBUS000_p'),28,1,2),t('Sistema',23,1,19),t(',',7,1,27),t('Usuario',23,1,29) ]).
+b_line_i(37,2,9,cmd,1,[ t('',147,1,0) ]).
+ 
+sf_break_i(23,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(errview))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,table(8))).
+html_sub_i(8,0,html_i(0,html('<TBODY>'))).
+html_sub_i(8,9,html_i(1,row(9))).
+html_sub_i(9,10,html_i(0,cell(10))).
+html_sub_i(10,11,html_i(0,t('Apellido:',3))).
+html_sub_i(9,12,html_i(1,cell(12))).
+html_sub_i(12,13,html_i(0,t('Fttbus8_desusuario',23))).
+html_sub_i(8,14,html_i(2,row(14))).
+html_sub_i(14,15,html_i(0,cell(15))).
+html_sub_i(14,16,html_i(1,cell(16))).
+html_sub_i(16,17,html_i(0,button('''Buscar'''))).
+html_sub_i(8,0,html_i(3,html('</TBODY>'))).
+html_sub_i(2,18,html_i(3,row(18))).
+html_sub_i(18,19,html_i(0,cell(19))).
+html_sub_i(19,20,html_i(0,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-34'))).
+html_sub_i(2,21,html_i(4,row(21))).
+html_sub_i(21,22,html_i(0,cell(22))).
+html_sub_i(22,23,html_i(0,s(23))).
+html_sub_i(2,29,html_i(5,row(29))).
+html_sub_i(29,30,html_i(0,cell(30))).
+html_sub_i(30,31,html_i(0,button('''Atrás'''))).
+html_sub_i(2,32,html_i(6,row(32))).
+html_sub_i(32,33,html_i(0,cell(33))).
+html_sub_i(2,0,html_i(7,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(5,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Table3',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(104,px),v,[ measure ]).
+html_comp_i(2,'Width',measure(639,px),v,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Align',center,v,[ str ]).
+html_comp_i(5,'Controlname','Errviewer1',v,[ str ]).
+html_comp_i(5,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(5,'Displaymode',1,d,[ num ]).
+html_comp_i(5,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Id','Table2',v,[ str ]).
+html_comp_i(8,'Class','Table',v,[ str ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Backgroundgx','',d,[ str ]).
+html_comp_i(8,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Border','0',d,[ str ]).
+html_comp_i(8,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Cellpadding','1',d,[ str ]).
+html_comp_i(8,'Cellspacing','2',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Rules',none,d,[ str ]).
+html_comp_i(11,'Caption','Apellido:',d,[ str ]).
+html_comp_i(11,'Id','Textblock2',v,[ str ]).
+html_comp_i(11,'Class','TextBlock',d,[ str ]).
+html_comp_i(11,'Event','',d,[ str ]).
+html_comp_i(11,'Returnonclick',0,d,[ bool ]).
+html_comp_i(11,'Gxformat',0,d,[ num ]).
+html_comp_i(11,'Title','',d,[ str ]).
+html_comp_i(11,'Fill',-1,d,[ bool ]).
+html_comp_i(11,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(11,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(11,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(13,'Attid',-9,v,[ num ]).
+html_comp_i(13,'Class','Attribute',d,[ str ]).
+html_comp_i(13,'Controlname','&Fttbus8_desusuario',d,[ str ]).
+html_comp_i(13,'Returnonclick',0,d,[ bool ]).
+html_comp_i(13,'Controltype',2,d,[ num ]).
+html_comp_i(13,'Inputtype',0,d,[ num ]).
+html_comp_i(13,'Editautocomplete',0,d,[ num ]).
+html_comp_i(13,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(13,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(13,'Readonly',0,d,[ bool ]).
+html_comp_i(13,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(13,'Ispassword',0,d,[ bool ]).
+html_comp_i(13,'Autoresize',-1,d,[ bool ]).
+html_comp_i(13,'Gxwidth',measure(50,chr),d,[ measure ]).
+html_comp_i(13,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(13,'Ismultiline',0,d,[ bool ]).
+html_comp_i(13,'Fill',-1,d,[ bool ]).
+html_comp_i(13,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(13,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(13,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(13,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(13,'Gxformat',0,d,[ num ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(17,'Controlname','Button1',v,[ str ]).
+html_comp_i(17,'Class','Button',d,[ str ]).
+html_comp_i(17,'Event','''Buscar''',v,[ str ]).
+html_comp_i(17,'Caption','Buscar',d,[ str ]).
+html_comp_i(17,'Title','Buscar',d,[ str ]).
+html_comp_i(17,'Type',0,d,[ num ]).
+html_comp_i(17,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(17,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(17,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(17,'Border','0',d,[ str ]).
+html_comp_i(17,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(17,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(20,'Id','Image1',v,[ str ]).
+html_comp_i(20,'Class','Image',v,[ str ]).
+html_comp_i(20,src,i(98,'5649fbb8-8ce0-4810-a5ce-bd649ea83c3a'),v,[ image ]).
+html_comp_i(20,lowsrc,'',d,[ str ]).
+html_comp_i(20,'Returnonclick',0,d,[ bool ]).
+html_comp_i(20,'Eventgx','''Alta''',v,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Border','0',d,[ str ]).
+html_comp_i(20,'Alt','',d,[ str ]).
+html_comp_i(20,'Title','Alta',v,[ str ]).
+html_comp_i(20,'Hspace',0,v,[ num ]).
+html_comp_i(20,'Vspace',0,d,[ num ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Usemap','',d,[ str ]).
+html_comp_i(23,'Controlname','Grid1',v,[ str ]).
+html_comp_i(23,'Controlorder','',d,[ str ]).
+html_comp_i(23,'Controlwhere','',d,[ str ]).
+html_comp_i(23,'Iddataselector','',d,[ str ]).
+html_comp_i(23,'Rules',none,d,[ str ]).
+html_comp_i(23,'Sflrender','',d,[ str ]).
+html_comp_i(23,'Class','Grid',d,[ str ]).
+html_comp_i(23,'Autoresize',-1,d,[ bool ]).
+html_comp_i(23,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Backgroundgx','',d,[ str ]).
+html_comp_i(23,'Border','0',d,[ str ]).
+html_comp_i(23,'Backcolorstyle',3,v,[ num ]).
+html_comp_i(23,'Bordercolor',rgb(219,236,252),d,[ color ]).
+html_comp_i(23,'Maxrows',10,v,[ num ]).
+html_comp_i(23,'Title','',d,[ str ]).
+html_comp_i(23,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(23,'Linesbackcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(23,'Linesbackcolor2',rgb(229,229,229),d,[ color ]).
+html_comp_i(23,'Linesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(23,'Titlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(23,'Titlebackcolor',rgb(70,130,180),d,[ color ]).
+html_comp_i(23,'Titlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Cellpadding','1',d,[ str ]).
+html_comp_i(23,'Cellspacing','2',d,[ str ]).
+html_comp_i(23,'Sortable',-1,d,[ bool ]).
+html_comp_i(23,'Allowdrop',0,d,[ bool ]).
+html_comp_i(23,'Allowdrag',0,d,[ bool ]).
+html_comp_i(23,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(23,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(23,'Allowselection',0,d,[ bool ]).
+html_comp_i(24,'Colattid',-5,v,[ num ]).
+html_comp_i(24,'Controlname','&Baja',d,[ str ]).
+html_comp_i(24,'Class','Image',d,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Eventgx','''Baja''',v,[ str ]).
+html_comp_i(24,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(24,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(24,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(24,'Coltitle','',d,[ str ]).
+html_comp_i(24,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(24,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(24,'Colvisible',-1,d,[ bool ]).
+html_comp_i(24,'Border','0',d,[ str ]).
+html_comp_i(24,'Alt','',d,[ str ]).
+html_comp_i(24,'Title','Baja',v,[ str ]).
+html_comp_i(24,'Hspace',0,d,[ num ]).
+html_comp_i(24,'Vspace',0,d,[ num ]).
+html_comp_i(25,'Colattid',-6,v,[ num ]).
+html_comp_i(25,'Controlname','&Edicion',d,[ str ]).
+html_comp_i(25,'Class','Image',d,[ str ]).
+html_comp_i(25,'Returnonclick',0,d,[ bool ]).
+html_comp_i(25,'Eventgx','''Edicion''',v,[ str ]).
+html_comp_i(25,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(25,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(25,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(25,'Coltitle','',d,[ str ]).
+html_comp_i(25,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(25,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(25,'Colvisible',-1,d,[ bool ]).
+html_comp_i(25,'Border','0',d,[ str ]).
+html_comp_i(25,'Alt','',d,[ str ]).
+html_comp_i(25,'Title','Edición',v,[ str ]).
+html_comp_i(25,'Hspace',0,d,[ num ]).
+html_comp_i(25,'Vspace',0,d,[ num ]).
+html_comp_i(26,'Colattid',-7,v,[ num ]).
+html_comp_i(26,'Controlname','&Visualizacion',d,[ str ]).
+html_comp_i(26,'Class','Image',d,[ str ]).
+html_comp_i(26,'Returnonclick',0,d,[ bool ]).
+html_comp_i(26,'Eventgx','''Visualizacion''',v,[ str ]).
+html_comp_i(26,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(26,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(26,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(26,'Coltitle','',d,[ str ]).
+html_comp_i(26,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(26,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(26,'Colvisible',-1,d,[ bool ]).
+html_comp_i(26,'Border','0',d,[ str ]).
+html_comp_i(26,'Alt','',d,[ str ]).
+html_comp_i(26,'Title','Visualización',v,[ str ]).
+html_comp_i(26,'Hspace',0,d,[ num ]).
+html_comp_i(26,'Vspace',0,d,[ num ]).
+html_comp_i(27,'Colattid',40,v,[ num ]).
+html_comp_i(27,'Controlname','Ttbus8_codusuario',d,[ str ]).
+html_comp_i(27,'Class','Attribute',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Eventgx','',d,[ str ]).
+html_comp_i(27,'Controltype',2,d,[ num ]).
+html_comp_i(27,'Inputtype',0,d,[ num ]).
+html_comp_i(27,'Editautocomplete',0,d,[ num ]).
+html_comp_i(27,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(27,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(27,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(27,'Ispassword',0,d,[ bool ]).
+html_comp_i(27,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(27,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(27,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(27,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Coltitle','Cód. Usuario',d,[ str ]).
+html_comp_i(27,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(27,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Colvisible',-1,d,[ bool ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(28,'Colattid',200,v,[ num ]).
+html_comp_i(28,'Controlname','Ttbus8_desusuario',d,[ str ]).
+html_comp_i(28,'Class','Attribute',d,[ str ]).
+html_comp_i(28,'Returnonclick',0,d,[ bool ]).
+html_comp_i(28,'Eventgx','',d,[ str ]).
+html_comp_i(28,'Controltype',2,d,[ num ]).
+html_comp_i(28,'Inputtype',0,d,[ num ]).
+html_comp_i(28,'Editautocomplete',0,d,[ num ]).
+html_comp_i(28,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(28,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(28,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(28,'Ispassword',0,d,[ bool ]).
+html_comp_i(28,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(28,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(28,'Collinesfont',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(28,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(28,'Coltitle','Desc. Usuario',d,[ str ]).
+html_comp_i(28,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(28,'Coltitlecolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(28,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(28,'Gxformat',0,d,[ num ]).
+html_comp_i(28,'Colvisible',-1,d,[ bool ]).
+html_comp_i(28,'Title','',d,[ str ]).
+html_comp_i(31,'Controlname','Button2',v,[ str ]).
+html_comp_i(31,'Class','Button',d,[ str ]).
+html_comp_i(31,'Event','''Atrás''',v,[ str ]).
+html_comp_i(31,'Caption','Atrás',d,[ str ]).
+html_comp_i(31,'Title','Atrás',d,[ str ]).
+html_comp_i(31,'Type',0,d,[ num ]).
+html_comp_i(31,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(31,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(31,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(31,'Border','0',d,[ str ]).
+html_comp_i(31,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(31,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,comp(errview),[ ctlname('Errviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(11,1,t('Apellido:',3),[ ctlname('Textblock2') ]).
+lit_i(13,1,t('Fttbus8_desusuario',23),[ ctlname('&Fttbus8_desusuario'),ctrltype(edit,13),pos(13),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,button('''Buscar'''),[ ctlname('Button1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(8,1,table(8),[ ctlname('Table2') ]).
+lit_i(20,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-34'),[ ctlname('Image1') ]).
+lit_i(24,1,s(t('Baja',23),23),[ ctlname('&Baja'),ctrltype(edit,24),pos(24),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(25,1,s(t('Edicion',23),23),[ ctlname('&Edicion'),ctrltype(edit,25),pos(25),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(26,1,s(t('Visualizacion',23),23),[ ctlname('&Visualizacion'),ctrltype(edit,26),pos(26),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(27,1,s(t(40,2),23),[ ctlname(40),ctrltype(edit,27),pos(27),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(28,1,s(t(200,2),23),[ ctlname(200),ctrltype(edit,28),pos(28),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(23,1,s(23),[ ctlname('Grid1'),el([ t('Baja',23),t('Edicion',23),t('Visualizacion',23),t(40,2),t(200,2) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(31,1,button('''Atrás'''),[ ctlname('Button2'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table3') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,24,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,25,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,26,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(2,40,'ExternalName','TTBUS8_CodUsuario',d).
+att_prop_i(2,40,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,40,'EmptyAsNull','Yes',v).
+att_prop_i(2,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,40,'AttRegEx','',d).
+att_prop_i(2,40,'AttValidationFailedMsg','',d).
+att_prop_i(2,40,'FullName','TTBUS8_CodUsuario',v).
+att_prop_i(2,200,'ExternalName','TTBUS8_DesUsuario',d).
+att_prop_i(2,200,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,200,'EmptyAsNull','Yes',v).
+att_prop_i(2,200,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,200,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,200,'AttRegEx','',d).
+att_prop_i(2,200,'AttValidationFailedMsg','',d).
+att_prop_i(2,200,'FullName','TTBUS8_DesUsuario',v).
+att_prop_i(2,6,'ExternalName','USU_COD',d).
+att_prop_i(2,6,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'FullName','USU_COD',v).
+ 
+tbl_prop_i(2,9,'AllDirSuper',[ [ 548,[ 40 ] ] ],v).
+tbl_prop_i(2,15,'DirSubor',[ [ 9,[ 40 ] ] ],v).
+tbl_prop_i(2,548,'DirSubor',[ [ 9,[ 40 ] ] ],v).
+tbl_prop_i(2,9,'DirSuper',[ [ 548,[ 40 ] ] ],v).
+tbl_prop_i(2,15,'CACHE_LEVEL','0',v).
+ 
+tbl_att_prop_i(2,9,40,'AllowNulls',n).
+tbl_att_prop_i(2,548,40,'AllowNulls',n).
+ 
+ 
+ 
+ 
+a_alias_i(40,'TTBUS8_CodUsuario').
+a_alias_i(200,'TTBUS8_DesUsuario').
+ 
+ 
+struct_dt_i([ 26,3,0 ],name,'Context').
+struct_dt_i([ 26,3,0 ],namespace,'MarianoTesis').
+struct_dt_i([ 26,3,0 ],'ObjName','Context').
+struct_dt_i([ 26,3,0 ],'ObjDesc','Context').
+struct_dt_i([ 26,3,0 ],'ExternalName','Context').
+struct_dt_i([ 26,3,0 ],'ExternalNamespace','MarianoTesis').
+struct_dt_i([ 26,3,0 ],fullname,'Context').
+ 
+struct_dt_elem_i([ 26,3,0 ],1,name,'User').
+struct_dt_elem_i([ 26,3,0 ],1,camelname,'User').
+struct_dt_elem_i([ 26,3,0 ],1,length,20).
+struct_dt_elem_i([ 26,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],1,pic,'').
+struct_dt_elem_i([ 26,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],2,name,'Companycode').
+struct_dt_elem_i([ 26,3,0 ],2,camelname,'CompanyCode').
+struct_dt_elem_i([ 26,3,0 ],2,length,4).
+struct_dt_elem_i([ 26,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],2,sign,0).
+struct_dt_elem_i([ 26,3,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],3,name,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,camelname,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,length,20).
+struct_dt_elem_i([ 26,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],3,pic,'').
+struct_dt_elem_i([ 26,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],4,name,'Sistema').
+struct_dt_elem_i([ 26,3,0 ],4,camelname,'Sistema').
+struct_dt_elem_i([ 26,3,0 ],4,length,4).
+struct_dt_elem_i([ 26,3,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],4,sign,0).
+struct_dt_elem_i([ 26,3,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],5,name,'Programa').
+struct_dt_elem_i([ 26,3,0 ],5,camelname,'Programa').
+struct_dt_elem_i([ 26,3,0 ],5,length,4).
+struct_dt_elem_i([ 26,3,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],5,sign,0).
+struct_dt_elem_i([ 26,3,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],6,name,'Icono').
+struct_dt_elem_i([ 26,3,0 ],6,camelname,'Icono').
+struct_dt_elem_i([ 26,3,0 ],6,length,100).
+struct_dt_elem_i([ 26,3,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],6,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,3,0 ],6,pic,'').
+struct_dt_elem_i([ 26,3,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],7,name,'Sesion').
+struct_dt_elem_i([ 26,3,0 ],7,camelname,'Sesion').
+struct_dt_elem_i([ 26,3,0 ],7,basedon,12).
+struct_dt_elem_i([ 26,3,0 ],7,length,8).
+struct_dt_elem_i([ 26,3,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],7,sign,0).
+struct_dt_elem_i([ 26,3,0 ],7,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,3,0 ],7,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,3,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],8,name,'Denominacion').
+struct_dt_elem_i([ 26,3,0 ],8,camelname,'Denominacion').
+struct_dt_elem_i([ 26,3,0 ],8,length,50).
+struct_dt_elem_i([ 26,3,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],8,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,3,0 ],8,pic,'').
+struct_dt_elem_i([ 26,3,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],9,name,'Tipo').
+struct_dt_elem_i([ 26,3,0 ],9,camelname,'Tipo').
+struct_dt_elem_i([ 26,3,0 ],9,length,1).
+struct_dt_elem_i([ 26,3,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],9,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,3,0 ],9,pic,'').
+struct_dt_elem_i([ 26,3,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],10,name,'Codigo').
+struct_dt_elem_i([ 26,3,0 ],10,camelname,'Codigo').
+struct_dt_elem_i([ 26,3,0 ],10,length,8).
+struct_dt_elem_i([ 26,3,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],10,sign,0).
+struct_dt_elem_i([ 26,3,0 ],10,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,3,0 ],10,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,3,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],10,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],11,name,'Zona').
+struct_dt_elem_i([ 26,3,0 ],11,camelname,'Zona').
+struct_dt_elem_i([ 26,3,0 ],11,length,1).
+struct_dt_elem_i([ 26,3,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],11,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,3,0 ],11,pic,'').
+struct_dt_elem_i([ 26,3,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],11,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],12,name,'Plan').
+struct_dt_elem_i([ 26,3,0 ],12,camelname,'Plan').
+struct_dt_elem_i([ 26,3,0 ],12,length,5).
+struct_dt_elem_i([ 26,3,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],12,type,[ 5,5,0 ]).
+struct_dt_elem_i([ 26,3,0 ],12,pic,'').
+struct_dt_elem_i([ 26,3,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],12,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],13,name,'Mail').
+struct_dt_elem_i([ 26,3,0 ],13,camelname,'Mail').
+struct_dt_elem_i([ 26,3,0 ],13,length,256).
+struct_dt_elem_i([ 26,3,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],13,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,3,0 ],13,pic,'').
+struct_dt_elem_i([ 26,3,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],13,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],14,name,'Tipo_usuario').
+struct_dt_elem_i([ 26,3,0 ],14,camelname,tipo_usuario).
+struct_dt_elem_i([ 26,3,0 ],14,length,3).
+struct_dt_elem_i([ 26,3,0 ],14,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],14,type,[ 5,3,0 ]).
+struct_dt_elem_i([ 26,3,0 ],14,pic,'').
+struct_dt_elem_i([ 26,3,0 ],14,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],14,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],7,pic,'@!').
+ 
+ 
+ 
+ 
+pgm_parm_i(web,54,'HTBUS000_P',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(trn,8,'TTBUS008',[ [ char,16,0,0 ],[ char,3,0,0 ],[ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'TTBUS8_CodUsuario',inout,[] ],[ 'Mode',inout,[] ],[ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(proc,99,'PSEG102',[ [ char,16,0,0 ] ],[ [ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(proc,4,'LOADCONTEXT',[ [ o('Context'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+ 
+pgm_main_info_i(web,54,'HTBUS000_P',[ 15,'HTBUS000_P','','','','','' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 

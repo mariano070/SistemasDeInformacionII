@@ -1,0 +1,126 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>91</ObjId>
+<ObjName>Gx0031</ObjName>
+<ObjDesc>Selection List Documentacion</ObjDesc>
+<ObjPgmName>Gx0031</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Pttbus_id</VarId>
+<VarName>&amp;pTTBUS_Id</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pdocuid</VarId>
+<VarName>&amp;pDocuId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>DocuId</AttriName>
+<Description>Id Documentación</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS000DOCUMENTACION</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pttbus_id</VarId>
+<VarName>&amp;pTTBUS_Id</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>DocuId</AttriName>
+<Description>Id Documentación</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cdocuid</VarId>
+<VarName>&amp;cDocuId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pttbus_id</VarId>
+<VarName>&amp;pTTBUS_Id</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>DocuDesc</AttriName>
+<Description>Descripción</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cdocudesc</VarId>
+<VarName>&amp;cDocuDesc</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>DocuId</AttriName>
+<Description>Id Documentación</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

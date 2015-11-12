@@ -1,0 +1,21 @@
+current_obj_i(2,web,153).
+ 
+called_tree_i(13,153,1,2).
+called_tree_i(13,153,1,4).
+called_tree_i(13,153,0,1).
+called_tree_i(13,153,13,4).
+called_tree_i(13,153,13,84).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tbus002ttbus000wc,[],[],[],153).
+ 
+ 
+obj_parms_i([ 'short aP0_TTBUS_RubroBien' ],[ [ 'Ttbus_rubrobien',in ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,25 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>79</ObjId>
+<ObjName>RCOM004</ObjName>
+<ObjDesc>VERIFICA AUTORIZACION PRA SECCION</ObjDesc>
+<ObjPgmName>RCOM004</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'UCO_USR' attribute is not in a table (Rules, Line: 1, Char: 6)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'UCO_TCO' attribute is not in a table (Rules, Line: 1, Char: 15)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'UCO_USR' attribute is not in a table (Source, Line: 2, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'UCO_TCO' attribute is not in a table (Source, Line: 2, Char: 18)</Token></Message></Error></Errors></ObjectSpec>

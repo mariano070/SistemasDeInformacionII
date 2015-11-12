@@ -1,0 +1,126 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>90</ObjId>
+<ObjName>Gx0021</ObjName>
+<ObjDesc>Selection List Identificadores</ObjDesc>
+<ObjPgmName>Gx0021</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Pttbus_id</VarId>
+<VarName>&amp;pTTBUS_Id</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pididentificador</VarId>
+<VarName>&amp;pIdIdentificador</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS000IDENTIFICADORES</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pttbus_id</VarId>
+<VarName>&amp;pTTBUS_Id</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cididentificador</VarId>
+<VarName>&amp;cIdIdentificador</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pttbus_id</VarId>
+<VarName>&amp;pTTBUS_Id</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>NumeroIdentificador</AttriName>
+<Description>Número Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cnumeroidentificador</VarId>
+<VarName>&amp;cNumeroIdentificador</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

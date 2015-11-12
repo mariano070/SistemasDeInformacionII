@@ -1,0 +1,27 @@
+current_obj_i(2,web,24).
+ 
+called_tree_i(13,24,1,2).
+called_tree_i(13,24,1,4).
+called_tree_i(13,24,13,1).
+called_tree_i(13,24,13,4).
+called_tree_i(13,24,13,6).
+called_tree_i(13,24,13,16).
+called_tree_i(13,24,13,17).
+called_tree_i(13,24,13,20).
+called_tree_i(13,24,13,21).
+called_tree_i(13,24,13,22).
+called_tree_i(13,24,13,24).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(viewtseg002,[],[],[],24).
+ 
+ 
+obj_parms_i([ 'String aP0_USU_COD','String aP1_TabCode' ],[ [ 'Usu_cod',in ],[ 'Tabcode',in ] ]).
+ 
+ 
+ 
+ 

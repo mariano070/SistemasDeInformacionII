@@ -1,0 +1,22 @@
+current_obj_i(2,trn,33).
+ 
+called_tree_i(0,33,1,2).
+called_tree_i(0,33,1,4).
+called_tree_i(0,33,13,1).
+called_tree_i(0,33,13,4).
+called_tree_i(0,33,13,114).
+called_tree_i(0,33,13,115).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tseg000,[],[],[],33).
+ 
+ 
+obj_parms_i([ 'String aP0_Gx_mode','short aP1_SIS_COD' ],[ [ 'Mode',in ],[ 'Sis_cod',in ] ]).
+ 
+ 
+ 
+ 

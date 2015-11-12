@@ -1,0 +1,16 @@
+current_obj_i(2,proc,74).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(phdw_ip_5,[],[],[],74).
+ 
+ 
+obj_parms_i([ 'long aP0_THDW_UBI_COD_','long aP1_Red_Id','short aP2_HARDWARE_ID','String aP3_Red_DireccionDesde','String aP4_Red_DireccionHasta','String aP5_Red_Mascara','String aP6_Red_PuertaEnlace','short aP7_Red_DireccionDesdeB1','short aP8_Red_DireccionDesdeB2','short aP9_Red_DireccionDesdeB3' ],[ [ 'Thdw_ubi_cod_',in ],[ 'Red_id',in ],[ 'Hardware_id',in ],[ 'Red_direcciondesde',out ],[ 'Red_direccionhasta',out ],[ 'Red_mascara',out ],[ 'Red_puertaenlace',out ],[ 'Red_direcciondesdeb1',out ],[ 'Red_direcciondesdeb2',out ],[ 'Red_direcciondesdeb3',out ] ]).
+ 
+ 
+ 
+ 

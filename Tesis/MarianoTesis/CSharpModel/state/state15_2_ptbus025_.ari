@@ -1,0 +1,16 @@
+current_obj_i(2,proc,21).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbus025_,[],[],[],21).
+ 
+ 
+obj_parms_i([ 'String aP0_USUARIO','short aP1_TTBUS_CodPosicion','short aP2_band_1' ],[ [ 'Usuario',in ],[ 'Ttbus_codposicion',in ],[ 'Band_1',out ] ]).
+ 
+ 
+ 
+ 

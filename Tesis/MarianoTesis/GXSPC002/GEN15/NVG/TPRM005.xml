@@ -1,0 +1,167 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>19</ObjId>
+<ObjName>TPRM005</ObjName>
+<ObjDesc>Actualización de Usuarios por Zonas de Promoción</ObjDesc>
+<ObjPgmName>TPRM005</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'IdZonaComercial' attribute is not in a table (Line: 1, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>Error</Token></Message></Error></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Prm5_zna</VarId>
+<VarName>&amp;PRM5_ZNA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Sistema</VarId>
+<VarName>&amp;SISTEMA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>20</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>SEG002</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>SEG002</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>Gx00F0</ObjName>
+<ObjPgmName>Gx00F0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table>
+<Token>Gx00K0</Token>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

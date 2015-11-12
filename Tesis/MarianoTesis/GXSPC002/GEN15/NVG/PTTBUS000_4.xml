@@ -1,0 +1,358 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>73</ObjId>
+<ObjName>PTTBUS000_4</ObjName>
+<ObjDesc>Remito por cambio ubicación bien de uso</ObjDesc>
+<ObjPgmName>PTTBUS000_4</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>File</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus2_idmovimiento</VarId>
+<VarName>&amp;TTBUS2_IdMovimiento</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Nombre_reporte</VarId>
+<VarName>&amp;NOMBRE_REPORTE</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>6</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS002</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus2_idmovimiento</VarId>
+<VarName>&amp;TTBUS2_IdMovimiento</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus2_idmovimiento</VarId>
+<VarName>&amp;TTBUS2_IdMovimiento</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description>Cabecera de Movimientos de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>72</ObjId>
+<ObjName>PTTBUS000_7</ObjName>
+<ObjPgmName>PTTBUS000_7</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Ttbus2_codposdesde</VarId>
+<VarName>&amp;TTBUS2_CodPosDesde</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus2_codposhacia</VarId>
+<VarName>&amp;TTBUS2_CodPosHacia</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Dttbus7_des</VarId>
+<VarName>&amp;dTTBUS7_Des</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Httbus7_des</VarId>
+<VarName>&amp;hTTBUS7_Des</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>17</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>USUI01</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>@TTBUS2_RespDesde</AttriName>
+<Description>Responsable de envío</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>24</AttriId>
+<AttriName>@TTBUS2_RespDesde</AttriName>
+<Description>Responsable de envío</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>23</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>USUI01</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>@TTBUS2_RespHacia</AttriName>
+<Description>Responsable de recepción</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>@TTBUS2_RespHacia</AttriName>
+<Description>Responsable de recepción</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>USU_COD</AttriName>
+<Description>CODIGO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>5</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>29</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS000IDENTIFICADORES</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>@TTBUS2_IdBien</AttriName>
+<Description>Id Bien</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>1</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>@TTBUS2_IdBien</AttriName>
+<Description>Id Bien</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>1</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>37</TableId>
+<TableName>BUS002</TableName>
+<Description>Maestro de Rubros</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TTBUS_RubroBien</AttriName>
+<Description>Cód. Rubro del bien</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

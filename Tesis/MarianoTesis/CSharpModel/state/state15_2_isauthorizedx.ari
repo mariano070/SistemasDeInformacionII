@@ -1,0 +1,17 @@
+current_obj_i(2,proc,26).
+ 
+called_tree_i(1,26,1,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(isauthorizedx,[],[],[],26).
+ 
+ 
+obj_parms_i([ 'short aP0_SIS_COD','String aP1_GxObject','bool aP2_Authorized' ],[ [ 'Sis_cod',in ],[ 'Gxobject',in ],[ 'Authorized',out ] ]).
+ 
+ 
+ 
+ 

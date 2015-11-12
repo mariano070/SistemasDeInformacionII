@@ -1,0 +1,632 @@
+spec_i([ trn,4,'Cancelación de Envío de Bien de Uso','TTBUS002_c',[],spa,'10_1_5-42940' ]).
+ 
+struct_i(5,0,[ 'Ttbus2_idmovimiento','Ttbus2_idbien','Ttbus_descripcion','Mode','Sistema','Usuario' ],[]).
+ 
+level_i(5,[ 5,[ [ 5,many ] ],[ 52 ],[],[],[],[ 52 ],'ITTBUS002',[ 5,[] ],[] ]).
+ 
+tw_i(5,[]).
+ 
+lwi_i(5,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(5,[ [ [ 5,52 ],[ 5,50 ] ] ]).
+ 
+las_i(5,[ [ 'Ttbus2_idmovimiento','Ttbus2_idbien','Ttbus_descripcion','Mode','Sistema','Usuario',52,50 ] ]).
+ 
+lac_i(5,[ [ 50 ] ]).
+ 
+ 
+lits_i('Motivo de Cancelación',5,10).
+ 
+cls_i([ 0,0 ],[ 5,99 ]).
+ 
+pos_i(50,[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('OKBUT','YES')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON',i(98,'aa1ab5fc-b1c8-4d23-9ba5-98ca435ab24c'))).
+rule_i(0,prop('CNF_BUTTON',i(98,'6f51d721-a2c0-4f61-a087-97f3e2fdbaa8'))).
+rule_i(0,prop('UPD_BUTTON',i(98,'1d924cf2-f606-4bd3-9a66-7dc1bf7bf586'))).
+rule_i(0,prop('ADD_BUTTON',i(98,'429b3a58-af68-4143-bd10-de9adb36bd84'))).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'MPTrazabilidad'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('ExternalNamespace','MarianoTesis')).
+rule_i(0,prop('ExternalName','TTBUS002_c')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(idBC,'0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Cancelación de Envío de Bien de Uso')).
+rule_i(0,prop('ObjName','TTBUS002_c')).
+rule_i(0,rule([ a(22,[ 'Dlt','"Eliminar"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,rule([ a(10,[ 'Ttbus2_idmovimiento','Ttbus2_idbien','Ttbus_descripcion','Mode','Sistema','Usuario' ]) ],[],[ insert,update,delete ],[])).
+rule_i(0,parmio([ [ 'Ttbus2_idmovimiento',inout ],[ 'Ttbus2_idbien',inout ],[ 'Ttbus_descripcion',inout ],[ 'Mode',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ])).
+rule_i(5,rule([ a(1,[ t('"DEBE INGRESAR UN MOTIVO DE CANCELACIÓN DE ENVÍO."',3) ]) ],[ t('(',0),t('trim(',1),t(50,2),t(')',4),t(=,10),t('''''',3),t(')',4),t('.AND.',9),t('(',0),t('after(',1),t(50,2),t(')',4),t(')',4) ],[ insert,update,delete ],[ 50 ])).
+ 
+a_i(1,5,f,52,[],[ [],[ t('Ttbus2_idmovimiento',23),t('IF',17),t('Mode',23),t(<>,10),t('''INS''',3),t(';',18) ] ]).
+a_i(2,5,b,3,[],[ [],[ a(1,[ t('"DEBE INGRESAR UN MOTIVO DE CANCELACIÓN DE ENVÍO."',3) ]) ],[ t('(',0),t('trim(',1),t(50,2),t(')',4),t(=,10),t('''''',3),t(')',4),t('.AND.',9),t('(',0),t('after(',1),t(50,2),t(')',4),t(')',4) ] ]).
+a_i(3,5,t,5,[],[ [ [ [],52,52 ] ],'ITTBUS002',[] ]).
+ 
+v_i(f,i,1,'Ttbus2_idmovimiento').
+v_i(f,o,1,52).
+v_i(b,i,2,50).
+v_i(b,o,2,[]).
+v_i(t,i,3,52).
+v_i(t,o,3,50).
+ 
+ 
+tbl_to_delete_i(5,[ 10,[ [ 5,52,52 ] ],c,'ITTBUS002_DET',[ [ 10,52 ],[ 10,53 ] ],[ 52,53 ] ]).
+ 
+ 
+ 
+attri_i(53,[ 'TTBUS2_IdUsuario',char,16,0,'',0,'Id Usuario','',0 ]).
+attri_i(77,[ 'TTBUS2_PlazoRecepcion',date,8,0,'99/99/9999',0,'Plazo para recepción del bien','',0 ]).
+attri_i(87,[ 'TTBUS2_Observaciones',svchar,400,0,'@!',0,'Observaciones','',0 ]).
+attri_i(47,[ 'TTBUS2_MotivoEnvio',svchar,100,0,'@!',0,'Motivo de envío','',0 ]).
+attri_i(26,[ 'TTBUS2_EstadoEnvio',int,1,0,'9',0,'Estado de envío','',0 ]).
+attri_i(46,[ 'TTBUS2_FechaRecepcion',dtime,8,5,'99/99/99 99:99',0,'Fecha de recepción','',0 ]).
+attri_i(25,[ 'TTBUS2_RespHacia',char,15,0,'',0,'Responsable de recepción','',0 ]).
+attri_i(49,[ 'TTBUS2_CodPosHacia',int,3,0,'ZZ9',0,'Código Posición Hacia','',0 ]).
+attri_i(45,[ 'TTBUS2_FechaEnvio',dtime,10,5,'99/99/9999 99:99',0,'Fecha de envío','',0 ]).
+attri_i(24,[ 'TTBUS2_RespDesde',char,15,0,'',0,'Responsable de envío','',0 ]).
+attri_i(48,[ 'TTBUS2_CodPosDesde',int,3,0,'ZZ9',0,'Código Posición Desde','',0 ]).
+attri_i(22,[ 'TTBUS2_IdBien',int,8,0,'ZZZZZZZ9',0,'Id Bien','',0 ]).
+attri_i(50,[ 'TTBUS2_MotivoCancelacion',svchar,100,0,'@!',0,'Motivo de Cancelación','',0 ]).
+attri_i(52,[ 'TTBUS2_IdMovimiento',int,12,0,'ZZZZZZZZZZZ9',0,'Id Movimiento','',0 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',11 ]).
+attri_i('Ttbus2_idmovimiento',[ 'TTBUS2_IdMovimiento',int,12,0,'ZZZZZZZZZZZ9',0,'TTBUS2_ Id Movimiento','',10 ]).
+attri_i('Ttbus2_idbien',[ 'TTBUS2_IdBien',int,8,0,'ZZZZZZZ9',0,'TTBUS2_ Id Bien','',9 ]).
+attri_i('Ttbus_descripcion',[ 'TTBUS_Descripcion',svchar,50,0,'@!',0,'TTBUS_ Descripcion','',8 ]).
+attri_i('Sistema',[ 'SISTEMA',char,15,0,'',0,'SISTEMA','',7 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(10,[ 'TTBUS002_Det',[ 52,53 ],'Detalle de Movimientos de Bienes de Uso','TTBUS002_Det' ]).
+table_i(5,[ 'TTBUS002',[ 52,50,22,48,24,45,49,25,46,26,47,87,77 ],'Cabecera de Movimientos de Bienes de Uso','TTBUS002' ]).
+ 
+index_i(5,[ 'ITTBUS002',u,[ 52 ],'ITTBUS002' ]).
+index_i(10,[ 'ITTBUS002_DET',u,[ 52,53 ],'ITTBUS002_Det' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(5,5,i,[ [ 50 ],[],'ITTBUS002',[ [ [],52,52 ] ] ]).
+upd_i(5,5,u,[ [ 50 ],[],'ITTBUS002',[] ]).
+upd_i(5,5,d,[ [],[],'ITTBUS002',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [ 52 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,5).
+b_group_i(2,3,lit,0,6,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,1,0),t([ t('Groupdata',3,1,0),t('Caption',3,1,0) ],29,1,0),t(=,10,1,0),t('''Cancelación de Envío de Bien de Uso Nº''',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('str(',1,1,0),t('Ttbus2_idbien',23,1,0),t(',',7,1,0),t('8',3,1,0),t(')',4,1,0),t(')',4,1,0),t(+,5,1,0),t(''': "''',3,1,0),t(+,5,1,0),t('trim(',1,1,0),t('Ttbus_descripcion',23,1,0),t(')',4,1,0),t(+,5,1,0),t('''"''',3,1,0) ]).
+b_line_i(3,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(5,2,2,cmd,1,[ t('',146,1,0),t('After Trn',3,5,7) ]).
+b_line_i(6,2,3,cmd,1,[ t('',104,1,0),t(o(1,'PTBUS003'),28,1,2),t(52,2,1,17),t(',',7,1,36),t('Ttbus2_idbien',23,1,38),t(',',7,1,52),t('Usuario',23,1,54) ]).
+b_line_i(7,2,3,cmd,1,[ t('',147,1,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,table(5))).
+html_sub_i(5,0,html_i(0,html('<TBODY>'))).
+html_sub_i(5,6,html_i(1,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,0,html_i(0,html('<DIV style="WHITE-SPACE: nowrap" class="ToolbarMain">'))).
+html_sub_i(7,8,html_i(1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,0,html_i(2,html('</DIV>'))).
+html_sub_i(5,0,html_i(2,html('</TBODY>'))).
+html_sub_i(4,9,html_i(1,group(9))).
+html_sub_i(9,10,html_i(0,table(10))).
+html_sub_i(10,0,html_i(0,html('<TBODY>'))).
+html_sub_i(10,11,html_i(1,row(11))).
+html_sub_i(11,12,html_i(0,cell(12))).
+html_sub_i(12,13,html_i(0,comp(errview))).
+html_sub_i(10,14,html_i(2,row(14))).
+html_sub_i(14,15,html_i(0,cell(15))).
+html_sub_i(15,16,html_i(0,table(16))).
+html_sub_i(16,0,html_i(0,html('<TBODY>'))).
+html_sub_i(16,17,html_i(1,row(17))).
+html_sub_i(17,18,html_i(0,cell(18))).
+html_sub_i(18,19,html_i(0,t('Motivo de Cancelación',3))).
+html_sub_i(17,20,html_i(1,cell(20))).
+html_sub_i(20,21,html_i(0,t(50,2))).
+html_sub_i(16,0,html_i(2,html('</TBODY>'))).
+html_sub_i(10,22,html_i(3,row(22))).
+html_sub_i(22,23,html_i(0,cell(23))).
+html_sub_i(23,24,html_i(0,button('Enter'))).
+html_sub_i(23,25,html_i(1,button('Cancel'))).
+html_sub_i(23,26,html_i(2,button('Delete'))).
+html_sub_i(10,0,html_i(4,html('</TBODY>'))).
+html_sub_i(2,0,html_i(2,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(13,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Tablemain',v,[ str ]).
+html_comp_i(2,'Class','TableBorder100x100',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(5,'Id','Tabletoolbar',v,[ str ]).
+html_comp_i(5,'Class','ViewTable',v,[ str ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Backgroundgx','',d,[ str ]).
+html_comp_i(5,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(5,'Border','0',d,[ str ]).
+html_comp_i(5,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Cellpadding','1',d,[ str ]).
+html_comp_i(5,'Cellspacing','2',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Rules',none,d,[ str ]).
+html_comp_i(8,'Id','Btn_first_separator',v,[ str ]).
+html_comp_i(8,'Class','ImageTop',v,[ str ]).
+html_comp_i(8,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(8,lowsrc,'',d,[ str ]).
+html_comp_i(8,'Returnonclick',0,d,[ bool ]).
+html_comp_i(8,'Eventgx','First',v,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Border','0',d,[ str ]).
+html_comp_i(8,'Alt','',d,[ str ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Hspace',0,v,[ num ]).
+html_comp_i(8,'Vspace',0,d,[ num ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Usemap','',d,[ str ]).
+html_comp_i(9,'Class','Group',v,[ str ]).
+html_comp_i(9,'Caption','',d,[ str ]).
+html_comp_i(9,'Id','Groupdata',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Id','Table1',v,[ str ]).
+html_comp_i(10,'Class','Table',v,[ str ]).
+html_comp_i(10,'Title','',d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Backgroundgx','',d,[ str ]).
+html_comp_i(10,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(10,'Border','0',d,[ str ]).
+html_comp_i(10,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(10,'Cellpadding','1',d,[ str ]).
+html_comp_i(10,'Cellspacing','2',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Rules',none,d,[ str ]).
+html_comp_i(13,'Controlname','Ctlerror',v,[ str ]).
+html_comp_i(13,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(13,'Displaymode',1,d,[ num ]).
+html_comp_i(13,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(13,'Fill',-1,d,[ bool ]).
+html_comp_i(16,'Id','Table2',v,[ str ]).
+html_comp_i(16,'Class','Table',v,[ str ]).
+html_comp_i(16,'Title','',d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Backgroundgx','',d,[ str ]).
+html_comp_i(16,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(16,'Border','0',d,[ str ]).
+html_comp_i(16,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(16,'Cellpadding','1',d,[ str ]).
+html_comp_i(16,'Cellspacing','2',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Rules',none,d,[ str ]).
+html_comp_i(18,'Valign',top,v,[ str ]).
+html_comp_i(18,'Class',td5,v,[ str ]).
+html_comp_i(19,'Caption','Motivo de Cancelación',d,[ str ]).
+html_comp_i(19,'Id','Textblockttbus2_motivocancelacion',v,[ str ]).
+html_comp_i(19,'Class','TextBlock',d,[ str ]).
+html_comp_i(19,'Event','',d,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(19,'Fill',-1,d,[ bool ]).
+html_comp_i(19,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(19,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(19,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(21,'Attid',50,v,[ num ]).
+html_comp_i(21,'Class','Attribute',d,[ str ]).
+html_comp_i(21,'Controlname','Ttbus2_motivocancelacion',d,[ str ]).
+html_comp_i(21,'Returnonclick',0,d,[ bool ]).
+html_comp_i(21,'Controltype',2,d,[ num ]).
+html_comp_i(21,'Inputtype',0,d,[ num ]).
+html_comp_i(21,'Editautocomplete',0,d,[ num ]).
+html_comp_i(21,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(21,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(21,'Readonly',0,d,[ bool ]).
+html_comp_i(21,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(21,'Ispassword',0,d,[ bool ]).
+html_comp_i(21,'Autoresize',-1,d,[ bool ]).
+html_comp_i(21,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(21,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(21,'Ismultiline',0,d,[ bool ]).
+html_comp_i(21,'Fill',-1,d,[ bool ]).
+html_comp_i(21,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(21,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(21,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(21,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(21,'Gxformat',0,d,[ num ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(24,'Controlname','Btn_enter',v,[ str ]).
+html_comp_i(24,'Class','BtnEnter',v,[ str ]).
+html_comp_i(24,'Event','Enter',v,[ str ]).
+html_comp_i(24,'Caption','Confirmar',d,[ str ]).
+html_comp_i(24,'Title','Confirmar',d,[ str ]).
+html_comp_i(24,'Type',0,d,[ num ]).
+html_comp_i(24,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(24,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(24,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(24,'Border','0',d,[ str ]).
+html_comp_i(24,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(24,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(25,'Controlname','Btn_cancel',v,[ str ]).
+html_comp_i(25,'Class','BtnCancel',v,[ str ]).
+html_comp_i(25,'Event','Cancel',v,[ str ]).
+html_comp_i(25,'Caption','Cancelar',d,[ str ]).
+html_comp_i(25,'Title','Cancelar',d,[ str ]).
+html_comp_i(25,'Type',0,d,[ num ]).
+html_comp_i(25,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(25,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(25,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(25,'Border','0',d,[ str ]).
+html_comp_i(25,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(25,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(26,'Controlname','Btn_delete',v,[ str ]).
+html_comp_i(26,'Class','BtnDelete',v,[ str ]).
+html_comp_i(26,'Event','Delete',v,[ str ]).
+html_comp_i(26,'Caption','Eliminar',d,[ str ]).
+html_comp_i(26,'Title','Eliminar',d,[ str ]).
+html_comp_i(26,'Type',0,d,[ num ]).
+html_comp_i(26,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(26,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(26,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(26,'Border','0',d,[ str ]).
+html_comp_i(26,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(26,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(8,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_first_separator') ]).
+lit_i(5,1,table(5),[ ctlname('Tabletoolbar') ]).
+lit_i(13,1,comp(errview),[ ctlname('Ctlerror'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(19,1,t('Motivo de Cancelación',3),[ ctlname('Textblockttbus2_motivocancelacion') ]).
+lit_i(21,1,t(50,2),[ ctlname(50),ctrltype(edit,21),pos(21),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(16,1,table(16),[ ctlname('Table2') ]).
+lit_i(24,1,button('Enter'),[ ctlname('Btn_enter'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(25,1,button('Cancel'),[ ctlname('Btn_cancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(26,1,button('Delete'),[ ctlname('Btn_delete'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(10,1,table(10),[ ctlname('Table1') ]).
+lit_i(9,1,group(9),[ ctlname('Groupdata') ]).
+lit_i(2,1,table(2),[ ctlname('Tablemain') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,52,'ExternalName','TTBUS2_IdMovimiento',d).
+att_prop_i(2,52,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,52,'EmptyAsNull','Yes',d).
+att_prop_i(2,52,'AUTONUMBER','-1',v).
+att_prop_i(2,52,'AUTONUMBER_START','1',d).
+att_prop_i(2,52,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,52,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,52,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,52,'AttRegEx','',d).
+att_prop_i(2,52,'AttValidationFailedMsg','',d).
+att_prop_i(2,52,'FullName','TTBUS2_IdMovimiento',v).
+att_prop_i(2,50,'ExternalName','TTBUS2_MotivoCancelacion',d).
+att_prop_i(2,50,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,50,'EmptyAsNull','Yes',d).
+att_prop_i(2,50,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,50,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,50,'AttRegEx','',d).
+att_prop_i(2,50,'AttValidationFailedMsg','',d).
+att_prop_i(2,50,'FullName','TTBUS2_MotivoCancelacion',v).
+att_prop_i(2,22,'ExternalName','TTBUS2_IdBien',d).
+att_prop_i(2,22,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,22,'EmptyAsNull','Yes',v).
+att_prop_i(2,22,'AUTONUMBER','-1',v).
+att_prop_i(2,22,'AUTONUMBER_START','1',v).
+att_prop_i(2,22,'AUTONUMBER_STEP','1',v).
+att_prop_i(2,22,'AUTONUMBER_FORREPLICATION','-1',v).
+att_prop_i(2,22,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,22,'AttRegEx','',d).
+att_prop_i(2,22,'AttValidationFailedMsg','',d).
+att_prop_i(2,22,'FullName','TTBUS2_IdBien',v).
+att_prop_i(2,48,'ExternalName','TTBUS2_CodPosDesde',d).
+att_prop_i(2,48,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,48,'EmptyAsNull','Yes',d).
+att_prop_i(2,48,'AUTONUMBER','0',d).
+att_prop_i(2,48,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,48,'AttRegEx','',d).
+att_prop_i(2,48,'AttValidationFailedMsg','',d).
+att_prop_i(2,48,'FullName','TTBUS2_CodPosDesde',v).
+att_prop_i(2,24,'ExternalName','TTBUS2_RespDesde',d).
+att_prop_i(2,24,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,24,'EmptyAsNull','Yes',d).
+att_prop_i(2,24,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,24,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,24,'AttRegEx','',d).
+att_prop_i(2,24,'AttValidationFailedMsg','',d).
+att_prop_i(2,24,'FullName','TTBUS2_RespDesde',v).
+att_prop_i(2,45,'ExternalName','TTBUS2_FechaEnvio',d).
+att_prop_i(2,45,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,45,'EmptyAsNull','Yes',d).
+att_prop_i(2,45,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,45,'AttRegEx','',d).
+att_prop_i(2,45,'AttValidationFailedMsg','',d).
+att_prop_i(2,45,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(2,45,idHOURFORMAT,idHOURFORMAT_HOURMIN,d).
+att_prop_i(2,45,'FullName','TTBUS2_FechaEnvio',v).
+att_prop_i(2,49,'ExternalName','TTBUS2_CodPosHacia',d).
+att_prop_i(2,49,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,49,'EmptyAsNull','Yes',d).
+att_prop_i(2,49,'AUTONUMBER','0',d).
+att_prop_i(2,49,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,49,'AttRegEx','',d).
+att_prop_i(2,49,'AttValidationFailedMsg','',d).
+att_prop_i(2,49,'FullName','TTBUS2_CodPosHacia',v).
+att_prop_i(2,25,'ExternalName','TTBUS2_RespHacia',d).
+att_prop_i(2,25,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,25,'EmptyAsNull','Yes',d).
+att_prop_i(2,25,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,25,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,25,'AttRegEx','',d).
+att_prop_i(2,25,'AttValidationFailedMsg','',d).
+att_prop_i(2,25,'FullName','TTBUS2_RespHacia',v).
+att_prop_i(2,46,'ExternalName','TTBUS2_FechaRecepcion',d).
+att_prop_i(2,46,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,46,'EmptyAsNull','Yes',d).
+att_prop_i(2,46,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,46,'AttRegEx','',d).
+att_prop_i(2,46,'AttValidationFailedMsg','',d).
+att_prop_i(2,46,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,46,idHOURFORMAT,idHOURFORMAT_HOURMIN,d).
+att_prop_i(2,46,'FullName','TTBUS2_FechaRecepcion',v).
+att_prop_i(2,26,'ExternalName','TTBUS2_EstadoEnvio',d).
+att_prop_i(2,26,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,26,'EmptyAsNull','Yes',d).
+att_prop_i(2,26,'AUTONUMBER','0',d).
+att_prop_i(2,26,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,26,'AttRegEx','',d).
+att_prop_i(2,26,'AttValidationFailedMsg','',d).
+att_prop_i(2,26,'FullName','TTBUS2_EstadoEnvio',v).
+att_prop_i(2,47,'ExternalName','TTBUS2_MotivoEnvio',d).
+att_prop_i(2,47,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,47,'EmptyAsNull','Yes',d).
+att_prop_i(2,47,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,47,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,47,'AttRegEx','',d).
+att_prop_i(2,47,'AttValidationFailedMsg','',d).
+att_prop_i(2,47,'FullName','TTBUS2_MotivoEnvio',v).
+att_prop_i(2,87,'ExternalName','TTBUS2_Observaciones',d).
+att_prop_i(2,87,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,87,'EmptyAsNull','Yes',v).
+att_prop_i(2,87,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,87,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,87,'AttRegEx','',d).
+att_prop_i(2,87,'AttValidationFailedMsg','',d).
+att_prop_i(2,87,'FullName','TTBUS2_Observaciones',v).
+att_prop_i(2,77,'ExternalName','TTBUS2_PlazoRecepcion',d).
+att_prop_i(2,77,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,77,'EmptyAsNull','Yes',d).
+att_prop_i(2,77,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,77,'AttRegEx','',d).
+att_prop_i(2,77,'AttValidationFailedMsg','',d).
+att_prop_i(2,77,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(2,77,'FullName','TTBUS2_PlazoRecepcion',v).
+att_prop_i(2,53,'ExternalName','TTBUS2_IdUsuario',d).
+att_prop_i(2,53,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,53,'EmptyAsNull','Yes',d).
+att_prop_i(2,53,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,53,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,53,'AttRegEx','',d).
+att_prop_i(2,53,'AttValidationFailedMsg','',d).
+att_prop_i(2,53,'FullName','TTBUS2_IdUsuario',v).
+ 
+tbl_prop_i(2,10,'AllDirSuper',[ [ 5,[ 52 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 10,[ 52 ] ] ],v).
+tbl_prop_i(2,10,'DirSuper',[ [ 5,[ 52 ] ] ],v).
+ 
+tbl_att_prop_i(2,5,52,'AllowNulls',n).
+tbl_att_prop_i(2,5,52,'AUTONUMBER',y).
+tbl_att_prop_i(2,5,22,'AllowNulls',n).
+tbl_att_prop_i(2,5,48,'AllowNulls',n).
+tbl_att_prop_i(2,5,24,'AllowNulls',n).
+tbl_att_prop_i(2,5,45,'AllowNulls',n).
+tbl_att_prop_i(2,5,49,'AllowNulls',n).
+tbl_att_prop_i(2,5,25,'AllowNulls',n).
+tbl_att_prop_i(2,5,26,'AllowNulls',n).
+tbl_att_prop_i(2,5,47,'AllowNulls',n).
+tbl_att_prop_i(2,10,52,'AllowNulls',n).
+tbl_att_prop_i(2,10,53,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+trn_level_i(5,[ [ 52,50 ],'TTBUS002_c','Cancelación de Envío de Bien de Uso','TTBUS002_c','',50 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,16,'PTBUS003',[ [ int,12,0,0 ],[ int,8,0,0 ],[ char,16,0,0 ] ],[ [ 'TTBUS2_IdMovimiento',inout,[] ],[ 'TTBUS_Id',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

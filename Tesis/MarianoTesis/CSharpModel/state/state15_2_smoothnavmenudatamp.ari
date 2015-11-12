@@ -1,0 +1,16 @@
+current_obj_i(2,mnproc,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(smoothnavmenudatamp,[],[],[],1).
+ 
+ 
+obj_parms_i([ 'String aP0_USU_COD','short aP1_SIS_COD','int aP2_PRS_NRO','String aP3_SERVER','IGxCollection aP4_Gxm2rootcol' ],[ [ 'Usu_cod',in ],[ 'Sis_cod',in ],[ 'Prs_nro',in ],[ 'Server',in ],[ 'Gxm2rootcol',out ] ]).
+ 
+ 
+ 
+ 

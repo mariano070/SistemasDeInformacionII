@@ -1,0 +1,16 @@
+current_obj_i(2,proc,25).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(plog000,[],[],[],25).
+ 
+ 
+obj_parms_i([ 'String aP0_LOG_SYS','String aP1_LOG_PRG','String aP2_LOG_PRD','String aP3_USUARIO','String aP4_LOG_WST','String aP5_COM_TDE','int aP6_COM_NRO' ],[ [ 'Log_sys',inout ],[ 'Log_prg',inout ],[ 'Log_prd',inout ],[ 'Usuario',inout ],[ 'Log_wst',inout ],[ 'Com_tde',inout ],[ 'Com_nro',inout ] ]).
+ 
+ 
+ 
+ 

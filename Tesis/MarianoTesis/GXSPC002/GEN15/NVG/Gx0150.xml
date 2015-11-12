@@ -1,0 +1,92 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>198</ObjId>
+<ObjName>Gx0150</ObjName>
+<ObjDesc>Lista de Selección de Proveedores</ObjDesc>
+<ObjPgmName>Gx0150</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Ppv_npro</VarId>
+<VarName>&amp;pPV_NPRO</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>41</TableId>
+<TableName>M124FPROV</TableName>
+<Description>Maestro de Proveedores</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>PV_NPRO</AttriName>
+<Description>Código Proveedor</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IM124FPROV</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>PV_NPRO</AttriName>
+<Description>Código Proveedor</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpv_npro</VarId>
+<VarName>&amp;cPV_NPRO</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>PV_DESC</AttriName>
+<Description>Descripción</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cpv_desc</VarId>
+<VarName>&amp;cPV_DESC</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>41</TableId>
+<TableName>M124FPROV</TableName>
+<Description>Maestro de Proveedores</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>PV_NPRO</AttriName>
+<Description>Código Proveedor</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

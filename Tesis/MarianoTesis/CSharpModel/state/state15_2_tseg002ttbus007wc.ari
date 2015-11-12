@@ -1,0 +1,20 @@
+current_obj_i(2,web,20).
+ 
+called_tree_i(13,20,1,2).
+called_tree_i(13,20,1,4).
+called_tree_i(13,20,0,6).
+called_tree_i(13,20,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tseg002ttbus007wc,[],[],[],20).
+ 
+ 
+obj_parms_i([ 'String aP0_TTBUS7_CodResp' ],[ [ 'Ttbus7_codresp',in ] ]).
+ 
+ 
+ 
+ 

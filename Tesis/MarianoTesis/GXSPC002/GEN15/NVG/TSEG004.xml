@@ -1,0 +1,153 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>43</ObjId>
+<ObjName>TSEG004</ObjName>
+<ObjDesc>ACT. USUARIOS</ObjDesc>
+<ObjPgmName>TSEG004</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>42</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>27</TableId>
+<TableName>SEG001</TableName>
+<Description>Maestro de Programas</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>27</TableId>
+<TableName>SEG001</TableName>
+<Description>Maestro de Programas</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>194</ObjId>
+<ObjName>Gx00R0</ObjName>
+<ObjPgmName>Gx00R0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>42</TableId>
+<TableName>SEG004</TableName>
+<Description>ACT. USUARIOS</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>199</ObjId>
+<ObjName>Gx0160</ObjName>
+<ObjPgmName>Gx0160</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

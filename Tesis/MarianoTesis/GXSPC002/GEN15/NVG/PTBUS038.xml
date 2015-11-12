@@ -1,0 +1,19 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>57</ObjId>
+<ObjName>PTBUS038</ObjName>
+<ObjDesc>Busca mail de usuario trazabilidad bienes de uso</ObjDesc>
+<ObjPgmName>PTBUS038</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'PER_RED' attribute is not in a table (Source, Line: 3, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PER_MAIL' attribute is not in a table (Source, Line: 4, Char: 15)</Token></Message></Error></Errors></ObjectSpec>

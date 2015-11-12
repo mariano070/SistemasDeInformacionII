@@ -1,0 +1,323 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>6</ObjId>
+<ObjName>TTBUS007</ObjName>
+<ObjDesc>Administración de Responsables Trazabilidad</ObjDesc>
+<ObjPgmName>TTBUS007</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus3_pos</VarId>
+<VarName>&amp;TTBUS3_Pos</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Sistema</VarId>
+<VarName>&amp;SISTEMA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>7</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>8</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>TTBUS7_RespAux</AttriName>
+<Description>Responsable Auxiliar</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>TTBUS7_RespAux</AttriName>
+<Description>Responsable Auxiliar</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>Gx00F0</ObjName>
+<ObjPgmName>Gx00F0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>97</ObjId>
+<ObjName>Gx0081</ObjName>
+<ObjPgmName>Gx0081</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>Maestro de Usuarios</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>Gx00F0</ObjName>
+<ObjPgmName>Gx00F0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>168</ObjId>
+<ObjName>Gx00V0</ObjName>
+<ObjPgmName>Gx00V0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>168</ObjId>
+<ObjName>Gx00V0</ObjName>
+<ObjPgmName>Gx00V0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

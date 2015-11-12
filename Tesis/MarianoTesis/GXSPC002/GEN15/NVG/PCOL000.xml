@@ -1,0 +1,55 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>15</ObjId>
+<ObjName>PCOL000</ObjName>
+<ObjDesc>AGREGA PROCESO A LA COLA DE TRABAJOS</ObjDesc>
+<ObjPgmName>PCOL000</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'VprPrc' attribute is not in a table (Source, Line: 5, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'VprPrc' attribute is not in a table (Source, Line: 6, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'VprVer' attribute is not in a table (Source, Line: 7, Char: 13)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'VprNombreX' attribute is not in a table (Source, Line: 8, Char: 14)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'VprNombreX' attribute is not in a table (Source, Line: 9, Char: 17)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_NRO' attribute is not in a table (Source, Line: 14, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_ING' attribute is not in a table (Source, Line: 15, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_NOM' attribute is not in a table (Source, Line: 16, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_DES' attribute is not in a table (Source, Line: 17, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_PAR' attribute is not in a table (Source, Line: 18, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_USR' attribute is not in a table (Source, Line: 19, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_INI' attribute is not in a table (Source, Line: 20, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_EML' attribute is not in a table (Source, Line: 21, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_VER' attribute is not in a table (Source, Line: 22, Char: 2)</Token></Message></Error></Errors></ObjectSpec>

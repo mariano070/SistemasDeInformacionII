@@ -1,0 +1,103 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>107</ObjId>
+<ObjName>Gx00E0</ObjName>
+<ObjDesc>Selection List Posiciones a cambiar</ObjDesc>
+<ObjPgmName>Gx00E0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pttbus75_orden</VarId>
+<VarName>&amp;pTTBUS75_Orden</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>14</TableId>
+<TableName>TTBUS075</TableName>
+<Description>Posiciones a cambiar</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>243</AttriId>
+<AttriName>TTBUS75_Orden</AttriName>
+<Description>Orden del cambio</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS075</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>243</AttriId>
+<AttriName>TTBUS75_Orden</AttriName>
+<Description>Orden del cambio</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus75_orden</VarId>
+<VarName>&amp;cTTBUS75_Orden</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>244</AttriId>
+<AttriName>TTBUS75_PosAnterior</AttriName>
+<Description>Posición Anterior</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus75_posanterior</VarId>
+<VarName>&amp;cTTBUS75_PosAnterior</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>245</AttriId>
+<AttriName>TTBUS75_PosNueva</AttriName>
+<Description>Posición Nueva</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus75_posnueva</VarId>
+<VarName>&amp;cTTBUS75_PosNueva</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>14</TableId>
+<TableName>TTBUS075</TableName>
+<Description>Posiciones a cambiar</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>243</AttriId>
+<AttriName>TTBUS75_Orden</AttriName>
+<Description>Orden del cambio</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,18 @@
+current_obj_i(2,proc,51).
+ 
+ 
+is_webproc_i(aptbus020).
+ 
+ij_main_object(aptbus020,'Reporte Cambio de Posiciones','','""','HTTP').
+ 
+ 
+ 
+ 
+ij_object_dependency(aptbus020,[],[],[],51).
+ 
+ 
+obj_parms_i([ 'String aP0_NOMBRE_REPORTE','String aP1_TTBUS20_Estacion','String aP2_USUARIO' ],[ [ 'Nombre_reporte',inout ],[ 'Ttbus20_estacion',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

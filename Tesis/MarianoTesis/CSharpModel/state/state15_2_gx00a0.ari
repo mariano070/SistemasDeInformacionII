@@ -1,0 +1,17 @@
+current_obj_i(2,web,103).
+ 
+called_tree_i(13,103,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00a0,[],[],[],103).
+ 
+ 
+obj_parms_i([ 'long aP0_pTTBUS2_IdMovimiento','String aP1_pTTBUS2_IdUsuario' ],[ [ 'Pttbus2_idmovimiento',out ],[ 'Pttbus2_idusuario',out ] ]).
+ 
+ 
+ 
+ 

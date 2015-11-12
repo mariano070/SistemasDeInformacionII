@@ -1,0 +1,34 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>78</ObjId>
+<ObjName>PCTL004</ObjName>
+<ObjDesc>INCREMENTA Nº SECUENCIA (C/S)</ObjDesc>
+<ObjPgmName>PCTL004</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'CTM_SIS' attribute is not in a table (Rules, Line: 1, Char: 6)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'CTM_TDO' attribute is not in a table (Rules, Line: 1, Char: 15)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'CTM_TNU' attribute is not in a table (Source, Line: 2, Char: 16)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'CTM_NUM' attribute is not in a table (Source, Line: 3, Char: 12)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'CTM_TNU' attribute is not in a table (Source, Line: 3, Char: 22)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'CTM_NUM' attribute is not in a table (Source, Line: 6, Char: 23)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'CTM_NUM' attribute is not in a table (Source, Line: 8, Char: 9)</Token></Message></Error></Errors></ObjectSpec>

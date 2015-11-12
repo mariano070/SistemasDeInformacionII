@@ -1,0 +1,25 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>34</ObjId>
+<ObjName>PCOL001m</ObjName>
+<ObjDesc>ACTUALIZA FECHA ENVIO MAIL A SOPORTE</ObjDesc>
+<ObjPgmName>PCOL001m</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'PRC_NRO' attribute is not in a table (Source, Line: 1, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_NRO' attribute is not in a table (Source, Line: 2, Char: 11)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_EML' attribute is not in a table (Source, Line: 3, Char: 5)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'PRC_MSG' attribute is not in a table (Source, Line: 5, Char: 9)</Token></Message></Error></Errors></ObjectSpec>

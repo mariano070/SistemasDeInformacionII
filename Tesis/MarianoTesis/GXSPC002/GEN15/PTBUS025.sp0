@@ -1,0 +1,355 @@
+spec_i([ proc,20,'Restriccion a Usuarios Sin Responsabilidad','PTBUS025',78,spa,'10_1_5-42940' ]).
+ 
+struct_i(4,1,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(4,[ 8,[ [ 8,many ] ],[],[],[ [ [ 8 ],[ 39,51 ] ] ],[ [ [ 8 ],[] ] ],[ 39 ],'ITTBUS007PERMISOS2',[ 8,[ [ [],'Usuario',39 ] ] ],[] ]).
+level_i(3,[ 7,[ [ 7,many ] ],[],[],[ [ [ 7 ],[ 35 ] ] ],[ [ [ 7 ],[] ] ],[ 35 ],'ITTBUS0071',[ 7,[ [ [],'Usuario',35 ] ] ],[] ]).
+level_i(2,[ 9,[ [ 9,many ] ],[],[],[ [ [ 9 ],[ 40 ] ] ],[ [ [ 9 ],[] ] ],[ 40 ],'IHTBUS008',[ 9,[ [ [],'Usuario',40 ] ] ],[] ]).
+ 
+tw_i(4,[]).
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+level_option_i(4,usr_condition,y).
+ 
+ta_i(4,[ [ [ 8,39 ],[ 8,51 ] ] ]).
+ta_i(3,[ [ [ 7,35 ] ] ]).
+ta_i(2,[ [ [ 9,40 ] ] ]).
+ 
+las_i(4,[ [ 39,51 ] ]).
+las_i(3,[ [ 35 ] ]).
+las_i(2,[ [ 40 ] ]).
+ 
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''SCR''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Restriccion a Usuarios Sin Responsabilidad')).
+rule_i(0,prop('ObjName','PTBUS025')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Usuario','Usu_permiso' ],[])).
+rule_i(0,parmio([ [ 'Usuario',in ],[ 'Usu_permiso',out ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,9,[],[ [ [ [],'Usuario',40 ] ],'IHTBUS008',[] ]).
+a_i(3,3,t,7,[],[ [ [ [],'Usuario',35 ] ],'ITTBUS0071',[] ]).
+a_i(4,4,t,8,[],[ [ [ [],'Usuario',39 ] ],'ITTBUS007PERMISOS2',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Usuario').
+v_i(t,o,2,40).
+v_i(t,i,3,'Usuario').
+v_i(t,o,3,35).
+v_i(t,i,4,'Usuario').
+v_i(t,o,4,39).
+v_i(t,o,4,51).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',15 ]).
+attri_i(33,[ 'TTBUS7_Pos',int,3,0,'ZZ9',0,'Id. de Posición','',0 ]).
+attri_i(35,[ 'TTBUS7_CodResp',char,16,0,'@!',0,'Código Responsable','',0 ]).
+attri_i(39,[ 'TTBUS7_CodUsuario',char,16,0,'@!',0,'Código de Usuario','',0 ]).
+attri_i(51,[ 'TTBUS7_RespAux',int,1,0,'9',0,'Responsable Auxiliar','',0 ]).
+attri_i(40,[ 'TTBUS8_CodUsuario',char,16,0,'@!',0,'Código de Usuario','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',10 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',9 ]).
+attri_i('Usu_permiso',[ usu_permiso,int,1,0,'9',0,usu_permiso,'',8 ]).
+ 
+table_i(9,[ 'TTBUS008',[ 40 ],'Maestro de Administradores del Sistema','TTBUS008' ]).
+table_i(7,[ 'TTBUS007',[ 33,35 ],'Maestro de Responsables de Posiciones','TTBUS007' ]).
+table_i(8,[ 'TTBUS007Permisos',[ 33,39,51 ],'Maestro de Permisos a Posiciones','TTBUS007Permisos' ]).
+ 
+index_i(9,[ 'IHTBUS008',u,[ 40 ],'IHTBUS008' ]).
+index_i(7,[ 'ITTBUS007',u,[ 33 ],'ITTBUS007' ]).
+index_i(7,[ 'ITTBUS0071',d,[ 35 ],'ITTBUS0071' ]).
+index_i(8,[ 'ITTBUS007PERMISOS',u,[ 33,39 ],'ITTBUS007Permisos' ]).
+index_i(8,[ 'ITTBUS007PERMISOS2',d,[ 39 ],'ITTBUS007Permisos2' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(4,0,0,[ [ [ 39,23,'Usuario',= ] ],many ]).
+start_i(3,0,0,[ [ [ 35,23,'Usuario',= ] ],many ]).
+start_i(2,0,0,[ [ [ 40,23,'Usuario',= ] ],one ]).
+ 
+end_i(4,0,0,[ [ [ t(39,2),t(=,10),t('Usuario',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(35,2),t(=,10),t('Usuario',23) ] ] ]).
+end_i(2,0,0,[ [ [ t(40,2),t(=,10),t('Usuario',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ 40 ],[ [ 40 ],[ 40 ],[] ]).
+break_i(3,nvg,1,[],[ [],[ 35 ],[] ]).
+break_i(4,nvg,1,[],[ [ 51 ],[ 39 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,9,9).
+b_group_i(2,1,lit,0,10,10).
+b_group_i(1,3,lit,0,14,5).
+b_group_i(1,4,nvg,3,17,17).
+b_group_i(3,1,lit,0,18,18).
+b_group_i(1,5,lit,0,22,10).
+b_group_i(1,6,nvg,4,25,25).
+b_group_i(4,1,lit,0,26,26).
+b_group_i(1,7,lit,0,33,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,0,0),t('Usu_permiso',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[ t('',109,0,0),t('Usuario',23,0,4),t(=,10,0,13),t('''SUPERVISOR''',3,4,15) ]).
+b_line_i(5,1,1,cmd,0,[ t('',107,0,0),t('Usu_permiso',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',111,0,0) ]).
+b_line_i(7,1,1,cmd,0,[]).
+b_line_i(8,1,1,cmd,0,[ t('',109,0,0),t('Usu_permiso',23,0,4),t(=,10,0,17),t('1',3,0,19) ]).
+b_line_i(9,2,1,cmd,10,[ t('',121,9,0),t('ORDER',39,9,11),t(40,2,9,11) ]).
+b_line_i(11,2,1,cmd,10,[ t('',107,10,0),t('Usu_permiso',23,10,0),t(=,10,10,0),t('0',3,10,0) ]).
+b_line_i(12,2,1,cmd,10,[ t('',139,10,0) ]).
+b_line_i(13,2,1,cmd,10,[ t('',128,10,0) ]).
+b_line_i(14,1,3,cmd,5,[ t('',111,5,0) ]).
+b_line_i(15,1,3,cmd,5,[]).
+b_line_i(16,1,3,cmd,5,[ t('',109,5,0),t('Usu_permiso',23,5,4),t(=,10,5,17),t('1',3,5,19) ]).
+b_line_i(17,3,1,cmd,18,[ t('',121,17,0) ]).
+b_line_i(19,3,1,cmd,18,[ t('',107,18,0),t('Usu_permiso',23,18,0),t(=,10,18,0),t('0',3,18,0) ]).
+b_line_i(20,3,1,cmd,18,[ t('',139,18,0) ]).
+b_line_i(21,3,1,cmd,18,[ t('',128,18,0) ]).
+b_line_i(22,1,5,cmd,10,[ t('',111,10,0) ]).
+b_line_i(23,1,5,cmd,10,[]).
+b_line_i(24,1,5,cmd,10,[ t('',109,10,0),t('Usu_permiso',23,10,4),t(=,10,10,17),t('1',3,10,19) ]).
+b_line_i(25,4,1,cmd,26,[ t('',121,25,0) ]).
+b_line_i(27,4,1,cmd,26,[]).
+b_line_i(28,4,1,cmd,26,[ t('',109,26,0),t(51,2,26,6),t(=,10,26,21),t('1',3,26,23) ]).
+b_line_i(29,4,1,cmd,26,[ t('',107,26,0),t('Usu_permiso',23,26,0),t(=,10,26,0),t('0',3,26,0) ]).
+b_line_i(30,4,1,cmd,26,[ t('',139,26,0) ]).
+b_line_i(31,4,1,cmd,26,[ t('',111,26,0) ]).
+b_line_i(32,4,1,cmd,26,[ t('',128,26,0) ]).
+b_line_i(33,1,7,cmd,18,[ t('',111,18,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,40,'ExternalName','TTBUS8_CodUsuario',d).
+att_prop_i(2,40,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,40,'EmptyAsNull','Yes',v).
+att_prop_i(2,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,40,'AttRegEx','',d).
+att_prop_i(2,40,'AttValidationFailedMsg','',d).
+att_prop_i(2,40,'FullName','TTBUS8_CodUsuario',v).
+att_prop_i(2,51,'ExternalName','TTBUS7_RespAux',d).
+att_prop_i(2,51,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,51,'EmptyAsNull','Yes',d).
+att_prop_i(2,51,'AUTONUMBER','0',d).
+att_prop_i(2,51,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,51,'AttRegEx','',d).
+att_prop_i(2,51,'AttValidationFailedMsg','',d).
+att_prop_i(2,51,'FullName','TTBUS7_RespAux',v).
+att_prop_i(2,39,'ExternalName','TTBUS7_CodUsuario',d).
+att_prop_i(2,39,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,39,'EmptyAsNull','Yes',v).
+att_prop_i(2,39,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,39,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,39,'AttRegEx','',d).
+att_prop_i(2,39,'AttValidationFailedMsg','',d).
+att_prop_i(2,39,'FullName','TTBUS7_CodUsuario',v).
+att_prop_i(2,35,'ExternalName','TTBUS7_CodResp',d).
+att_prop_i(2,35,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,35,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'FullName','TTBUS7_CodResp',v).
+att_prop_i(2,33,'ExternalName','TTBUS7_Pos',d).
+att_prop_i(2,33,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,33,'EmptyAsNull','Yes',d).
+att_prop_i(2,33,'AUTONUMBER','0',d).
+att_prop_i(2,33,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,33,'AttRegEx','',d).
+att_prop_i(2,33,'AttValidationFailedMsg','',d).
+att_prop_i(2,33,'FullName','TTBUS7_Pos',v).
+ 
+tbl_prop_i(2,8,'AllDirSuper',[ [ 7,[ 33 ] ] ],v).
+tbl_prop_i(2,7,'DirSubor',[ [ 8,[ 33 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 7,[ 33 ] ] ],v).
+ 
+tbl_att_prop_i(2,9,40,'AllowNulls',n).
+tbl_att_prop_i(2,7,33,'AllowNulls',n).
+tbl_att_prop_i(2,7,35,'AllowNulls',n).
+tbl_att_prop_i(2,8,33,'AllowNulls',n).
+tbl_att_prop_i(2,8,39,'AllowNulls',n).
+tbl_att_prop_i(2,8,51,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+optimize_i(2,0,[ maxrows(1) ]).
+optimize_i(3,0,[ maxrows(1) ]).
+ 
+ 

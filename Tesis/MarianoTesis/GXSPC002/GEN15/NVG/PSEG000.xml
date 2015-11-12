@@ -1,0 +1,39 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>87</ObjId>
+<ObjName>PSEG000</ObjName>
+<ObjDesc>AGREGA SISTEMAS</ObjDesc>
+<ObjPgmName>PSEG000</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<MsgCode>spc0031</MsgCode>
+<Message>
+<Token>No relationship found among attributes</Token>
+<Token> in group starting at line </Token>
+<Token>1</Token>
+<Token></Token>
+<Token>.</Token></Message></Error></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usucod</VarId>
+<VarName>&amp;USUCOD</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Siscod</VarId>
+<VarName>&amp;SISCOD</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

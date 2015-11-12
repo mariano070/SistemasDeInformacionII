@@ -1,0 +1,17 @@
+current_obj_i(2,web,105).
+ 
+called_tree_i(13,105,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00c0,[],[],[],105).
+ 
+ 
+obj_parms_i([ 'String aP0_pTTBUS14_CodResponsable','int aP1_pTTBUS14_IdBien' ],[ [ 'Pttbus14_codresponsable',out ],[ 'Pttbus14_idbien',out ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,17 @@
+current_obj_i(2,web,186).
+ 
+called_tree_i(13,186,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(hseg005,[],[],[],186).
+ 
+ 
+obj_parms_i([ 'String aP0_USUCOD' ],[ [ 'Usucod',inout ] ]).
+ 
+ 
+ 
+ 

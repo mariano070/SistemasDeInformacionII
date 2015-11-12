@@ -1,0 +1,909 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>51</ObjId>
+<ObjName>HTBUS001b</ObjName>
+<ObjDesc>Actualización de Bienes de Uso (Trazabilidad) - Bienes Dados de Baja</ObjDesc>
+<ObjPgmName>HTBUS001b</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>W53DES</AttriName>
+<Description>Descripción posición</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>77</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Sistema</VarId>
+<VarName>&amp;SISTEMA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<StandAloneRules>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Variable>
+<VarId>Fididentificador</VarId>
+<VarName>&amp;fIdIdentificador</VarName></Variable></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>TTBUS5_IdIdentificador</AttriName>
+<Description>Cod. Identificador</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>TTBUS5_DescIdentificador</AttriName>
+<Description>Desc. Identificador</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>TTBUS005</TableName>
+<Description>Maestro de Identificadores</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>TTBUS5_IdIdentificador</AttriName>
+<Description>Cod. Identificador</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>TTBUS5_IdIdentificador</AttriName>
+<Description>Cod. Identificador</Description></Attribute>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>TTBUS5_DescIdentificador</AttriName>
+<Description>Desc. Identificador</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>TTBUS5_DescIdentificador</AttriName>
+<Description>Desc. Identificador</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>LoadContext</ObjName>
+<ObjPgmName>LoadContext</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Context</VarId>
+<VarName>&amp;Context</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>99</ObjId>
+<ObjName>PSEG102</ObjName>
+<ObjPgmName>PSEG102</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Grid1.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS000IDENTIFICADORES</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus_id</VarId>
+<VarName>&amp;TTBUS_Id</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Fididentificador</VarId>
+<VarName>&amp;fIdIdentificador</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TTBUS_FechaBaja</AttriName>
+<Description>Fecha de Baja</Description></Attribute>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition>
+<Condition>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>TTBUS_Estado</AttriName>
+<Description>Estado de bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>4</Token></Condition>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Ttbus7_pos</VarId>
+<VarName>&amp;TTBUS7_Pos</VarName></Variable></Constraint>
+<Condition>
+<Variable>
+<VarId>Ttbus7_pos</VarId>
+<VarName>&amp;TTBUS7_Pos</VarName></Variable>
+<Sp></Sp>
+<Token>&lt;&gt;</Token>
+<Sp></Sp>
+<Token>-1</Token></Condition></ConditionalConstraint>
+<ConditionalConstraint>
+<Constraint>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>NumeroIdentificador</AttriName>
+<Description>Número Identificador</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Numeroidentificador</VarId>
+<VarName>&amp;NumeroIdentificador</VarName></Variable></Constraint>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Fnumeroidentificador</VarId>
+<VarName>&amp;fNumeroIdentificador</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalConstraint></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>36</ObjId>
+<ObjName>PTBUS009</ObjName>
+<ObjPgmName>PTBUS009</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Token>1</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Numeroidentificador</VarId>
+<VarName>&amp;NumeroIdentificador</VarName></Variable></Parameters>
+<IF></IF></CALL></ImplicitForEach></Event>
+<Event>
+<EventName>'Movimientos'</EventName></Event>
+<Event>
+<EventName>'Listar Movimientos'</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>17</ObjId>
+<ObjName>PREP000</ObjName>
+<ObjPgmName>PREP000</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Nombre_reporte</VarId>
+<VarName>&amp;NOMBRE_REPORTE</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Token>'PDF'</Token></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>18</ObjId>
+<ObjName>PTBUS012</ObjName>
+<ObjPgmName>PTBUS012</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Nombre_reporte</VarId>
+<VarName>&amp;NOMBRE_REPORTE</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'CARGA POSICIONES'</EventName>
+<EventType>Subrutine</EventType>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>57</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>TTBUS008</TableName>
+<Description>Maestro de Administradores del Sistema</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IHTBUS008</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>TTBUS008</TableName>
+<Description>Maestro de Administradores del Sistema</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>63</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>W53DES</AttriName>
+<Description>Descripción posición</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UT53FPOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>64</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS007</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>@W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>@W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Level>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>70</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>W53DES</AttriName>
+<Description>Descripción posición</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UT53FPOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>71</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>W53DES</AttriName>
+<Description>Descripción posición</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>@W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>@W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>Break</LevelType>
+<LevelBeginRow>78</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>W53DES</AttriName>
+<Description>Descripción posición</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>@TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Maestro de Posiciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>79</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS007PERMISOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>@W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>@W53POS</AttriName>
+<Description>Id. de Posición</Description></Attribute></Condition>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Vttbus7_pos</VarId>
+<VarName>&amp;vTTBUS7_Pos</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>8</TableId>
+<TableName>TTBUS007Permisos</TableName>
+<Description>Maestro de Permisos a Posiciones</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>TTBUS7_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Level></Level></Level></Event>
+<Event>
+<EventName>'VALIDACION SEGURIDAD'</EventName>
+<EventType>Subrutine</EventType>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>99</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>TTBUS008</TableName>
+<Description>Maestro de Administradores del Sistema</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IHTBUS008</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>TTBUS008</TableName>
+<Description>Maestro de Administradores del Sistema</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>TTBUS8_CodUsuario</AttriName>
+<Description>Código de Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Event>
+<Event>
+<EventName>'Buscar'</EventName></Event>
+<Suggests>
+<Suggest>
+<ControlName>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute></ControlName>
+<SuggestType>2</SuggestType>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>@TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token></Condition></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></Suggest></Suggests></ObjectSpec>

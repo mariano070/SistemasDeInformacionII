@@ -1,0 +1,24 @@
+current_obj_i(2,web,191).
+ 
+called_tree_i(13,191,1,4).
+called_tree_i(13,191,1,94).
+called_tree_i(13,191,1,95).
+called_tree_i(13,191,1,96).
+called_tree_i(13,191,1,97).
+called_tree_i(13,191,1,98).
+called_tree_i(13,191,1,99).
+called_tree_i(13,191,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(htbusseg0,[],[],[],191).
+ 
+ 
+obj_parms_i([ 'String aP0_pUSU_COD','String aP1_Modo','String aP2_SISTEMA','String aP3_USUARIO' ],[ [ 'Pusu_cod',inout ],[ 'Modo',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

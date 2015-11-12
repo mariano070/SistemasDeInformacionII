@@ -1,0 +1,617 @@
+spec_i([ web,192,'Alta Primer Usuario','HTBUSSEG0_INI',0,spa,'10_1_5-42940' ]).
+ 
+struct_i(2,1,[ 'Administrador' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Usu_cod','Usu_des','Usu_cla','Usu_int','Usu_maiw','Administrador' ] ]).
+ 
+lac_i(2,[ [ 'Usu_cod','Usu_des','Usu_cla','Usu_int','Usu_maiw','Administrador' ] ]).
+ 
+ 
+lits_i('Usuario:',5,10).
+lits_i('Descripción:',5,10).
+lits_i('Contraseña:',5,10).
+lits_i('Teléfono Interno:',5,10).
+lits_i('Correo electrónico:',5,10).
+lits_i('Administrador:',5,10).
+ 
+cls_i([ 0,0 ],[ 5,255 ]).
+ 
+pos_i('Usu_cod',[ 0,0,0 ]).
+pos_i('Usu_des',[ 0,0,0 ]).
+pos_i('Usu_cla',[ 0,0,0 ]).
+pos_i('Usu_int',[ 0,0,0 ]).
+pos_i('Usu_maiw',[ 0,0,0 ]).
+pos_i('Administrador',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'PromptMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Alta Primer Usuario')).
+rule_i(0,prop('ObjName','HTBUSSEG0_INI')).
+rule_i(0,maingen(15)).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',19 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',18 ]).
+attri_i('Usu_int',[ 'USU_INT',char,10,0,'',0,'USU_ INT','',17 ]).
+attri_i('Usu_maiw',[ 'USU_MAIW',svchar,256,0,'',0,'USU_ MAIW','',16 ]).
+attri_i('Error',[ error,char,80,0,'',0,error,'',15 ]).
+attri_i('Ok',[ ok,int,1,0,'9',0,ok,'',14 ]).
+attri_i('Respaux',[ 'RespAux',int,1,0,'9',0,'Resp Aux','',13 ]).
+attri_i('Permiso',[ 'Permiso',int,1,0,'9',0,'Permiso','',12 ]).
+attri_i('W53des',[ 'W53DES',char,50,0,'',0,'W53 DES','',11 ]).
+attri_i('W53pos',[ 'W53POS',int,3,0,'ZZ9',0,'W53 POS','',10 ]).
+attri_i('Usu_des',[ 'USU_DES',char,50,0,'@!',0,'USU_ DES','',9 ]).
+attri_i('Usu_cod',[ 'USU_COD',char,16,0,'@!',0,'USU_ COD','',8 ]).
+attri_i('Usu_cla',[ 'USU_CLA',char,20,0,'',0,'USU_ CLA','',7 ]).
+attri_i('Responsable',[ 'Responsable',int,1,0,'9',0,'Responsable','',6 ]).
+attri_i('Administrador',[ 'Administrador',int,1,0,'9',0,'Administrador','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,6).
+b_group_i(2,3,lit,0,7,24).
+b_group_i(2,4,lit,0,25,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(2,2,2,cmd,1,[ t('',107,1,0),t('Administrador',23,1,0),t(=,10,1,0),t('1',3,1,0) ]).
+b_line_i(3,2,2,cmd,1,[ t('',107,1,0),t([ t('Administrador',23,1,0),t('Enabled',3,1,0) ],29,1,0),t(=,10,1,0),t('0',3,1,0) ]).
+b_line_i(4,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',146,1,0),t('Enter',3,6,7) ]).
+b_line_i(7,2,3,cmd,1,[ t('',145,1,0),t('''VALIDACIONES''',3,7,5) ]).
+b_line_i(9,2,3,cmd,1,[ t('',109,1,0),t('Ok',23,1,5),t(=,10,1,9),t('0',3,1,11) ]).
+b_line_i(10,2,3,cmd,1,[ t('',141,1,0),t('trim(',1,10,14),t('Error',23,1,7),t(')',4,1,20),t(')',4,1,21) ]).
+b_line_i(11,2,3,cmd,1,[ t('',110,1,0) ]).
+b_line_i(13,2,3,cmd,1,[ t('',104,1,0),t(o(1,'PTBUSSEG1'),28,1,3),t('Usu_cod',23,1,19),t(',',7,1,27),t('Usu_des',23,1,28),t(',',7,1,36),t('Usu_cla',23,1,37),t(',',7,1,45),t('Usu_int',23,1,47),t(',',7,1,55),t('Usu_maiw',23,1,57),t(',',7,1,66),t('''INS''',3,13,68) ]).
+b_line_i(16,2,3,cmd,1,[ t('',104,1,0),t(o(1,'PTBUSSEG2'),28,1,3),t('Usu_cod',23,1,19),t(',',7,1,27),t('Administrador',23,1,29),t(',',7,1,43),t('''INS''',3,16,45) ]).
+b_line_i(19,2,3,cmd,1,[ t('',104,1,0),t(o(1,'PTBUSSEG5'),28,1,3),t('Usu_cod',23,1,19),t(',',7,1,27),t('''INS''',3,19,29) ]).
+b_line_i(20,2,3,cmd,1,[ t('',118,1,0) ]).
+b_line_i(21,2,3,cmd,1,[ t('',111,1,0) ]).
+b_line_i(22,2,3,cmd,1,[ t('',147,1,0) ]).
+b_line_i(24,2,3,cmd,1,[ t('',143,1,0),t('''VALIDACIONES''',3,24,5) ]).
+b_line_i(25,2,4,cmd,1,[ t('',107,1,0),t('Ok',23,1,0),t(=,10,1,0),t('1',3,1,0) ]).
+b_line_i(26,2,4,cmd,1,[ t('',107,1,0),t('Error',23,1,0),t(=,10,1,0),t('''''',3,1,0) ]).
+b_line_i(28,2,4,cmd,1,[ t('',109,1,0),t('trim(',1,28,14),t('Usu_cod',23,1,5),t(')',4,1,20),t(=,10,1,22),t('''''',3,28,24) ]).
+b_line_i(29,2,4,cmd,1,[ t('',107,1,0),t('Error',23,1,0),t(=,10,1,0),t('''DEBE INGRESAR UN USUARIO.''',3,1,0) ]).
+b_line_i(30,2,4,cmd,1,[ t('',107,1,0),t('Ok',23,1,0),t(=,10,1,0),t('0',3,1,0) ]).
+b_line_i(31,2,4,cmd,1,[ t('',111,1,0) ]).
+b_line_i(33,2,4,cmd,1,[ t('',109,1,0),t('Ok',23,1,5),t(=,10,1,9),t('1',3,1,11) ]).
+b_line_i(34,2,4,cmd,1,[ t('',109,1,0),t('trim(',1,34,15),t('Usu_des',23,1,6),t(')',4,1,21),t(=,10,1,23),t('''''',3,34,25) ]).
+b_line_i(35,2,4,cmd,1,[ t('',107,1,0),t('Error',23,1,0),t(=,10,1,0),t('''DEBE INGRESAR UNA DESCRIPCIÓN DE USUARIO.''',3,1,0) ]).
+b_line_i(36,2,4,cmd,1,[ t('',107,1,0),t('Ok',23,1,0),t(=,10,1,0),t('0',3,1,0) ]).
+b_line_i(37,2,4,cmd,1,[ t('',111,1,0) ]).
+b_line_i(38,2,4,cmd,1,[ t('',111,1,0) ]).
+b_line_i(40,2,4,cmd,1,[ t('',109,1,0),t('Ok',23,1,5),t(=,10,1,9),t('1',3,1,11) ]).
+b_line_i(41,2,4,cmd,1,[ t('',109,1,0),t('trim(',1,41,15),t('Usu_cla',23,1,6),t(')',4,1,21),t(=,10,1,23),t('''''',3,41,25) ]).
+b_line_i(42,2,4,cmd,1,[ t('',107,1,0),t('Error',23,1,0),t(=,10,1,0),t('''DEBE INGRESAR UNA CONTRASEÑA.''',3,1,0) ]).
+b_line_i(43,2,4,cmd,1,[ t('',107,1,0),t('Ok',23,1,0),t(=,10,1,0),t('0',3,1,0) ]).
+b_line_i(44,2,4,cmd,1,[ t('',111,1,0) ]).
+b_line_i(45,2,4,cmd,1,[ t('',111,1,0) ]).
+b_line_i(46,2,4,cmd,1,[ t('',144,1,0) ]).
+b_line_i(1000,2,4,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,4,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,4,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,table(5))).
+html_sub_i(5,0,html_i(0,html('<TBODY>'))).
+html_sub_i(5,6,html_i(1,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,0,html_i(0,html('<DIV style="WHITE-SPACE: nowrap" class="ToolbarMain" id="Section1"/>'))).
+html_sub_i(5,0,html_i(2,html('</TBODY>'))).
+html_sub_i(2,8,html_i(2,row(8))).
+html_sub_i(8,9,html_i(0,cell(9))).
+html_sub_i(9,10,html_i(0,comp(errview))).
+html_sub_i(2,11,html_i(3,row(11))).
+html_sub_i(11,12,html_i(0,cell(12))).
+html_sub_i(12,13,html_i(0,group(13))).
+html_sub_i(13,14,html_i(0,table(14))).
+html_sub_i(14,0,html_i(0,html('<TBODY>'))).
+html_sub_i(14,15,html_i(1,row(15))).
+html_sub_i(15,16,html_i(0,cell(16))).
+html_sub_i(16,17,html_i(0,t('Usuario:',3))).
+html_sub_i(15,18,html_i(1,cell(18))).
+html_sub_i(18,19,html_i(0,t('Usu_cod',23))).
+html_sub_i(14,20,html_i(2,row(20))).
+html_sub_i(20,21,html_i(0,cell(21))).
+html_sub_i(21,22,html_i(0,t('Descripción:',3))).
+html_sub_i(20,23,html_i(1,cell(23))).
+html_sub_i(23,24,html_i(0,t('Usu_des',23))).
+html_sub_i(14,25,html_i(3,row(25))).
+html_sub_i(25,26,html_i(0,cell(26))).
+html_sub_i(26,27,html_i(0,t('Contraseña:',3))).
+html_sub_i(25,28,html_i(1,cell(28))).
+html_sub_i(28,29,html_i(0,t('Usu_cla',23))).
+html_sub_i(14,30,html_i(4,row(30))).
+html_sub_i(30,31,html_i(0,cell(31))).
+html_sub_i(31,32,html_i(0,t('Teléfono Interno:',3))).
+html_sub_i(30,33,html_i(1,cell(33))).
+html_sub_i(33,34,html_i(0,t('Usu_int',23))).
+html_sub_i(14,35,html_i(5,row(35))).
+html_sub_i(35,36,html_i(0,cell(36))).
+html_sub_i(36,37,html_i(0,t('Correo electrónico:',3))).
+html_sub_i(35,38,html_i(1,cell(38))).
+html_sub_i(38,39,html_i(0,t('Usu_maiw',23))).
+html_sub_i(14,40,html_i(6,row(40))).
+html_sub_i(40,41,html_i(0,cell(41))).
+html_sub_i(41,42,html_i(0,t('Administrador:',3))).
+html_sub_i(40,43,html_i(1,cell(43))).
+html_sub_i(43,44,html_i(0,t('Administrador',23))).
+html_sub_i(14,0,html_i(7,html('</TBODY>'))).
+html_sub_i(2,45,html_i(4,row(45))).
+html_sub_i(45,46,html_i(0,cell(46))).
+html_sub_i(46,47,html_i(0,button('Enter'))).
+html_sub_i(2,0,html_i(5,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(10,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(4,'Colspan',2,v,[ num ]).
+html_comp_i(5,'Id','Tabletoolbar',v,[ str ]).
+html_comp_i(5,'Class','ViewTable',v,[ str ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Backgroundgx','',d,[ str ]).
+html_comp_i(5,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(5,'Border','0',d,[ str ]).
+html_comp_i(5,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Cellpadding','1',d,[ str ]).
+html_comp_i(5,'Cellspacing','2',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Rules',none,d,[ str ]).
+html_comp_i(9,'Colspan',2,v,[ num ]).
+html_comp_i(10,'Controlname','Errviewer1',v,[ str ]).
+html_comp_i(10,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(10,'Displaymode',1,d,[ num ]).
+html_comp_i(10,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(10,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(10,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Colspan',2,v,[ num ]).
+html_comp_i(13,'Class','Group',v,[ str ]).
+html_comp_i(13,'Caption','Datos Generales',d,[ str ]).
+html_comp_i(13,'Id','Groupdata',v,[ str ]).
+html_comp_i(13,'Height',measure(37,px),v,[ measure ]).
+html_comp_i(13,'Width',measure(82,px),v,[ measure ]).
+html_comp_i(14,'Id','Table2',v,[ str ]).
+html_comp_i(14,'Class','Table',v,[ str ]).
+html_comp_i(14,'Title','',d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Backgroundgx','',d,[ str ]).
+html_comp_i(14,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(14,'Border','0',d,[ str ]).
+html_comp_i(14,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(14,'Cellpadding','1',d,[ str ]).
+html_comp_i(14,'Cellspacing','2',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Rules',none,d,[ str ]).
+html_comp_i(17,'Caption','Usuario:',d,[ str ]).
+html_comp_i(17,'Id','Textblock1',v,[ str ]).
+html_comp_i(17,'Class','TextBlock',d,[ str ]).
+html_comp_i(17,'Event','',d,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Fill',-1,d,[ bool ]).
+html_comp_i(17,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(17,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(17,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(19,'Attid',-8,v,[ num ]).
+html_comp_i(19,'Class','Attribute',d,[ str ]).
+html_comp_i(19,'Controlname','&Usu_cod',d,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Controltype',2,d,[ num ]).
+html_comp_i(19,'Inputtype',0,d,[ num ]).
+html_comp_i(19,'Editautocomplete',0,d,[ num ]).
+html_comp_i(19,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(19,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(19,'Readonly',0,d,[ bool ]).
+html_comp_i(19,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(19,'Ispassword',0,d,[ bool ]).
+html_comp_i(19,'Autoresize',-1,d,[ bool ]).
+html_comp_i(19,'Gxwidth',measure(16,chr),d,[ measure ]).
+html_comp_i(19,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(19,'Ismultiline',0,d,[ bool ]).
+html_comp_i(19,'Fill',-1,d,[ bool ]).
+html_comp_i(19,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(19,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(19,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(19,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(22,'Caption','Descripción:',d,[ str ]).
+html_comp_i(22,'Id','Textblock2',v,[ str ]).
+html_comp_i(22,'Class','TextBlock',d,[ str ]).
+html_comp_i(22,'Event','',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,d,[ bool ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Fill',-1,d,[ bool ]).
+html_comp_i(22,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(22,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(22,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(24,'Attid',-9,v,[ num ]).
+html_comp_i(24,'Class','Attribute',d,[ str ]).
+html_comp_i(24,'Controlname','&Usu_des',d,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Controltype',2,d,[ num ]).
+html_comp_i(24,'Inputtype',0,d,[ num ]).
+html_comp_i(24,'Editautocomplete',0,d,[ num ]).
+html_comp_i(24,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(24,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(24,'Readonly',0,d,[ bool ]).
+html_comp_i(24,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(24,'Ispassword',0,d,[ bool ]).
+html_comp_i(24,'Autoresize',-1,d,[ bool ]).
+html_comp_i(24,'Gxwidth',measure(50,chr),d,[ measure ]).
+html_comp_i(24,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(24,'Ismultiline',0,d,[ bool ]).
+html_comp_i(24,'Fill',-1,d,[ bool ]).
+html_comp_i(24,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(24,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(24,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(24,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(24,'Gxformat',0,d,[ num ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(27,'Caption','Contraseña:',d,[ str ]).
+html_comp_i(27,'Id','Textblock3',v,[ str ]).
+html_comp_i(27,'Class','TextBlock',d,[ str ]).
+html_comp_i(27,'Event','',d,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(27,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(29,'Attid',-7,v,[ num ]).
+html_comp_i(29,'Class','Attribute',d,[ str ]).
+html_comp_i(29,'Controlname','&Usu_cla',d,[ str ]).
+html_comp_i(29,'Returnonclick',0,d,[ bool ]).
+html_comp_i(29,'Controltype',2,d,[ num ]).
+html_comp_i(29,'Inputtype',0,d,[ num ]).
+html_comp_i(29,'Editautocomplete',0,d,[ num ]).
+html_comp_i(29,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(29,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(29,'Readonly',0,d,[ bool ]).
+html_comp_i(29,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(29,'Ispassword',-1,d,[ bool ]).
+html_comp_i(29,'Autoresize',-1,d,[ bool ]).
+html_comp_i(29,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(29,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(29,'Ismultiline',0,d,[ bool ]).
+html_comp_i(29,'Fill',-1,d,[ bool ]).
+html_comp_i(29,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(29,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(29,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(29,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(29,'Gxformat',0,d,[ num ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(32,'Caption','Teléfono Interno:',d,[ str ]).
+html_comp_i(32,'Id','Textblock6',v,[ str ]).
+html_comp_i(32,'Class','TextBlock',d,[ str ]).
+html_comp_i(32,'Event','',d,[ str ]).
+html_comp_i(32,'Returnonclick',0,d,[ bool ]).
+html_comp_i(32,'Gxformat',0,d,[ num ]).
+html_comp_i(32,'Title','',d,[ str ]).
+html_comp_i(32,'Fill',-1,d,[ bool ]).
+html_comp_i(32,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(32,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(32,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(34,'Attid',-17,v,[ num ]).
+html_comp_i(34,'Class','Attribute',d,[ str ]).
+html_comp_i(34,'Controlname','&Usu_int',d,[ str ]).
+html_comp_i(34,'Returnonclick',0,d,[ bool ]).
+html_comp_i(34,'Controltype',2,d,[ num ]).
+html_comp_i(34,'Inputtype',0,d,[ num ]).
+html_comp_i(34,'Editautocomplete',0,d,[ num ]).
+html_comp_i(34,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(34,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(34,'Readonly',0,d,[ bool ]).
+html_comp_i(34,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(34,'Ispassword',0,d,[ bool ]).
+html_comp_i(34,'Autoresize',-1,d,[ bool ]).
+html_comp_i(34,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(34,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(34,'Ismultiline',0,d,[ bool ]).
+html_comp_i(34,'Fill',-1,d,[ bool ]).
+html_comp_i(34,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(34,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(34,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(34,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(34,'Gxformat',0,d,[ num ]).
+html_comp_i(34,'Title','',d,[ str ]).
+html_comp_i(37,'Caption','Correo electrónico:',d,[ str ]).
+html_comp_i(37,'Id','Textblock7',v,[ str ]).
+html_comp_i(37,'Class','TextBlock',d,[ str ]).
+html_comp_i(37,'Event','',d,[ str ]).
+html_comp_i(37,'Returnonclick',0,d,[ bool ]).
+html_comp_i(37,'Gxformat',0,d,[ num ]).
+html_comp_i(37,'Title','',d,[ str ]).
+html_comp_i(37,'Fill',-1,d,[ bool ]).
+html_comp_i(37,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(37,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(37,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(39,'Attid',-16,v,[ num ]).
+html_comp_i(39,'Class','Attribute',d,[ str ]).
+html_comp_i(39,'Controlname','&Usu_maiw',d,[ str ]).
+html_comp_i(39,'Returnonclick',0,d,[ bool ]).
+html_comp_i(39,'Controltype',2,d,[ num ]).
+html_comp_i(39,'Inputtype',0,d,[ num ]).
+html_comp_i(39,'Editautocomplete',0,d,[ num ]).
+html_comp_i(39,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(39,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(39,'Readonly',0,d,[ bool ]).
+html_comp_i(39,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(39,'Ispassword',0,d,[ bool ]).
+html_comp_i(39,'Autoresize',-1,d,[ bool ]).
+html_comp_i(39,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(39,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(39,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(39,'Fill',-1,d,[ bool ]).
+html_comp_i(39,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(39,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(39,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(39,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(39,'Gxformat',0,d,[ num ]).
+html_comp_i(39,'Title','',d,[ str ]).
+html_comp_i(42,'Caption','Administrador:',d,[ str ]).
+html_comp_i(42,'Id','Textblock4',v,[ str ]).
+html_comp_i(42,'Class','TextBlock',d,[ str ]).
+html_comp_i(42,'Event','',d,[ str ]).
+html_comp_i(42,'Returnonclick',0,d,[ bool ]).
+html_comp_i(42,'Gxformat',0,d,[ num ]).
+html_comp_i(42,'Title','',d,[ str ]).
+html_comp_i(42,'Fill',-1,d,[ bool ]).
+html_comp_i(42,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(42,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(42,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(44,'Attid',-5,v,[ num ]).
+html_comp_i(44,'Class','Attribute',d,[ str ]).
+html_comp_i(44,'Controlname','&Administrador',d,[ str ]).
+html_comp_i(44,'Returnonclick',0,d,[ bool ]).
+html_comp_i(44,'Controltype',3,v,[ num ]).
+html_comp_i(44,'Controltitle','',d,[ str ]).
+html_comp_i(44,'Controlcheckvalue','1',d,[ str ]).
+html_comp_i(44,'Controluncheckvalue','0',d,[ str ]).
+html_comp_i(44,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(44,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(44,'Readonly',0,d,[ bool ]).
+html_comp_i(44,'Autoresize',-1,d,[ bool ]).
+html_comp_i(44,'Gxwidth',measure(1,chr),d,[ measure ]).
+html_comp_i(44,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(44,'Ismultiline',0,d,[ bool ]).
+html_comp_i(44,'Fill',-1,d,[ bool ]).
+html_comp_i(44,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(44,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(44,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(44,'Title','',d,[ str ]).
+html_comp_i(46,'Colspan',2,v,[ num ]).
+html_comp_i(47,'Controlname','Button1',v,[ str ]).
+html_comp_i(47,'Class','Button',d,[ str ]).
+html_comp_i(47,'Event','Enter',d,[ str ]).
+html_comp_i(47,'Caption','Confirmar',d,[ str ]).
+html_comp_i(47,'Title','Confirmar',d,[ str ]).
+html_comp_i(47,'Type',0,d,[ num ]).
+html_comp_i(47,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(47,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(47,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(47,'Border','0',d,[ str ]).
+html_comp_i(47,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(47,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,table(5),[ ctlname('Tabletoolbar') ]).
+lit_i(10,1,comp(errview),[ ctlname('Errviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,t('Usuario:',3),[ ctlname('Textblock1') ]).
+lit_i(19,1,t('Usu_cod',23),[ ctlname('&Usu_cod'),ctrltype(edit,19),pos(19),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(22,1,t('Descripción:',3),[ ctlname('Textblock2') ]).
+lit_i(24,1,t('Usu_des',23),[ ctlname('&Usu_des'),ctrltype(edit,24),pos(24),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(27,1,t('Contraseña:',3),[ ctlname('Textblock3') ]).
+lit_i(29,1,t('Usu_cla',23),[ ctlname('&Usu_cla'),ctrltype(edit,29),pos(29),ispwd(1),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(32,1,t('Teléfono Interno:',3),[ ctlname('Textblock6') ]).
+lit_i(34,1,t('Usu_int',23),[ ctlname('&Usu_int'),ctrltype(edit,34),pos(34),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(37,1,t('Correo electrónico:',3),[ ctlname('Textblock7') ]).
+lit_i(39,1,t('Usu_maiw',23),[ ctlname('&Usu_maiw'),ctrltype(edit,39),pos(39),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(42,1,t('Administrador:',3),[ ctlname('Textblock4') ]).
+lit_i(44,1,t('Administrador',23),[ ctlname('&Administrador'),ctrltype(checkbox,44),pos(44),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(14,1,table(14),[ ctlname('Table2') ]).
+lit_i(13,1,group(13),[ ctlname('Groupdata') ]).
+lit_i(47,1,button('Enter'),[ ctlname('Button1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,44,[ [ '1','0','' ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,98,'PTBUSSEG5',[ [ char,16,0,0 ],[ char,3,0,0 ] ],[ [ 'USU_COD',inout,[] ],[ 'Modo',inout,[] ] ]).
+pgm_parm_i(proc,95,'PTBUSSEG2',[ [ char,16,0,0 ],[ int,1,0,0 ],[ char,3,0,0 ] ],[ [ 'USU_COD',inout,[] ],[ 'Administrador',inout,[] ],[ 'Modo',inout,[] ] ]).
+pgm_parm_i(proc,94,'PTBUSSEG1',[ [ char,16,0,0 ],[ char,50,0,0 ],[ char,20,0,0 ],[ char,10,0,0 ],[ svchar,256,0,0 ],[ char,3,0,0 ] ],[ [ 'USU_COD',inout,[] ],[ 'USU_DES',inout,[] ],[ 'USU_CLA',inout,[] ],[ 'USU_INT',inout,[] ],[ 'USU_MAIW',inout,[] ],[ 'Modo',inout,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

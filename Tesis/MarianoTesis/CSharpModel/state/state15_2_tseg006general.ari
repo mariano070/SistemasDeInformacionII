@@ -1,0 +1,21 @@
+current_obj_i(2,web,148).
+ 
+called_tree_i(13,148,1,2).
+called_tree_i(13,148,1,4).
+called_tree_i(13,148,0,36).
+called_tree_i(13,148,13,4).
+called_tree_i(13,148,13,24).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tseg006general,[],[],[],148).
+ 
+ 
+obj_parms_i([ 'String aP0_USU_COD','short aP1_SIS_COD','short aP2_PRG_COD','int aP3_PRS_NRO' ],[ [ 6,in ],[ 116,in ],[ 126,in ],[ 118,in ] ]).
+ 
+ 
+ 
+ 

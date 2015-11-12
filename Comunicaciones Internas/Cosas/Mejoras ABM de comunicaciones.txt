@@ -1,0 +1,7 @@
+- Agregar un control para que no deje subir como imagenes cualquier tipo de archivo. OK
+- Agregar un detalle de usuarios y tildes de comunicación (o ver si se puede aprovechar algún otro detalle).
+- Hay modificaciones parciales que puede que no necesiten revisiones.
+  - Ej.: agregar usuarios a las comunicaciones.
+  - ¿Que hacer si se agregan o quitan secciones?
+- Ver porque es tan lenta la carga de usuarios de una lista (en la lupa del ABM dentro de la selección de listas de usuarios) OK
+- Sigue dando el error de no retornar en el popup de listas de usuarios --> probar

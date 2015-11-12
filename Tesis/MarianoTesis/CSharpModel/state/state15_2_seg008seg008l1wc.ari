@@ -1,0 +1,21 @@
+current_obj_i(2,web,144).
+ 
+called_tree_i(13,144,1,2).
+called_tree_i(13,144,1,4).
+called_tree_i(13,144,0,30).
+called_tree_i(13,144,13,4).
+called_tree_i(13,144,13,145).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(seg008seg008l1wc,[],[],[],144).
+ 
+ 
+obj_parms_i([ 'short aP0_PRG_COD','int aP1_MNU_NIV' ],[ [ 'Prg_cod',in ],[ 'Mnu_niv',in ] ]).
+ 
+ 
+ 
+ 

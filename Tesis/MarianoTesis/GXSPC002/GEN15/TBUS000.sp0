@@ -1,0 +1,3393 @@
+spec_i([ trn,24,'ACT. DE BIENES DE USO','TBUS000',[],spa,'10_1_5-42940' ]).
+ 
+struct_i(24,0,[ 'Context','Usuario','Pgmname','Isauthorized','Trncontext','Insert_bus_com','Insert_bus_are','Insert_bus_sec','Insert_bus_tip','GXV1','Bus_idt','Mode','Bus_emp','Bus_rub','Bus_cod','Bus_par' ],[]).
+ 
+level_i(24,[ 24,[ [ 24,many ],[ 541,one ] ],[ 8,1,3,4 ],[],[],[],[ 8,1,3,4 ],'IBUS000',[ 24,[] ],[] ]).
+ 
+tw_i(24,[ [ 541,[ [ 24,1,2 ] ] ] ]).
+ 
+lwi_i(24,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(24,[ [ [ 24,8 ],[ 24,3 ],[ 24,4 ],[ 24,54 ],[ 24,170 ],[ 24,55 ],[ 24,333 ],[ 24,331 ],[ 24,171 ],[ 24,172 ],[ 24,56 ],[ 541,61 ],[ 541,178 ],[ 24,329 ],[ 24,330 ],[ 24,350 ],[ 24,175 ],[ 24,176 ],[ 24,59 ],[ 24,174 ],[ 24,334 ],[ 24,340 ],[ 24,335 ],[ 24,336 ],[ 24,341 ],[ 24,337 ],[ 24,338 ],[ 24,339 ],[ 24,342 ],[ 24,343 ],[ 24,344 ],[ 24,345 ],[ 24,346 ],[ 24,103 ],[ 24,1 ] ] ]).
+ 
+las_i(24,[ [ 'Context','Usuario','Pgmname','Isauthorized','Trncontext','Insert_bus_com','Insert_bus_are','Insert_bus_sec','Insert_bus_tip','GXV1','Bus_idt','Mode','Bus_emp','Bus_rub','Bus_cod','Bus_par',8,1,3,4,54,170,55,333,331,171,172,56,'Error','Error_t','Mensaje','Error_2','GxBScreen',348,347,349,61,178,329,330,350,175,176,59,174,334,340,335,336,341,337,338,339,342,343,344,345,346,103 ] ]).
+ 
+lac_i(24,[ [ 8,1,3,4,54,170,55,329,330,331,350,333,171,175,172,176,56,59,174,334,103 ] ]).
+ 
+ 
+lits_i('CODIGO DE EMPRESA',5,10).
+lits_i('RUBRO DEL BIEN',5,10).
+lits_i('CODIGO Y PARTIDA',5,10).
+lits_i('DESCRIPCION DEL BIEN',5,10).
+lits_i('FECHA DE ALTA DEL BIEN',5,10).
+lits_i('FECHA DE ADQUISICION DEL BIEN',5,10).
+lits_i('VIDA UTIL ASIGNADA AL BIEN',5,10).
+lits_i('VALOR DE ORIGEN DEL BIEN',5,10).
+lits_i('COMPROBANTE DE COMPRA',5,10).
+lits_i('NUMERO DEL COMP. DE COMPRA',5,10).
+lits_i('AREA A QUE PERTENECE EL BIEN',5,10).
+lits_i('SECTOR DE LA EMPRESA',5,10).
+lits_i('CODIGO DE TIPO DE BIEN',5,10).
+lits_i('FECHA DE BAJA DEL BIEN',5,10).
+lits_i('MOTIVO DE BAJA DEL BIEN',5,10).
+lits_i('ASOCIAR A TRAZABILIDAD',5,10).
+lits_i('DATOS PROCESOS ACTUALIZACION',5,10).
+lits_i('FECHA DE PROCESO AJUSTE',5,10).
+lits_i('VIDA UTIL TRANSCURRIDA',5,10).
+lits_i('ULTIMO COEFICIENTE DE CALCULO',5,10).
+lits_i('VALOR ORIGEN AJUSTADO (C)',5,10).
+lits_i('VALOR DE ORIGEN AJUSTADO',5,10).
+lits_i('AMORTIZ. ACUMULADAS AJUSTADAS',5,10).
+lits_i('AMORTIZ. DEL EJERCICIO AJUST.',5,10).
+lits_i('VALOR HISTORICO BASE',5,10).
+lits_i('FECHA VALOR HISTORICO BASE',5,10).
+lits_i('VALOR DE ORIGEN HISTORICO',5,10).
+lits_i('AMORTIZ. ACUMULADAS VAL HISTOR',5,10).
+lits_i('AMORTIZ. DEL EJERCICIO HISTORI',5,10).
+lits_i('VALOR RESIDUAL AJ (FORMULA)',5,10).
+lits_i('VALOR RESIDUAL HIST(FORMULA)',5,10).
+lits_i('VIDA UTIL RESIDUAL (FORMULA)',5,10).
+ 
+cls_i([ 0,0 ],[ 5,49 ]).
+ 
+pos_i(8,[ 0,0,0 ]).
+pos_i(1,[ 0,0,0 ]).
+pos_i(3,[ 0,0,0 ]).
+pos_i(4,[ 0,0,0 ]).
+pos_i(54,[ 0,0,0 ]).
+pos_i(170,[ 0,0,0 ]).
+pos_i(55,[ 0,0,0 ]).
+pos_i(329,[ 0,0,0 ]).
+pos_i(330,[ 0,0,0 ]).
+pos_i(331,[ 0,0,0 ]).
+pos_i(350,[ 0,0,0 ]).
+pos_i(333,[ 0,0,0 ]).
+pos_i(172,[ 0,0,0 ]).
+pos_i(176,[ 0,0,0 ]).
+pos_i(171,[ 0,0,0 ]).
+pos_i(175,[ 0,0,0 ]).
+pos_i(56,[ 0,0,0 ]).
+pos_i(59,[ 0,0,0 ]).
+pos_i(174,[ 0,0,0 ]).
+pos_i(334,[ 0,0,0 ]).
+pos_i(103,[ 0,0,0 ]).
+pos_i(340,[ 0,0,0 ]).
+pos_i(335,[ 0,0,0 ]).
+pos_i(336,[ 0,0,0 ]).
+pos_i(341,[ 0,0,0 ]).
+pos_i(337,[ 0,0,0 ]).
+pos_i(338,[ 0,0,0 ]).
+pos_i(339,[ 0,0,0 ]).
+pos_i(342,[ 0,0,0 ]).
+pos_i(343,[ 0,0,0 ]).
+pos_i(344,[ 0,0,0 ]).
+pos_i(345,[ 0,0,0 ]).
+pos_i(346,[ 0,0,0 ]).
+pos_i(347,[ 0,0,0 ]).
+pos_i(348,[ 0,0,0 ]).
+pos_i(349,[ 0,0,0 ]).
+ 
+ 
+default_i(e(103,4,3,[ t('0',3) ])).
+default_i(e('Pgmname',2,2,'"TBUS000"')).
+default_i(e(8,4,3,[ t('''M''',3) ])).
+ 
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'CC_USER_PASS','')).
+rule_i(0,datastore(3,'CC_USER_ID','')).
+rule_i(0,datastore(3,'CC_SERVER','')).
+rule_i(0,datastore(3,'CC_DBNAME','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD','')).
+rule_i(0,datastore(3,'USER_ID','')).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','')).
+rule_i(0,datastore(3,'CS_DBNAME','')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DESARROLLO')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','')).
+rule_i(0,datastore(2,'CC_USER_ID','')).
+rule_i(0,datastore(2,'CC_SERVER','')).
+rule_i(0,datastore(2,'CC_DBNAME','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','')).
+rule_i(0,datastore(2,'USER_ID','')).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','')).
+rule_i(0,datastore(2,'CS_DBNAME','')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME',soporte_notebook)).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('OKBUT','YES')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON',i(98,'aa1ab5fc-b1c8-4d23-9ba5-98ca435ab24c'))).
+rule_i(0,prop('CNF_BUTTON',i(98,'6f51d721-a2c0-4f61-a087-97f3e2fdbaa8'))).
+rule_i(0,prop('UPD_BUTTON',i(98,'1d924cf2-f606-4bd3-9a66-7dc1bf7bf586'))).
+rule_i(0,prop('ADD_BUTTON',i(98,'429b3a58-af68-4143-bd10-de9adb36bd84'))).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('ExternalNamespace','MarianoTesis')).
+rule_i(0,prop('ExternalName','TBUS000')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(idBC,'0')).
+rule_i(0,prop('Folder',o(8,'BIEUSO'))).
+rule_i(0,prop('ObjDesc','ACT. DE BIENES DE USO')).
+rule_i(0,prop('ObjName','TBUS000')).
+rule_i(24,prompt([ [],[],[ 103 ],[],[ t(o(13,'HTBUS030_1'),28),t(103,2) ],[],y,[] ])).
+rule_i(24,prompt([ 541,[ [ 24,1,2 ] ],[ 1 ],[ 1 ],[ t(o(13,'Gx0110'),28),t(1,2) ],[],n,[] ])).
+rule_i(24,rule([ a(23,[ [ 1 ],[ t(o(13,'Gx0110'),28),t(1,2) ] ]) ],[],[],[ 1 ])).
+rule_i(24,prompt([ 24,[ [ [],8,8 ],[ [],1,1 ],[ [],3,3 ],[ [],4,4 ] ],[],[],[ t(o(13,'Gx00O0'),28),t(8,2),t(',',7),t(1,2),t(',',7),t(3,2),t(',',7),t(4,2) ],[],n,[] ])).
+rule_i(24,rule([ a(23,[ [ 8,1,3,4 ],[ t(o(13,'Gx00O0'),28),t(8,2),t(',',7),t(1,2),t(',',7),t(3,2),t(',',7),t(4,2) ] ]) ],[],[],[ 8,1,3,4 ])).
+rule_i(0,rule([ a(22,[ 'Dlt','"Eliminar"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,rule([ a(10,[ 'Mode','Bus_emp','Bus_rub','Bus_cod','Bus_par' ]) ],[],[ insert,update,delete ],[])).
+rule_i(0,parmio([ [ 'Mode',in ],[ 'Bus_emp',in ],[ 'Bus_rub',in ],[ 'Bus_cod',in ],[ 'Bus_par',in ] ])).
+rule_i(24,rule([ a(1,msg([ t('"Campo FECHA DE ALTA DEL BIEN fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(170,2),t(')',4),t('.OR.',9),t(170,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 170 ])).
+rule_i(24,rule([ a(1,msg([ t('"Campo FECHA DE ADQUISICION DEL BIEN fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(55,2),t(')',4),t('.OR.',9),t(55,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 55 ])).
+rule_i(24,rule([ a(1,msg([ t('"Campo FECHA DE BAJA DEL BIEN fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(174,2),t(')',4),t('.OR.',9),t(174,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ],[ insert,update ],[ 174 ])).
+rule_i(24,rule([ a(8,[ t(o(1,'PBUS021'),28),t(1,2),t(',',7),t(54,2),t(',',7),t(170,2),t(',',7),t(55,2),t(',',7),t(333,2),t(',',7),t(331,2) ]) ],[ t('(',0),t('(',0),t('Mode',23),t(=,10),t('''INS''',3),t(')',4),t('.AND.',9),t('(',0),t('after(',1),t(8,2),t(')',4),t(')',4),t('.AND.',9),t('(',0),t('(',0),t('val(',1),t([ t('Sesion',23),t('get(',1) ],31),t('''nro_lectura''',3),t(')',4),t(')',4),t(')',4),t(=,10),t('0',3),t(')',4),t(')',4) ],[ insert,update,delete ],[ 8 ])).
+rule_i(24,rule([ a(3,[ t(8,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_emp',23),t(')',4) ],[ insert,update,delete ],[ 8,'Bus_emp' ])).
+rule_i(24,rule([ a(3,[ t(1,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_rub',23),t(')',4) ],[ insert,update,delete ],[ 1,'Bus_rub' ])).
+rule_i(24,rule([ a(3,[ t(3,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_cod',23),t(')',4) ],[ insert,update,delete ],[ 3,'Bus_cod' ])).
+rule_i(24,rule([ a(3,[ t(4,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_par',23),t(')',4) ],[ insert,update,delete ],[ 4,'Bus_par' ])).
+rule_i(24,rule([ a(3,[ t(331,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_com',23),t(')',4) ],[ insert,update,delete ],[ 331,'Mode','Insert_bus_com' ])).
+rule_i(24,rule([ a(3,[ t(171,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_are',23),t(')',4) ],[ insert,update,delete ],[ 171,'Mode','Insert_bus_are' ])).
+rule_i(24,rule([ a(3,[ t(172,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_sec',23),t(')',4) ],[ insert,update,delete ],[ 172,'Mode','Insert_bus_sec' ])).
+rule_i(24,rule([ a(3,[ t(56,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_tip',23),t(')',4) ],[ insert,update,delete ],[ 56,'Mode','Insert_bus_tip' ])).
+rule_i(24,rule([ a(1,[ t('''El bien debe tener un código.''',3) ]) ],[ t('null(',1),t(3,2),t(')',4) ],[ insert,update,delete ],[ 3 ])).
+rule_i(24,rule([ a(1,[ t('''El bien debe llevar una descripción.''',3) ]) ],[ t('null(',1),t(54,2),t(')',4) ],[ insert,update,delete ],[ 54 ])).
+rule_i(24,rule([ a(1,[ t('''El bien debe llevar una fecha de alta.''',3) ]) ],[ t('null(',1),t(170,2),t(')',4) ],[ insert,update,delete ],[ 170 ])).
+rule_i(24,rule([ a(1,[ t('''El bien debe llevar una fecha de adquisición.''',3) ]) ],[ t('null(',1),t(55,2),t(')',4) ],[ insert,update,delete ],[ 55 ])).
+rule_i(24,rule([ a(1,[ t('''El bien debe tener un valor de origen.''',3) ]) ],[ t('null(',1),t(330,2),t(')',4) ],[ insert,update,delete ],[ 330 ])).
+rule_i(24,rule([ a(23,[ [ 103 ],[ t(o(13,'HTBUS030_1'),28),t(103,2) ] ]) ],[],[ insert,update,delete ],[ 103 ])).
+rule_i(24,rule([ a(8,[ t(o(1,'PTBUS000'),28),t(8,2),t(',',7),t(1,2),t(',',7),t(3,2),t(',',7),t(4,2),t(',',7),t('Error',23) ]) ],[ t('after(',1),t(4,2),t(')',4),t('.AND.',9),t('Mode',23),t(=,10),t('''INS''',3) ],[ insert,update,delete ],[ 4 ])).
+rule_i(24,rule([ a(1,[ t('''Ya existe el bien que está intentando cargar.''',3) ]) ],[ t('Error',23),t(=,10),t('1',3),t('.AND.',9),t('Mode',23),t(=,10),t('''INS''',3),t('.AND.',9),t('after(',1),t(4,2),t(')',4) ],[ insert,update,delete ],[ 4 ])).
+rule_i(24,rule([ a(8,[ t(o(1,'PBUS020'),28),t(1,2),t(',',7),t(54,2),t(',',7),t(170,2),t(',',7),t(55,2),t(',',7),t(333,2),t(',',7),t(331,2) ]) ],[],[ insert,update,delete ],[ 1,54,170,55,333,331 ])).
+rule_i(24,rule([ a(8,[ t(o(1,'PTBUS032_2'),28),t(8,2),t(',',7),t(1,2),t(',',7),t(3,2),t(',',7),t(4,2),t(',',7),t(103,2),t(',',7),t('Error_t',23),t(',',7),t('Mensaje',23) ]) ],[ t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('after(',1),t(103,2),t(')',4) ],[ insert,update,delete ],[ 103 ])).
+rule_i(24,rule([ a(1,[ t('Mensaje',23) ]) ],[ t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('Error_t',23),t(=,10),t('1',3),t('.AND.',9),t('after(',1),t(103,2),t(')',4) ],[ insert,update,delete ],[ 103 ])).
+rule_i(24,rule([ a(8,[ t(o(1,'PTBUS033'),28),t(103,2),t(',',7),t('Error_2',23) ]) ],[ t('.NOT.',8),t('null(',1),t(174,2),t(')',4),t('.AND.',9),t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('after(',1),t(174,2),t(')',4) ],[ insert,update,delete ],[ 174 ])).
+rule_i(24,rule([ a(1,[ t('''No puede dar de baja este bien porque no está dado de baja en trazabilidad de bienes de uso.''',3) ]) ],[ t('Error_2',23),t(=,10),t('1',3),t('.AND.',9),t('.NOT.',8),t('null(',1),t(174,2),t(')',4),t('.AND.',9),t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('after(',1),t(174,2),t(')',4) ],[ insert,update,delete ],[ 174 ])).
+rule_i(24,rule([ a(3,[ t(340,2) ]) ],[],[ insert,update,delete ],[ 340 ])).
+rule_i(24,rule([ a(3,[ t(335,2) ]) ],[],[ insert,update,delete ],[ 335 ])).
+rule_i(24,rule([ a(3,[ t(336,2) ]) ],[],[ insert,update,delete ],[ 336 ])).
+rule_i(24,rule([ a(3,[ t(341,2) ]) ],[],[ insert,update,delete ],[ 341 ])).
+rule_i(24,rule([ a(3,[ t(337,2) ]) ],[],[ insert,update,delete ],[ 337 ])).
+rule_i(24,rule([ a(3,[ t(338,2) ]) ],[],[ insert,update,delete ],[ 338 ])).
+rule_i(24,rule([ a(3,[ t(339,2) ]) ],[],[ insert,update,delete ],[ 339 ])).
+rule_i(24,rule([ a(3,[ t(342,2) ]) ],[],[ insert,update,delete ],[ 342 ])).
+rule_i(24,rule([ a(3,[ t(343,2) ]) ],[],[ insert,update,delete ],[ 343 ])).
+rule_i(24,rule([ a(3,[ t(344,2) ]) ],[],[ insert,update,delete ],[ 344 ])).
+rule_i(24,rule([ a(3,[ t(345,2) ]) ],[],[ insert,update,delete ],[ 345 ])).
+rule_i(24,rule([ a(3,[ t(346,2) ]) ],[],[ insert,update,delete ],[ 346 ])).
+rule_i(24,rule([ a(3,[ t(347,2) ]) ],[],[ insert,update,delete ],[ 347 ])).
+rule_i(24,rule([ a(3,[ t(348,2) ]) ],[],[ insert,update,delete ],[ 348 ])).
+rule_i(24,rule([ a(3,[ t(349,2) ]) ],[],[ insert,update,delete ],[ 349 ])).
+rule_i(24,rule([ a(19,[ [ 1 ],msg([ t('"No existe ''RUBRO BIENES DE USO''."',3) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 1 ])).
+ 
+a_i(3,24,b,0,[],[ [],[ a(1,msg([ t('"Campo FECHA DE ALTA DEL BIEN fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(170,2),t(')',4),t('.OR.',9),t(170,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(4,24,b,0,[],[ [],[ a(1,msg([ t('"Campo FECHA DE ADQUISICION DEL BIEN fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(55,2),t(')',4),t('.OR.',9),t(55,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(5,24,b,0,[],[ [],[ a(1,msg([ t('"Campo FECHA DE BAJA DEL BIEN fuera de rango"',3) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(174,2),t(')',4),t('.OR.',9),t(174,2),t(>=,10),t('ymdtod(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(')',4),t(')',4) ] ]).
+a_i(6,24,f,349,[],[ [],[ t(329,2),t(-,5),t(335,2) ] ]).
+a_i(7,24,f,347,[],[ [],[ t(337,2),t(-,5),t(338,2),t(-,5),t(339,2) ] ]).
+a_i(8,24,f,348,[],[ [],[ t(344,2),t(-,5),t(345,2),t(-,5),t(346,2) ] ]).
+a_i(9,24,f,8,[],[ [ insert ],[ t('Bus_emp',23),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_emp',23),t(')',4),t(';',18),t('''M''',3),t('IF',17),t(insert,1),t('AND',9),t('null1(',1),t(8,2),t(')',4),t('AND',9),t('GxBScreen',23),t(=,10),t(0,3),t(';',18) ] ]).
+a_i(10,24,f,[ t(8,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_emp',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(11,24,f,1,[],[ [],[ t('Bus_rub',23),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_rub',23),t(')',4),t(';',18) ] ]).
+a_i(12,24,f,[ t(1,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_rub',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(13,24,f,3,[],[ [],[ t('Bus_cod',23),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_cod',23),t(')',4),t(';',18) ] ]).
+a_i(14,24,f,[ t(3,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_cod',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(15,24,f,4,[],[ [],[ t('Bus_par',23),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_par',23),t(')',4),t(';',18) ] ]).
+a_i(16,24,f,[ t(4,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('.NOT.',8),t('null(',1),t('Bus_par',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(17,24,f,331,[],[ [],[ t('Insert_bus_com',23),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_com',23),t(')',4),t(';',18) ] ]).
+a_i(18,24,f,[ t(331,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_com',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(19,24,f,171,[],[ [],[ t('Insert_bus_are',23),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_are',23),t(')',4),t(';',18) ] ]).
+a_i(20,24,f,[ t(171,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_are',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(21,24,f,172,[],[ [],[ t('Insert_bus_sec',23),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_sec',23),t(')',4),t(';',18) ] ]).
+a_i(22,24,f,[ t(172,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_sec',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(23,24,f,56,[],[ [],[ t('Insert_bus_tip',23),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_tip',23),t(')',4),t(';',18) ] ]).
+a_i(24,24,f,[ t(56,2),t('Enabled',3) ],[],[ [],[ t(0,3),t('IF',17),t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_tip',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(25,24,f,[ t(340,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(26,24,f,[ t(335,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(27,24,f,[ t(336,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(28,24,f,[ t(341,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(29,24,f,[ t(337,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(30,24,f,[ t(338,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(31,24,f,[ t(339,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(32,24,f,[ t(342,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(33,24,f,[ t(343,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(34,24,f,[ t(344,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(35,24,f,[ t(345,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(36,24,f,[ t(346,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(37,24,f,[ t(347,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(38,24,f,[ t(348,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(39,24,f,[ t(349,2),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(40,24,f,103,[],[ [ insert ],[ t('0',3),t('IF',17),t(insert,1),t('AND',9),t('null1(',1),t(103,2),t(')',4),t('AND',9),t('GxBScreen',23),t(=,10),t(0,3),t(';',18) ] ]).
+a_i(41,24,b,2,[],[ [],[ a(8,[ t(o(1,'PBUS021'),28),t(1,2),t(',',7),t(54,2),t(',',7),t(170,2),t(',',7),t(55,2),t(',',7),t(333,2),t(',',7),t(331,2) ]) ],[ t('(',0),t('(',0),t('Mode',23),t(=,10),t('''INS''',3),t(')',4),t('.AND.',9),t('(',0),t('after(',1),t(8,2),t(')',4),t(')',4),t('.AND.',9),t('(',0),t('(',0),t('val(',1),t([ t('Sesion',23),t('get(',1) ],31),t('''nro_lectura''',3),t(')',4),t(')',4),t(')',4),t(=,10),t('0',3),t(')',4),t(')',4) ] ]).
+a_i(42,24,b,4,[],[ [],[ a(3,[ t(8,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_emp',23),t(')',4) ] ]).
+a_i(43,24,b,6,[],[ [],[ a(3,[ t(1,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_rub',23),t(')',4) ] ]).
+a_i(44,24,b,8,[],[ [],[ a(3,[ t(3,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_cod',23),t(')',4) ] ]).
+a_i(45,24,b,10,[],[ [],[ a(3,[ t(4,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Bus_par',23),t(')',4) ] ]).
+a_i(46,24,b,12,[],[ [],[ a(3,[ t(331,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_com',23),t(')',4) ] ]).
+a_i(47,24,b,14,[],[ [],[ a(3,[ t(171,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_are',23),t(')',4) ] ]).
+a_i(48,24,b,16,[],[ [],[ a(3,[ t(172,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_sec',23),t(')',4) ] ]).
+a_i(49,24,b,18,[],[ [],[ a(3,[ t(56,2) ]) ],[ t('Mode',23),t(=,10),t([ 9,'Insert' ],44),t('.AND.',9),t('.NOT.',8),t('null(',1),t('Insert_bus_tip',23),t(')',4) ] ]).
+a_i(50,24,b,19,[],[ [],[ a(1,[ t('''El bien debe tener un código.''',3) ]) ],[ t('null(',1),t(3,2),t(')',4) ] ]).
+a_i(51,24,b,20,[],[ [],[ a(1,[ t('''El bien debe llevar una descripción.''',3) ]) ],[ t('null(',1),t(54,2),t(')',4) ] ]).
+a_i(52,24,b,21,[],[ [],[ a(1,[ t('''El bien debe llevar una fecha de alta.''',3) ]) ],[ t('null(',1),t(170,2),t(')',4) ] ]).
+a_i(53,24,b,22,[],[ [],[ a(1,[ t('''El bien debe llevar una fecha de adquisición.''',3) ]) ],[ t('null(',1),t(55,2),t(')',4) ] ]).
+a_i(54,24,b,23,[],[ [],[ a(1,[ t('''El bien debe tener un valor de origen.''',3) ]) ],[ t('null(',1),t(330,2),t(')',4) ] ]).
+a_i(55,24,b,26,[],[ [],[ a(8,[ t(o(1,'PTBUS000'),28),t(8,2),t(',',7),t(1,2),t(',',7),t(3,2),t(',',7),t(4,2),t(',',7),t('Error',23) ]) ],[ t('after(',1),t(4,2),t(')',4),t('.AND.',9),t('Mode',23),t(=,10),t('''INS''',3) ] ]).
+a_i(56,24,b,27,[],[ [],[ a(1,[ t('''Ya existe el bien que está intentando cargar.''',3) ]) ],[ t('Error',23),t(=,10),t('1',3),t('.AND.',9),t('Mode',23),t(=,10),t('''INS''',3),t('.AND.',9),t('after(',1),t(4,2),t(')',4) ] ]).
+a_i(57,24,b,28,[ trn ],[ [],[ a(8,[ t(o(1,'PBUS020'),28),t(1,2),t(',',7),t(54,2),t(',',7),t(170,2),t(',',7),t(55,2),t(',',7),t(333,2),t(',',7),t(331,2) ]) ],[] ]).
+a_i(58,24,b,29,[],[ [],[ a(8,[ t(o(1,'PTBUS032_2'),28),t(8,2),t(',',7),t(1,2),t(',',7),t(3,2),t(',',7),t(4,2),t(',',7),t(103,2),t(',',7),t('Error_t',23),t(',',7),t('Mensaje',23) ]) ],[ t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('after(',1),t(103,2),t(')',4) ] ]).
+a_i(59,24,b,30,[],[ [],[ a(1,[ t('Mensaje',23) ]) ],[ t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('Error_t',23),t(=,10),t('1',3),t('.AND.',9),t('after(',1),t(103,2),t(')',4) ] ]).
+a_i(60,24,b,31,[],[ [],[ a(8,[ t(o(1,'PTBUS033'),28),t(103,2),t(',',7),t('Error_2',23) ]) ],[ t('.NOT.',8),t('null(',1),t(174,2),t(')',4),t('.AND.',9),t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('after(',1),t(174,2),t(')',4) ] ]).
+a_i(61,24,b,32,[],[ [],[ a(1,[ t('''No puede dar de baja este bien porque no está dado de baja en trazabilidad de bienes de uso.''',3) ]) ],[ t('Error_2',23),t(=,10),t('1',3),t('.AND.',9),t('.NOT.',8),t('null(',1),t(174,2),t(')',4),t('.AND.',9),t(103,2),t(<>,10),t('0',3),t('.AND.',9),t('after(',1),t(174,2),t(')',4) ] ]).
+a_i(62,24,t,24,[],[ [ [ [],8,8 ],[ [],1,1 ],[ [],3,3 ],[ [],4,4 ] ],'IBUS000',[] ]).
+a_i(63,24,r,541,[],[ [ [ 24,1,2 ] ],'RBRI01',[] ]).
+a_i(64,24,f,'Pgmname',[],[ [],[ t('"TBUS000"',3) ] ]).
+a_i(65,24,f,'GxBScreen',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(b,i,3,170).
+v_i(b,o,3,[]).
+v_i(b,i,4,55).
+v_i(b,o,4,[]).
+v_i(b,i,5,174).
+v_i(b,o,5,[]).
+v_i(f,i,6,329).
+v_i(f,i,6,335).
+v_i(f,o,6,349).
+v_i(f,i,7,337).
+v_i(f,i,7,338).
+v_i(f,i,7,339).
+v_i(f,o,7,347).
+v_i(f,i,8,344).
+v_i(f,i,8,345).
+v_i(f,i,8,346).
+v_i(f,o,8,348).
+v_i(f,i,9,'Bus_emp').
+v_i(f,i,9,'GxBScreen').
+v_i(f,o,9,8).
+v_i(f,i,10,'Bus_emp').
+v_i(f,o,10,[ t(8,2),t('Enabled',3) ]).
+v_i(f,i,11,'Bus_rub').
+v_i(f,o,11,1).
+v_i(f,i,12,'Bus_rub').
+v_i(f,o,12,[ t(1,2),t('Enabled',3) ]).
+v_i(f,i,13,'Bus_cod').
+v_i(f,o,13,3).
+v_i(f,i,14,'Bus_cod').
+v_i(f,o,14,[ t(3,2),t('Enabled',3) ]).
+v_i(f,i,15,'Bus_par').
+v_i(f,o,15,4).
+v_i(f,i,16,'Bus_par').
+v_i(f,o,16,[ t(4,2),t('Enabled',3) ]).
+v_i(f,i,17,'Insert_bus_com').
+v_i(f,o,17,331).
+v_i(f,i,18,'Insert_bus_com').
+v_i(f,o,18,[ t(331,2),t('Enabled',3) ]).
+v_i(f,i,19,'Insert_bus_are').
+v_i(f,o,19,171).
+v_i(f,i,20,'Insert_bus_are').
+v_i(f,o,20,[ t(171,2),t('Enabled',3) ]).
+v_i(f,i,21,'Insert_bus_sec').
+v_i(f,o,21,172).
+v_i(f,i,22,'Insert_bus_sec').
+v_i(f,o,22,[ t(172,2),t('Enabled',3) ]).
+v_i(f,i,23,'Insert_bus_tip').
+v_i(f,o,23,56).
+v_i(f,i,24,'Insert_bus_tip').
+v_i(f,o,24,[ t(56,2),t('Enabled',3) ]).
+v_i(f,i,25,[]).
+v_i(f,o,25,[ t(340,2),t('Enabled',3) ]).
+v_i(f,i,26,[]).
+v_i(f,o,26,[ t(335,2),t('Enabled',3) ]).
+v_i(f,i,27,[]).
+v_i(f,o,27,[ t(336,2),t('Enabled',3) ]).
+v_i(f,i,28,[]).
+v_i(f,o,28,[ t(341,2),t('Enabled',3) ]).
+v_i(f,i,29,[]).
+v_i(f,o,29,[ t(337,2),t('Enabled',3) ]).
+v_i(f,i,30,[]).
+v_i(f,o,30,[ t(338,2),t('Enabled',3) ]).
+v_i(f,i,31,[]).
+v_i(f,o,31,[ t(339,2),t('Enabled',3) ]).
+v_i(f,i,32,[]).
+v_i(f,o,32,[ t(342,2),t('Enabled',3) ]).
+v_i(f,i,33,[]).
+v_i(f,o,33,[ t(343,2),t('Enabled',3) ]).
+v_i(f,i,34,[]).
+v_i(f,o,34,[ t(344,2),t('Enabled',3) ]).
+v_i(f,i,35,[]).
+v_i(f,o,35,[ t(345,2),t('Enabled',3) ]).
+v_i(f,i,36,[]).
+v_i(f,o,36,[ t(346,2),t('Enabled',3) ]).
+v_i(f,i,37,[]).
+v_i(f,o,37,[ t(347,2),t('Enabled',3) ]).
+v_i(f,i,38,[]).
+v_i(f,o,38,[ t(348,2),t('Enabled',3) ]).
+v_i(f,i,39,[]).
+v_i(f,o,39,[ t(349,2),t('Enabled',3) ]).
+v_i(f,i,40,'GxBScreen').
+v_i(f,o,40,103).
+v_i(b,i,41,8).
+v_i(b,o,41,1).
+v_i(b,o,41,54).
+v_i(b,o,41,170).
+v_i(b,o,41,55).
+v_i(b,o,41,333).
+v_i(b,o,41,331).
+v_i(b,i,42,'Bus_emp').
+v_i(b,o,42,[]).
+v_i(b,i,43,'Bus_rub').
+v_i(b,o,43,[]).
+v_i(b,i,44,'Bus_cod').
+v_i(b,o,44,[]).
+v_i(b,i,45,'Bus_par').
+v_i(b,o,45,[]).
+v_i(b,i,46,'Insert_bus_com').
+v_i(b,o,46,[]).
+v_i(b,i,47,'Insert_bus_are').
+v_i(b,o,47,[]).
+v_i(b,i,48,'Insert_bus_sec').
+v_i(b,o,48,[]).
+v_i(b,i,49,'Insert_bus_tip').
+v_i(b,o,49,[]).
+v_i(b,i,50,3).
+v_i(b,o,50,[]).
+v_i(b,i,51,54).
+v_i(b,o,51,[]).
+v_i(b,i,52,170).
+v_i(b,o,52,[]).
+v_i(b,i,53,55).
+v_i(b,o,53,[]).
+v_i(b,i,54,330).
+v_i(b,o,54,[]).
+v_i(b,i,55,4).
+v_i(b,o,55,'Error').
+v_i(b,i,56,4).
+v_i(b,o,56,[]).
+v_i(b,i,57,1).
+v_i(b,i,57,54).
+v_i(b,i,57,170).
+v_i(b,i,57,55).
+v_i(b,i,57,333).
+v_i(b,i,57,331).
+v_i(b,o,57,[]).
+v_i(b,i,58,103).
+v_i(b,o,58,'Error_t').
+v_i(b,o,58,'Mensaje').
+v_i(b,i,59,103).
+v_i(b,o,59,[]).
+v_i(b,i,60,174).
+v_i(b,o,60,'Error_2').
+v_i(b,i,61,174).
+v_i(b,o,61,[]).
+v_i(t,i,62,8).
+v_i(t,i,62,1).
+v_i(t,i,62,3).
+v_i(t,i,62,4).
+v_i(t,o,62,54).
+v_i(t,o,62,170).
+v_i(t,o,62,55).
+v_i(t,o,62,333).
+v_i(t,o,62,331).
+v_i(t,o,62,171).
+v_i(t,o,62,172).
+v_i(t,o,62,56).
+v_i(t,o,62,329).
+v_i(t,o,62,330).
+v_i(t,o,62,350).
+v_i(t,o,62,175).
+v_i(t,o,62,176).
+v_i(t,o,62,59).
+v_i(t,o,62,174).
+v_i(t,o,62,334).
+v_i(t,o,62,340).
+v_i(t,o,62,335).
+v_i(t,o,62,336).
+v_i(t,o,62,341).
+v_i(t,o,62,337).
+v_i(t,o,62,338).
+v_i(t,o,62,339).
+v_i(t,o,62,342).
+v_i(t,o,62,343).
+v_i(t,o,62,344).
+v_i(t,o,62,345).
+v_i(t,o,62,346).
+v_i(t,o,62,103).
+v_i(r,i,63,1).
+v_i(r,o,63,61).
+v_i(r,o,63,178).
+v_i(f,i,64,[]).
+v_i(f,o,64,'Pgmname').
+v_i(f,i,65,[]).
+v_i(f,o,65,'GxBScreen').
+ 
+ca_i(40,103).
+ca_i(23,56).
+ca_i(21,172).
+ca_i(19,171).
+ca_i(17,331).
+ 
+tbl_to_delete_i(24,[ 1,[ [ 24,8,8 ],[ 24,1,1 ],[ 24,3,3 ],[ 24,4,4 ] ],c,'ITTBUS0002',[ [ 1,8 ],[ 1,1 ],[ 1,3 ],[ 1,4 ] ],[ 11 ] ]).
+ 
+ 
+ 
+attri_i(11,[ 'TTBUS_Id',int,8,0,'ZZZZZZZ9',0,'Id del bien de uso','',0 ]).
+attri_i(346,[ 'BUS_AEH',int,10,2,'ZZZZZZ9.99',0,'AMORTIZ. DEL EJERCICIO HISTORI','',0 ]).
+attri_i(345,[ 'BUS_AAH',int,10,2,'ZZZZZZ9.99',0,'AMORTIZ. ACUMULADAS VAL HISTOR','',0 ]).
+attri_i(344,[ 'BUS_VOH',int,18,7,'ZZZZZZZZZ9.9999999',0,'VALOR DE ORIGEN HISTORICO','',0 ]).
+attri_i(343,[ 'BUS_VHF',date,8,0,'99/99/9999',0,'FECHA VALOR HISTORICO BASE','',0 ]).
+attri_i(342,[ 'BUS_VAH',int,18,7,'ZZZZZZZZZ9.9999999',0,'VALOR HISTORICO BASE','',0 ]).
+attri_i(339,[ 'BUS_AEA',int,10,2,'ZZZZZZ9.99',0,'AMORTIZ. DEL EJERCICIO AJUST.','',0 ]).
+attri_i(338,[ 'BUS_AAA',int,10,2,'ZZZZZZ9.99',0,'AMORTIZ. ACUMULADAS AJUSTADAS','',0 ]).
+attri_i(337,[ 'BUS_VOA',int,18,7,'ZZZZZZZZZ9.9999999',0,'VALOR DE ORIGEN AJUSTADO','',0 ]).
+attri_i(341,[ 'BUS_VOC',int,18,7,'ZZZZZZZZZ9.9999999',0,'VALOR ORIGEN AJUSTADO (C)','',0 ]).
+attri_i(336,[ 'BUS_COE',int,18,7,'ZZZZZZZZZ9.9999999',0,'ULTIMO COEFICIENTE DE CALCULO','',0 ]).
+attri_i(335,[ 'BUS_VUT',int,4,0,'ZZZ9',0,'VIDA UTIL TRANSCURRIDA','',0 ]).
+attri_i(340,[ 'BUS_FPR',date,8,0,'99/99/9999',0,'FECHA DE PROCESO AJUSTE','',0 ]).
+attri_i(334,[ 'BUS_MBA',char,30,0,'',0,'MOTIVO DE BAJA DEL BIEN','',0 ]).
+attri_i(174,[ 'BUS_FBA',date,8,0,'99/99/9999',0,'FECHA DE BAJA DEL BIEN','',0 ]).
+attri_i(59,[ 'BUS_TID',char,20,0,'@!',0,'BUS_ TID','',0 ]).
+attri_i(176,[ 'BUS_SED',char,30,0,'@!',0,'BUS_ SED','',0 ]).
+attri_i(175,[ 'BUS_ARD',char,30,0,'@!',0,'BUS_ ARD','',0 ]).
+attri_i(350,[ 'BUS_CBD',char,20,0,'@!',0,'DESCRIP. DE COMPROB. DE COMPRA','',0 ]).
+attri_i(330,[ 'BUS_VAO',int,18,7,'ZZZZZZZZZ9.9999999',0,'VALOR DE ORIGEN DEL BIEN','',0 ]).
+attri_i(329,[ 'BUS_VUA',int,4,0,'ZZZ9',0,'VIDA UTIL ASIGNADA AL BIEN','',0 ]).
+attri_i(178,[ 'BUS_AMO',char,1,0,!,0,'RUBRO AMORTIZABLE','',0 ]).
+attri_i(61,[ 'BUS_RUD',char,30,0,'',0,'DESCRIPCIPCION RUBRO','',0 ]).
+attri_i(56,[ 'BUS_TIP',int,3,0,'ZZ9',0,'CODIGO DE TIPO DE BIEN','',0 ]).
+attri_i(172,[ 'BUS_SEC',int,2,0,'Z9',0,'AREA A QUE PERTENECE EL BIEN','',0 ]).
+attri_i(171,[ 'BUS_ARE',int,4,0,'ZZZ9',0,'SECTOR DE LA EMPRESA','',0 ]).
+attri_i(331,[ 'BUS_COM',char,2,0,'@!',0,'COMPROBANTE DE COMPRA','',0 ]).
+attri_i(333,[ 'BUS_NCO',char,12,0,'999999999999',0,'NUMERO DEL COMP. DE COMPRA','',0 ]).
+attri_i(55,[ 'BUS_FAD',date,8,0,'99/99/9999',0,'FECHA DE ADQUISICION DEL BIEN','',0 ]).
+attri_i(170,[ 'BUS_FAL',date,8,0,'99/99/9999',0,'FECHA DE ALTA DEL BIEN','',0 ]).
+attri_i(54,[ 'BUS_DES',char,50,0,'@!',0,'DESCRIPCION DEL BIEN','',0 ]).
+attri_i(2,[ 'RBR_COD',int,4,0,'ZZZ9',0,'CODIGO DE RUBRO','',0 ]).
+attri_i(348,[ 'BUS_VRH',int,18,7,'ZZZZZZZZZ9.9999999',0,'VALOR RESIDUAL HIST(FORMULA)','',0 ]).
+attri_i(347,[ 'BUS_VRA',int,18,7,'ZZZZZZZZZ9.9999999',0,'VALOR RESIDUAL AJ (FORMULA)','',0 ]).
+attri_i(349,[ 'BUS_VUR',int,4,0,'ZZZ9',0,'VIDA UTIL RESIDUAL (FORMULA)','',0 ]).
+attri_i(103,[ 'BUS_IDT',int,8,0,'ZZZZZZZ9',0,'ID EN TRAZABILIDAD DE BIENES DE USO','',0 ]).
+attri_i(4,[ 'BUS_PAR',int,2,0,'Z9',0,'NUMERO DE PARTIDA DEL BIEN','',0 ]).
+attri_i(3,[ 'BUS_COD',int,4,0,'ZZZ9',0,'NUMERO DE CODIGO DEL BIEN','',0 ]).
+attri_i(1,[ 'BUS_RUB',int,4,0,'ZZZ9',0,'RUBRO DEL BIEN','',0 ]).
+attri_i(8,[ 'BUS_EMP',char,1,0,!,0,'CODIGO DE EMPRESA','',0 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'',[],35 ]).
+attri_i('Pgmname',[ 'Pgmname',char,32,0,'',1,'Program name','',34 ]).
+attri_i('GxBScreen',[ 'Gx_BScreen',int,1,0,'',0,'','',33 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Error_2',[ error_2,int,1,0,'9',0,error_2,'',32 ]).
+attri_i('Error_t',[ error_t,int,1,0,'9',0,error_t,'',31 ]).
+attri_i('Mensaje',[ mensaje,char,150,0,'',0,mensaje,'',30 ]).
+attri_i('Nro_lectura',[ nro_lectura,int,1,0,'9',0,'Nro de veces que se leen los datos','',29 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',28 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'@!',0,'USUARIO','',27 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('TransactionContext.Attribute'),0,0,'',0,'Trn Context Att','',26 ]).
+attri_i('Trncontext',[ 'TrnContext',o('TransactionContext'),0,0,'',0,'Trn Context','',25 ]).
+attri_i('Sistema',[ 'SISTEMA',char,15,0,'',0,'SISTEMA','',24 ]).
+attri_i('Sesion',[ 'SESION',o(websession),8,0,'',0,'SESION','',23 ]).
+attri_i('Sbus_rub',[ sBUS_RUB,int,4,0,'ZZZ9',0,'s BUS_ RUB','',22 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',21 ]).
+attri_i('Insert_bus_tip',[ 'Insert_BUS_TIP',int,3,0,'ZZ9',0,'Insert_ BUS_ TIP','',20 ]).
+attri_i('Insert_bus_sec',[ 'Insert_BUS_SEC',int,2,0,'Z9',0,'Insert_ BUS_ SEC','',19 ]).
+attri_i('Insert_bus_com',[ 'Insert_BUS_COM',char,2,0,'@!',0,'Insert_ BUS_ COM','',18 ]).
+attri_i('Insert_bus_are',[ 'Insert_BUS_ARE',int,4,0,'ZZZ9',0,'Insert_ BUS_ ARE','',17 ]).
+attri_i('Error',[ error,int,1,0,'9',0,error,'',16 ]).
+attri_i('Context',[ 'Context',o('Context'),0,0,'',0,'Context','',15 ]).
+attri_i('Busrub',[ 'BUSRUB',int,4,0,'ZZZ9',0,'BUSRUB','',14 ]).
+attri_i('Buspar',[ 'BUSPAR',int,2,0,'Z9',0,'BUSPAR','',13 ]).
+attri_i('Buscod',[ 'BUSCOD',int,4,0,'ZZZ9',0,'BUSCOD','',12 ]).
+attri_i('Bus_rub',[ 'BUS_RUB',int,4,0,'ZZZ9',0,'BUS_ RUB','',11 ]).
+attri_i('Bus_par',[ 'BUS_PAR',int,2,0,'Z9',0,'BUS_ PAR','',10 ]).
+attri_i('Bus_idt',[ 'BUS_IDT',int,8,0,'ZZZZZZZ9',0,'BUS_ IDT','',9 ]).
+attri_i('Bus_emp',[ 'BUS_EMP',char,1,0,!,0,'BUS_ EMP','',8 ]).
+attri_i('Bus_cod',[ 'BUS_COD',int,4,0,'ZZZ9',0,'BUS_ COD','',7 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(1,[ 'TTBUS000',[ 11,8,1,3,4 ],'Bienes de Uso (Trazabilidad)','TTBUS000' ]).
+table_i(541,[ 'BUS002',[ 1,61,178 ],'BUS002','BUS002' ]).
+table_i(24,[ 'BUS000',[ 8,1,3,4,54,170,55,329,330,331,350,333,171,175,172,176,56,59,174,334,340,335,336,341,337,338,339,342,343,344,345,346,103 ],'BUS000','BUS000' ]).
+ 
+index_i(24,[ 'IBUS000',u,[ 8,1,3,4 ],'IBUS000' ]).
+index_i(541,[ 'RBRI01',u,[ 1 ],'RBRI01' ]).
+index_i(1,[ 'ITTBUS000',u,[ 11 ],'ITTBUS000' ]).
+index_i(1,[ 'ITTBUS0002',d,[ 8,1,3,4 ],'ITTBUS0002' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(24,24,i,[ [ 8,3,4,54,170,55,333,331,171,172,56,329,330,350,175,176,59,174,334,340,335,336,341,337,338,339,342,343,344,345,346,103,1 ],[],'IBUS000',[ [ [],8,8 ],[ [],1,1 ],[ [],3,3 ],[ [],4,4 ] ] ]).
+upd_i(24,24,u,[ [ 54,170,55,333,331,171,172,56,329,330,350,175,176,59,174,334,340,335,336,341,337,338,339,342,343,344,345,346,103 ],[],'IBUS000',[] ]).
+upd_i(24,24,d,[ [],[],'IBUS000',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+map_i(541,a,178,[ 'RBR_AMO' ]).
+map_i(541,a,61,[ 'RBR_DES' ]).
+map_i(541,a,1,[ 'RBR_COD' ]).
+ 
+ 
+ 
+enum_value_i(2,9,'"INS"','Insert','"Insert"').
+enum_value_i(2,9,'"UPD"','Update','"Update"').
+enum_value_i(2,9,'"DLT"','Delete','"Delete"').
+enum_value_i(2,9,'"DSP"','Display','"Display"').
+ 
+enum_value_info_i(2,9,'TrnMode').
+ 
+enum_type_i(2,9,char,3,0).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 8,1,3,4,103 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,45).
+b_group_i(2,3,lit,0,46,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(4,2,2,cmd,1,[ t('',104,1,0),t(o(1,'LoadContext'),28,1,2),t('Context',23,1,20) ]).
+b_line_i(5,2,2,cmd,1,[ t('',107,1,0),t('Usuario',23,1,0),t(=,10,1,0),t([ t('Context',23,1,0),t('User',3,1,0) ],29,1,0) ]).
+b_line_i(6,2,2,cmd,1,[ t('',107,1,0),t([ t('Tableprocesos',3,1,0),t('Visible',3,1,0) ],29,1,0),t(=,10,1,0),t('0',3,1,0) ]).
+b_line_i(11,2,2,cmd,1,[ t('',104,1,0),t(o(1,'IsAuthorized'),28,1,2),t('Pgmname',23,1,21),t(',',7,1,29),t('Isauthorized',23,1,31) ]).
+b_line_i(12,2,2,cmd,1,[ t('',109,1,0),t('(',0,1,5),t('.NOT.',8,1,6),t('Isauthorized',23,1,12),t(')',4,1,25) ]).
+b_line_i(13,2,2,cmd,1,[ t('',104,1,0),t(o(13,'NotAuthorized'),28,1,3),t('Pgmname',23,1,23) ]).
+b_line_i(14,2,2,cmd,1,[ t('',111,1,0) ]).
+b_line_i(16,2,2,cmd,1,[ t('',107,1,0),t([ t('Trncontext',23,16,2),t('fromxml(',1,16,14) ],31,16,2),t([ t('Websession',23,16,23),t('get(',1,16,35) ],31,16,35),t('"TrnContext"',3,16,40),t(')',4,2,53),t(')',4,2,54) ]).
+b_line_i(17,2,2,cmd,1,[ t('',107,1,0),t([ t('Insert_bus_com',23,17,2),t('setempty(',1,17,18) ],31,17,2),t(')',4,1,28) ]).
+b_line_i(18,2,2,cmd,1,[ t('',107,1,0),t([ t('Insert_bus_are',23,18,2),t('setempty(',1,18,18) ],31,18,2),t(')',4,1,28) ]).
+b_line_i(19,2,2,cmd,1,[ t('',107,1,0),t([ t('Insert_bus_sec',23,19,2),t('setempty(',1,19,18) ],31,19,2),t(')',4,1,28) ]).
+b_line_i(20,2,2,cmd,1,[ t('',107,1,0),t([ t('Insert_bus_tip',23,20,2),t('setempty(',1,20,18) ],31,20,2),t(')',4,1,28) ]).
+b_line_i(22,2,2,cmd,1,[ t('',109,1,0),t('(',0,1,5),t([ t('Trncontext',23,22,6),t('Transactionname',3,22,18) ],29,22,18),t(=,10,1,34),t('Pgmname',23,1,36),t('.AND.',9,1,45),t('Mode',23,1,51),t(=,10,1,57),t([ 9,'Insert' ],44,22,59),t(')',4,1,73) ]).
+b_line_i(23,2,2,cmd,1,[ t('',107,1,0),t('GXV1',23,1,0),t(=,10,1,0),t(1,3,1,0) ]).
+b_line_i([ 23,2 ],2,2,cmd,1,[ t('',114,1,0),t('GXV1',23,1,0),t(<=,10,1,0),t([ t('Trncontext',23,23,25),t('Attributes',3,23,37),t('Count',3,23,0) ],29,23,0) ]).
+b_line_i([ 23,3 ],2,2,cmd,1,[ t('',107,1,0),t('Trncontextatt',23,1,0),t(=,10,1,0),t([ t([ t('Trncontext',23,1,0),t('Attributes',3,1,0) ],29,1,0),t('item(',1,1,0) ],31,1,0),t('GXV1',23,1,0),t(')',4,1,0) ]).
+b_line_i(24,2,2,cmd,2,[ t('',152,2,0) ]).
+b_line_i(26,2,2,cmd,2,[ t('',153,2,0),t([ t('Trncontextatt',23,26,10),t('Attributename',3,26,25) ],29,26,25),t(=,10,2,39),t('"BUS_COM"',3,26,41) ]).
+b_line_i(27,2,2,cmd,2,[ t('',107,2,0),t('Insert_bus_com',23,27,6),t(=,10,27,6),t([ t('Trncontextatt',23,27,34),t('Attributevalue',3,27,49) ],29,27,49) ]).
+b_line_i(29,2,2,cmd,2,[ t('',153,2,0),t([ t('Trncontextatt',23,29,10),t('Attributename',3,29,25) ],29,29,25),t(=,10,2,39),t('"BUS_ARE"',3,29,41) ]).
+b_line_i(30,2,2,cmd,2,[ t('',107,2,0),t('Insert_bus_are',23,30,6),t(=,10,30,6),t('val(',1,30,6),t([ t('Trncontextatt',23,30,34),t('Attributevalue',3,30,49) ],29,30,49),t(')',4,2,63) ]).
+b_line_i(32,2,2,cmd,2,[ t('',153,2,0),t([ t('Trncontextatt',23,32,10),t('Attributename',3,32,25) ],29,32,25),t(=,10,2,39),t('"BUS_SEC"',3,32,41) ]).
+b_line_i(33,2,2,cmd,2,[ t('',107,2,0),t('Insert_bus_sec',23,33,6),t(=,10,33,6),t('val(',1,33,6),t([ t('Trncontextatt',23,33,34),t('Attributevalue',3,33,49) ],29,33,49),t(')',4,2,63) ]).
+b_line_i(35,2,2,cmd,2,[ t('',153,2,0),t([ t('Trncontextatt',23,35,10),t('Attributename',3,35,25) ],29,35,25),t(=,10,2,39),t('"BUS_TIP"',3,35,41) ]).
+b_line_i(36,2,2,cmd,2,[ t('',107,2,0),t('Insert_bus_tip',23,36,6),t(=,10,36,6),t('val(',1,36,6),t([ t('Trncontextatt',23,36,34),t('Attributevalue',3,36,49) ],29,36,49),t(')',4,2,63) ]).
+b_line_i(37,2,2,cmd,2,[ t('',154,2,0) ]).
+b_line_i([ 38,1 ],2,2,cmd,2,[ t('',107,2,0),t('GXV1',23,2,0),t(=,10,2,0),t('GXV1',23,2,0),t(+,5,2,0),t(1,3,2,0) ]).
+b_line_i([ 38,2 ],2,2,cmd,2,[ t('',115,2,0) ]).
+b_line_i(39,2,2,cmd,3,[ t('',111,3,0) ]).
+b_line_i(42,2,2,cmd,3,[ t('',147,3,0) ]).
+b_line_i(45,2,2,cmd,3,[ t('',146,3,0),t('After Trn',3,45,7) ]).
+b_line_i(46,2,3,cmd,3,[ t('',152,3,0) ]).
+b_line_i(47,2,3,cmd,3,[ t('',153,3,0),t('Mode',23,3,8),t(=,10,3,14),t('''INS''',3,47,16) ]).
+b_line_i(48,2,3,cmd,3,[ t('',109,3,0),t(103,2,3,7),t(<>,10,3,15),t('0',3,3,18) ]).
+b_line_i(49,2,3,cmd,3,[ t('',104,3,0),t(o(1,'PTBUS030'),28,3,5),t(8,2,3,20),t(',',7,3,27),t(1,2,3,29),t(',',7,3,36),t(3,2,3,38),t(',',7,3,45),t(4,2,3,47),t(',',7,3,54),t(103,2,3,56),t(',',7,3,63),t('Bus_idt',23,3,65),t(',',7,3,73),t('Usuario',23,3,75) ]).
+b_line_i(50,2,3,cmd,3,[ t('',111,3,0) ]).
+b_line_i(52,2,3,cmd,3,[ t('',153,3,0),t('Mode',23,3,8),t(=,10,3,14),t('''UPD''',3,52,16) ]).
+b_line_i(53,2,3,cmd,3,[ t('',107,3,0),t('Bus_idt',23,3,0),t(=,10,3,0),t('val(',1,3,0),t([ t('Sesion',23,3,0),t('get(',1,3,0) ],31,3,0),t('''BUS_IDT''',3,3,0),t(')',4,3,0),t(')',4,3,0) ]).
+b_line_i(54,2,3,cmd,3,[ t('',109,3,0),t(103,2,3,7),t(<>,10,3,15),t('Bus_idt',23,3,18) ]).
+b_line_i(55,2,3,cmd,3,[ t('',104,3,0),t(o(1,'PTBUS030'),28,3,5),t(8,2,3,20),t(',',7,3,27),t(1,2,3,29),t(',',7,3,36),t(3,2,3,38),t(',',7,3,45),t(4,2,3,47),t(',',7,3,54),t(103,2,3,56),t(',',7,3,63),t('Bus_idt',23,3,65),t(',',7,3,73),t('Usuario',23,3,75) ]).
+b_line_i(56,2,3,cmd,3,[ t('',111,3,0) ]).
+b_line_i(57,2,3,cmd,3,[ t('',154,3,0) ]).
+b_line_i(62,2,3,cmd,3,[ t('',109,3,0),t('(',0,3,5),t('Mode',23,3,6),t(=,10,3,12),t([ 9,'Delete' ],44,62,14),t('.AND.',9,3,29),t('.NOT.',8,3,35),t([ t('Trncontext',23,62,41),t('Callerondelete',3,62,53) ],29,62,53),t(')',4,3,67) ]).
+b_line_i(63,2,3,cmd,3,[ t('',104,3,0),t(o(13,'WWTBUS000'),28,3,3) ]).
+b_line_i(64,2,3,cmd,3,[ t('',111,3,0) ]).
+b_line_i(69,2,3,cmd,3,[ t('',147,3,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,table(5))).
+html_sub_i(5,0,html_i(0,html('<TBODY>'))).
+html_sub_i(5,6,html_i(1,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,0,html_i(0,html('<DIV style="WHITE-SPACE: nowrap" class="ToolbarMain">'))).
+html_sub_i(7,8,html_i(1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-42'))).
+html_sub_i(7,9,html_i(2,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,10,html_i(3,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-48'))).
+html_sub_i(7,11,html_i(4,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,12,html_i(5,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-47'))).
+html_sub_i(7,13,html_i(6,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,14,html_i(7,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-44'))).
+html_sub_i(7,15,html_i(8,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,16,html_i(9,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-55'))).
+html_sub_i(7,17,html_i(10,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,18,html_i(11,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-54'))).
+html_sub_i(7,19,html_i(12,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,20,html_i(13,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-40'))).
+html_sub_i(7,21,html_i(14,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,22,html_i(15,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-28'))).
+html_sub_i(7,23,html_i(16,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'))).
+html_sub_i(7,0,html_i(17,html('</DIV>'))).
+html_sub_i(5,24,html_i(2,row(24))).
+html_sub_i(24,25,html_i(0,cell(25))).
+html_sub_i(5,0,html_i(3,html('</TBODY>'))).
+html_sub_i(4,26,html_i(1,group(26))).
+html_sub_i(26,27,html_i(0,table(27))).
+html_sub_i(27,0,html_i(0,html('<TBODY>'))).
+html_sub_i(27,28,html_i(1,row(28))).
+html_sub_i(28,29,html_i(0,cell(29))).
+html_sub_i(29,30,html_i(0,comp(errview))).
+html_sub_i(27,31,html_i(2,row(31))).
+html_sub_i(31,32,html_i(0,cell(32))).
+html_sub_i(32,33,html_i(0,table(33))).
+html_sub_i(33,0,html_i(0,html('<TBODY>'))).
+html_sub_i(33,34,html_i(1,row(34))).
+html_sub_i(34,35,html_i(0,cell(35))).
+html_sub_i(35,36,html_i(0,t('CODIGO DE EMPRESA',3))).
+html_sub_i(34,37,html_i(1,cell(37))).
+html_sub_i(37,38,html_i(0,t(8,2))).
+html_sub_i(33,39,html_i(2,row(39))).
+html_sub_i(39,40,html_i(0,cell(40))).
+html_sub_i(40,41,html_i(0,t('RUBRO DEL BIEN',3))).
+html_sub_i(39,42,html_i(1,cell(42))).
+html_sub_i(42,43,html_i(0,t(1,2))).
+html_sub_i(33,44,html_i(3,row(44))).
+html_sub_i(44,45,html_i(0,cell(45))).
+html_sub_i(45,46,html_i(0,t('CODIGO Y PARTIDA',3))).
+html_sub_i(44,47,html_i(1,cell(47))).
+html_sub_i(47,48,html_i(0,t(3,2))).
+html_sub_i(47,49,html_i(1,t(4,2))).
+html_sub_i(33,50,html_i(4,row(50))).
+html_sub_i(50,51,html_i(0,cell(51))).
+html_sub_i(51,52,html_i(0,t('DESCRIPCION DEL BIEN',3))).
+html_sub_i(50,53,html_i(1,cell(53))).
+html_sub_i(53,54,html_i(0,t(54,2))).
+html_sub_i(33,55,html_i(5,row(55))).
+html_sub_i(55,56,html_i(0,cell(56))).
+html_sub_i(55,57,html_i(1,cell(57))).
+html_sub_i(33,58,html_i(6,row(58))).
+html_sub_i(58,59,html_i(0,cell(59))).
+html_sub_i(59,60,html_i(0,t('FECHA DE ALTA DEL BIEN',3))).
+html_sub_i(58,61,html_i(1,cell(61))).
+html_sub_i(61,62,html_i(0,t(170,2))).
+html_sub_i(33,63,html_i(7,row(63))).
+html_sub_i(63,64,html_i(0,cell(64))).
+html_sub_i(64,65,html_i(0,t('FECHA DE ADQUISICION DEL BIEN',3))).
+html_sub_i(63,66,html_i(1,cell(66))).
+html_sub_i(66,67,html_i(0,t(55,2))).
+html_sub_i(33,68,html_i(8,row(68))).
+html_sub_i(68,69,html_i(0,cell(69))).
+html_sub_i(69,70,html_i(0,t('VIDA UTIL ASIGNADA AL BIEN',3))).
+html_sub_i(68,71,html_i(1,cell(71))).
+html_sub_i(71,72,html_i(0,t(329,2))).
+html_sub_i(33,73,html_i(9,row(73))).
+html_sub_i(73,74,html_i(0,cell(74))).
+html_sub_i(74,75,html_i(0,t('VALOR DE ORIGEN DEL BIEN',3))).
+html_sub_i(73,76,html_i(1,cell(76))).
+html_sub_i(76,77,html_i(0,t(330,2))).
+html_sub_i(33,78,html_i(10,row(78))).
+html_sub_i(78,79,html_i(0,cell(79))).
+html_sub_i(78,80,html_i(1,cell(80))).
+html_sub_i(33,81,html_i(11,row(81))).
+html_sub_i(81,82,html_i(0,cell(82))).
+html_sub_i(82,83,html_i(0,t('COMPROBANTE DE COMPRA',3))).
+html_sub_i(81,84,html_i(1,cell(84))).
+html_sub_i(84,85,html_i(0,t(331,2))).
+html_sub_i(84,86,html_i(1,t(350,2))).
+html_sub_i(33,87,html_i(12,row(87))).
+html_sub_i(87,88,html_i(0,cell(88))).
+html_sub_i(88,89,html_i(0,t('NUMERO DEL COMP. DE COMPRA',3))).
+html_sub_i(87,90,html_i(1,cell(90))).
+html_sub_i(90,91,html_i(0,t(333,2))).
+html_sub_i(33,92,html_i(13,row(92))).
+html_sub_i(92,93,html_i(0,cell(93))).
+html_sub_i(92,94,html_i(1,cell(94))).
+html_sub_i(33,95,html_i(14,row(95))).
+html_sub_i(95,96,html_i(0,cell(96))).
+html_sub_i(96,97,html_i(0,t('AREA A QUE PERTENECE EL BIEN',3))).
+html_sub_i(95,98,html_i(1,cell(98))).
+html_sub_i(98,99,html_i(0,t(172,2))).
+html_sub_i(98,100,html_i(1,t(176,2))).
+html_sub_i(33,101,html_i(15,row(101))).
+html_sub_i(101,102,html_i(0,cell(102))).
+html_sub_i(102,103,html_i(0,t('SECTOR DE LA EMPRESA',3))).
+html_sub_i(101,104,html_i(1,cell(104))).
+html_sub_i(104,105,html_i(0,t(171,2))).
+html_sub_i(104,106,html_i(1,t(175,2))).
+html_sub_i(33,107,html_i(16,row(107))).
+html_sub_i(107,108,html_i(0,cell(108))).
+html_sub_i(108,109,html_i(0,t('CODIGO DE TIPO DE BIEN',3))).
+html_sub_i(107,110,html_i(1,cell(110))).
+html_sub_i(110,111,html_i(0,t(56,2))).
+html_sub_i(110,112,html_i(1,t(59,2))).
+html_sub_i(33,113,html_i(17,row(113))).
+html_sub_i(113,114,html_i(0,cell(114))).
+html_sub_i(113,115,html_i(1,cell(115))).
+html_sub_i(33,116,html_i(18,row(116))).
+html_sub_i(116,117,html_i(0,cell(117))).
+html_sub_i(117,118,html_i(0,t('FECHA DE BAJA DEL BIEN',3))).
+html_sub_i(116,119,html_i(1,cell(119))).
+html_sub_i(119,120,html_i(0,t(174,2))).
+html_sub_i(33,121,html_i(19,row(121))).
+html_sub_i(121,122,html_i(0,cell(122))).
+html_sub_i(122,123,html_i(0,t('MOTIVO DE BAJA DEL BIEN',3))).
+html_sub_i(121,124,html_i(1,cell(124))).
+html_sub_i(124,125,html_i(0,t(334,2))).
+html_sub_i(33,126,html_i(20,row(126))).
+html_sub_i(126,127,html_i(0,cell(127))).
+html_sub_i(127,128,html_i(0,t('ASOCIAR A TRAZABILIDAD',3))).
+html_sub_i(126,129,html_i(1,cell(129))).
+html_sub_i(129,130,html_i(0,t(103,2))).
+html_sub_i(33,0,html_i(21,html('</TBODY>'))).
+html_sub_i(27,131,html_i(3,row(131))).
+html_sub_i(131,132,html_i(0,cell(132))).
+html_sub_i(132,133,html_i(0,t('DATOS PROCESOS ACTUALIZACION',3))).
+html_sub_i(27,134,html_i(4,row(134))).
+html_sub_i(134,135,html_i(0,cell(135))).
+html_sub_i(135,136,html_i(0,table(136))).
+html_sub_i(136,0,html_i(0,html('<TBODY>'))).
+html_sub_i(136,137,html_i(1,row(137))).
+html_sub_i(137,138,html_i(0,cell(138))).
+html_sub_i(138,139,html_i(0,table(139))).
+html_sub_i(139,0,html_i(0,html('<TBODY>'))).
+html_sub_i(139,140,html_i(1,row(140))).
+html_sub_i(140,141,html_i(0,cell(141))).
+html_sub_i(141,142,html_i(0,t('FECHA DE PROCESO AJUSTE',3))).
+html_sub_i(140,143,html_i(1,cell(143))).
+html_sub_i(143,144,html_i(0,t(340,2))).
+html_sub_i(139,145,html_i(2,row(145))).
+html_sub_i(145,146,html_i(0,cell(146))).
+html_sub_i(146,147,html_i(0,t('VIDA UTIL TRANSCURRIDA',3))).
+html_sub_i(145,148,html_i(1,cell(148))).
+html_sub_i(148,149,html_i(0,t(335,2))).
+html_sub_i(139,150,html_i(3,row(150))).
+html_sub_i(150,151,html_i(0,cell(151))).
+html_sub_i(151,152,html_i(0,t('ULTIMO COEFICIENTE DE CALCULO',3))).
+html_sub_i(150,153,html_i(1,cell(153))).
+html_sub_i(153,154,html_i(0,t(336,2))).
+html_sub_i(139,155,html_i(4,row(155))).
+html_sub_i(155,156,html_i(0,cell(156))).
+html_sub_i(156,157,html_i(0,t('VALOR ORIGEN AJUSTADO (C)',3))).
+html_sub_i(155,158,html_i(1,cell(158))).
+html_sub_i(158,159,html_i(0,t(341,2))).
+html_sub_i(139,160,html_i(5,row(160))).
+html_sub_i(160,161,html_i(0,cell(161))).
+html_sub_i(161,162,html_i(0,t('VALOR DE ORIGEN AJUSTADO',3))).
+html_sub_i(160,163,html_i(1,cell(163))).
+html_sub_i(163,164,html_i(0,t(337,2))).
+html_sub_i(139,165,html_i(6,row(165))).
+html_sub_i(165,166,html_i(0,cell(166))).
+html_sub_i(166,167,html_i(0,t('AMORTIZ. ACUMULADAS AJUSTADAS',3))).
+html_sub_i(165,168,html_i(1,cell(168))).
+html_sub_i(168,169,html_i(0,t(338,2))).
+html_sub_i(139,170,html_i(7,row(170))).
+html_sub_i(170,171,html_i(0,cell(171))).
+html_sub_i(171,172,html_i(0,t('AMORTIZ. DEL EJERCICIO AJUST.',3))).
+html_sub_i(170,173,html_i(1,cell(173))).
+html_sub_i(173,174,html_i(0,t(339,2))).
+html_sub_i(139,175,html_i(8,row(175))).
+html_sub_i(175,176,html_i(0,cell(176))).
+html_sub_i(176,177,html_i(0,t('VALOR HISTORICO BASE',3))).
+html_sub_i(175,178,html_i(1,cell(178))).
+html_sub_i(178,179,html_i(0,t(342,2))).
+html_sub_i(139,180,html_i(9,row(180))).
+html_sub_i(180,181,html_i(0,cell(181))).
+html_sub_i(181,182,html_i(0,t('FECHA VALOR HISTORICO BASE',3))).
+html_sub_i(180,183,html_i(1,cell(183))).
+html_sub_i(183,184,html_i(0,t(343,2))).
+html_sub_i(139,185,html_i(10,row(185))).
+html_sub_i(185,186,html_i(0,cell(186))).
+html_sub_i(186,187,html_i(0,t('VALOR DE ORIGEN HISTORICO',3))).
+html_sub_i(185,188,html_i(1,cell(188))).
+html_sub_i(188,189,html_i(0,t(344,2))).
+html_sub_i(139,190,html_i(11,row(190))).
+html_sub_i(190,191,html_i(0,cell(191))).
+html_sub_i(191,192,html_i(0,t('AMORTIZ. ACUMULADAS VAL HISTOR',3))).
+html_sub_i(190,193,html_i(1,cell(193))).
+html_sub_i(193,194,html_i(0,t(345,2))).
+html_sub_i(139,195,html_i(12,row(195))).
+html_sub_i(195,196,html_i(0,cell(196))).
+html_sub_i(196,197,html_i(0,t('AMORTIZ. DEL EJERCICIO HISTORI',3))).
+html_sub_i(195,198,html_i(1,cell(198))).
+html_sub_i(198,199,html_i(0,t(346,2))).
+html_sub_i(139,200,html_i(13,row(200))).
+html_sub_i(200,201,html_i(0,cell(201))).
+html_sub_i(201,202,html_i(0,t('VALOR RESIDUAL AJ (FORMULA)',3))).
+html_sub_i(200,203,html_i(1,cell(203))).
+html_sub_i(203,204,html_i(0,t(347,2))).
+html_sub_i(139,205,html_i(14,row(205))).
+html_sub_i(205,206,html_i(0,cell(206))).
+html_sub_i(206,207,html_i(0,t('VALOR RESIDUAL HIST(FORMULA)',3))).
+html_sub_i(205,208,html_i(1,cell(208))).
+html_sub_i(208,209,html_i(0,t(348,2))).
+html_sub_i(139,210,html_i(15,row(210))).
+html_sub_i(210,211,html_i(0,cell(211))).
+html_sub_i(211,212,html_i(0,t('VIDA UTIL RESIDUAL (FORMULA)',3))).
+html_sub_i(210,213,html_i(1,cell(213))).
+html_sub_i(213,214,html_i(0,t(349,2))).
+html_sub_i(139,215,html_i(16,row(215))).
+html_sub_i(215,216,html_i(0,cell(216))).
+html_sub_i(215,217,html_i(1,cell(217))).
+html_sub_i(139,0,html_i(17,html('</TBODY>'))).
+html_sub_i(136,0,html_i(2,html('</TBODY>'))).
+html_sub_i(27,218,html_i(5,row(218))).
+html_sub_i(218,219,html_i(0,cell(219))).
+html_sub_i(219,220,html_i(0,button('Enter'))).
+html_sub_i(219,221,html_i(1,button('Cancel'))).
+html_sub_i(219,222,html_i(2,button('Delete'))).
+html_sub_i(27,0,html_i(6,html('</TBODY>'))).
+html_sub_i(2,0,html_i(2,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(30,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Tablemain',v,[ str ]).
+html_comp_i(2,'Class','TableBorder100x100',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(5,'Id','Tabletoolbar',v,[ str ]).
+html_comp_i(5,'Class','ViewTable',v,[ str ]).
+html_comp_i(5,'Title','',d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Backgroundgx','',d,[ str ]).
+html_comp_i(5,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(5,'Border','0',d,[ str ]).
+html_comp_i(5,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Cellpadding','1',d,[ str ]).
+html_comp_i(5,'Cellspacing','2',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Rules',none,d,[ str ]).
+html_comp_i(8,'Id','Btn_first',v,[ str ]).
+html_comp_i(8,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(8,src,i(98,'b9e06284-17ac-4c88-8937-5dbd84ad5d80'),v,[ image ]).
+html_comp_i(8,lowsrc,'',d,[ str ]).
+html_comp_i(8,'Returnonclick',0,d,[ bool ]).
+html_comp_i(8,'Eventgx','First',v,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Border','0',d,[ str ]).
+html_comp_i(8,'Alt','',d,[ str ]).
+html_comp_i(8,'Title','Primero',v,[ str ]).
+html_comp_i(8,'Hspace',0,v,[ num ]).
+html_comp_i(8,'Vspace',0,d,[ num ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Usemap','',d,[ str ]).
+html_comp_i(9,'Id','Btn_first_separator',v,[ str ]).
+html_comp_i(9,'Class','ImageTop',v,[ str ]).
+html_comp_i(9,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(9,lowsrc,'',d,[ str ]).
+html_comp_i(9,'Returnonclick',0,d,[ bool ]).
+html_comp_i(9,'Eventgx','First',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Border','0',d,[ str ]).
+html_comp_i(9,'Alt','',d,[ str ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Hspace',0,v,[ num ]).
+html_comp_i(9,'Vspace',0,d,[ num ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Usemap','',d,[ str ]).
+html_comp_i(10,'Id','Btn_previous',v,[ str ]).
+html_comp_i(10,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(10,src,i(98,'7d212604-db7b-4785-9c0d-5faffe71aa33'),v,[ image ]).
+html_comp_i(10,lowsrc,'',d,[ str ]).
+html_comp_i(10,'Returnonclick',0,d,[ bool ]).
+html_comp_i(10,'Eventgx','Previous',v,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Border','0',d,[ str ]).
+html_comp_i(10,'Alt','',d,[ str ]).
+html_comp_i(10,'Title','Anterior',v,[ str ]).
+html_comp_i(10,'Hspace',0,v,[ num ]).
+html_comp_i(10,'Vspace',0,d,[ num ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Usemap','',d,[ str ]).
+html_comp_i(11,'Id','Btn_previous_separator',v,[ str ]).
+html_comp_i(11,'Class','ImageTop',v,[ str ]).
+html_comp_i(11,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(11,lowsrc,'',d,[ str ]).
+html_comp_i(11,'Returnonclick',0,d,[ bool ]).
+html_comp_i(11,'Eventgx','Previous',v,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Border','0',d,[ str ]).
+html_comp_i(11,'Alt','',d,[ str ]).
+html_comp_i(11,'Title','',d,[ str ]).
+html_comp_i(11,'Hspace',0,v,[ num ]).
+html_comp_i(11,'Vspace',0,d,[ num ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Usemap','',d,[ str ]).
+html_comp_i(12,'Id','Btn_next',v,[ str ]).
+html_comp_i(12,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(12,src,i(98,'1ae947cf-1354-41a9-8d59-d91daebf554f'),v,[ image ]).
+html_comp_i(12,lowsrc,'',d,[ str ]).
+html_comp_i(12,'Returnonclick',0,d,[ bool ]).
+html_comp_i(12,'Eventgx','Next',v,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Border','0',d,[ str ]).
+html_comp_i(12,'Alt','',d,[ str ]).
+html_comp_i(12,'Title','Siguiente',v,[ str ]).
+html_comp_i(12,'Hspace',0,v,[ num ]).
+html_comp_i(12,'Vspace',0,d,[ num ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Usemap','',d,[ str ]).
+html_comp_i(13,'Id','Btn_next_separator',v,[ str ]).
+html_comp_i(13,'Class','ImageTop',v,[ str ]).
+html_comp_i(13,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(13,lowsrc,'',d,[ str ]).
+html_comp_i(13,'Returnonclick',0,d,[ bool ]).
+html_comp_i(13,'Eventgx','Next',v,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Border','0',d,[ str ]).
+html_comp_i(13,'Alt','',d,[ str ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(13,'Hspace',0,v,[ num ]).
+html_comp_i(13,'Vspace',0,d,[ num ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Usemap','',d,[ str ]).
+html_comp_i(14,'Id','Btn_last',v,[ str ]).
+html_comp_i(14,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(14,src,i(98,'29211874-e613-48e5-9011-8017d984217e'),v,[ image ]).
+html_comp_i(14,lowsrc,'',d,[ str ]).
+html_comp_i(14,'Returnonclick',0,d,[ bool ]).
+html_comp_i(14,'Eventgx','Last',v,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Border','0',d,[ str ]).
+html_comp_i(14,'Alt','',d,[ str ]).
+html_comp_i(14,'Title','Ultimo',v,[ str ]).
+html_comp_i(14,'Hspace',0,v,[ num ]).
+html_comp_i(14,'Vspace',0,d,[ num ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Usemap','',d,[ str ]).
+html_comp_i(15,'Id','Btn_last_separator',v,[ str ]).
+html_comp_i(15,'Class','ImageTop',v,[ str ]).
+html_comp_i(15,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(15,lowsrc,'',d,[ str ]).
+html_comp_i(15,'Returnonclick',0,d,[ bool ]).
+html_comp_i(15,'Eventgx','Last',v,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Border','0',d,[ str ]).
+html_comp_i(15,'Alt','',d,[ str ]).
+html_comp_i(15,'Title','',d,[ str ]).
+html_comp_i(15,'Hspace',0,v,[ num ]).
+html_comp_i(15,'Vspace',0,d,[ num ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Usemap','',d,[ str ]).
+html_comp_i(16,'Id','Btn_select',v,[ str ]).
+html_comp_i(16,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(16,src,i(98,'1ca03f75-9947-4d2c-90a4-e8ab9c5cedea'),v,[ image ]).
+html_comp_i(16,lowsrc,'',d,[ str ]).
+html_comp_i(16,'Returnonclick',0,d,[ bool ]).
+html_comp_i(16,'Eventgx','Select',v,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Border','0',d,[ str ]).
+html_comp_i(16,'Alt','',d,[ str ]).
+html_comp_i(16,'Title','Seleccionar',v,[ str ]).
+html_comp_i(16,'Hspace',0,v,[ num ]).
+html_comp_i(16,'Vspace',0,d,[ num ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Usemap','',d,[ str ]).
+html_comp_i(17,'Id','Btn_select_separator',v,[ str ]).
+html_comp_i(17,'Class','ImageTop',v,[ str ]).
+html_comp_i(17,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(17,lowsrc,'',d,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Eventgx','Select',v,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Border','0',d,[ str ]).
+html_comp_i(17,'Alt','',d,[ str ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Hspace',0,v,[ num ]).
+html_comp_i(17,'Vspace',0,d,[ num ]).
+html_comp_i(17,'Align',left,d,[ str ]).
+html_comp_i(17,'Usemap','',d,[ str ]).
+html_comp_i(18,'Id','Btn_enter2',v,[ str ]).
+html_comp_i(18,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(18,src,i(98,'2061cf2c-bd33-4433-a13e-34af954142e9'),v,[ image ]).
+html_comp_i(18,lowsrc,'',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Eventgx','Enter',v,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Border','0',d,[ str ]).
+html_comp_i(18,'Alt','',d,[ str ]).
+html_comp_i(18,'Title','Confirmar',v,[ str ]).
+html_comp_i(18,'Hspace',0,v,[ num ]).
+html_comp_i(18,'Vspace',0,d,[ num ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Usemap','',d,[ str ]).
+html_comp_i(19,'Id','Btn_enter2_separator',v,[ str ]).
+html_comp_i(19,'Class','ImageTop',v,[ str ]).
+html_comp_i(19,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(19,lowsrc,'',d,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Eventgx','Enter',v,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Border','0',d,[ str ]).
+html_comp_i(19,'Alt','',d,[ str ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(19,'Hspace',0,v,[ num ]).
+html_comp_i(19,'Vspace',0,d,[ num ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Usemap','',d,[ str ]).
+html_comp_i(20,'Id','Btn_cancel2',v,[ str ]).
+html_comp_i(20,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(20,src,i(98,'0e94ced8-bc34-47ff-9a53-bc683736a686'),v,[ image ]).
+html_comp_i(20,lowsrc,'',d,[ str ]).
+html_comp_i(20,'Returnonclick',0,d,[ bool ]).
+html_comp_i(20,'Eventgx','Cancel',v,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Border','0',d,[ str ]).
+html_comp_i(20,'Alt','',d,[ str ]).
+html_comp_i(20,'Title','Cancelar',v,[ str ]).
+html_comp_i(20,'Hspace',0,v,[ num ]).
+html_comp_i(20,'Vspace',0,d,[ num ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Usemap','',d,[ str ]).
+html_comp_i(21,'Id','Btn_cancel2_separator',v,[ str ]).
+html_comp_i(21,'Class','ImageTop',v,[ str ]).
+html_comp_i(21,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(21,lowsrc,'',d,[ str ]).
+html_comp_i(21,'Returnonclick',0,d,[ bool ]).
+html_comp_i(21,'Eventgx','Cancel',v,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Border','0',d,[ str ]).
+html_comp_i(21,'Alt','',d,[ str ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(21,'Hspace',0,v,[ num ]).
+html_comp_i(21,'Vspace',0,d,[ num ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Usemap','',d,[ str ]).
+html_comp_i(22,'Id','Btn_delete2',v,[ str ]).
+html_comp_i(22,'Class','ImageHandCenter',v,[ str ]).
+html_comp_i(22,src,i(98,'7695fe89-52c9-4b7e-871e-0e11548f823e'),v,[ image ]).
+html_comp_i(22,lowsrc,'',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,d,[ bool ]).
+html_comp_i(22,'Eventgx','Delete',v,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Border','0',d,[ str ]).
+html_comp_i(22,'Alt','',d,[ str ]).
+html_comp_i(22,'Title','Eliminar',v,[ str ]).
+html_comp_i(22,'Hspace',0,v,[ num ]).
+html_comp_i(22,'Vspace',0,d,[ num ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Usemap','',d,[ str ]).
+html_comp_i(23,'Id','Btn_delete2_separator',v,[ str ]).
+html_comp_i(23,'Class','ImageTop',v,[ str ]).
+html_comp_i(23,src,i(98,'ea7811ba-4fa2-42da-8591-e6cb10669f1f'),v,[ image ]).
+html_comp_i(23,lowsrc,'',d,[ str ]).
+html_comp_i(23,'Returnonclick',0,d,[ bool ]).
+html_comp_i(23,'Eventgx','Delete',v,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Border','0',d,[ str ]).
+html_comp_i(23,'Alt','',d,[ str ]).
+html_comp_i(23,'Title','',d,[ str ]).
+html_comp_i(23,'Hspace',0,v,[ num ]).
+html_comp_i(23,'Vspace',0,d,[ num ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Usemap','',d,[ str ]).
+html_comp_i(26,'Class','Group',v,[ str ]).
+html_comp_i(26,'Caption','ACT. DE BIENES DE USO',d,[ str ]).
+html_comp_i(26,'Id','Groupdata',v,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Id','Table1',v,[ str ]).
+html_comp_i(27,'Class','Table',v,[ str ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Align',left,d,[ str ]).
+html_comp_i(27,'Backgroundgx','',d,[ str ]).
+html_comp_i(27,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Border','0',d,[ str ]).
+html_comp_i(27,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Cellpadding','1',d,[ str ]).
+html_comp_i(27,'Cellspacing','2',d,[ str ]).
+html_comp_i(27,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Rules',none,d,[ str ]).
+html_comp_i(30,'Controlname','Ctlerror',v,[ str ]).
+html_comp_i(30,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(30,'Displaymode',1,d,[ num ]).
+html_comp_i(30,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(30,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(30,'Fill',-1,d,[ bool ]).
+html_comp_i(33,'Id','Table2',v,[ str ]).
+html_comp_i(33,'Class','Table',v,[ str ]).
+html_comp_i(33,'Title','',d,[ str ]).
+html_comp_i(33,'Align',left,d,[ str ]).
+html_comp_i(33,'Backgroundgx','',d,[ str ]).
+html_comp_i(33,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(33,'Border','0',d,[ str ]).
+html_comp_i(33,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(33,'Cellpadding','1',d,[ str ]).
+html_comp_i(33,'Cellspacing','2',d,[ str ]).
+html_comp_i(33,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Rules',none,d,[ str ]).
+html_comp_i(35,'Valign',top,v,[ str ]).
+html_comp_i(35,'Class',td5,v,[ str ]).
+html_comp_i(36,'Caption','CODIGO DE EMPRESA',d,[ str ]).
+html_comp_i(36,'Id','Textblockbus_emp',v,[ str ]).
+html_comp_i(36,'Class','TextBlock',d,[ str ]).
+html_comp_i(36,'Event','',d,[ str ]).
+html_comp_i(36,'Returnonclick',0,d,[ bool ]).
+html_comp_i(36,'Gxformat',0,d,[ num ]).
+html_comp_i(36,'Title','',d,[ str ]).
+html_comp_i(36,'Fill',-1,d,[ bool ]).
+html_comp_i(36,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(36,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(36,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(38,'Attid',8,v,[ num ]).
+html_comp_i(38,'Class','Attribute',d,[ str ]).
+html_comp_i(38,'Controlname','Bus_emp',d,[ str ]).
+html_comp_i(38,'Returnonclick',0,d,[ bool ]).
+html_comp_i(38,'Controltype',2,d,[ num ]).
+html_comp_i(38,'Inputtype',0,d,[ num ]).
+html_comp_i(38,'Editautocomplete',0,d,[ num ]).
+html_comp_i(38,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(38,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(38,'Readonly',0,d,[ bool ]).
+html_comp_i(38,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(38,'Ispassword',0,d,[ bool ]).
+html_comp_i(38,'Autoresize',-1,d,[ bool ]).
+html_comp_i(38,'Gxwidth',measure(1,chr),d,[ measure ]).
+html_comp_i(38,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(38,'Ismultiline',0,d,[ bool ]).
+html_comp_i(38,'Fill',-1,d,[ bool ]).
+html_comp_i(38,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(38,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(38,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(38,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(38,'Gxformat',0,d,[ num ]).
+html_comp_i(38,'Title','',d,[ str ]).
+html_comp_i(40,'Valign',top,v,[ str ]).
+html_comp_i(40,'Class',td5,v,[ str ]).
+html_comp_i(41,'Caption','RUBRO DEL BIEN',d,[ str ]).
+html_comp_i(41,'Id','Textblockbus_rub',v,[ str ]).
+html_comp_i(41,'Class','TextBlock',d,[ str ]).
+html_comp_i(41,'Event','',d,[ str ]).
+html_comp_i(41,'Returnonclick',0,d,[ bool ]).
+html_comp_i(41,'Gxformat',0,d,[ num ]).
+html_comp_i(41,'Title','',d,[ str ]).
+html_comp_i(41,'Fill',-1,d,[ bool ]).
+html_comp_i(41,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(41,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(41,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(43,'Attid',1,v,[ num ]).
+html_comp_i(43,'Class','Attribute',d,[ str ]).
+html_comp_i(43,'Controlname','Bus_rub',d,[ str ]).
+html_comp_i(43,'Returnonclick',0,d,[ bool ]).
+html_comp_i(43,'Controltype',2,d,[ num ]).
+html_comp_i(43,'Inputtype',0,d,[ num ]).
+html_comp_i(43,'Notifycontextchange',0,v,[ bool ]).
+html_comp_i(43,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(43,'Readonly',0,d,[ bool ]).
+html_comp_i(43,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(43,'Ispassword',0,d,[ bool ]).
+html_comp_i(43,'Autoresize',-1,d,[ bool ]).
+html_comp_i(43,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(43,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(43,'Ismultiline',0,d,[ bool ]).
+html_comp_i(43,'Fill',-1,d,[ bool ]).
+html_comp_i(43,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(43,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(43,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(43,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(43,'Gxformat',0,d,[ num ]).
+html_comp_i(43,'Title','',d,[ str ]).
+html_comp_i(45,'Valign',top,v,[ str ]).
+html_comp_i(45,'Class',td5,v,[ str ]).
+html_comp_i(45,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(46,'Caption','CODIGO Y PARTIDA',d,[ str ]).
+html_comp_i(46,'Id','Textblockbus_cod',v,[ str ]).
+html_comp_i(46,'Class','TextBlock',d,[ str ]).
+html_comp_i(46,'Event','',d,[ str ]).
+html_comp_i(46,'Returnonclick',0,d,[ bool ]).
+html_comp_i(46,'Gxformat',0,d,[ num ]).
+html_comp_i(46,'Title','',d,[ str ]).
+html_comp_i(46,'Fill',-1,d,[ bool ]).
+html_comp_i(46,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(46,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(46,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(48,'Attid',3,v,[ num ]).
+html_comp_i(48,'Class','Attribute',d,[ str ]).
+html_comp_i(48,'Controlname','Bus_cod',d,[ str ]).
+html_comp_i(48,'Returnonclick',0,d,[ bool ]).
+html_comp_i(48,'Controltype',2,d,[ num ]).
+html_comp_i(48,'Inputtype',0,d,[ num ]).
+html_comp_i(48,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(48,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(48,'Readonly',0,d,[ bool ]).
+html_comp_i(48,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(48,'Ispassword',0,d,[ bool ]).
+html_comp_i(48,'Autoresize',-1,d,[ bool ]).
+html_comp_i(48,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(48,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(48,'Ismultiline',0,d,[ bool ]).
+html_comp_i(48,'Fill',-1,d,[ bool ]).
+html_comp_i(48,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(48,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(48,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(48,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(48,'Gxformat',0,d,[ num ]).
+html_comp_i(48,'Title','',d,[ str ]).
+html_comp_i(49,'Attid',4,v,[ num ]).
+html_comp_i(49,'Class','Attribute',d,[ str ]).
+html_comp_i(49,'Controlname','Bus_par',d,[ str ]).
+html_comp_i(49,'Returnonclick',0,d,[ bool ]).
+html_comp_i(49,'Controltype',2,d,[ num ]).
+html_comp_i(49,'Inputtype',0,d,[ num ]).
+html_comp_i(49,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(49,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(49,'Readonly',0,d,[ bool ]).
+html_comp_i(49,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(49,'Ispassword',0,d,[ bool ]).
+html_comp_i(49,'Autoresize',-1,d,[ bool ]).
+html_comp_i(49,'Gxwidth',measure(2,chr),d,[ measure ]).
+html_comp_i(49,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(49,'Ismultiline',0,d,[ bool ]).
+html_comp_i(49,'Fill',-1,d,[ bool ]).
+html_comp_i(49,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(49,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(49,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(49,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(49,'Gxformat',0,d,[ num ]).
+html_comp_i(49,'Title','',d,[ str ]).
+html_comp_i(51,'Valign',top,v,[ str ]).
+html_comp_i(51,'Class',td5,v,[ str ]).
+html_comp_i(52,'Caption','DESCRIPCION DEL BIEN',d,[ str ]).
+html_comp_i(52,'Id','Textblockbus_des',v,[ str ]).
+html_comp_i(52,'Class','TextBlock',d,[ str ]).
+html_comp_i(52,'Event','',d,[ str ]).
+html_comp_i(52,'Returnonclick',0,d,[ bool ]).
+html_comp_i(52,'Gxformat',0,d,[ num ]).
+html_comp_i(52,'Title','',d,[ str ]).
+html_comp_i(52,'Fill',-1,d,[ bool ]).
+html_comp_i(52,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(52,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(52,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(54,'Attid',54,v,[ num ]).
+html_comp_i(54,'Class','Attribute',d,[ str ]).
+html_comp_i(54,'Controlname','Bus_des',d,[ str ]).
+html_comp_i(54,'Returnonclick',0,d,[ bool ]).
+html_comp_i(54,'Controltype',2,d,[ num ]).
+html_comp_i(54,'Inputtype',0,d,[ num ]).
+html_comp_i(54,'Editautocomplete',0,d,[ num ]).
+html_comp_i(54,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(54,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(54,'Readonly',0,d,[ bool ]).
+html_comp_i(54,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(54,'Ispassword',0,d,[ bool ]).
+html_comp_i(54,'Autoresize',-1,d,[ bool ]).
+html_comp_i(54,'Gxwidth',measure(50,chr),d,[ measure ]).
+html_comp_i(54,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(54,'Ismultiline',0,d,[ bool ]).
+html_comp_i(54,'Fill',-1,d,[ bool ]).
+html_comp_i(54,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(54,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(54,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(54,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(54,'Gxformat',0,d,[ num ]).
+html_comp_i(54,'Title','',d,[ str ]).
+html_comp_i(59,'Valign',top,v,[ str ]).
+html_comp_i(59,'Class',td5,v,[ str ]).
+html_comp_i(60,'Caption','FECHA DE ALTA DEL BIEN',d,[ str ]).
+html_comp_i(60,'Id','Textblockbus_fal',v,[ str ]).
+html_comp_i(60,'Class','TextBlock',d,[ str ]).
+html_comp_i(60,'Event','',d,[ str ]).
+html_comp_i(60,'Returnonclick',0,d,[ bool ]).
+html_comp_i(60,'Gxformat',0,d,[ num ]).
+html_comp_i(60,'Title','',d,[ str ]).
+html_comp_i(60,'Fill',-1,d,[ bool ]).
+html_comp_i(60,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(60,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(60,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(62,'Attid',170,v,[ num ]).
+html_comp_i(62,'Class','Attribute',d,[ str ]).
+html_comp_i(62,'Controlname','Bus_fal',d,[ str ]).
+html_comp_i(62,'Returnonclick',0,d,[ bool ]).
+html_comp_i(62,'Controltype',2,d,[ num ]).
+html_comp_i(62,'Inputtype',0,d,[ num ]).
+html_comp_i(62,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(62,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(62,'Readonly',0,d,[ bool ]).
+html_comp_i(62,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(62,'Ispassword',0,d,[ bool ]).
+html_comp_i(62,'Autoresize',-1,d,[ bool ]).
+html_comp_i(62,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(62,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(62,'Ismultiline',0,d,[ bool ]).
+html_comp_i(62,'Fill',-1,d,[ bool ]).
+html_comp_i(62,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(62,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(62,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(62,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(62,'Gxformat',0,d,[ num ]).
+html_comp_i(62,'Title','',d,[ str ]).
+html_comp_i(62,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(62,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(64,'Valign',top,v,[ str ]).
+html_comp_i(64,'Class',td5,v,[ str ]).
+html_comp_i(65,'Caption','FECHA DE ADQUISICION DEL BIEN',d,[ str ]).
+html_comp_i(65,'Id','Textblockbus_fad',v,[ str ]).
+html_comp_i(65,'Class','TextBlock',d,[ str ]).
+html_comp_i(65,'Event','',d,[ str ]).
+html_comp_i(65,'Returnonclick',0,d,[ bool ]).
+html_comp_i(65,'Gxformat',0,d,[ num ]).
+html_comp_i(65,'Title','',d,[ str ]).
+html_comp_i(65,'Fill',-1,d,[ bool ]).
+html_comp_i(65,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(65,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(65,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(67,'Attid',55,v,[ num ]).
+html_comp_i(67,'Class','Attribute',d,[ str ]).
+html_comp_i(67,'Controlname','Bus_fad',d,[ str ]).
+html_comp_i(67,'Returnonclick',0,d,[ bool ]).
+html_comp_i(67,'Controltype',2,d,[ num ]).
+html_comp_i(67,'Inputtype',0,d,[ num ]).
+html_comp_i(67,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(67,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(67,'Readonly',0,d,[ bool ]).
+html_comp_i(67,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(67,'Ispassword',0,d,[ bool ]).
+html_comp_i(67,'Autoresize',-1,d,[ bool ]).
+html_comp_i(67,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(67,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(67,'Ismultiline',0,d,[ bool ]).
+html_comp_i(67,'Fill',-1,d,[ bool ]).
+html_comp_i(67,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(67,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(67,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(67,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(67,'Gxformat',0,d,[ num ]).
+html_comp_i(67,'Title','',d,[ str ]).
+html_comp_i(67,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(67,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(69,'Valign',top,v,[ str ]).
+html_comp_i(69,'Class',td5,v,[ str ]).
+html_comp_i(70,'Caption','VIDA UTIL ASIGNADA AL BIEN',d,[ str ]).
+html_comp_i(70,'Id','Textblockbus_vua',v,[ str ]).
+html_comp_i(70,'Class','TextBlock',d,[ str ]).
+html_comp_i(70,'Event','',d,[ str ]).
+html_comp_i(70,'Returnonclick',0,d,[ bool ]).
+html_comp_i(70,'Gxformat',0,d,[ num ]).
+html_comp_i(70,'Title','',d,[ str ]).
+html_comp_i(70,'Fill',-1,d,[ bool ]).
+html_comp_i(70,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(70,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(70,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(72,'Attid',329,v,[ num ]).
+html_comp_i(72,'Class','Attribute',d,[ str ]).
+html_comp_i(72,'Controlname','Bus_vua',d,[ str ]).
+html_comp_i(72,'Returnonclick',0,d,[ bool ]).
+html_comp_i(72,'Controltype',2,d,[ num ]).
+html_comp_i(72,'Inputtype',0,d,[ num ]).
+html_comp_i(72,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(72,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(72,'Readonly',0,d,[ bool ]).
+html_comp_i(72,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(72,'Ispassword',0,d,[ bool ]).
+html_comp_i(72,'Autoresize',-1,d,[ bool ]).
+html_comp_i(72,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(72,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(72,'Ismultiline',0,d,[ bool ]).
+html_comp_i(72,'Fill',-1,d,[ bool ]).
+html_comp_i(72,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(72,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(72,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(72,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(72,'Gxformat',0,d,[ num ]).
+html_comp_i(72,'Title','',d,[ str ]).
+html_comp_i(75,'Caption','VALOR DE ORIGEN DEL BIEN',d,[ str ]).
+html_comp_i(75,'Id','Textblockbus_vao',v,[ str ]).
+html_comp_i(75,'Class','TextBlock',d,[ str ]).
+html_comp_i(75,'Event','',d,[ str ]).
+html_comp_i(75,'Returnonclick',0,d,[ bool ]).
+html_comp_i(75,'Gxformat',0,d,[ num ]).
+html_comp_i(75,'Title','',d,[ str ]).
+html_comp_i(75,'Fill',-1,d,[ bool ]).
+html_comp_i(75,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(75,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(75,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(77,'Attid',330,v,[ num ]).
+html_comp_i(77,'Class','Attribute',d,[ str ]).
+html_comp_i(77,'Controlname','Bus_vao',d,[ str ]).
+html_comp_i(77,'Returnonclick',0,d,[ bool ]).
+html_comp_i(77,'Controltype',2,d,[ num ]).
+html_comp_i(77,'Inputtype',0,d,[ num ]).
+html_comp_i(77,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(77,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(77,'Readonly',0,d,[ bool ]).
+html_comp_i(77,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(77,'Ispassword',0,d,[ bool ]).
+html_comp_i(77,'Autoresize',-1,d,[ bool ]).
+html_comp_i(77,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(77,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(77,'Ismultiline',0,d,[ bool ]).
+html_comp_i(77,'Fill',-1,d,[ bool ]).
+html_comp_i(77,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(77,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(77,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(77,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(77,'Gxformat',0,d,[ num ]).
+html_comp_i(77,'Title','',d,[ str ]).
+html_comp_i(79,'Height',measure(16,px),v,[ measure ]).
+html_comp_i(82,'Valign',top,v,[ str ]).
+html_comp_i(82,'Class',td5,v,[ str ]).
+html_comp_i(82,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(83,'Caption','COMPROBANTE DE COMPRA',d,[ str ]).
+html_comp_i(83,'Id','Textblockbus_com',v,[ str ]).
+html_comp_i(83,'Class','TextBlock',d,[ str ]).
+html_comp_i(83,'Event','',d,[ str ]).
+html_comp_i(83,'Returnonclick',0,d,[ bool ]).
+html_comp_i(83,'Gxformat',0,d,[ num ]).
+html_comp_i(83,'Title','',d,[ str ]).
+html_comp_i(83,'Fill',-1,d,[ bool ]).
+html_comp_i(83,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(83,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(83,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(85,'Attid',331,v,[ num ]).
+html_comp_i(85,'Class','Attribute',d,[ str ]).
+html_comp_i(85,'Controlname','Bus_com',d,[ str ]).
+html_comp_i(85,'Returnonclick',0,d,[ bool ]).
+html_comp_i(85,'Controltype',2,d,[ num ]).
+html_comp_i(85,'Inputtype',0,d,[ num ]).
+html_comp_i(85,'Editautocomplete',0,d,[ num ]).
+html_comp_i(85,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(85,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(85,'Readonly',0,d,[ bool ]).
+html_comp_i(85,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(85,'Ispassword',0,d,[ bool ]).
+html_comp_i(85,'Autoresize',-1,d,[ bool ]).
+html_comp_i(85,'Gxwidth',measure(2,chr),d,[ measure ]).
+html_comp_i(85,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(85,'Ismultiline',0,d,[ bool ]).
+html_comp_i(85,'Fill',-1,d,[ bool ]).
+html_comp_i(85,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(85,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(85,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(85,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(85,'Gxformat',0,d,[ num ]).
+html_comp_i(85,'Title','',d,[ str ]).
+html_comp_i(86,'Attid',350,v,[ num ]).
+html_comp_i(86,'Class','Attribute',d,[ str ]).
+html_comp_i(86,'Controlname','Bus_cbd',d,[ str ]).
+html_comp_i(86,'Returnonclick',0,d,[ bool ]).
+html_comp_i(86,'Controltype',2,d,[ num ]).
+html_comp_i(86,'Inputtype',0,d,[ num ]).
+html_comp_i(86,'Editautocomplete',0,d,[ num ]).
+html_comp_i(86,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(86,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(86,'Readonly',0,d,[ bool ]).
+html_comp_i(86,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(86,'Ispassword',0,d,[ bool ]).
+html_comp_i(86,'Autoresize',-1,d,[ bool ]).
+html_comp_i(86,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(86,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(86,'Ismultiline',0,d,[ bool ]).
+html_comp_i(86,'Fill',-1,d,[ bool ]).
+html_comp_i(86,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(86,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(86,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(86,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(86,'Gxformat',0,d,[ num ]).
+html_comp_i(86,'Title','',d,[ str ]).
+html_comp_i(88,'Valign',top,v,[ str ]).
+html_comp_i(88,'Class',td5,v,[ str ]).
+html_comp_i(89,'Caption','NUMERO DEL COMP. DE COMPRA',d,[ str ]).
+html_comp_i(89,'Id','Textblockbus_nco',v,[ str ]).
+html_comp_i(89,'Class','TextBlock',d,[ str ]).
+html_comp_i(89,'Event','',d,[ str ]).
+html_comp_i(89,'Returnonclick',0,d,[ bool ]).
+html_comp_i(89,'Gxformat',0,d,[ num ]).
+html_comp_i(89,'Title','',d,[ str ]).
+html_comp_i(89,'Fill',-1,d,[ bool ]).
+html_comp_i(89,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(89,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(89,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(91,'Attid',333,v,[ num ]).
+html_comp_i(91,'Class','Attribute',d,[ str ]).
+html_comp_i(91,'Controlname','Bus_nco',d,[ str ]).
+html_comp_i(91,'Returnonclick',0,d,[ bool ]).
+html_comp_i(91,'Controltype',2,d,[ num ]).
+html_comp_i(91,'Inputtype',0,d,[ num ]).
+html_comp_i(91,'Editautocomplete',0,d,[ num ]).
+html_comp_i(91,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(91,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(91,'Readonly',0,d,[ bool ]).
+html_comp_i(91,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(91,'Ispassword',0,d,[ bool ]).
+html_comp_i(91,'Autoresize',-1,d,[ bool ]).
+html_comp_i(91,'Gxwidth',measure(12,chr),d,[ measure ]).
+html_comp_i(91,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(91,'Ismultiline',0,d,[ bool ]).
+html_comp_i(91,'Fill',-1,d,[ bool ]).
+html_comp_i(91,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(91,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(91,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(91,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(91,'Gxformat',0,d,[ num ]).
+html_comp_i(91,'Title','',d,[ str ]).
+html_comp_i(93,'Valign',top,v,[ str ]).
+html_comp_i(93,'Class',td5,v,[ str ]).
+html_comp_i(97,'Caption','AREA A QUE PERTENECE EL BIEN',d,[ str ]).
+html_comp_i(97,'Id','Textblockbus_sec',v,[ str ]).
+html_comp_i(97,'Class','TextBlock',d,[ str ]).
+html_comp_i(97,'Event','',d,[ str ]).
+html_comp_i(97,'Returnonclick',0,d,[ bool ]).
+html_comp_i(97,'Gxformat',0,d,[ num ]).
+html_comp_i(97,'Title','',d,[ str ]).
+html_comp_i(97,'Fill',-1,d,[ bool ]).
+html_comp_i(97,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(97,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(97,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(99,'Attid',172,v,[ num ]).
+html_comp_i(99,'Class','Attribute',d,[ str ]).
+html_comp_i(99,'Controlname','Bus_sec',d,[ str ]).
+html_comp_i(99,'Returnonclick',0,d,[ bool ]).
+html_comp_i(99,'Controltype',2,d,[ num ]).
+html_comp_i(99,'Inputtype',0,d,[ num ]).
+html_comp_i(99,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(99,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(99,'Readonly',0,d,[ bool ]).
+html_comp_i(99,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(99,'Ispassword',0,d,[ bool ]).
+html_comp_i(99,'Autoresize',-1,d,[ bool ]).
+html_comp_i(99,'Gxwidth',measure(2,chr),d,[ measure ]).
+html_comp_i(99,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(99,'Ismultiline',0,d,[ bool ]).
+html_comp_i(99,'Fill',-1,d,[ bool ]).
+html_comp_i(99,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(99,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(99,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(99,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(99,'Gxformat',0,d,[ num ]).
+html_comp_i(99,'Title','',d,[ str ]).
+html_comp_i(100,'Attid',176,v,[ num ]).
+html_comp_i(100,'Class','Attribute',d,[ str ]).
+html_comp_i(100,'Controlname','Bus_sed',d,[ str ]).
+html_comp_i(100,'Returnonclick',0,d,[ bool ]).
+html_comp_i(100,'Controltype',2,d,[ num ]).
+html_comp_i(100,'Inputtype',0,d,[ num ]).
+html_comp_i(100,'Editautocomplete',0,d,[ num ]).
+html_comp_i(100,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(100,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(100,'Readonly',0,d,[ bool ]).
+html_comp_i(100,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(100,'Ispassword',0,d,[ bool ]).
+html_comp_i(100,'Autoresize',-1,d,[ bool ]).
+html_comp_i(100,'Gxwidth',measure(30,chr),d,[ measure ]).
+html_comp_i(100,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(100,'Ismultiline',0,d,[ bool ]).
+html_comp_i(100,'Fill',-1,d,[ bool ]).
+html_comp_i(100,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(100,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(100,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(100,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(100,'Gxformat',0,d,[ num ]).
+html_comp_i(100,'Title','',d,[ str ]).
+html_comp_i(103,'Caption','SECTOR DE LA EMPRESA',d,[ str ]).
+html_comp_i(103,'Id','Textblockbus_are',v,[ str ]).
+html_comp_i(103,'Class','TextBlock',d,[ str ]).
+html_comp_i(103,'Event','',d,[ str ]).
+html_comp_i(103,'Returnonclick',0,d,[ bool ]).
+html_comp_i(103,'Gxformat',0,d,[ num ]).
+html_comp_i(103,'Title','',d,[ str ]).
+html_comp_i(103,'Fill',-1,d,[ bool ]).
+html_comp_i(103,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(103,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(103,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(105,'Attid',171,v,[ num ]).
+html_comp_i(105,'Class','Attribute',d,[ str ]).
+html_comp_i(105,'Controlname','Bus_are',d,[ str ]).
+html_comp_i(105,'Returnonclick',0,d,[ bool ]).
+html_comp_i(105,'Controltype',2,d,[ num ]).
+html_comp_i(105,'Inputtype',0,d,[ num ]).
+html_comp_i(105,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(105,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(105,'Readonly',0,d,[ bool ]).
+html_comp_i(105,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(105,'Ispassword',0,d,[ bool ]).
+html_comp_i(105,'Autoresize',-1,d,[ bool ]).
+html_comp_i(105,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(105,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(105,'Ismultiline',0,d,[ bool ]).
+html_comp_i(105,'Fill',-1,d,[ bool ]).
+html_comp_i(105,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(105,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(105,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(105,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(105,'Gxformat',0,d,[ num ]).
+html_comp_i(105,'Title','',d,[ str ]).
+html_comp_i(106,'Attid',175,v,[ num ]).
+html_comp_i(106,'Class','Attribute',d,[ str ]).
+html_comp_i(106,'Controlname','Bus_ard',d,[ str ]).
+html_comp_i(106,'Returnonclick',0,d,[ bool ]).
+html_comp_i(106,'Controltype',2,d,[ num ]).
+html_comp_i(106,'Inputtype',0,d,[ num ]).
+html_comp_i(106,'Editautocomplete',0,d,[ num ]).
+html_comp_i(106,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(106,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(106,'Readonly',0,d,[ bool ]).
+html_comp_i(106,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(106,'Ispassword',0,d,[ bool ]).
+html_comp_i(106,'Autoresize',-1,d,[ bool ]).
+html_comp_i(106,'Gxwidth',measure(30,chr),d,[ measure ]).
+html_comp_i(106,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(106,'Ismultiline',0,d,[ bool ]).
+html_comp_i(106,'Fill',-1,d,[ bool ]).
+html_comp_i(106,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(106,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(106,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(106,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(106,'Gxformat',0,d,[ num ]).
+html_comp_i(106,'Title','',d,[ str ]).
+html_comp_i(108,'Valign',top,v,[ str ]).
+html_comp_i(108,'Class',td5,v,[ str ]).
+html_comp_i(108,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(109,'Caption','CODIGO DE TIPO DE BIEN',d,[ str ]).
+html_comp_i(109,'Id','Textblockbus_tip',v,[ str ]).
+html_comp_i(109,'Class','TextBlock',d,[ str ]).
+html_comp_i(109,'Event','',d,[ str ]).
+html_comp_i(109,'Returnonclick',0,d,[ bool ]).
+html_comp_i(109,'Gxformat',0,d,[ num ]).
+html_comp_i(109,'Title','',d,[ str ]).
+html_comp_i(109,'Fill',-1,d,[ bool ]).
+html_comp_i(109,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(109,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(109,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(111,'Attid',56,v,[ num ]).
+html_comp_i(111,'Class','Attribute',d,[ str ]).
+html_comp_i(111,'Controlname','Bus_tip',d,[ str ]).
+html_comp_i(111,'Returnonclick',0,d,[ bool ]).
+html_comp_i(111,'Controltype',2,d,[ num ]).
+html_comp_i(111,'Inputtype',0,d,[ num ]).
+html_comp_i(111,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(111,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(111,'Readonly',0,d,[ bool ]).
+html_comp_i(111,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(111,'Ispassword',0,d,[ bool ]).
+html_comp_i(111,'Autoresize',-1,d,[ bool ]).
+html_comp_i(111,'Gxwidth',measure(3,chr),d,[ measure ]).
+html_comp_i(111,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(111,'Ismultiline',0,d,[ bool ]).
+html_comp_i(111,'Fill',-1,d,[ bool ]).
+html_comp_i(111,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(111,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(111,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(111,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(111,'Gxformat',0,d,[ num ]).
+html_comp_i(111,'Title','',d,[ str ]).
+html_comp_i(112,'Attid',59,v,[ num ]).
+html_comp_i(112,'Class','Attribute',d,[ str ]).
+html_comp_i(112,'Controlname','Bus_tid',d,[ str ]).
+html_comp_i(112,'Returnonclick',0,d,[ bool ]).
+html_comp_i(112,'Controltype',2,d,[ num ]).
+html_comp_i(112,'Inputtype',0,d,[ num ]).
+html_comp_i(112,'Editautocomplete',0,d,[ num ]).
+html_comp_i(112,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(112,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(112,'Readonly',0,d,[ bool ]).
+html_comp_i(112,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(112,'Ispassword',0,d,[ bool ]).
+html_comp_i(112,'Autoresize',-1,d,[ bool ]).
+html_comp_i(112,'Gxwidth',measure(20,chr),d,[ measure ]).
+html_comp_i(112,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(112,'Ismultiline',0,d,[ bool ]).
+html_comp_i(112,'Fill',-1,d,[ bool ]).
+html_comp_i(112,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(112,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(112,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(112,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(112,'Gxformat',0,d,[ num ]).
+html_comp_i(112,'Title','',d,[ str ]).
+html_comp_i(114,'Height',measure(16,px),v,[ measure ]).
+html_comp_i(117,'Valign',top,v,[ str ]).
+html_comp_i(117,'Class',td5,v,[ str ]).
+html_comp_i(117,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(118,'Caption','FECHA DE BAJA DEL BIEN',d,[ str ]).
+html_comp_i(118,'Id','Textblockbus_fba',v,[ str ]).
+html_comp_i(118,'Class','TextBlock',d,[ str ]).
+html_comp_i(118,'Event','',d,[ str ]).
+html_comp_i(118,'Returnonclick',0,d,[ bool ]).
+html_comp_i(118,'Gxformat',0,d,[ num ]).
+html_comp_i(118,'Title','',d,[ str ]).
+html_comp_i(118,'Fill',-1,d,[ bool ]).
+html_comp_i(118,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(118,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(118,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(120,'Attid',174,v,[ num ]).
+html_comp_i(120,'Class','Attribute',d,[ str ]).
+html_comp_i(120,'Controlname','Bus_fba',d,[ str ]).
+html_comp_i(120,'Returnonclick',0,d,[ bool ]).
+html_comp_i(120,'Controltype',2,d,[ num ]).
+html_comp_i(120,'Inputtype',0,d,[ num ]).
+html_comp_i(120,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(120,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(120,'Readonly',0,d,[ bool ]).
+html_comp_i(120,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(120,'Ispassword',0,d,[ bool ]).
+html_comp_i(120,'Autoresize',-1,d,[ bool ]).
+html_comp_i(120,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(120,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(120,'Ismultiline',0,d,[ bool ]).
+html_comp_i(120,'Fill',-1,d,[ bool ]).
+html_comp_i(120,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(120,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(120,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(120,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(120,'Gxformat',0,d,[ num ]).
+html_comp_i(120,'Title','',d,[ str ]).
+html_comp_i(120,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(120,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(122,'Valign',top,v,[ str ]).
+html_comp_i(122,'Class',td5,v,[ str ]).
+html_comp_i(122,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(123,'Caption','MOTIVO DE BAJA DEL BIEN',d,[ str ]).
+html_comp_i(123,'Id','Textblockbus_mba',v,[ str ]).
+html_comp_i(123,'Class','TextBlock',d,[ str ]).
+html_comp_i(123,'Event','',d,[ str ]).
+html_comp_i(123,'Returnonclick',0,d,[ bool ]).
+html_comp_i(123,'Gxformat',0,d,[ num ]).
+html_comp_i(123,'Title','',d,[ str ]).
+html_comp_i(123,'Fill',-1,d,[ bool ]).
+html_comp_i(123,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(123,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(123,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(125,'Attid',334,v,[ num ]).
+html_comp_i(125,'Class','Attribute',d,[ str ]).
+html_comp_i(125,'Controlname','Bus_mba',d,[ str ]).
+html_comp_i(125,'Returnonclick',0,d,[ bool ]).
+html_comp_i(125,'Controltype',2,d,[ num ]).
+html_comp_i(125,'Inputtype',0,d,[ num ]).
+html_comp_i(125,'Editautocomplete',0,d,[ num ]).
+html_comp_i(125,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(125,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(125,'Readonly',0,d,[ bool ]).
+html_comp_i(125,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(125,'Ispassword',0,d,[ bool ]).
+html_comp_i(125,'Autoresize',-1,d,[ bool ]).
+html_comp_i(125,'Gxwidth',measure(30,chr),d,[ measure ]).
+html_comp_i(125,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(125,'Ismultiline',0,d,[ bool ]).
+html_comp_i(125,'Fill',-1,d,[ bool ]).
+html_comp_i(125,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(125,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(125,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(125,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(125,'Gxformat',0,d,[ num ]).
+html_comp_i(125,'Title','',d,[ str ]).
+html_comp_i(127,'Height',measure(16,px),v,[ measure ]).
+html_comp_i(128,'Caption','ASOCIAR A TRAZABILIDAD',d,[ str ]).
+html_comp_i(128,'Id','Textblock2',v,[ str ]).
+html_comp_i(128,'Class','TextBlock',d,[ str ]).
+html_comp_i(128,'Event','',d,[ str ]).
+html_comp_i(128,'Returnonclick',0,d,[ bool ]).
+html_comp_i(128,'Gxformat',0,d,[ num ]).
+html_comp_i(128,'Title','',d,[ str ]).
+html_comp_i(128,'Fill',-1,d,[ bool ]).
+html_comp_i(128,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(128,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(128,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(130,'Attid',103,v,[ num ]).
+html_comp_i(130,'Class','Attribute',d,[ str ]).
+html_comp_i(130,'Controlname','Bus_idt',d,[ str ]).
+html_comp_i(130,'Returnonclick',0,d,[ bool ]).
+html_comp_i(130,'Controltype',2,d,[ num ]).
+html_comp_i(130,'Inputtype',0,d,[ num ]).
+html_comp_i(130,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(130,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(130,'Readonly',0,d,[ bool ]).
+html_comp_i(130,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(130,'Ispassword',0,d,[ bool ]).
+html_comp_i(130,'Autoresize',-1,d,[ bool ]).
+html_comp_i(130,'Gxwidth',measure(8,chr),d,[ measure ]).
+html_comp_i(130,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(130,'Ismultiline',0,d,[ bool ]).
+html_comp_i(130,'Fill',-1,d,[ bool ]).
+html_comp_i(130,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(130,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(130,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(130,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(130,'Gxformat',0,d,[ num ]).
+html_comp_i(130,'Title','',d,[ str ]).
+html_comp_i(133,'Caption','DATOS PROCESOS ACTUALIZACION',d,[ str ]).
+html_comp_i(133,'Id','Textblock1',v,[ str ]).
+html_comp_i(133,'Class','SubTitle',v,[ str ]).
+html_comp_i(133,'Event','',d,[ str ]).
+html_comp_i(133,'Returnonclick',0,d,[ bool ]).
+html_comp_i(133,'Gxformat',0,d,[ num ]).
+html_comp_i(133,'Title','',d,[ str ]).
+html_comp_i(133,'Fill',-1,d,[ bool ]).
+html_comp_i(133,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(133,'Forecolor',rgb(106,172,194),d,[ color ]).
+html_comp_i(133,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(136,'Id','Tableprocesos',v,[ str ]).
+html_comp_i(136,'Class','Table',v,[ str ]).
+html_comp_i(136,'Title','',d,[ str ]).
+html_comp_i(136,'Align',left,d,[ str ]).
+html_comp_i(136,'Backgroundgx','',d,[ str ]).
+html_comp_i(136,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(136,'Border','0',d,[ str ]).
+html_comp_i(136,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(136,'Cellpadding','1',d,[ str ]).
+html_comp_i(136,'Cellspacing','2',d,[ str ]).
+html_comp_i(136,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(136,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(136,'Rules',none,d,[ str ]).
+html_comp_i(139,'Id','Table3',v,[ str ]).
+html_comp_i(139,'Class','Table',v,[ str ]).
+html_comp_i(139,'Title','',d,[ str ]).
+html_comp_i(139,'Align',left,d,[ str ]).
+html_comp_i(139,'Backgroundgx','',d,[ str ]).
+html_comp_i(139,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(139,'Border','0',d,[ str ]).
+html_comp_i(139,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(139,'Cellpadding','1',d,[ str ]).
+html_comp_i(139,'Cellspacing','2',d,[ str ]).
+html_comp_i(139,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(139,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(139,'Rules',none,d,[ str ]).
+html_comp_i(142,'Caption','FECHA DE PROCESO AJUSTE',d,[ str ]).
+html_comp_i(142,'Id','Textblockbus_fpr',v,[ str ]).
+html_comp_i(142,'Class','TextBlock',d,[ str ]).
+html_comp_i(142,'Event','',d,[ str ]).
+html_comp_i(142,'Returnonclick',0,d,[ bool ]).
+html_comp_i(142,'Gxformat',0,d,[ num ]).
+html_comp_i(142,'Title','',d,[ str ]).
+html_comp_i(142,'Fill',-1,d,[ bool ]).
+html_comp_i(142,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(142,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(142,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(144,'Attid',340,v,[ num ]).
+html_comp_i(144,'Class','Attribute',d,[ str ]).
+html_comp_i(144,'Controlname','Bus_fpr',d,[ str ]).
+html_comp_i(144,'Returnonclick',0,d,[ bool ]).
+html_comp_i(144,'Eventgx','',d,[ str ]).
+html_comp_i(144,'Controltype',2,d,[ num ]).
+html_comp_i(144,'Inputtype',0,d,[ num ]).
+html_comp_i(144,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(144,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(144,'Readonly',-1,v,[ bool ]).
+html_comp_i(144,'Ispassword',0,d,[ bool ]).
+html_comp_i(144,'Autoresize',-1,d,[ bool ]).
+html_comp_i(144,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(144,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(144,'Ismultiline',0,d,[ bool ]).
+html_comp_i(144,'Fill',0,d,[ bool ]).
+html_comp_i(144,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(144,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(144,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(144,'Gxformat',0,d,[ num ]).
+html_comp_i(144,'Title','',d,[ str ]).
+html_comp_i(144,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(144,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(147,'Caption','VIDA UTIL TRANSCURRIDA',d,[ str ]).
+html_comp_i(147,'Id','Textblockbus_vut',v,[ str ]).
+html_comp_i(147,'Class','TextBlock',d,[ str ]).
+html_comp_i(147,'Event','',d,[ str ]).
+html_comp_i(147,'Returnonclick',0,d,[ bool ]).
+html_comp_i(147,'Gxformat',0,d,[ num ]).
+html_comp_i(147,'Title','',d,[ str ]).
+html_comp_i(147,'Fill',-1,d,[ bool ]).
+html_comp_i(147,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(147,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(147,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(149,'Attid',335,v,[ num ]).
+html_comp_i(149,'Class','Attribute',d,[ str ]).
+html_comp_i(149,'Controlname','Bus_vut',d,[ str ]).
+html_comp_i(149,'Returnonclick',0,d,[ bool ]).
+html_comp_i(149,'Eventgx','',d,[ str ]).
+html_comp_i(149,'Controltype',2,d,[ num ]).
+html_comp_i(149,'Inputtype',0,d,[ num ]).
+html_comp_i(149,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(149,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(149,'Readonly',-1,v,[ bool ]).
+html_comp_i(149,'Ispassword',0,d,[ bool ]).
+html_comp_i(149,'Autoresize',-1,d,[ bool ]).
+html_comp_i(149,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(149,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(149,'Ismultiline',0,d,[ bool ]).
+html_comp_i(149,'Fill',0,d,[ bool ]).
+html_comp_i(149,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(149,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(149,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(149,'Gxformat',0,d,[ num ]).
+html_comp_i(149,'Title','',d,[ str ]).
+html_comp_i(152,'Caption','ULTIMO COEFICIENTE DE CALCULO',d,[ str ]).
+html_comp_i(152,'Id','Textblockbus_coe',v,[ str ]).
+html_comp_i(152,'Class','TextBlock',d,[ str ]).
+html_comp_i(152,'Event','',d,[ str ]).
+html_comp_i(152,'Returnonclick',0,d,[ bool ]).
+html_comp_i(152,'Gxformat',0,d,[ num ]).
+html_comp_i(152,'Title','',d,[ str ]).
+html_comp_i(152,'Fill',-1,d,[ bool ]).
+html_comp_i(152,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(152,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(152,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(154,'Attid',336,v,[ num ]).
+html_comp_i(154,'Class','Attribute',d,[ str ]).
+html_comp_i(154,'Controlname','Bus_coe',d,[ str ]).
+html_comp_i(154,'Returnonclick',0,d,[ bool ]).
+html_comp_i(154,'Eventgx','',d,[ str ]).
+html_comp_i(154,'Controltype',2,d,[ num ]).
+html_comp_i(154,'Inputtype',0,d,[ num ]).
+html_comp_i(154,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(154,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(154,'Readonly',-1,v,[ bool ]).
+html_comp_i(154,'Ispassword',0,d,[ bool ]).
+html_comp_i(154,'Autoresize',-1,d,[ bool ]).
+html_comp_i(154,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(154,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(154,'Ismultiline',0,d,[ bool ]).
+html_comp_i(154,'Fill',0,d,[ bool ]).
+html_comp_i(154,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(154,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(154,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(154,'Gxformat',0,d,[ num ]).
+html_comp_i(154,'Title','',d,[ str ]).
+html_comp_i(157,'Caption','VALOR ORIGEN AJUSTADO (C)',d,[ str ]).
+html_comp_i(157,'Id','Textblockbus_voc',v,[ str ]).
+html_comp_i(157,'Class','TextBlock',d,[ str ]).
+html_comp_i(157,'Event','',d,[ str ]).
+html_comp_i(157,'Returnonclick',0,d,[ bool ]).
+html_comp_i(157,'Gxformat',0,d,[ num ]).
+html_comp_i(157,'Title','',d,[ str ]).
+html_comp_i(157,'Fill',-1,d,[ bool ]).
+html_comp_i(157,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(157,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(157,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(159,'Attid',341,v,[ num ]).
+html_comp_i(159,'Class','Attribute',d,[ str ]).
+html_comp_i(159,'Controlname','Bus_voc',d,[ str ]).
+html_comp_i(159,'Returnonclick',0,d,[ bool ]).
+html_comp_i(159,'Eventgx','',d,[ str ]).
+html_comp_i(159,'Controltype',2,d,[ num ]).
+html_comp_i(159,'Inputtype',0,d,[ num ]).
+html_comp_i(159,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(159,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(159,'Readonly',-1,v,[ bool ]).
+html_comp_i(159,'Ispassword',0,d,[ bool ]).
+html_comp_i(159,'Autoresize',-1,d,[ bool ]).
+html_comp_i(159,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(159,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(159,'Ismultiline',0,d,[ bool ]).
+html_comp_i(159,'Fill',0,d,[ bool ]).
+html_comp_i(159,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(159,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(159,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(159,'Gxformat',0,d,[ num ]).
+html_comp_i(159,'Title','',d,[ str ]).
+html_comp_i(162,'Caption','VALOR DE ORIGEN AJUSTADO',d,[ str ]).
+html_comp_i(162,'Id','Textblockbus_voa',v,[ str ]).
+html_comp_i(162,'Class','TextBlock',d,[ str ]).
+html_comp_i(162,'Event','',d,[ str ]).
+html_comp_i(162,'Returnonclick',0,d,[ bool ]).
+html_comp_i(162,'Gxformat',0,d,[ num ]).
+html_comp_i(162,'Title','',d,[ str ]).
+html_comp_i(162,'Fill',-1,d,[ bool ]).
+html_comp_i(162,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(162,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(162,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(164,'Attid',337,v,[ num ]).
+html_comp_i(164,'Class','Attribute',d,[ str ]).
+html_comp_i(164,'Controlname','Bus_voa',d,[ str ]).
+html_comp_i(164,'Returnonclick',0,d,[ bool ]).
+html_comp_i(164,'Eventgx','',d,[ str ]).
+html_comp_i(164,'Controltype',2,d,[ num ]).
+html_comp_i(164,'Inputtype',0,d,[ num ]).
+html_comp_i(164,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(164,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(164,'Readonly',-1,v,[ bool ]).
+html_comp_i(164,'Ispassword',0,d,[ bool ]).
+html_comp_i(164,'Autoresize',-1,d,[ bool ]).
+html_comp_i(164,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(164,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(164,'Ismultiline',0,d,[ bool ]).
+html_comp_i(164,'Fill',0,d,[ bool ]).
+html_comp_i(164,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(164,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(164,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(164,'Gxformat',0,d,[ num ]).
+html_comp_i(164,'Title','',d,[ str ]).
+html_comp_i(167,'Caption','AMORTIZ. ACUMULADAS AJUSTADAS',d,[ str ]).
+html_comp_i(167,'Id','Textblockbus_aaa',v,[ str ]).
+html_comp_i(167,'Class','TextBlock',d,[ str ]).
+html_comp_i(167,'Event','',d,[ str ]).
+html_comp_i(167,'Returnonclick',0,d,[ bool ]).
+html_comp_i(167,'Gxformat',0,d,[ num ]).
+html_comp_i(167,'Title','',d,[ str ]).
+html_comp_i(167,'Fill',-1,d,[ bool ]).
+html_comp_i(167,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(167,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(167,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(169,'Attid',338,v,[ num ]).
+html_comp_i(169,'Class','Attribute',d,[ str ]).
+html_comp_i(169,'Controlname','Bus_aaa',d,[ str ]).
+html_comp_i(169,'Returnonclick',0,d,[ bool ]).
+html_comp_i(169,'Eventgx','',d,[ str ]).
+html_comp_i(169,'Controltype',2,d,[ num ]).
+html_comp_i(169,'Inputtype',0,d,[ num ]).
+html_comp_i(169,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(169,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(169,'Readonly',-1,v,[ bool ]).
+html_comp_i(169,'Ispassword',0,d,[ bool ]).
+html_comp_i(169,'Autoresize',-1,d,[ bool ]).
+html_comp_i(169,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(169,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(169,'Ismultiline',0,d,[ bool ]).
+html_comp_i(169,'Fill',0,d,[ bool ]).
+html_comp_i(169,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(169,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(169,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(169,'Gxformat',0,d,[ num ]).
+html_comp_i(169,'Title','',d,[ str ]).
+html_comp_i(172,'Caption','AMORTIZ. DEL EJERCICIO AJUST.',d,[ str ]).
+html_comp_i(172,'Id','Textblockbus_aea',v,[ str ]).
+html_comp_i(172,'Class','TextBlock',d,[ str ]).
+html_comp_i(172,'Event','',d,[ str ]).
+html_comp_i(172,'Returnonclick',0,d,[ bool ]).
+html_comp_i(172,'Gxformat',0,d,[ num ]).
+html_comp_i(172,'Title','',d,[ str ]).
+html_comp_i(172,'Fill',-1,d,[ bool ]).
+html_comp_i(172,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(172,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(172,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(174,'Attid',339,v,[ num ]).
+html_comp_i(174,'Class','Attribute',d,[ str ]).
+html_comp_i(174,'Controlname','Bus_aea',d,[ str ]).
+html_comp_i(174,'Returnonclick',0,d,[ bool ]).
+html_comp_i(174,'Eventgx','',d,[ str ]).
+html_comp_i(174,'Controltype',2,d,[ num ]).
+html_comp_i(174,'Inputtype',0,d,[ num ]).
+html_comp_i(174,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(174,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(174,'Readonly',-1,v,[ bool ]).
+html_comp_i(174,'Ispassword',0,d,[ bool ]).
+html_comp_i(174,'Autoresize',-1,d,[ bool ]).
+html_comp_i(174,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(174,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(174,'Ismultiline',0,d,[ bool ]).
+html_comp_i(174,'Fill',0,d,[ bool ]).
+html_comp_i(174,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(174,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(174,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(174,'Gxformat',0,d,[ num ]).
+html_comp_i(174,'Title','',d,[ str ]).
+html_comp_i(177,'Caption','VALOR HISTORICO BASE',d,[ str ]).
+html_comp_i(177,'Id','Textblockbus_aea2',v,[ str ]).
+html_comp_i(177,'Class','TextBlock',d,[ str ]).
+html_comp_i(177,'Event','',d,[ str ]).
+html_comp_i(177,'Returnonclick',0,d,[ bool ]).
+html_comp_i(177,'Gxformat',0,d,[ num ]).
+html_comp_i(177,'Title','',d,[ str ]).
+html_comp_i(177,'Fill',-1,d,[ bool ]).
+html_comp_i(177,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(177,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(177,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(179,'Attid',342,v,[ num ]).
+html_comp_i(179,'Class','Attribute',d,[ str ]).
+html_comp_i(179,'Controlname','Bus_vah',d,[ str ]).
+html_comp_i(179,'Returnonclick',0,d,[ bool ]).
+html_comp_i(179,'Eventgx','',d,[ str ]).
+html_comp_i(179,'Controltype',2,d,[ num ]).
+html_comp_i(179,'Inputtype',0,d,[ num ]).
+html_comp_i(179,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(179,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(179,'Readonly',-1,v,[ bool ]).
+html_comp_i(179,'Ispassword',0,d,[ bool ]).
+html_comp_i(179,'Autoresize',-1,d,[ bool ]).
+html_comp_i(179,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(179,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(179,'Ismultiline',0,d,[ bool ]).
+html_comp_i(179,'Fill',0,d,[ bool ]).
+html_comp_i(179,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(179,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(179,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(179,'Gxformat',0,d,[ num ]).
+html_comp_i(179,'Title','',d,[ str ]).
+html_comp_i(182,'Caption','FECHA VALOR HISTORICO BASE',d,[ str ]).
+html_comp_i(182,'Id','Textblockbus_aea3',v,[ str ]).
+html_comp_i(182,'Class','TextBlock',d,[ str ]).
+html_comp_i(182,'Event','',d,[ str ]).
+html_comp_i(182,'Returnonclick',0,d,[ bool ]).
+html_comp_i(182,'Gxformat',0,d,[ num ]).
+html_comp_i(182,'Title','',d,[ str ]).
+html_comp_i(182,'Fill',-1,d,[ bool ]).
+html_comp_i(182,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(182,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(182,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(184,'Attid',343,v,[ num ]).
+html_comp_i(184,'Class','Attribute',d,[ str ]).
+html_comp_i(184,'Controlname','Bus_vhf',d,[ str ]).
+html_comp_i(184,'Returnonclick',0,d,[ bool ]).
+html_comp_i(184,'Eventgx','',d,[ str ]).
+html_comp_i(184,'Controltype',2,d,[ num ]).
+html_comp_i(184,'Inputtype',0,d,[ num ]).
+html_comp_i(184,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(184,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(184,'Readonly',-1,v,[ bool ]).
+html_comp_i(184,'Ispassword',0,d,[ bool ]).
+html_comp_i(184,'Autoresize',-1,d,[ bool ]).
+html_comp_i(184,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(184,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(184,'Ismultiline',0,d,[ bool ]).
+html_comp_i(184,'Fill',0,d,[ bool ]).
+html_comp_i(184,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(184,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(184,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(184,'Gxformat',0,d,[ num ]).
+html_comp_i(184,'Title','',d,[ str ]).
+html_comp_i(184,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(184,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(187,'Caption','VALOR DE ORIGEN HISTORICO',d,[ str ]).
+html_comp_i(187,'Id','Textblockbus_voh',v,[ str ]).
+html_comp_i(187,'Class','TextBlock',d,[ str ]).
+html_comp_i(187,'Event','',d,[ str ]).
+html_comp_i(187,'Returnonclick',0,d,[ bool ]).
+html_comp_i(187,'Gxformat',0,d,[ num ]).
+html_comp_i(187,'Title','',d,[ str ]).
+html_comp_i(187,'Fill',-1,d,[ bool ]).
+html_comp_i(187,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(187,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(187,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(189,'Attid',344,v,[ num ]).
+html_comp_i(189,'Class','Attribute',d,[ str ]).
+html_comp_i(189,'Controlname','Bus_voh',d,[ str ]).
+html_comp_i(189,'Returnonclick',0,d,[ bool ]).
+html_comp_i(189,'Eventgx','',d,[ str ]).
+html_comp_i(189,'Controltype',2,d,[ num ]).
+html_comp_i(189,'Inputtype',0,d,[ num ]).
+html_comp_i(189,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(189,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(189,'Readonly',-1,v,[ bool ]).
+html_comp_i(189,'Ispassword',0,d,[ bool ]).
+html_comp_i(189,'Autoresize',-1,d,[ bool ]).
+html_comp_i(189,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(189,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(189,'Ismultiline',0,d,[ bool ]).
+html_comp_i(189,'Fill',0,d,[ bool ]).
+html_comp_i(189,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(189,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(189,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(189,'Gxformat',0,d,[ num ]).
+html_comp_i(189,'Title','',d,[ str ]).
+html_comp_i(191,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(192,'Caption','AMORTIZ. ACUMULADAS VAL HISTOR',d,[ str ]).
+html_comp_i(192,'Id','Textblockbus_aah',v,[ str ]).
+html_comp_i(192,'Class','TextBlock',d,[ str ]).
+html_comp_i(192,'Event','',d,[ str ]).
+html_comp_i(192,'Returnonclick',0,d,[ bool ]).
+html_comp_i(192,'Gxformat',0,d,[ num ]).
+html_comp_i(192,'Title','',d,[ str ]).
+html_comp_i(192,'Fill',-1,d,[ bool ]).
+html_comp_i(192,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(192,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(192,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(194,'Attid',345,v,[ num ]).
+html_comp_i(194,'Class','Attribute',d,[ str ]).
+html_comp_i(194,'Controlname','Bus_aah',d,[ str ]).
+html_comp_i(194,'Returnonclick',0,d,[ bool ]).
+html_comp_i(194,'Eventgx','',d,[ str ]).
+html_comp_i(194,'Controltype',2,d,[ num ]).
+html_comp_i(194,'Inputtype',0,d,[ num ]).
+html_comp_i(194,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(194,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(194,'Readonly',-1,v,[ bool ]).
+html_comp_i(194,'Ispassword',0,d,[ bool ]).
+html_comp_i(194,'Autoresize',-1,d,[ bool ]).
+html_comp_i(194,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(194,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(194,'Ismultiline',0,d,[ bool ]).
+html_comp_i(194,'Fill',0,d,[ bool ]).
+html_comp_i(194,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(194,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(194,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(194,'Gxformat',0,d,[ num ]).
+html_comp_i(194,'Title','',d,[ str ]).
+html_comp_i(197,'Caption','AMORTIZ. DEL EJERCICIO HISTORI',d,[ str ]).
+html_comp_i(197,'Id','Textblockbus_aeh',v,[ str ]).
+html_comp_i(197,'Class','TextBlock',d,[ str ]).
+html_comp_i(197,'Event','',d,[ str ]).
+html_comp_i(197,'Returnonclick',0,d,[ bool ]).
+html_comp_i(197,'Gxformat',0,d,[ num ]).
+html_comp_i(197,'Title','',d,[ str ]).
+html_comp_i(197,'Fill',-1,d,[ bool ]).
+html_comp_i(197,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(197,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(197,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(199,'Attid',346,v,[ num ]).
+html_comp_i(199,'Class','Attribute',d,[ str ]).
+html_comp_i(199,'Controlname','Bus_aeh',d,[ str ]).
+html_comp_i(199,'Returnonclick',0,d,[ bool ]).
+html_comp_i(199,'Eventgx','',d,[ str ]).
+html_comp_i(199,'Controltype',2,d,[ num ]).
+html_comp_i(199,'Inputtype',0,d,[ num ]).
+html_comp_i(199,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(199,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(199,'Readonly',-1,v,[ bool ]).
+html_comp_i(199,'Ispassword',0,d,[ bool ]).
+html_comp_i(199,'Autoresize',-1,d,[ bool ]).
+html_comp_i(199,'Gxwidth',measure(10,chr),d,[ measure ]).
+html_comp_i(199,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(199,'Ismultiline',0,d,[ bool ]).
+html_comp_i(199,'Fill',0,d,[ bool ]).
+html_comp_i(199,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(199,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(199,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(199,'Gxformat',0,d,[ num ]).
+html_comp_i(199,'Title','',d,[ str ]).
+html_comp_i(202,'Caption','VALOR RESIDUAL AJ (FORMULA)',d,[ str ]).
+html_comp_i(202,'Id','Textblockbus_vra',v,[ str ]).
+html_comp_i(202,'Class','TextBlock',d,[ str ]).
+html_comp_i(202,'Event','',d,[ str ]).
+html_comp_i(202,'Returnonclick',0,d,[ bool ]).
+html_comp_i(202,'Gxformat',0,d,[ num ]).
+html_comp_i(202,'Title','',d,[ str ]).
+html_comp_i(202,'Fill',-1,d,[ bool ]).
+html_comp_i(202,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(202,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(202,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(204,'Attid',347,v,[ num ]).
+html_comp_i(204,'Class','Attribute',d,[ str ]).
+html_comp_i(204,'Controlname','Bus_vra',d,[ str ]).
+html_comp_i(204,'Returnonclick',0,d,[ bool ]).
+html_comp_i(204,'Eventgx','',d,[ str ]).
+html_comp_i(204,'Controltype',2,d,[ num ]).
+html_comp_i(204,'Inputtype',0,d,[ num ]).
+html_comp_i(204,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(204,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(204,'Readonly',-1,v,[ bool ]).
+html_comp_i(204,'Ispassword',0,d,[ bool ]).
+html_comp_i(204,'Autoresize',-1,d,[ bool ]).
+html_comp_i(204,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(204,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(204,'Ismultiline',0,d,[ bool ]).
+html_comp_i(204,'Fill',0,d,[ bool ]).
+html_comp_i(204,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(204,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(204,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(204,'Gxformat',0,d,[ num ]).
+html_comp_i(204,'Title','',d,[ str ]).
+html_comp_i(207,'Caption','VALOR RESIDUAL HIST(FORMULA)',d,[ str ]).
+html_comp_i(207,'Id','Textblockbus_vrh',v,[ str ]).
+html_comp_i(207,'Class','TextBlock',d,[ str ]).
+html_comp_i(207,'Event','',d,[ str ]).
+html_comp_i(207,'Returnonclick',0,d,[ bool ]).
+html_comp_i(207,'Gxformat',0,d,[ num ]).
+html_comp_i(207,'Title','',d,[ str ]).
+html_comp_i(207,'Fill',-1,d,[ bool ]).
+html_comp_i(207,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(207,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(207,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(209,'Attid',348,v,[ num ]).
+html_comp_i(209,'Class','Attribute',d,[ str ]).
+html_comp_i(209,'Controlname','Bus_vrh',d,[ str ]).
+html_comp_i(209,'Returnonclick',0,d,[ bool ]).
+html_comp_i(209,'Eventgx','',d,[ str ]).
+html_comp_i(209,'Controltype',2,d,[ num ]).
+html_comp_i(209,'Inputtype',0,d,[ num ]).
+html_comp_i(209,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(209,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(209,'Readonly',-1,v,[ bool ]).
+html_comp_i(209,'Ispassword',0,d,[ bool ]).
+html_comp_i(209,'Autoresize',-1,d,[ bool ]).
+html_comp_i(209,'Gxwidth',measure(18,chr),d,[ measure ]).
+html_comp_i(209,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(209,'Ismultiline',0,d,[ bool ]).
+html_comp_i(209,'Fill',0,d,[ bool ]).
+html_comp_i(209,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(209,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(209,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(209,'Gxformat',0,d,[ num ]).
+html_comp_i(209,'Title','',d,[ str ]).
+html_comp_i(212,'Caption','VIDA UTIL RESIDUAL (FORMULA)',d,[ str ]).
+html_comp_i(212,'Id','Textblockbus_vur',v,[ str ]).
+html_comp_i(212,'Class','TextBlock',d,[ str ]).
+html_comp_i(212,'Event','',d,[ str ]).
+html_comp_i(212,'Returnonclick',0,d,[ bool ]).
+html_comp_i(212,'Gxformat',0,d,[ num ]).
+html_comp_i(212,'Title','',d,[ str ]).
+html_comp_i(212,'Fill',-1,d,[ bool ]).
+html_comp_i(212,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(212,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(212,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(214,'Attid',349,v,[ num ]).
+html_comp_i(214,'Class','Attribute',d,[ str ]).
+html_comp_i(214,'Controlname','Bus_vur',d,[ str ]).
+html_comp_i(214,'Returnonclick',0,d,[ bool ]).
+html_comp_i(214,'Eventgx','',d,[ str ]).
+html_comp_i(214,'Controltype',2,d,[ num ]).
+html_comp_i(214,'Inputtype',0,d,[ num ]).
+html_comp_i(214,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(214,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(214,'Readonly',-1,v,[ bool ]).
+html_comp_i(214,'Ispassword',0,d,[ bool ]).
+html_comp_i(214,'Autoresize',-1,d,[ bool ]).
+html_comp_i(214,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(214,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(214,'Ismultiline',0,d,[ bool ]).
+html_comp_i(214,'Fill',0,d,[ bool ]).
+html_comp_i(214,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(214,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(214,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(214,'Gxformat',0,d,[ num ]).
+html_comp_i(214,'Title','',d,[ str ]).
+html_comp_i(220,'Controlname','Btn_enter',v,[ str ]).
+html_comp_i(220,'Class','BtnEnter',v,[ str ]).
+html_comp_i(220,'Event','Enter',v,[ str ]).
+html_comp_i(220,'Caption','Confirmar',d,[ str ]).
+html_comp_i(220,'Title','Confirmar',d,[ str ]).
+html_comp_i(220,'Type',0,d,[ num ]).
+html_comp_i(220,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(220,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(220,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(220,'Border','0',d,[ str ]).
+html_comp_i(220,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(220,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(221,'Controlname','Btn_cancel',v,[ str ]).
+html_comp_i(221,'Class','BtnCancel',v,[ str ]).
+html_comp_i(221,'Event','Cancel',v,[ str ]).
+html_comp_i(221,'Caption','Cancelar',d,[ str ]).
+html_comp_i(221,'Title','Cancelar',d,[ str ]).
+html_comp_i(221,'Type',0,d,[ num ]).
+html_comp_i(221,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(221,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(221,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(221,'Border','0',d,[ str ]).
+html_comp_i(221,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(221,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(222,'Controlname','Btn_delete',v,[ str ]).
+html_comp_i(222,'Class','BtnDelete',v,[ str ]).
+html_comp_i(222,'Event','Delete',v,[ str ]).
+html_comp_i(222,'Caption','Eliminar',d,[ str ]).
+html_comp_i(222,'Title','Eliminar',d,[ str ]).
+html_comp_i(222,'Type',0,d,[ num ]).
+html_comp_i(222,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(222,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(222,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(222,'Border','0',d,[ str ]).
+html_comp_i(222,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(222,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(8,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-42'),[ ctlname('Btn_first') ]).
+lit_i(9,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_first_separator') ]).
+lit_i(10,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-48'),[ ctlname('Btn_previous') ]).
+lit_i(11,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_previous_separator') ]).
+lit_i(12,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-47'),[ ctlname('Btn_next') ]).
+lit_i(13,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_next_separator') ]).
+lit_i(14,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-44'),[ ctlname('Btn_last') ]).
+lit_i(15,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_last_separator') ]).
+lit_i(16,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-55'),[ ctlname('Btn_select') ]).
+lit_i(17,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_select_separator') ]).
+lit_i(18,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-54'),[ ctlname('Btn_enter2') ]).
+lit_i(19,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_enter2_separator') ]).
+lit_i(20,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-40'),[ ctlname('Btn_cancel2') ]).
+lit_i(21,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_cancel2_separator') ]).
+lit_i(22,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-28'),[ ctlname('Btn_delete2') ]).
+lit_i(23,1,bitmap('9fb193d9-64a4-4d30-b129-ff7c76830f7e-60'),[ ctlname('Btn_delete2_separator') ]).
+lit_i(5,1,table(5),[ ctlname('Tabletoolbar') ]).
+lit_i(30,1,comp(errview),[ ctlname('Ctlerror'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(36,1,t('CODIGO DE EMPRESA',3),[ ctlname('Textblockbus_emp') ]).
+lit_i(38,1,t(8,2),[ ctlname(8),ctrltype(edit,38),pos(38),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(41,1,t('RUBRO DEL BIEN',3),[ ctlname('Textblockbus_rub') ]).
+lit_i(43,1,t(1,2),[ ctlname(1),ctrltype(edit,43),pos(43),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(46,1,t('CODIGO Y PARTIDA',3),[ ctlname('Textblockbus_cod') ]).
+lit_i(48,1,t(3,2),[ ctlname(3),ctrltype(edit,48),pos(48),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(49,1,t(4,2),[ ctlname(4),ctrltype(edit,49),pos(49),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(52,1,t('DESCRIPCION DEL BIEN',3),[ ctlname('Textblockbus_des') ]).
+lit_i(54,1,t(54,2),[ ctlname(54),ctrltype(edit,54),pos(54),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(60,1,t('FECHA DE ALTA DEL BIEN',3),[ ctlname('Textblockbus_fal') ]).
+lit_i(62,1,t(170,2),[ ctlname(170),ctrltype(edit,62),pos(62),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(65,1,t('FECHA DE ADQUISICION DEL BIEN',3),[ ctlname('Textblockbus_fad') ]).
+lit_i(67,1,t(55,2),[ ctlname(55),ctrltype(edit,67),pos(67),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(70,1,t('VIDA UTIL ASIGNADA AL BIEN',3),[ ctlname('Textblockbus_vua') ]).
+lit_i(72,1,t(329,2),[ ctlname(329),ctrltype(edit,72),pos(72),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(75,1,t('VALOR DE ORIGEN DEL BIEN',3),[ ctlname('Textblockbus_vao') ]).
+lit_i(77,1,t(330,2),[ ctlname(330),ctrltype(edit,77),pos(77),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(83,1,t('COMPROBANTE DE COMPRA',3),[ ctlname('Textblockbus_com') ]).
+lit_i(85,1,t(331,2),[ ctlname(331),ctrltype(edit,85),pos(85),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(86,1,t(350,2),[ ctlname(350),ctrltype(edit,86),pos(86),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(89,1,t('NUMERO DEL COMP. DE COMPRA',3),[ ctlname('Textblockbus_nco') ]).
+lit_i(91,1,t(333,2),[ ctlname(333),ctrltype(edit,91),pos(91),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(97,1,t('AREA A QUE PERTENECE EL BIEN',3),[ ctlname('Textblockbus_sec') ]).
+lit_i(99,1,t(172,2),[ ctlname(172),ctrltype(edit,99),pos(99),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(100,1,t(176,2),[ ctlname(176),ctrltype(edit,100),pos(100),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(103,1,t('SECTOR DE LA EMPRESA',3),[ ctlname('Textblockbus_are') ]).
+lit_i(105,1,t(171,2),[ ctlname(171),ctrltype(edit,105),pos(105),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(106,1,t(175,2),[ ctlname(175),ctrltype(edit,106),pos(106),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(109,1,t('CODIGO DE TIPO DE BIEN',3),[ ctlname('Textblockbus_tip') ]).
+lit_i(111,1,t(56,2),[ ctlname(56),ctrltype(edit,111),pos(111),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(112,1,t(59,2),[ ctlname(59),ctrltype(edit,112),pos(112),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(118,1,t('FECHA DE BAJA DEL BIEN',3),[ ctlname('Textblockbus_fba') ]).
+lit_i(120,1,t(174,2),[ ctlname(174),ctrltype(edit,120),pos(120),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(123,1,t('MOTIVO DE BAJA DEL BIEN',3),[ ctlname('Textblockbus_mba') ]).
+lit_i(125,1,t(334,2),[ ctlname(334),ctrltype(edit,125),pos(125),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(128,1,t('ASOCIAR A TRAZABILIDAD',3),[ ctlname('Textblock2') ]).
+lit_i(130,1,t(103,2),[ ctlname(103),ctrltype(edit,130),pos(130),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(33,1,table(33),[ ctlname('Table2') ]).
+lit_i(133,1,t('DATOS PROCESOS ACTUALIZACION',3),[ ctlname('Textblock1') ]).
+lit_i(142,1,t('FECHA DE PROCESO AJUSTE',3),[ ctlname('Textblockbus_fpr') ]).
+lit_i(144,1,t(340,2),[ ctlname(340),ctrltype(edit,144),pos(144),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(147,1,t('VIDA UTIL TRANSCURRIDA',3),[ ctlname('Textblockbus_vut') ]).
+lit_i(149,1,t(335,2),[ ctlname(335),ctrltype(edit,149),pos(149),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(152,1,t('ULTIMO COEFICIENTE DE CALCULO',3),[ ctlname('Textblockbus_coe') ]).
+lit_i(154,1,t(336,2),[ ctlname(336),ctrltype(edit,154),pos(154),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(157,1,t('VALOR ORIGEN AJUSTADO (C)',3),[ ctlname('Textblockbus_voc') ]).
+lit_i(159,1,t(341,2),[ ctlname(341),ctrltype(edit,159),pos(159),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(162,1,t('VALOR DE ORIGEN AJUSTADO',3),[ ctlname('Textblockbus_voa') ]).
+lit_i(164,1,t(337,2),[ ctlname(337),ctrltype(edit,164),pos(164),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(167,1,t('AMORTIZ. ACUMULADAS AJUSTADAS',3),[ ctlname('Textblockbus_aaa') ]).
+lit_i(169,1,t(338,2),[ ctlname(338),ctrltype(edit,169),pos(169),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(172,1,t('AMORTIZ. DEL EJERCICIO AJUST.',3),[ ctlname('Textblockbus_aea') ]).
+lit_i(174,1,t(339,2),[ ctlname(339),ctrltype(edit,174),pos(174),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(177,1,t('VALOR HISTORICO BASE',3),[ ctlname('Textblockbus_aea2') ]).
+lit_i(179,1,t(342,2),[ ctlname(342),ctrltype(edit,179),pos(179),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(182,1,t('FECHA VALOR HISTORICO BASE',3),[ ctlname('Textblockbus_aea3') ]).
+lit_i(184,1,t(343,2),[ ctlname(343),ctrltype(edit,184),pos(184),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(187,1,t('VALOR DE ORIGEN HISTORICO',3),[ ctlname('Textblockbus_voh') ]).
+lit_i(189,1,t(344,2),[ ctlname(344),ctrltype(edit,189),pos(189),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(192,1,t('AMORTIZ. ACUMULADAS VAL HISTOR',3),[ ctlname('Textblockbus_aah') ]).
+lit_i(194,1,t(345,2),[ ctlname(345),ctrltype(edit,194),pos(194),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(197,1,t('AMORTIZ. DEL EJERCICIO HISTORI',3),[ ctlname('Textblockbus_aeh') ]).
+lit_i(199,1,t(346,2),[ ctlname(346),ctrltype(edit,199),pos(199),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(202,1,t('VALOR RESIDUAL AJ (FORMULA)',3),[ ctlname('Textblockbus_vra') ]).
+lit_i(204,1,t(347,2),[ ctlname(347),ctrltype(edit,204),pos(204),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(207,1,t('VALOR RESIDUAL HIST(FORMULA)',3),[ ctlname('Textblockbus_vrh') ]).
+lit_i(209,1,t(348,2),[ ctlname(348),ctrltype(edit,209),pos(209),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(212,1,t('VIDA UTIL RESIDUAL (FORMULA)',3),[ ctlname('Textblockbus_vur') ]).
+lit_i(214,1,t(349,2),[ ctlname(349),ctrltype(edit,214),pos(214),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(139,1,table(139),[ ctlname('Table3') ]).
+lit_i(136,1,table(136),[ ctlname('Tableprocesos') ]).
+lit_i(220,1,button('Enter'),[ ctlname('Btn_enter'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(221,1,button('Cancel'),[ ctlname('Btn_cancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(222,1,button('Delete'),[ ctlname('Btn_delete'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(27,1,table(27),[ ctlname('Table1') ]).
+lit_i(26,1,group(26),[ ctlname('Groupdata') ]).
+lit_i(2,1,table(2),[ ctlname('Tablemain') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,8,'ExternalName','BUS_EMP',d).
+att_prop_i(2,8,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'FullName','BUS_EMP',v).
+att_prop_i(2,1,'ExternalName','BUS_RUB',d).
+att_prop_i(2,1,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,'AUTONUMBER','0',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'FullName','BUS_RUB',v).
+att_prop_i(2,3,'ExternalName','BUS_COD',d).
+att_prop_i(2,3,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,3,'EmptyAsNull','Yes',d).
+att_prop_i(2,3,'AUTONUMBER','0',d).
+att_prop_i(2,3,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,3,'AttRegEx','',d).
+att_prop_i(2,3,'AttValidationFailedMsg','',d).
+att_prop_i(2,3,'FullName','BUS_COD',v).
+att_prop_i(2,4,'ExternalName','BUS_PAR',d).
+att_prop_i(2,4,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,'AUTONUMBER','0',d).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'FullName','BUS_PAR',v).
+att_prop_i(2,103,'ExternalName','BUS_IDT',d).
+att_prop_i(2,103,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,103,'EmptyAsNull','Yes',d).
+att_prop_i(2,103,'AUTONUMBER','0',d).
+att_prop_i(2,103,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,103,'AttRegEx','',d).
+att_prop_i(2,103,'AttValidationFailedMsg','',d).
+att_prop_i(2,103,'FullName','BUS_IDT',v).
+att_prop_i(2,61,'ExternalName','BUS_RUD',d).
+att_prop_i(2,61,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,61,'EmptyAsNull','Yes',d).
+att_prop_i(2,61,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,61,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,61,'AttRegEx','',d).
+att_prop_i(2,61,'AttValidationFailedMsg','',d).
+att_prop_i(2,61,'FullName','BUS_RUD',v).
+att_prop_i(2,178,'ExternalName','BUS_AMO',d).
+att_prop_i(2,178,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,178,'EmptyAsNull','Yes',d).
+att_prop_i(2,178,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,178,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,178,'AttRegEx','',d).
+att_prop_i(2,178,'AttValidationFailedMsg','',d).
+att_prop_i(2,178,'FullName','BUS_AMO',v).
+att_prop_i(2,54,'ExternalName','BUS_DES',d).
+att_prop_i(2,54,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,54,'EmptyAsNull','Yes',d).
+att_prop_i(2,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,54,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,54,'AttRegEx','',d).
+att_prop_i(2,54,'AttValidationFailedMsg','',d).
+att_prop_i(2,54,'FullName','BUS_DES',v).
+att_prop_i(2,170,'ExternalName','BUS_FAL',d).
+att_prop_i(2,170,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,170,'EmptyAsNull','Yes',d).
+att_prop_i(2,170,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,170,'AttRegEx','',d).
+att_prop_i(2,170,'AttValidationFailedMsg','',d).
+att_prop_i(2,170,'FullName','BUS_FAL',v).
+att_prop_i(2,55,'ExternalName','BUS_FAD',d).
+att_prop_i(2,55,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,55,'EmptyAsNull','Yes',d).
+att_prop_i(2,55,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,55,'AttRegEx','',d).
+att_prop_i(2,55,'AttValidationFailedMsg','',d).
+att_prop_i(2,55,'FullName','BUS_FAD',v).
+att_prop_i(2,329,'ExternalName','BUS_VUA',d).
+att_prop_i(2,329,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,329,'EmptyAsNull','Yes',d).
+att_prop_i(2,329,'AUTONUMBER','0',d).
+att_prop_i(2,329,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,329,'AttRegEx','',d).
+att_prop_i(2,329,'AttValidationFailedMsg','',d).
+att_prop_i(2,329,'FullName','BUS_VUA',v).
+att_prop_i(2,330,'ExternalName','BUS_VAO',d).
+att_prop_i(2,330,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,330,'EmptyAsNull','Yes',d).
+att_prop_i(2,330,'AUTONUMBER','0',d).
+att_prop_i(2,330,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,330,'AttRegEx','',d).
+att_prop_i(2,330,'AttValidationFailedMsg','',d).
+att_prop_i(2,330,'FullName','BUS_VAO',v).
+att_prop_i(2,331,'ExternalName','BUS_COM',d).
+att_prop_i(2,331,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,331,'EmptyAsNull','Yes',d).
+att_prop_i(2,331,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,331,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,331,'AttRegEx','',d).
+att_prop_i(2,331,'AttValidationFailedMsg','',d).
+att_prop_i(2,331,'FullName','BUS_COM',v).
+att_prop_i(2,350,'ExternalName','BUS_CBD',d).
+att_prop_i(2,350,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,350,'EmptyAsNull','Yes',d).
+att_prop_i(2,350,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,350,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,350,'AttRegEx','',d).
+att_prop_i(2,350,'AttValidationFailedMsg','',d).
+att_prop_i(2,350,'FullName','BUS_CBD',v).
+att_prop_i(2,333,'ExternalName','BUS_NCO',d).
+att_prop_i(2,333,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,333,'EmptyAsNull','Yes',d).
+att_prop_i(2,333,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,333,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,333,'AttRegEx','',d).
+att_prop_i(2,333,'AttValidationFailedMsg','',d).
+att_prop_i(2,333,'FullName','BUS_NCO',v).
+att_prop_i(2,171,'ExternalName','BUS_ARE',d).
+att_prop_i(2,171,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,171,'EmptyAsNull','Yes',d).
+att_prop_i(2,171,'AUTONUMBER','0',d).
+att_prop_i(2,171,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,171,'AttRegEx','',d).
+att_prop_i(2,171,'AttValidationFailedMsg','',d).
+att_prop_i(2,171,'FullName','BUS_ARE',v).
+att_prop_i(2,175,'ExternalName','BUS_ARD',d).
+att_prop_i(2,175,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,175,'EmptyAsNull','Yes',v).
+att_prop_i(2,175,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,175,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,175,'AttRegEx','',d).
+att_prop_i(2,175,'AttValidationFailedMsg','',d).
+att_prop_i(2,175,'FullName','BUS_ARD',v).
+att_prop_i(2,172,'ExternalName','BUS_SEC',d).
+att_prop_i(2,172,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,172,'EmptyAsNull','Yes',v).
+att_prop_i(2,172,'AUTONUMBER','0',d).
+att_prop_i(2,172,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,172,'AttRegEx','',d).
+att_prop_i(2,172,'AttValidationFailedMsg','',d).
+att_prop_i(2,172,'FullName','BUS_SEC',v).
+att_prop_i(2,176,'ExternalName','BUS_SED',d).
+att_prop_i(2,176,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,176,'EmptyAsNull','Yes',v).
+att_prop_i(2,176,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,176,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,176,'AttRegEx','',d).
+att_prop_i(2,176,'AttValidationFailedMsg','',d).
+att_prop_i(2,176,'FullName','BUS_SED',v).
+att_prop_i(2,56,'ExternalName','BUS_TIP',d).
+att_prop_i(2,56,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,56,'EmptyAsNull','Yes',d).
+att_prop_i(2,56,'AUTONUMBER','0',d).
+att_prop_i(2,56,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,56,'AttRegEx','',d).
+att_prop_i(2,56,'AttValidationFailedMsg','',d).
+att_prop_i(2,56,'FullName','BUS_TIP',v).
+att_prop_i(2,59,'ExternalName','BUS_TID',d).
+att_prop_i(2,59,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,59,'EmptyAsNull','Yes',v).
+att_prop_i(2,59,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,59,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,59,'AttRegEx','',d).
+att_prop_i(2,59,'AttValidationFailedMsg','',d).
+att_prop_i(2,59,'FullName','BUS_TID',v).
+att_prop_i(2,174,'ExternalName','BUS_FBA',d).
+att_prop_i(2,174,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,174,'EmptyAsNull','Yes',d).
+att_prop_i(2,174,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,174,'AttRegEx','',d).
+att_prop_i(2,174,'AttValidationFailedMsg','',d).
+att_prop_i(2,174,'FullName','BUS_FBA',v).
+att_prop_i(2,334,'ExternalName','BUS_MBA',d).
+att_prop_i(2,334,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,334,'EmptyAsNull','Yes',d).
+att_prop_i(2,334,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,334,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,334,'AttRegEx','',d).
+att_prop_i(2,334,'AttValidationFailedMsg','',d).
+att_prop_i(2,334,'FullName','BUS_MBA',v).
+att_prop_i(2,340,'ExternalName','BUS_FPR',d).
+att_prop_i(2,340,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,340,'EmptyAsNull','Yes',d).
+att_prop_i(2,340,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,340,'AttRegEx','',d).
+att_prop_i(2,340,'AttValidationFailedMsg','',d).
+att_prop_i(2,340,'FullName','BUS_FPR',v).
+att_prop_i(2,335,'ExternalName','BUS_VUT',d).
+att_prop_i(2,335,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,335,'EmptyAsNull','Yes',d).
+att_prop_i(2,335,'AUTONUMBER','0',d).
+att_prop_i(2,335,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,335,'AttRegEx','',d).
+att_prop_i(2,335,'AttValidationFailedMsg','',d).
+att_prop_i(2,335,'FullName','BUS_VUT',v).
+att_prop_i(2,336,'ExternalName','BUS_COE',d).
+att_prop_i(2,336,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,336,'EmptyAsNull','Yes',d).
+att_prop_i(2,336,'AUTONUMBER','0',d).
+att_prop_i(2,336,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,336,'AttRegEx','',d).
+att_prop_i(2,336,'AttValidationFailedMsg','',d).
+att_prop_i(2,336,'FullName','BUS_COE',v).
+att_prop_i(2,341,'ExternalName','BUS_VOC',d).
+att_prop_i(2,341,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,341,'EmptyAsNull','Yes',d).
+att_prop_i(2,341,'AUTONUMBER','0',d).
+att_prop_i(2,341,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,341,'AttRegEx','',d).
+att_prop_i(2,341,'AttValidationFailedMsg','',d).
+att_prop_i(2,341,'FullName','BUS_VOC',v).
+att_prop_i(2,337,'ExternalName','BUS_VOA',d).
+att_prop_i(2,337,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,337,'EmptyAsNull','Yes',d).
+att_prop_i(2,337,'AUTONUMBER','0',d).
+att_prop_i(2,337,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,337,'AttRegEx','',d).
+att_prop_i(2,337,'AttValidationFailedMsg','',d).
+att_prop_i(2,337,'FullName','BUS_VOA',v).
+att_prop_i(2,338,'ExternalName','BUS_AAA',d).
+att_prop_i(2,338,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,338,'EmptyAsNull','Yes',d).
+att_prop_i(2,338,'AUTONUMBER','0',d).
+att_prop_i(2,338,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,338,'AttRegEx','',d).
+att_prop_i(2,338,'AttValidationFailedMsg','',d).
+att_prop_i(2,338,'FullName','BUS_AAA',v).
+att_prop_i(2,339,'ExternalName','BUS_AEA',d).
+att_prop_i(2,339,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,339,'EmptyAsNull','Yes',d).
+att_prop_i(2,339,'AUTONUMBER','0',d).
+att_prop_i(2,339,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,339,'AttRegEx','',d).
+att_prop_i(2,339,'AttValidationFailedMsg','',d).
+att_prop_i(2,339,'FullName','BUS_AEA',v).
+att_prop_i(2,342,'ExternalName','BUS_VAH',d).
+att_prop_i(2,342,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,342,'EmptyAsNull','Yes',d).
+att_prop_i(2,342,'AUTONUMBER','0',d).
+att_prop_i(2,342,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,342,'AttRegEx','',d).
+att_prop_i(2,342,'AttValidationFailedMsg','',d).
+att_prop_i(2,342,'FullName','BUS_VAH',v).
+att_prop_i(2,343,'ExternalName','BUS_VHF',d).
+att_prop_i(2,343,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,343,'EmptyAsNull','Yes',d).
+att_prop_i(2,343,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,343,'AttRegEx','',d).
+att_prop_i(2,343,'AttValidationFailedMsg','',d).
+att_prop_i(2,343,'FullName','BUS_VHF',v).
+att_prop_i(2,344,'ExternalName','BUS_VOH',d).
+att_prop_i(2,344,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,344,'EmptyAsNull','Yes',d).
+att_prop_i(2,344,'AUTONUMBER','0',d).
+att_prop_i(2,344,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,344,'AttRegEx','',d).
+att_prop_i(2,344,'AttValidationFailedMsg','',d).
+att_prop_i(2,344,'FullName','BUS_VOH',v).
+att_prop_i(2,345,'ExternalName','BUS_AAH',d).
+att_prop_i(2,345,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,345,'EmptyAsNull','Yes',d).
+att_prop_i(2,345,'AUTONUMBER','0',d).
+att_prop_i(2,345,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,345,'AttRegEx','',d).
+att_prop_i(2,345,'AttValidationFailedMsg','',d).
+att_prop_i(2,345,'FullName','BUS_AAH',v).
+att_prop_i(2,346,'ExternalName','BUS_AEH',d).
+att_prop_i(2,346,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,346,'EmptyAsNull','Yes',d).
+att_prop_i(2,346,'AUTONUMBER','0',d).
+att_prop_i(2,346,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,346,'AttRegEx','',d).
+att_prop_i(2,346,'AttValidationFailedMsg','',d).
+att_prop_i(2,346,'FullName','BUS_AEH',v).
+att_prop_i(2,347,'ExternalName','BUS_VRA',d).
+att_prop_i(2,347,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,347,'EmptyAsNull','Yes',d).
+att_prop_i(2,347,'AUTONUMBER','0',d).
+att_prop_i(2,347,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,347,'AttRegEx','',d).
+att_prop_i(2,347,'AttValidationFailedMsg','',d).
+att_prop_i(2,347,'FullName','BUS_VRA',v).
+att_prop_i(2,348,'ExternalName','BUS_VRH',d).
+att_prop_i(2,348,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,348,'EmptyAsNull','Yes',d).
+att_prop_i(2,348,'AUTONUMBER','0',d).
+att_prop_i(2,348,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,348,'AttRegEx','',d).
+att_prop_i(2,348,'AttValidationFailedMsg','',d).
+att_prop_i(2,348,'FullName','BUS_VRH',v).
+att_prop_i(2,349,'ExternalName','BUS_VUR',d).
+att_prop_i(2,349,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,349,'EmptyAsNull','Yes',d).
+att_prop_i(2,349,'AUTONUMBER','0',d).
+att_prop_i(2,349,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,349,'AttRegEx','',d).
+att_prop_i(2,349,'AttValidationFailedMsg','',d).
+att_prop_i(2,349,'FullName','BUS_VUR',v).
+att_prop_i(2,2,'ExternalName','RBR_COD',d).
+att_prop_i(2,2,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,2,'EmptyAsNull','Yes',d).
+att_prop_i(2,2,'AUTONUMBER','0',d).
+att_prop_i(2,2,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,2,'AttRegEx','',d).
+att_prop_i(2,2,'AttValidationFailedMsg','',d).
+att_prop_i(2,2,'FullName','RBR_COD',v).
+att_prop_i(2,11,'ExternalName','TTBUS_Id',d).
+att_prop_i(2,11,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,'AUTONUMBER','-1',v).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'FullName','TTBUS_Id',v).
+ 
+tbl_prop_i(2,1,'AllDirSuper',[ [ 24,[ 8,1,3,4 ] ],[ 541,[ 1 ] ] ],v).
+tbl_prop_i(2,24,'AllDirSuper',[ [ 541,[ 1 ] ] ],v).
+tbl_prop_i(2,1,'DirSuperNull',[ [ 24,[ 8,1,3,4 ] ],[ 541,[ 1 ] ] ],v).
+tbl_prop_i(2,37,'DirSubor',[ [ 24,[ 1 ] ],[ 1,[ 17 ] ] ],v).
+tbl_prop_i(2,541,'DirSubor',[ [ 24,[ 1 ] ],[ 1,[ 17 ] ] ],v).
+tbl_prop_i(2,24,'DirSubor',[ [ 1,[ 8,1,3,4 ] ] ],v).
+tbl_prop_i(2,1,'DirSuper',[ [ 24,[ 8,1,3,4 ] ] ],v).
+tbl_prop_i(2,24,'DirSuper',[ [ 541,[ 1 ] ] ],v).
+ 
+tbl_att_prop_i(2,24,8,'AllowNulls',n).
+tbl_att_prop_i(2,24,1,'AllowNulls',n).
+tbl_att_prop_i(2,24,3,'AllowNulls',n).
+tbl_att_prop_i(2,24,4,'AllowNulls',n).
+tbl_att_prop_i(2,24,54,'AllowNulls',n).
+tbl_att_prop_i(2,24,170,'AllowNulls',n).
+tbl_att_prop_i(2,24,55,'AllowNulls',n).
+tbl_att_prop_i(2,24,329,'AllowNulls',n).
+tbl_att_prop_i(2,24,330,'AllowNulls',n).
+tbl_att_prop_i(2,24,331,'AllowNulls',n).
+tbl_att_prop_i(2,24,350,'AllowNulls',n).
+tbl_att_prop_i(2,24,333,'AllowNulls',n).
+tbl_att_prop_i(2,24,171,'AllowNulls',n).
+tbl_att_prop_i(2,24,175,'AllowNulls',n).
+tbl_att_prop_i(2,24,172,'AllowNulls',n).
+tbl_att_prop_i(2,24,176,'AllowNulls',n).
+tbl_att_prop_i(2,24,56,'AllowNulls',n).
+tbl_att_prop_i(2,24,59,'AllowNulls',n).
+tbl_att_prop_i(2,24,174,'AllowNulls',n).
+tbl_att_prop_i(2,24,334,'AllowNulls',n).
+tbl_att_prop_i(2,24,340,'AllowNulls',n).
+tbl_att_prop_i(2,24,335,'AllowNulls',n).
+tbl_att_prop_i(2,24,336,'AllowNulls',n).
+tbl_att_prop_i(2,24,341,'AllowNulls',n).
+tbl_att_prop_i(2,24,337,'AllowNulls',n).
+tbl_att_prop_i(2,24,338,'AllowNulls',n).
+tbl_att_prop_i(2,24,339,'AllowNulls',n).
+tbl_att_prop_i(2,24,342,'AllowNulls',n).
+tbl_att_prop_i(2,24,343,'AllowNulls',n).
+tbl_att_prop_i(2,24,344,'AllowNulls',n).
+tbl_att_prop_i(2,24,345,'AllowNulls',n).
+tbl_att_prop_i(2,24,346,'AllowNulls',n).
+tbl_att_prop_i(2,24,103,'AllowNulls',n).
+tbl_att_prop_i(2,541,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,11,'AllowNulls',n).
+tbl_att_prop_i(2,1,11,'AUTONUMBER',y).
+ 
+var_prop_i(2,'Bus_idt','ATT_INITIAL_VALUE',[ t('0',3) ],d).
+var_prop_i(2,'Context','ATT_INITIAL_VALUE',[ t('udp(',1),t(o(1,'LoadContext'),28),t(')',4) ],v).
+ 
+ 
+ 
+a_alias_i(1,'BUS_RUB').
+a_alias_i(61,'BUS_RUD').
+a_alias_i(178,'BUS_AMO').
+ 
+trn_level_i(24,[ [ 8,1,61,178,3,4,54,170,55,329,330,331,350,333,171,175,172,176,56,59,174,334,340,335,336,341,337,338,339,342,343,344,345,346,347,348,349,103 ],'TBUS000','ACT. DE BIENES DE USO','TBUS000','',54 ]).
+ 
+struct_dt_i([ 26,3,0 ],name,'Context').
+struct_dt_i([ 26,3,0 ],namespace,'MarianoTesis').
+struct_dt_i([ 26,3,0 ],'ObjName','Context').
+struct_dt_i([ 26,3,0 ],'ObjDesc','Context').
+struct_dt_i([ 26,3,0 ],'ExternalName','Context').
+struct_dt_i([ 26,3,0 ],'ExternalNamespace','MarianoTesis').
+struct_dt_i([ 26,7,0 ],name,'TransactionContext').
+struct_dt_i([ 26,7,0 ],namespace,'MarianoTesis').
+struct_dt_i([ 26,7,0 ],'ObjName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ObjDesc','Transaction Context').
+struct_dt_i([ 26,7,0 ],'ExternalName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ExternalNamespace','MarianoTesis').
+struct_dt_i([ 26,7,9 ],name,'Attribute').
+struct_dt_i([ 26,7,9 ],namespace,'MarianoTesis.TransactionContext').
+struct_dt_i([ 26,3,0 ],fullname,'Context').
+struct_dt_i([ 26,7,0 ],fullname,'TransactionContext').
+struct_dt_i([ 26,7,9 ],fullname,'TransactionContext.Attribute').
+ 
+struct_dt_elem_i([ 26,3,0 ],1,name,'User').
+struct_dt_elem_i([ 26,3,0 ],1,camelname,'User').
+struct_dt_elem_i([ 26,3,0 ],1,length,20).
+struct_dt_elem_i([ 26,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],1,pic,'').
+struct_dt_elem_i([ 26,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],2,name,'Companycode').
+struct_dt_elem_i([ 26,3,0 ],2,camelname,'CompanyCode').
+struct_dt_elem_i([ 26,3,0 ],2,length,4).
+struct_dt_elem_i([ 26,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],2,sign,0).
+struct_dt_elem_i([ 26,3,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],3,name,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,camelname,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,length,20).
+struct_dt_elem_i([ 26,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],3,pic,'').
+struct_dt_elem_i([ 26,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],4,name,'Sistema').
+struct_dt_elem_i([ 26,3,0 ],4,camelname,'Sistema').
+struct_dt_elem_i([ 26,3,0 ],4,length,4).
+struct_dt_elem_i([ 26,3,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],4,sign,0).
+struct_dt_elem_i([ 26,3,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],5,name,'Programa').
+struct_dt_elem_i([ 26,3,0 ],5,camelname,'Programa').
+struct_dt_elem_i([ 26,3,0 ],5,length,4).
+struct_dt_elem_i([ 26,3,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],5,sign,0).
+struct_dt_elem_i([ 26,3,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],6,name,'Icono').
+struct_dt_elem_i([ 26,3,0 ],6,camelname,'Icono').
+struct_dt_elem_i([ 26,3,0 ],6,length,100).
+struct_dt_elem_i([ 26,3,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],6,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,3,0 ],6,pic,'').
+struct_dt_elem_i([ 26,3,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],7,name,'Sesion').
+struct_dt_elem_i([ 26,3,0 ],7,camelname,'Sesion').
+struct_dt_elem_i([ 26,3,0 ],7,basedon,12).
+struct_dt_elem_i([ 26,3,0 ],7,length,8).
+struct_dt_elem_i([ 26,3,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],7,sign,0).
+struct_dt_elem_i([ 26,3,0 ],7,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,3,0 ],7,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,3,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],8,name,'Denominacion').
+struct_dt_elem_i([ 26,3,0 ],8,camelname,'Denominacion').
+struct_dt_elem_i([ 26,3,0 ],8,length,50).
+struct_dt_elem_i([ 26,3,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],8,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,3,0 ],8,pic,'').
+struct_dt_elem_i([ 26,3,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],9,name,'Tipo').
+struct_dt_elem_i([ 26,3,0 ],9,camelname,'Tipo').
+struct_dt_elem_i([ 26,3,0 ],9,length,1).
+struct_dt_elem_i([ 26,3,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],9,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,3,0 ],9,pic,'').
+struct_dt_elem_i([ 26,3,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],10,name,'Codigo').
+struct_dt_elem_i([ 26,3,0 ],10,camelname,'Codigo').
+struct_dt_elem_i([ 26,3,0 ],10,length,8).
+struct_dt_elem_i([ 26,3,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],10,sign,0).
+struct_dt_elem_i([ 26,3,0 ],10,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,3,0 ],10,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,3,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],10,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],11,name,'Zona').
+struct_dt_elem_i([ 26,3,0 ],11,camelname,'Zona').
+struct_dt_elem_i([ 26,3,0 ],11,length,1).
+struct_dt_elem_i([ 26,3,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],11,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,3,0 ],11,pic,'').
+struct_dt_elem_i([ 26,3,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],11,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],12,name,'Plan').
+struct_dt_elem_i([ 26,3,0 ],12,camelname,'Plan').
+struct_dt_elem_i([ 26,3,0 ],12,length,5).
+struct_dt_elem_i([ 26,3,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],12,type,[ 5,5,0 ]).
+struct_dt_elem_i([ 26,3,0 ],12,pic,'').
+struct_dt_elem_i([ 26,3,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],12,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],13,name,'Mail').
+struct_dt_elem_i([ 26,3,0 ],13,camelname,'Mail').
+struct_dt_elem_i([ 26,3,0 ],13,length,256).
+struct_dt_elem_i([ 26,3,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],13,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,3,0 ],13,pic,'').
+struct_dt_elem_i([ 26,3,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],13,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],14,name,'Tipo_usuario').
+struct_dt_elem_i([ 26,3,0 ],14,camelname,tipo_usuario).
+struct_dt_elem_i([ 26,3,0 ],14,length,3).
+struct_dt_elem_i([ 26,3,0 ],14,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],14,type,[ 5,3,0 ]).
+struct_dt_elem_i([ 26,3,0 ],14,pic,'').
+struct_dt_elem_i([ 26,3,0 ],14,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],14,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,7,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,7,0 ],1,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],1,length,256).
+struct_dt_elem_i([ 26,7,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],1,pic,'').
+struct_dt_elem_i([ 26,7,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,7,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,7,0 ],2,length,4).
+struct_dt_elem_i([ 26,7,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,7,0 ],2,pic,'').
+struct_dt_elem_i([ 26,7,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,7,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,7,0 ],3,basedon,5).
+struct_dt_elem_i([ 26,7,0 ],3,length,1000).
+struct_dt_elem_i([ 26,7,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,0 ],3,pic,'').
+struct_dt_elem_i([ 26,7,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,7,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,7,0 ],4,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],4,length,256).
+struct_dt_elem_i([ 26,7,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],4,pic,'').
+struct_dt_elem_i([ 26,7,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,type,[ [ 26,7,9 ],0,0 ]).
+struct_dt_elem_i([ 26,7,0 ],5,pic,'').
+struct_dt_elem_i([ 26,7,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,7,9 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,7,9 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,7,9 ],1,length,128).
+struct_dt_elem_i([ 26,7,9 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,7,9 ],1,pic,'').
+struct_dt_elem_i([ 26,7,9 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,9 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,7,9 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,7,9 ],2,length,1000).
+struct_dt_elem_i([ 26,7,9 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,9 ],2,pic,'').
+struct_dt_elem_i([ 26,7,9 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],2,soaptype,'').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],7,pic,'@!').
+struct_dt_elem_i([ 26,7,0 ],1,pic,'Z9').
+struct_dt_elem_i([ 26,7,0 ],4,pic,'Z9').
+ 
+ 
+ 
+ 
+pgm_parm_i(web,69,'HTBUS030_1',[ [ int,8,0,0 ] ],[ [ pTTBUS_Id,out,[] ] ]).
+pgm_parm_i(web,92,'GX00O0',[ [ char,1,0,0 ],[ int,4,0,0 ],[ int,4,0,0 ],[ int,2,0,0 ] ],[ [ pBUS_EMP,out,[] ],[ pBUS_RUB,out,[] ],[ pBUS_COD,out,[] ],[ pBUS_PAR,out,[] ] ]).
+pgm_parm_i(web,155,'GX0110',[ [ int,4,0,0 ] ],[ [ pRBR_COD,out,[] ] ]).
+pgm_parm_i(proc,67,'PTBUS033',[ [ int,8,0,0 ],[ int,1,0,0 ] ],[ [ 'TTBUS_Id',in,[] ],[ error,out,[] ] ]).
+pgm_parm_i(proc,66,'PTBUS032_2',[ [ char,1,0,0 ],[ int,4,0,0 ],[ int,4,0,0 ],[ int,2,0,0 ],[ int,8,0,0 ],[ int,1,0,0 ],[ char,150,0,0 ] ],[ [ 'BUS_EMP',in,[] ],[ 'BUS_RUB',in,[] ],[ 'BUS_COD',in,[] ],[ 'BUS_PAR',in,[] ],[ 'BUS_IDT',in,[] ],[ error,out,[] ],[ mensaje,out,[] ] ]).
+pgm_parm_i(proc,77,'PBUS020',[ [ int,4,0,0 ],[ char,50,0,0 ],[ date,8,0,0 ],[ date,8,0,0 ],[ char,12,0,0 ],[ char,2,0,0 ] ],[ [ 'BUS_RUB',in,[] ],[ 'BUS_DES',in,[] ],[ 'BUS_FAL',in,[] ],[ 'BUS_FAD',in,[] ],[ 'BUS_NCO',in,[] ],[ 'BUS_COM',in,[] ] ]).
+pgm_parm_i(proc,54,'PTBUS000',[ [ char,1,0,0 ],[ int,4,0,0 ],[ int,4,0,0 ],[ int,2,0,0 ],[ int,1,0,0 ] ],[ [ 'BUS_EMP',in,[] ],[ 'BUS_RUB',in,[] ],[ 'BUS_COD',in,[] ],[ 'BUS_PAR',in,[] ],[ error,out,[] ] ]).
+pgm_parm_i(proc,76,'PBUS021',[ [ int,4,0,0 ],[ char,50,0,0 ],[ date,8,0,0 ],[ date,8,0,0 ],[ char,12,0,0 ],[ char,2,0,0 ] ],[ [ 'BUS_RUB',out,[] ],[ 'BUS_DES',out,[] ],[ 'BUS_FAL',out,[] ],[ 'BUS_FAD',out,[] ],[ 'BUS_NCO',out,[] ],[ 'BUS_COM',out,[] ] ]).
+pgm_parm_i(web,81,'WWTBUS000',[],[]).
+pgm_parm_i(proc,63,'PTBUS030',[ [ char,1,0,0 ],[ int,4,0,0 ],[ int,4,0,0 ],[ int,2,0,0 ],[ int,8,0,0 ],[ int,8,0,0 ],[ char,16,0,0 ] ],[ [ 'BUS_EMP',inout,[] ],[ 'BUS_RUB',inout,[] ],[ 'BUS_COD',inout,[] ],[ 'BUS_PAR',inout,[] ],[ 'BUS_IDT',inout,[] ],[ 'BUS_IDTa',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,4,'NOTAUTHORIZED',[ [ svchar,256,0,0 ] ],[ [ 'GxObject',in,[] ] ]).
+pgm_parm_i(proc,2,'ISAUTHORIZED',[ [ svchar,256,0,0 ],[ boolean,4,0,0 ] ],[ [ 'GxObject',in,[] ],[ 'Authorized',out,[] ] ]).
+pgm_parm_i(proc,4,'LOADCONTEXT',[ [ o('Context'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+ 
+pgm_main_info_i(web,81,'WWTBUS000',[ 15,'WWTBUS000','','','','','' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 

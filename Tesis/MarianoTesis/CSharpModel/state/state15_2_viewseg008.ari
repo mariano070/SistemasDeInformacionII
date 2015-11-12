@@ -1,0 +1,25 @@
+current_obj_i(2,web,142).
+ 
+called_tree_i(13,142,1,2).
+called_tree_i(13,142,1,4).
+called_tree_i(13,142,13,1).
+called_tree_i(13,142,13,4).
+called_tree_i(13,142,13,6).
+called_tree_i(13,142,13,112).
+called_tree_i(13,142,13,142).
+called_tree_i(13,142,13,143).
+called_tree_i(13,142,13,144).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(viewseg008,[],[],[],142).
+ 
+ 
+obj_parms_i([ 'short aP0_PRG_COD','int aP1_MNU_NIV','String aP2_TabCode' ],[ [ 'Prg_cod',in ],[ 'Mnu_niv',in ],[ 'Tabcode',in ] ]).
+ 
+ 
+ 
+ 

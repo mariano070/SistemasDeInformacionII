@@ -1,0 +1,191 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>92</ObjId>
+<ObjName>Gx00O0</ObjName>
+<ObjDesc>Selection List BUS000</ObjDesc>
+<ObjPgmName>Gx00O0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pbus_emp</VarId>
+<VarName>&amp;pBUS_EMP</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pbus_rub</VarId>
+<VarName>&amp;pBUS_RUB</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pbus_cod</VarId>
+<VarName>&amp;pBUS_COD</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pbus_par</VarId>
+<VarName>&amp;pBUS_PAR</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>24</TableId>
+<TableName>BUS000</TableName>
+<Description>BUS000</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>BUS_EMP</AttriName>
+<Description>CODIGO DE EMPRESA</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>BUS_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>BUS_COD</AttriName>
+<Description>NUMERO DE CODIGO DEL BIEN</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>BUS_PAR</AttriName>
+<Description>NUMERO DE PARTIDA DEL BIEN</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IBUS000</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>BUS_EMP</AttriName>
+<Description>CODIGO DE EMPRESA</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_emp</VarId>
+<VarName>&amp;cBUS_EMP</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>BUS_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_rub</VarId>
+<VarName>&amp;cBUS_RUB</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>BUS_COD</AttriName>
+<Description>NUMERO DE CODIGO DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_cod</VarId>
+<VarName>&amp;cBUS_COD</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>BUS_PAR</AttriName>
+<Description>NUMERO DE PARTIDA DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_par</VarId>
+<VarName>&amp;cBUS_PAR</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>BUS_DES</AttriName>
+<Description>DESCRIPCION DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_des</VarId>
+<VarName>&amp;cBUS_DES</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>BUS_FAL</AttriName>
+<Description>FECHA DE ALTA DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_fal</VarId>
+<VarName>&amp;cBUS_FAL</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>BUS_FAD</AttriName>
+<Description>FECHA DE ADQUISICION DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_fad</VarId>
+<VarName>&amp;cBUS_FAD</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>24</TableId>
+<TableName>BUS000</TableName>
+<Description>BUS000</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>BUS_EMP</AttriName>
+<Description>CODIGO DE EMPRESA</Description></Attribute>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>BUS_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>BUS_COD</AttriName>
+<Description>NUMERO DE CODIGO DEL BIEN</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>BUS_PAR</AttriName>
+<Description>NUMERO DE PARTIDA DEL BIEN</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

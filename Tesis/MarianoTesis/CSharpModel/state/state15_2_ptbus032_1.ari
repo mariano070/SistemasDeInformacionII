@@ -1,0 +1,16 @@
+current_obj_i(2,proc,65).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbus032_1,[],[],[],65).
+ 
+ 
+obj_parms_i([ 'short aP0_HARDWARE_ID','int aP1_HDW_IDT','short aP2_error','String aP3_mensaje' ],[ [ 'Hardware_id',in ],[ 'Hdw_idt',in ],[ 'Error',out ],[ 'Mensaje',out ] ]).
+ 
+ 
+ 
+ 

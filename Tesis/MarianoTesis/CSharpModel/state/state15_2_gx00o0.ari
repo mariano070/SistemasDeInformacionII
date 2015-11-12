@@ -1,0 +1,17 @@
+current_obj_i(2,web,92).
+ 
+called_tree_i(13,92,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00o0,[],[],[],92).
+ 
+ 
+obj_parms_i([ 'String aP0_pBUS_EMP','short aP1_pBUS_RUB','short aP2_pBUS_COD','short aP3_pBUS_PAR' ],[ [ 'Pbus_emp',out ],[ 'Pbus_rub',out ],[ 'Pbus_cod',out ],[ 'Pbus_par',out ] ]).
+ 
+ 
+ 
+ 

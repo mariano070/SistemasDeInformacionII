@@ -1,0 +1,526 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>10</ObjCls>
+<ObjId>0</ObjId>
+<ObjName>SubTypes</ObjName>
+<ObjDesc>Subtype groups analysis report</ObjDesc>
+<ObjPgmName>SubTypes</ObjPgmName>
+<ObjClsName>Subtype group</ObjClsName></Object>
+<Warnings>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>1</SubtypeGroupId>
+<SubtypeGroupName>BUSRUB</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>178</AttriId>
+<AttriName>BUS_AMO</AttriName>
+<Description>RUBRO AMORTIZABLE</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>BUS_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>1</SubtypeGroupId>
+<SubtypeGroupName>BUSRUB</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>8</SubtypeGroupId>
+<SubtypeGroupName>TTBUS_TipoBien</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>260</AttriId>
+<AttriName>GestorCod</AttriName>
+<Description>Cod Gestor </Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>9</SubtypeGroupId>
+<SubtypeGroupName>USU_GES</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>10</SubtypeGroupId>
+<SubtypeGroupName>GES_ROL</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>263</AttriId>
+<AttriName>GestorRolCod</AttriName>
+<Description>Gestor Rol Cod</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>261</AttriId>
+<AttriName>GestorRolDes</AttriName>
+<Description>Rol</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>10</SubtypeGroupId>
+<SubtypeGroupName>GES_ROL</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>11</SubtypeGroupId>
+<SubtypeGroupName>GES_RAM</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>265</AttriId>
+<AttriName>GestorRamoCod</AttriName>
+<Description>Cod Ramo</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>GestorRamoDes</AttriName>
+<Description>Ramo</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>11</SubtypeGroupId>
+<SubtypeGroupName>GES_RAM</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>12</SubtypeGroupId>
+<SubtypeGroupName>GPO_GES</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>271</AttriId>
+<AttriName>Grupo_Cod</AttriName>
+<Description>Grupo_ Cod</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>Grupo_Des</AttriName>
+<Description>Grupo_ Des</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>275</AttriId>
+<AttriName>Grupo_Tip</AttriName>
+<Description>Grupo_ Tip</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>12</SubtypeGroupId>
+<SubtypeGroupName>GPO_GES</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0079</MsgCode>
+<Message>
+<Token>Attribute(s) </Token>
+<Attribute>
+<AttriId>278</AttriId>
+<AttriName>EMPW_USU</AttriName>
+<Description>Usuario</Description></Attribute>
+<Token> in subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>14</SubtypeGroupId>
+<SubtypeGroupName>EMPWUSU</SubtypeGroupName></SubtypeGroup>
+<Token>' is(are) not associated to any transaction.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>15</SubtypeGroupId>
+<SubtypeGroupName>PROWEMPRESA</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>279</AttriId>
+<AttriName>EMPW_EMP</AttriName>
+<Description>Empresa</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>281</AttriId>
+<AttriName>EMPW_EMD</AttriName>
+<Description>Desc. Empresa</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>15</SubtypeGroupId>
+<SubtypeGroupName>PROWEMPRESA</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>17</SubtypeGroupId>
+<SubtypeGroupName>EMP_GST</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>291</AttriId>
+<AttriName>EmpGstCod</AttriName>
+<Description>Emp Gst Cod</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>293</AttriId>
+<AttriName>EmpGstDes</AttriName>
+<Description>Emp Gst Des</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>EmpGstGpoCod</AttriName>
+<Description>Emp Gst Gpo Cod</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>17</SubtypeGroupId>
+<SubtypeGroupName>EMP_GST</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>18</SubtypeGroupId>
+<SubtypeGroupName>GST_EMP</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>297</AttriId>
+<AttriName>GstEmpCod</AttriName>
+<Description>Cod Gestor</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>GstEmpDes</AttriName>
+<Description>Gestor</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>18</SubtypeGroupId>
+<SubtypeGroupName>GST_EMP</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>19</SubtypeGroupId>
+<SubtypeGroupName>BUSCBT</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>331</AttriId>
+<AttriName>BUS_COM</AttriName>
+<Description>COMPROBANTE DE COMPRA</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>350</AttriId>
+<AttriName>BUS_CBD</AttriName>
+<Description>DESCRIP. DE COMPROB. DE COMPRA</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>19</SubtypeGroupId>
+<SubtypeGroupName>BUSCBT</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>20</SubtypeGroupId>
+<SubtypeGroupName>BUSARE</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>BUS_ARE</AttriName>
+<Description>SECTOR DE LA EMPRESA</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>BUS_ARD</AttriName>
+<Description>BUS_ ARD</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>20</SubtypeGroupId>
+<SubtypeGroupName>BUSARE</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>21</SubtypeGroupId>
+<SubtypeGroupName>BUSSED</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>BUS_SEC</AttriName>
+<Description>AREA A QUE PERTENECE EL BIEN</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>BUS_SED</AttriName>
+<Description>BUS_ SED</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>21</SubtypeGroupId>
+<SubtypeGroupName>BUSSED</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>22</SubtypeGroupId>
+<SubtypeGroupName>BUSTID</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>BUS_TIP</AttriName>
+<Description>CODIGO DE TIPO DE BIEN</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>59</AttriId>
+<AttriName>BUS_TID</AttriName>
+<Description>BUS_ TID</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>22</SubtypeGroupId>
+<SubtypeGroupName>BUSTID</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0042</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>23</SubtypeGroupId>
+<SubtypeGroupName>PRGSIS</SubtypeGroupName></SubtypeGroup>
+<Token>' (</Token>
+<Attribute>
+<AttriId>164</AttriId>
+<AttriName>PRG_SIS</AttriName>
+<Description>CODIGO DE SISTEMA</Description></Attribute>
+<Token>) does not identify a base table. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>24</SubtypeGroupId>
+<SubtypeGroupName>COMUCO</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>374</AttriId>
+<AttriName>COM_AUT</AttriName>
+<Description>AUTOR</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>376</AttriId>
+<AttriName>COM_AUD</AttriName>
+<Description>DESCRIPCION DE AUTOR</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>384</AttriId>
+<AttriName>COM_AUC</AttriName>
+<Description>CATEGORIA DEL AUTOR</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>24</SubtypeGroupId>
+<SubtypeGroupName>COMUCO</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>25</SubtypeGroupId>
+<SubtypeGroupName>COMREV</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>379</AttriId>
+<AttriName>COM_REV</AttriName>
+<Description>USUARIO REVISOR</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>380</AttriId>
+<AttriName>COM_RED</AttriName>
+<Description>DESCRIPCION DE REVISOR</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>25</SubtypeGroupId>
+<SubtypeGroupName>COMREV</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>26</SubtypeGroupId>
+<SubtypeGroupName>PRHLCO</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>422</AttriId>
+<AttriName>PER_LCO</AttriName>
+<Description>CODIGO DE LOCALIDAD</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>424</AttriId>
+<AttriName>PER_LDE</AttriName>
+<Description>DESCRIPCION DE LOCALIDAD</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>426</AttriId>
+<AttriName>PER_PCO</AttriName>
+<Description>CODIGO DE PROVINCIA</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>428</AttriId>
+<AttriName>PER_PDE</AttriName>
+<Description>DESCRIPCION DE PROVINCIA</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>26</SubtypeGroupId>
+<SubtypeGroupName>PRHLCO</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>27</SubtypeGroupId>
+<SubtypeGroupName>PRHNLD</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>431</AttriId>
+<AttriName>PER_NAC</AttriName>
+<Description>NACIONALIDAD</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>433</AttriId>
+<AttriName>PER_NAD</AttriName>
+<Description>DESCRIPCION NACIONALIDAD</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>27</SubtypeGroupId>
+<SubtypeGroupName>PRHNLD</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>28</SubtypeGroupId>
+<SubtypeGroupName>PRHDTO</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>435</AttriId>
+<AttriName>PER_TDO</AttriName>
+<Description>CODIGO TIPO DE DOCUMENTO</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>437</AttriId>
+<AttriName>PER_TDD</AttriName>
+<Description>DESCRIPCION TIPO DOCUM. ANSES</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>28</SubtypeGroupId>
+<SubtypeGroupName>PRHDTO</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0040</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>29</SubtypeGroupId>
+<SubtypeGroupName>PRHOSO</SubtypeGroupName></SubtypeGroup>
+<Token>' contains secondary attributes (</Token>
+<Attribute>
+<AttriId>449</AttriId>
+<AttriName>PER_OSC</AttriName>
+<Description>CODIGO OBRA SOCIAL</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>451</AttriId>
+<AttriName>PER_OSD</AttriName>
+<Description>DESCRIPCION OBRA SOCIAL</Description></Attribute>
+<Token>). Secondary attributes ignored.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0041</MsgCode>
+<Message>
+<Token>Subtype group '</Token>
+<SubtypeGroup>
+<SubtypeGroupId>29</SubtypeGroupId>
+<SubtypeGroupName>PRHOSO</SubtypeGroupName></SubtypeGroup>
+<Token>' does not have primary attributes. Subtype group definition ignored.</Token></Message></Warning></Warnings>
+<Errors></Errors></ObjectSpec>

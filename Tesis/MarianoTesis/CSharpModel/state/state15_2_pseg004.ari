@@ -1,0 +1,16 @@
+current_obj_i(2,proc,83).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pseg004,[],[],[],83).
+ 
+ 
+obj_parms_i([ 'String aP0_USUCOD' ],[ [ 'Usucod',inout ] ]).
+ 
+ 
+ 
+ 

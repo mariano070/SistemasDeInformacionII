@@ -1,0 +1,17 @@
+current_obj_i(2,proc,11).
+ 
+called_tree_i(1,11,1,24).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbus031,[],[],[],11).
+ 
+ 
+obj_parms_i([ 'int aP0_TTBUS_Id','String aP1_BUS_EMP','short aP2_BUS_RUB','short aP3_BUS_COD','short aP4_BUS_PAR','short aP5_HARDWARE_ID','String aP6_BUS_EMPa','short aP7_BUS_RUBa','short aP8_BUS_CODa','short aP9_BUS_PARa','short aP10_HARDWARE_IDa','String aP11_USUARIO' ],[ [ 'Ttbus_id',inout ],[ 'Bus_emp',inout ],[ 'Bus_rub',inout ],[ 'Bus_cod',inout ],[ 'Bus_par',inout ],[ 'Hardware_id',inout ],[ 'Bus_empa',inout ],[ 'Bus_ruba',inout ],[ 'Bus_coda',inout ],[ 'Bus_para',inout ],[ 'Hardware_ida',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

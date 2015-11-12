@@ -1,0 +1,17 @@
+current_obj_i(2,web,91).
+ 
+called_tree_i(13,91,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx0031,[],[],[],91).
+ 
+ 
+obj_parms_i([ 'int aP0_pTTBUS_Id','int aP1_pDocuId' ],[ [ 'Pttbus_id',in ],[ 'Pdocuid',out ] ]).
+ 
+ 
+ 
+ 

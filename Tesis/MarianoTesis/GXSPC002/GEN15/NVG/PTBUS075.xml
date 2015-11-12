@@ -1,0 +1,315 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>68</ObjId>
+<ObjName>PTBUS075</ObjName>
+<ObjDesc>Cambio de posiciones</ObjDesc>
+<ObjPgmName>PTBUS075</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TTBUS2_CodPosDesde</AttriName>
+<Description>Código Posición Desde</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>10</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TTBUS2_CodPosHacia</AttriName>
+<Description>Código Posición Hacia</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>16</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>HTTP</CallProtocol>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>3</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>14</TableId>
+<TableName>TTBUS075</TableName>
+<Description>Posiciones a cambiar</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>243</AttriId>
+<AttriName>TTBUS75_Orden</AttriName>
+<Description>Orden del cambio</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS075</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>14</TableId>
+<TableName>TTBUS075</TableName>
+<Description>Posiciones a cambiar</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>243</AttriId>
+<AttriName>TTBUS75_Orden</AttriName>
+<Description>Orden del cambio</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>11</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description> T1452</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TTBUS2_CodPosDesde</AttriName>
+<Description>Código Posición Desde</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TTBUS2_CodPosDesde</AttriName>
+<Description>Código Posición Desde</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pos_anterior</VarId>
+<VarName>&amp;pos_anterior</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TTBUS2_CodPosDesde</AttriName>
+<Description>Código Posición Desde</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pos_anterior</VarId>
+<VarName>&amp;pos_anterior</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description> T1452</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description> T1452</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>TTBUS2_CodPosDesde</AttriName>
+<Description>Código Posición Desde</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>17</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description> T1452</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TTBUS2_CodPosHacia</AttriName>
+<Description>Código Posición Hacia</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TTBUS2_CodPosHacia</AttriName>
+<Description>Código Posición Hacia</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pos_anterior</VarId>
+<VarName>&amp;pos_anterior</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TTBUS2_CodPosHacia</AttriName>
+<Description>Código Posición Hacia</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pos_anterior</VarId>
+<VarName>&amp;pos_anterior</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description> T1452</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description> T1452</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>49</AttriId>
+<AttriName>TTBUS2_CodPosHacia</AttriName>
+<Description>Código Posición Hacia</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>5</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>26</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Bienes de Uso (Trazabilidad)</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>UTTBUS000</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pos_anterior</VarId>
+<VarName>&amp;pos_anterior</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pos_anterior</VarId>
+<VarName>&amp;pos_anterior</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Bienes de Uso (Trazabilidad)</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Bienes de Uso (Trazabilidad)</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

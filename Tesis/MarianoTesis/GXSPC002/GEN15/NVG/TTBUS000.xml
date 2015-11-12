@@ -1,0 +1,824 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>TTBUS000</ObjName>
+<ObjDesc>Bienes de Uso (Trazabilidad)</ObjDesc>
+<ObjPgmName>TTBUS000</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus_id</VarId>
+<VarName>&amp;TTBUS_Id</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus_codposicion</VarId>
+<VarName>&amp;TTBUS_CodPosicion</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Psec_cre</VarId>
+<VarName>&amp;pSEC_CRE</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus_estado</VarId>
+<VarName>&amp;TTBUS_Estado</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Consulta</VarId>
+<VarName>&amp;consulta</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Sistema</VarId>
+<VarName>&amp;SISTEMA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>1</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>41</TableId>
+<TableName>M124FPROV</TableName>
+<Description>Maestro de Proveedores</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>TTBUS_CodProveedor</AttriName>
+<Description>Cód. Proveedor</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>37</TableId>
+<TableName>BUS002</TableName>
+<Description>Maestro de Rubros</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TTBUS_RubroBien</AttriName>
+<Description>Cód. Rubro del bien</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules>
+<ActionType>BusinessRule</ActionType>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>6</ObjId>
+<ObjName>PTTBUS000_5</ObjName>
+<ObjPgmName>PTTBUS000_5</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>TTBUS_DesPosicion</AttriName>
+<Description>Desc. Posición Actual Bien</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Sec_cre</VarId>
+<VarName>&amp;SEC_CRE</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Sec_dre</VarId>
+<VarName>&amp;SEC_DRE</VarName></Variable></Parameters>
+<IF></IF></CALL></Rules>
+<AfterAttributeRules>
+<ActionType>BusinessRule</ActionType>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>7</ObjId>
+<ObjName>PTTBUS000_8</ObjName>
+<ObjPgmName>PTTBUS000_8</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cod_error</VarId>
+<VarName>&amp;cod_error</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Mje_error</VarId>
+<VarName>&amp;mje_error</VarName></Variable></Parameters>
+<IF>
+<Token>after(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Token>)</Token>
+<Sp></Sp>
+<Token>and</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Sp></Sp>
+<Token>&lt;&gt;</Token>
+<Sp></Sp>
+<Token>999</Token></IF></CALL></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>TTBUS_FechaCarga</AttriName>
+<Description>Fecha de Carga</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>TTBUS_DesPosicion</AttriName>
+<Description>Desc. Posición Actual Bien</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>TTBUS_UsuarioAlta</AttriName>
+<Description>Usuario que da de alta el bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>TTBUS_MaquinaAlta</AttriName>
+<Description>Máquina donde se da de alta el bien</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>TTBUS_Estado</AttriName>
+<Description>Estado de bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TTBUS_Alquilado</AttriName>
+<Description>Marca Alquilado (SI/NO)</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>TTBUS_NroSerie</AttriName>
+<Description>Número de Serie</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>TTBUS_CodProveedor</AttriName>
+<Description>Cód. Proveedor</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TTBUS_RubroBien</AttriName>
+<Description>Cód. Rubro del bien</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>TTBUS_ContDocu</AttriName>
+<Description>Último número de documentación</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>TTBUS_FechaCarga</AttriName>
+<Description>Fecha de Carga</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>TTBUS_DesPosicion</AttriName>
+<Description>Desc. Posición Actual Bien</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>TTBUS_UsuarioAlta</AttriName>
+<Description>Usuario que da de alta el bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>TTBUS_MaquinaAlta</AttriName>
+<Description>Máquina donde se da de alta el bien</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>TTBUS_Estado</AttriName>
+<Description>Estado de bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TTBUS_Alquilado</AttriName>
+<Description>Marca Alquilado (SI/NO)</Description></Attribute>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>TTBUS_NroSerie</AttriName>
+<Description>Número de Serie</Description></Attribute>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>TTBUS_CodProveedor</AttriName>
+<Description>Cód. Proveedor</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TTBUS_RubroBien</AttriName>
+<Description>Cód. Rubro del bien</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>TTBUS_ContDocu</AttriName>
+<Description>Último número de documentación</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>2</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>6</TableId>
+<TableName>TTBUS005</TableName>
+<Description>Maestro de Identificadores</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>TTBUS5_IdIdentificador</AttriName>
+<Description>Cod. Identificador</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>TTBUS5_DescIdentificador</AttriName>
+<Description>Desc. Identificador</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>TTBUS005</TableName>
+<Description>Maestro de Identificadores</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>TTBUS5_DescIdentificador</AttriName>
+<Description>Desc. Identificador</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>TTBUS5_DescIdentificador</AttriName>
+<Description>Desc. Identificador</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules>
+<ActionType>BusinessRule</ActionType>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>PTTBUS000_10</ObjName>
+<ObjPgmName>PTTBUS000_10</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>NumeroIdentificador</AttriName>
+<Description>Número Identificador</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cod_error1</VarId>
+<VarName>&amp;cod_error1</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Mje_error1</VarId>
+<VarName>&amp;mje_error1</VarName></Variable></Parameters>
+<IF>
+<Token>after(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>NumeroIdentificador</AttriName>
+<Description>Número Identificador</Description></Attribute>
+<Token>)</Token>
+<Sp></Sp>
+<Token>and</Token>
+<Token>(</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>'INS'</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>'UPD'</Token>
+<Token>)</Token>
+<Token>)</Token></IF></CALL></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>NumeroIdentificador</AttriName>
+<Description>Número Identificador</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>NumeroIdentificador</AttriName>
+<Description>Número Identificador</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>3</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>DocuId</AttriName>
+<Description>Id Documentación</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>DocuId</AttriName>
+<Description>Id Documentación</Description></Attribute>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>DocuDesc</AttriName>
+<Description>Descripción</Description></Attribute>
+<Attribute>
+<AttriId>66</AttriId>
+<AttriName>DocuObservaciones</AttriName>
+<Description>Observaciones</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>65</AttriId>
+<AttriName>DocuDesc</AttriName>
+<Description>Descripción</Description></Attribute>
+<Attribute>
+<AttriId>66</AttriId>
+<AttriName>DocuObservaciones</AttriName>
+<Description>Observaciones</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>91</ObjId>
+<ObjName>Gx0031</ObjName>
+<ObjPgmName>Gx0031</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>64</AttriId>
+<AttriName>DocuId</AttriName>
+<Description>Id Documentación</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>90</ObjId>
+<ObjName>Gx0021</ObjName>
+<ObjPgmName>Gx0021</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>IdIdentificador</AttriName>
+<Description>Id Identificador</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>HTTBUS_prompt1</ObjName>
+<ObjPgmName>HTTBUS_prompt1</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>TTBUS_DesPosicion</AttriName>
+<Description>Desc. Posición Actual Bien</Description></Attribute>
+<Variable>
+<VarId>Sec_cre</VarId>
+<VarName>&amp;SEC_CRE</VarName></Variable>
+<Variable>
+<VarId>Sec_dre</VarId>
+<VarName>&amp;SEC_DRE</VarName></Variable>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>37</TableId>
+<TableName>BUS002</TableName>
+<Description>Maestro de Rubros</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>155</ObjId>
+<ObjName>Gx0110</ObjName>
+<ObjPgmName>Gx0110</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TTBUS_RubroBien</AttriName>
+<Description>Cód. Rubro del bien</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Maestro de Responsables de Posiciones</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>98</ObjId>
+<ObjName>Gx0070</ObjName>
+<ObjPgmName>Gx0070</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>41</TableId>
+<TableName>M124FPROV</TableName>
+<Description>Maestro de Proveedores</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>198</ObjId>
+<ObjName>Gx0150</ObjName>
+<ObjPgmName>Gx0150</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>TTBUS_CodProveedor</AttriName>
+<Description>Cód. Proveedor</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>89</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests>
+<Suggest>
+<ControlName>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute></ControlName>
+<SuggestType>2</SuggestType>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions>
+<Condition>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>@TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute>
+<Token>.</Token>
+<Token>toupper(</Token>
+<Token>)</Token></Condition></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></Suggest></Suggests></ObjectSpec>

@@ -1,0 +1,17 @@
+current_obj_i(2,web,68).
+ 
+called_tree_i(13,68,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(htbus013_prompt2,[],[],[],68).
+ 
+ 
+obj_parms_i([ 'String aP0_pTTBUS7_CodResp' ],[ [ 'Pttbus7_codresp',out ] ]).
+ 
+ 
+ 
+ 

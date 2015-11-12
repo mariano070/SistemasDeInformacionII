@@ -1,0 +1,570 @@
+spec_i([ proc,12,'Guarda la ubicacion y área en la grilla de ubicaciones','PTTBUS000_1',78,spa,'10_1_5-42940' ]).
+ 
+struct_i(5,1,[],[]).
+struct_i(4,1,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(5,[ 1,[ [ 1,many ] ],[],[],[ [ [ 1 ],[ 11,23,37,38 ] ] ],[ [ [ 1 ],[] ] ],[ 11 ],'ITTBUS000',[ 1,[ [ [],'Ttbus2_idbien',11 ] ] ],[] ]).
+level_i(4,[ 5,[ [ 5,many ] ],[],[],[ [ [ 5 ],[ 52 ] ] ],[ [ [ 5 ],[] ] ],[ -52 ],'UTTBUS0023',[],[] ]).
+level_i(3,[ 5,[ [ 5,many ] ],[],[],[ [ [ 5 ],[ 77,87,47,26,46,25,49,45,24,48,22,50,52 ] ] ],[ [ [ 5 ],[] ] ],[ 52 ],'ITTBUS002',[],[] ]).
+level_i(2,[ 5,[ [ 5,many ] ],[],[],[ [ [ 5 ],[ 77,87,47,26,46,25,49,45,24,48,22,50,52 ] ] ],[ [ [ 5 ],[] ] ],[ 52 ],'ITTBUS002',[],[] ]).
+ 
+tw_i(5,[]).
+tw_i(4,[]).
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(5,[ [] ]).
+lwi_i(4,[ [] ]).
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(5,usr_condition,y).
+ 
+ta_i(5,[ [ [ 1,11 ],[ 1,23 ],[ 1,37 ],[ 1,38 ] ] ]).
+ta_i(4,[ [ [ 5,52 ] ] ]).
+ta_i(3,[ [ [ 5,77 ],[ 5,87 ],[ 5,47 ],[ 5,26 ],[ 5,46 ],[ 5,25 ],[ 5,49 ],[ 5,45 ],[ 5,24 ],[ 5,48 ],[ 5,22 ],[ 5,50 ],[ 5,52 ] ] ]).
+ta_i(2,[ [ [ 5,77 ],[ 5,87 ],[ 5,47 ],[ 5,26 ],[ 5,46 ],[ 5,25 ],[ 5,49 ],[ 5,45 ],[ 5,24 ],[ 5,48 ],[ 5,22 ],[ 5,50 ],[ 5,52 ] ] ]).
+ 
+las_i(5,[ [ 11,23,37,38 ] ]).
+las_i(4,[ [ 52 ] ]).
+las_i(3,[ [ 77,87,47,26,46,25,49,45,24,48,22,50,52 ] ]).
+las_i(2,[ [ 77,87,47,26,46,25,49,45,24,48,22,50,52 ] ]).
+ 
+lac_i(5,[ [] ]).
+lac_i(4,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''SCR''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Guarda la ubicacion y área en la grilla de ubicaciones')).
+rule_i(0,prop('ObjName','PTTBUS000_1')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ttbus2_idbien','Ttbus2_codposdesde','Ttbus2_respdesde','Ttbus2_fechaenvio','Ttbus2_codposhacia','Ttbus2_resphacia','Ttbus2_fecharecepcion','Ttbus2_estadoenvio','Ttbus2_motivoenvio','Ttbus2_observaciones','Modo','Usuario','Ttbus2_plazorecepcion' ],[])).
+rule_i(0,parmio([ [ 'Ttbus2_idbien',inout ],[ 'Ttbus2_codposdesde',inout ],[ 'Ttbus2_respdesde',inout ],[ 'Ttbus2_fechaenvio',inout ],[ 'Ttbus2_codposhacia',inout ],[ 'Ttbus2_resphacia',inout ],[ 'Ttbus2_fecharecepcion',inout ],[ 'Ttbus2_estadoenvio',inout ],[ 'Ttbus2_motivoenvio',inout ],[ 'Ttbus2_observaciones',inout ],[ 'Modo',inout ],[ 'Usuario',inout ],[ 'Ttbus2_plazorecepcion',inout ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,5,[],[ [],'ITTBUS002',[] ]).
+a_i(3,3,t,5,[],[ [],'ITTBUS002',[] ]).
+a_i(4,4,t,5,[],[ [],'UTTBUS0023',[] ]).
+a_i(5,5,t,1,[],[ [ [ [],'Ttbus2_idbien',11 ] ],'ITTBUS000',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,77).
+v_i(t,o,2,87).
+v_i(t,o,2,47).
+v_i(t,o,2,26).
+v_i(t,o,2,46).
+v_i(t,o,2,25).
+v_i(t,o,2,49).
+v_i(t,o,2,45).
+v_i(t,o,2,24).
+v_i(t,o,2,48).
+v_i(t,o,2,22).
+v_i(t,o,2,50).
+v_i(t,o,2,52).
+v_i(t,i,3,[]).
+v_i(t,o,3,77).
+v_i(t,o,3,87).
+v_i(t,o,3,47).
+v_i(t,o,3,26).
+v_i(t,o,3,46).
+v_i(t,o,3,25).
+v_i(t,o,3,49).
+v_i(t,o,3,45).
+v_i(t,o,3,24).
+v_i(t,o,3,48).
+v_i(t,o,3,22).
+v_i(t,o,3,50).
+v_i(t,o,3,52).
+v_i(t,i,4,[]).
+v_i(t,o,4,52).
+v_i(t,i,5,'Ttbus2_idbien').
+v_i(t,o,5,11).
+v_i(t,o,5,23).
+v_i(t,o,5,37).
+v_i(t,o,5,38).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',42 ]).
+attri_i(50,[ 'TTBUS2_MotivoCancelacion',svchar,100,0,'@!',0,'Motivo de Cancelación','',0 ]).
+attri_i(23,[ 'TTBUS_Estado',int,1,0,'9',0,'Estado de bien de uso','',0 ]).
+attri_i(37,[ 'TTBUS_CodPosicion',int,3,0,'ZZ9',0,'Cod. Posición Actual Bien','',0 ]).
+attri_i(38,[ 'TTBUS_DesPosicion',char,50,0,'',0,'Desc. Posición Actual Bien','',0 ]).
+attri_i(11,[ 'TTBUS_Id',int,8,0,'ZZZZZZZ9',0,'Id del bien de uso','',0 ]).
+attri_i(52,[ 'TTBUS2_IdMovimiento',int,12,0,'ZZZZZZZZZZZ9',0,'Id Movimiento','',0 ]).
+attri_i(22,[ 'TTBUS2_IdBien',int,8,0,'ZZZZZZZ9',0,'Id Bien','',0 ]).
+attri_i(48,[ 'TTBUS2_CodPosDesde',int,3,0,'ZZ9',0,'Código Posición Desde','',0 ]).
+attri_i(24,[ 'TTBUS2_RespDesde',char,15,0,'',0,'Responsable de envío','',0 ]).
+attri_i(45,[ 'TTBUS2_FechaEnvio',dtime,10,5,'99/99/9999 99:99',0,'Fecha de envío','',0 ]).
+attri_i(49,[ 'TTBUS2_CodPosHacia',int,3,0,'ZZ9',0,'Código Posición Hacia','',0 ]).
+attri_i(25,[ 'TTBUS2_RespHacia',char,15,0,'',0,'Responsable de recepción','',0 ]).
+attri_i(46,[ 'TTBUS2_FechaRecepcion',dtime,8,5,'99/99/99 99:99',0,'Fecha de recepción','',0 ]).
+attri_i(26,[ 'TTBUS2_EstadoEnvio',int,1,0,'9',0,'Estado de envío','',0 ]).
+attri_i(47,[ 'TTBUS2_MotivoEnvio',svchar,100,0,'@!',0,'Motivo de envío','',0 ]).
+attri_i(87,[ 'TTBUS2_Observaciones',svchar,400,0,'@!',0,'Observaciones','',0 ]).
+attri_i(77,[ 'TTBUS2_PlazoRecepcion',date,8,0,'99/99/9999',0,'Plazo para recepción del bien','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',39 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',38 ]).
+attri_i('Ttbus2_plazorecepcion',[ 'TTBUS2_PlazoRecepcion',date,8,0,'99/99/9999',0,'TTBUS2_ Plazo Recepcion','',37 ]).
+attri_i('Baja',[ baja,int,1,0,'9',0,baja,'',36 ]).
+attri_i('Ttbus2_codposdesde',[ 'TTBUS2_CodPosDesde',int,3,0,'ZZ9',0,'TTBUS2_ Cod Pos Desde','',35 ]).
+attri_i('Ttbus2_codposhacia',[ 'TTBUS2_CodPosHacia',int,3,0,'ZZ9',0,'TTBUS2_ Cod Pos Hacia','',34 ]).
+attri_i('Prc_nro',[ 'PRC_NRO',int,10,0,'ZZZZZZZZZ9',0,'PRC_ NRO','',33 ]).
+attri_i('Ahora',[ 'AHORA',dtime,10,5,'99/99/9999 99:99',0,'AHORA','',32 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',31 ]).
+attri_i('Ttbus2_idmovimiento',[ 'TTBUS2_IdMovimiento',int,12,0,'ZZZZZZZZZZZ9',0,'TTBUS2_ Id Movimiento','',30 ]).
+attri_i('Prc_par',[ 'PRC_PAR',char,100,0,'',0,'PRC_ PAR','',29 ]).
+attri_i('Ttbus2_estadoenvio',[ 'TTBUS2_EstadoEnvio',int,1,0,'9',0,'TTBUS2_ Estado Envio','',28 ]).
+attri_i('Ttbus2_fecharecepcion',[ 'TTBUS2_FechaRecepcion',dtime,8,5,'99/99/99 99:99',0,'TTBUS2_ Fecha Recepcion','',27 ]).
+attri_i('Ttbus2_resphacia',[ 'TTBUS2_RespHacia',char,15,0,'',0,'TTBUS2_ Resp Hacia','',26 ]).
+attri_i('Ttbus2_idsectorhacia',[ 'TTBUS2_IdSectorHacia',int,4,0,'ZZZ9',0,'TTBUS2_ Id Sector Hacia','',25 ]).
+attri_i('Ttbus2_idareahacia',[ 'TTBUS2_IdAreaHacia',int,8,0,'ZZZZZZZ9',0,'TTBUS2_ Id Area Hacia','',24 ]).
+attri_i('Ttbus2_fechaenvio',[ 'TTBUS2_FechaEnvio',dtime,10,5,'99/99/9999 99:99',0,'TTBUS2_ Fecha Envio','',23 ]).
+attri_i('Ttbus2_respdesde',[ 'TTBUS2_RespDesde',char,15,0,'',0,'TTBUS2_ Resp Desde','',22 ]).
+attri_i('Ttbus2_idsectordesde',[ 'TTBUS2_IdSectorDesde',int,4,0,'ZZZ9',0,'TTBUS2_ Id Sector Desde','',21 ]).
+attri_i('Ttbus2_idareadesde',[ 'TTBUS2_IdAreaDesde',int,8,0,'ZZZZZZZ9',0,'TTBUS2_ Id Area Desde','',20 ]).
+attri_i('Ttbus2_idbien',[ 'TTBUS2_IdBien',int,8,0,'ZZZZZZZ9',0,'TTBUS2_ Id Bien','',19 ]).
+attri_i('Ttbus2_observaciones',[ 'TTBUS2_Observaciones',svchar,400,0,'@!',0,'TTBUS2_ Observaciones','',18 ]).
+attri_i('Ttbus2_motivoenvio',[ 'TTBUS2_MotivoEnvio',svchar,100,0,'@!',0,'TTBUS2_ Motivo Envio','',17 ]).
+attri_i('Modo',[ 'Modo',char,3,0,'',0,'Modo','',16 ]).
+attri_i('Ttbus2_idubicacion',[ 'TTBUS2_IdUbicacion',int,8,0,'ZZZZZZZ9',0,'TTBUS2_ Id Ubicacion','',15 ]).
+attri_i('Ttbus2_id',[ 'TTBUS2_Id',int,9,0,'ZZZZZZZZZ9',0,'TTBUS2_ Id','',14 ]).
+attri_i('Ttbus_id',[ 'TTBUS_Id',int,8,0,'ZZZZZZZ9',0,'TTBUS_ Id','',13 ]).
+attri_i('Ttbus_fechacarga',[ 'TTBUS_FechaCarga',date,8,0,'99/99/9999',0,'TTBUS_ Fecha Carga','',12 ]).
+attri_i('Ttbus_idareaactual',[ 'TTBUS_IdAreaActual',int,2,0,'Z9',0,'TTBUS_ Id Area Actual','',11 ]).
+attri_i('Ttbus_descareaactual',[ 'TTBUS_DescAreaActual',char,30,0,'@!',0,'TTBUS_ Desc Area Actual','',10 ]).
+attri_i('Ttbus_idsectoractual',[ 'TTBUS_IdSectorActual',int,4,0,'ZZZ9',0,'TTBUS_ Id Sector Actual','',9 ]).
+attri_i('Ttbus_descsectoractual',[ 'TTBUS_DescSectorActual',char,30,0,'@!',0,'TTBUS_ Desc Sector Actual','',8 ]).
+ 
+table_i(5,[ 'TTBUS002',[ 52,50,22,48,24,45,49,25,46,26,47,87,77 ],'Cabecera de Movimientos de Bienes de Uso','TTBUS002' ]).
+table_i(1,[ 'TTBUS000',[ 11,23,37,38 ],'Maestro de Bienes de Uso Trazabilizados','TTBUS000' ]).
+ 
+index_i(5,[ 'ITTBUS002',u,[ 52 ],'ITTBUS002' ]).
+index_i(5,[ 'UTTBUS0023',d,[ -52 ],'UTTBUS0023' ]).
+index_i(1,[ 'ITTBUS000',u,[ 11 ],'ITTBUS000' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,5,i,[ [ 22,48,24,45,49,25,46,26,47,87,77 ],[],'ITTBUS002',[ [ [],52,52 ] ] ]).
+upd_i(3,5,i,[ [ 22,48,24,45,49,25,46,26,47,87,77 ],[],'ITTBUS002',[ [ [],52,52 ] ] ]).
+upd_i(5,1,u,[ [ 23,37,38 ],[],'ITTBUS000',[] ]).
+ 
+ 
+ 
+start_i(5,0,0,[ [ [ 11,23,'Ttbus2_idbien',= ] ],one ]).
+ 
+end_i(5,0,0,[ [ [ t(11,2),t(=,10),t('Ttbus2_idbien',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,ins,1,[],[ [ 77,87,47,26,46,25,49,45,24,48,22 ],[],[] ]).
+break_i(3,ins,1,[],[ [ 77,87,47,26,46,25,49,45,24,48,22 ],[],[] ]).
+break_i(4,nvg,1,[ -52 ],[ [ 52 ],[],[] ]).
+break_i(5,nvg,1,[ 11 ],[ [ 11,38,37,23 ],[ 11 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,ins,2,2,2).
+b_group_i(2,1,lit,0,3,3).
+b_group_i(1,3,lit,0,15,13).
+b_group_i(1,4,ins,3,19,19).
+b_group_i(3,1,lit,0,20,20).
+b_group_i(1,5,lit,0,32,26).
+b_group_i(1,6,nvg,4,34,34).
+b_group_i(4,1,lit,0,35,35).
+b_group_i(1,7,lit,0,38,30).
+b_group_i(1,8,nvg,5,40,40).
+b_group_i(5,1,lit,0,41,41).
+b_group_i(1,9,lit,0,46,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',109,0,0),t('Modo',23,0,4),t(=,10,0,10),t('''INS''',3,1,12) ]).
+b_line_i(2,2,1,cmd,3,[ t('',117,2,0) ]).
+b_line_i(3,2,1,cmd,3,[ t('',107,3,0),t(22,2,3,0),t(=,10,3,0),t('Ttbus2_idbien',23,3,0) ]).
+b_line_i(4,2,1,cmd,3,[ t('',107,3,0),t(48,2,3,0),t(=,10,3,0),t('Ttbus2_codposdesde',23,3,0) ]).
+b_line_i(5,2,1,cmd,3,[ t('',107,3,0),t(24,2,3,0),t(=,10,3,0),t('Usuario',23,3,0) ]).
+b_line_i(6,2,1,cmd,3,[ t('',107,3,0),t(45,2,3,0),t(=,10,3,0),t('Ttbus2_fechaenvio',23,3,0) ]).
+b_line_i(7,2,1,cmd,3,[ t('',107,3,0),t(49,2,3,0),t(=,10,3,0),t('Ttbus2_codposhacia',23,3,0) ]).
+b_line_i(8,2,1,cmd,3,[ t('',107,3,0),t(25,2,3,0),t(=,10,3,0),t('Ttbus2_resphacia',23,3,0) ]).
+b_line_i(9,2,1,cmd,3,[ t('',107,3,0),t(46,2,3,0),t(=,10,3,0),t('Ttbus2_fecharecepcion',23,3,0) ]).
+b_line_i(10,2,1,cmd,3,[ t('',107,3,0),t(26,2,3,0),t(=,10,3,0),t('Ttbus2_estadoenvio',23,3,0) ]).
+b_line_i(11,2,1,cmd,3,[ t('',107,3,0),t(47,2,3,0),t(=,10,3,0),t('Ttbus2_motivoenvio',23,3,0) ]).
+b_line_i(12,2,1,cmd,3,[ t('',107,3,0),t(87,2,3,0),t(=,10,3,0),t('Ttbus2_observaciones',23,3,0) ]).
+b_line_i(13,2,1,cmd,3,[ t('',107,3,0),t(77,2,3,0),t(=,10,3,0),t('Ttbus2_plazorecepcion',23,3,0) ]).
+b_line_i(14,2,1,cmd,3,[ t('',127,3,0) ]).
+b_line_i(15,1,3,cmd,13,[ t('',111,13,0) ]).
+b_line_i(16,1,3,cmd,13,[]).
+b_line_i(17,1,3,cmd,13,[ t('',109,13,0),t('Modo',23,13,4),t(=,10,13,10),t('''UPD''',3,17,12) ]).
+b_line_i(18,1,3,cmd,13,[]).
+b_line_i(19,3,1,cmd,20,[ t('',117,19,0) ]).
+b_line_i(20,3,1,cmd,20,[ t('',107,20,0),t(22,2,20,0),t(=,10,20,0),t('Ttbus2_idbien',23,20,0) ]).
+b_line_i(21,3,1,cmd,20,[ t('',107,20,0),t(48,2,20,0),t(=,10,20,0),t('Ttbus2_codposdesde',23,20,0) ]).
+b_line_i(22,3,1,cmd,20,[ t('',107,20,0),t(24,2,20,0),t(=,10,20,0),t('Ttbus2_respdesde',23,20,0) ]).
+b_line_i(23,3,1,cmd,20,[ t('',107,20,0),t(45,2,20,0),t(=,10,20,0),t('Ttbus2_fechaenvio',23,20,0) ]).
+b_line_i(24,3,1,cmd,20,[ t('',107,20,0),t(49,2,20,0),t(=,10,20,0),t('Ttbus2_codposhacia',23,20,0) ]).
+b_line_i(25,3,1,cmd,20,[ t('',107,20,0),t(25,2,20,0),t(=,10,20,0),t('Ttbus2_resphacia',23,20,0) ]).
+b_line_i(26,3,1,cmd,20,[ t('',107,20,0),t(46,2,20,0),t(=,10,20,0),t('Ttbus2_fecharecepcion',23,20,0) ]).
+b_line_i(27,3,1,cmd,20,[ t('',107,20,0),t(26,2,20,0),t(=,10,20,0),t('Ttbus2_estadoenvio',23,20,0) ]).
+b_line_i(28,3,1,cmd,20,[ t('',107,20,0),t(47,2,20,0),t(=,10,20,0),t('Ttbus2_motivoenvio',23,20,0) ]).
+b_line_i(29,3,1,cmd,20,[ t('',107,20,0),t(87,2,20,0),t(=,10,20,0),t('Ttbus2_observaciones',23,20,0) ]).
+b_line_i(30,3,1,cmd,20,[ t('',107,20,0),t(77,2,20,0),t(=,10,20,0),t('Ttbus2_plazorecepcion',23,20,0) ]).
+b_line_i(31,3,1,cmd,20,[ t('',127,20,0) ]).
+b_line_i(32,1,5,cmd,26,[]).
+b_line_i(33,1,5,cmd,26,[]).
+b_line_i(34,4,1,cmd,35,[ t('',121,34,0),t('ORDER',39,34,11),t('(',0,34,17),t(52,2,34,18),t(')',4,34,37) ]).
+b_line_i(35,4,1,cmd,35,[ t('',107,35,0),t('Ttbus2_idmovimiento',23,35,0),t(=,10,35,0),t(52,2,35,0) ]).
+b_line_i(36,4,1,cmd,35,[ t('',139,35,0) ]).
+b_line_i(37,4,1,cmd,35,[ t('',128,35,0) ]).
+b_line_i(38,1,7,cmd,30,[]).
+b_line_i(39,1,7,cmd,30,[]).
+b_line_i(40,5,1,cmd,41,[ t('',121,40,0),t('ORDER',39,40,11),t(11,2,40,11) ]).
+b_line_i(42,5,1,cmd,41,[ t('',107,41,0),t(23,2,41,0),t(=,10,41,0),t('2',3,41,0) ]).
+b_line_i(43,5,1,cmd,41,[ t('',107,41,0),t(37,2,41,0),t(=,10,41,0),t('999',3,41,0) ]).
+b_line_i(44,5,1,cmd,41,[ t('',107,41,0),t(38,2,41,0),t(=,10,41,0),t('''SIN ASIGNAR POR CAMBIO DE POSICIÓN''',3,41,0) ]).
+b_line_i(45,5,1,cmd,41,[ t('',128,41,0) ]).
+b_line_i(46,1,9,cmd,36,[]).
+b_line_i(47,1,9,cmd,36,[]).
+b_line_i(48,1,9,cmd,36,[ t('',104,36,0),t(o(1,'PTTBUS000_9'),28,36,2),t('Ttbus2_idmovimiento',23,36,20) ]).
+b_line_i(49,1,9,cmd,36,[]).
+b_line_i(50,1,9,cmd,36,[]).
+b_line_i(51,1,9,cmd,36,[]).
+b_line_i(52,1,9,cmd,36,[]).
+b_line_i(53,1,9,cmd,36,[]).
+b_line_i(54,1,9,cmd,36,[]).
+b_line_i(55,1,9,cmd,36,[]).
+b_line_i(56,1,9,cmd,36,[]).
+b_line_i(57,1,9,cmd,36,[]).
+b_line_i(58,1,9,cmd,36,[ t('',111,36,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,77,'ExternalName','TTBUS2_PlazoRecepcion',d).
+att_prop_i(2,77,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,77,'EmptyAsNull','Yes',d).
+att_prop_i(2,77,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,77,'AttRegEx','',d).
+att_prop_i(2,77,'AttValidationFailedMsg','',d).
+att_prop_i(2,77,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(2,77,'FullName','TTBUS2_PlazoRecepcion',v).
+att_prop_i(2,87,'ExternalName','TTBUS2_Observaciones',d).
+att_prop_i(2,87,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,87,'EmptyAsNull','Yes',v).
+att_prop_i(2,87,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,87,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,87,'AttRegEx','',d).
+att_prop_i(2,87,'AttValidationFailedMsg','',d).
+att_prop_i(2,87,'FullName','TTBUS2_Observaciones',v).
+att_prop_i(2,47,'ExternalName','TTBUS2_MotivoEnvio',d).
+att_prop_i(2,47,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,47,'EmptyAsNull','Yes',d).
+att_prop_i(2,47,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,47,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,47,'AttRegEx','',d).
+att_prop_i(2,47,'AttValidationFailedMsg','',d).
+att_prop_i(2,47,'FullName','TTBUS2_MotivoEnvio',v).
+att_prop_i(2,26,'ExternalName','TTBUS2_EstadoEnvio',d).
+att_prop_i(2,26,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,26,'EmptyAsNull','Yes',d).
+att_prop_i(2,26,'AUTONUMBER','0',d).
+att_prop_i(2,26,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,26,'AttRegEx','',d).
+att_prop_i(2,26,'AttValidationFailedMsg','',d).
+att_prop_i(2,26,'FullName','TTBUS2_EstadoEnvio',v).
+att_prop_i(2,46,'ExternalName','TTBUS2_FechaRecepcion',d).
+att_prop_i(2,46,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,46,'EmptyAsNull','Yes',d).
+att_prop_i(2,46,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,46,'AttRegEx','',d).
+att_prop_i(2,46,'AttValidationFailedMsg','',d).
+att_prop_i(2,46,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,46,idHOURFORMAT,idHOURFORMAT_HOURMIN,d).
+att_prop_i(2,46,'FullName','TTBUS2_FechaRecepcion',v).
+att_prop_i(2,25,'ExternalName','TTBUS2_RespHacia',d).
+att_prop_i(2,25,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,25,'EmptyAsNull','Yes',d).
+att_prop_i(2,25,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,25,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,25,'AttRegEx','',d).
+att_prop_i(2,25,'AttValidationFailedMsg','',d).
+att_prop_i(2,25,'FullName','TTBUS2_RespHacia',v).
+att_prop_i(2,49,'ExternalName','TTBUS2_CodPosHacia',d).
+att_prop_i(2,49,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,49,'EmptyAsNull','Yes',d).
+att_prop_i(2,49,'AUTONUMBER','0',d).
+att_prop_i(2,49,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,49,'AttRegEx','',d).
+att_prop_i(2,49,'AttValidationFailedMsg','',d).
+att_prop_i(2,49,'FullName','TTBUS2_CodPosHacia',v).
+att_prop_i(2,45,'ExternalName','TTBUS2_FechaEnvio',d).
+att_prop_i(2,45,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,45,'EmptyAsNull','Yes',d).
+att_prop_i(2,45,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,45,'AttRegEx','',d).
+att_prop_i(2,45,'AttValidationFailedMsg','',d).
+att_prop_i(2,45,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(2,45,idHOURFORMAT,idHOURFORMAT_HOURMIN,d).
+att_prop_i(2,45,'FullName','TTBUS2_FechaEnvio',v).
+att_prop_i(2,24,'ExternalName','TTBUS2_RespDesde',d).
+att_prop_i(2,24,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,24,'EmptyAsNull','Yes',d).
+att_prop_i(2,24,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,24,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,24,'AttRegEx','',d).
+att_prop_i(2,24,'AttValidationFailedMsg','',d).
+att_prop_i(2,24,'FullName','TTBUS2_RespDesde',v).
+att_prop_i(2,48,'ExternalName','TTBUS2_CodPosDesde',d).
+att_prop_i(2,48,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,48,'EmptyAsNull','Yes',d).
+att_prop_i(2,48,'AUTONUMBER','0',d).
+att_prop_i(2,48,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,48,'AttRegEx','',d).
+att_prop_i(2,48,'AttValidationFailedMsg','',d).
+att_prop_i(2,48,'FullName','TTBUS2_CodPosDesde',v).
+att_prop_i(2,22,'ExternalName','TTBUS2_IdBien',d).
+att_prop_i(2,22,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,22,'EmptyAsNull','Yes',v).
+att_prop_i(2,22,'AUTONUMBER','-1',v).
+att_prop_i(2,22,'AUTONUMBER_START','1',v).
+att_prop_i(2,22,'AUTONUMBER_STEP','1',v).
+att_prop_i(2,22,'AUTONUMBER_FORREPLICATION','-1',v).
+att_prop_i(2,22,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,22,'AttRegEx','',d).
+att_prop_i(2,22,'AttValidationFailedMsg','',d).
+att_prop_i(2,22,'FullName','TTBUS2_IdBien',v).
+att_prop_i(2,52,'ExternalName','TTBUS2_IdMovimiento',d).
+att_prop_i(2,52,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,52,'EmptyAsNull','Yes',d).
+att_prop_i(2,52,'AUTONUMBER','-1',v).
+att_prop_i(2,52,'AUTONUMBER_START','1',d).
+att_prop_i(2,52,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,52,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,52,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,52,'AttRegEx','',d).
+att_prop_i(2,52,'AttValidationFailedMsg','',d).
+att_prop_i(2,52,'FullName','TTBUS2_IdMovimiento',v).
+att_prop_i(2,11,'ExternalName','TTBUS_Id',d).
+att_prop_i(2,11,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,'AUTONUMBER','-1',v).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'FullName','TTBUS_Id',v).
+att_prop_i(2,38,'ExternalName','TTBUS_DesPosicion',d).
+att_prop_i(2,38,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,38,'EmptyAsNull','Yes',d).
+att_prop_i(2,38,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,38,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,38,'AttRegEx','',d).
+att_prop_i(2,38,'AttValidationFailedMsg','',d).
+att_prop_i(2,38,'FullName','TTBUS_DesPosicion',v).
+att_prop_i(2,37,'ExternalName','TTBUS_CodPosicion',d).
+att_prop_i(2,37,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,37,'EmptyAsNull','Yes',v).
+att_prop_i(2,37,'AUTONUMBER','0',d).
+att_prop_i(2,37,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,37,'AttRegEx','',d).
+att_prop_i(2,37,'AttValidationFailedMsg','',d).
+att_prop_i(2,37,'FullName','TTBUS_CodPosicion',v).
+att_prop_i(2,23,'ExternalName','TTBUS_Estado',d).
+att_prop_i(2,23,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,23,'EmptyAsNull','Yes',d).
+att_prop_i(2,23,'AUTONUMBER','0',d).
+att_prop_i(2,23,'ATT_INITIAL_VALUE',[ t('1',3) ],v).
+att_prop_i(2,23,'AttRegEx','',d).
+att_prop_i(2,23,'AttValidationFailedMsg','',d).
+att_prop_i(2,23,'FullName','TTBUS_Estado',v).
+att_prop_i(2,50,'ExternalName','TTBUS2_MotivoCancelacion',d).
+att_prop_i(2,50,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,50,'EmptyAsNull','Yes',d).
+att_prop_i(2,50,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,50,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,50,'AttRegEx','',d).
+att_prop_i(2,50,'AttValidationFailedMsg','',d).
+att_prop_i(2,50,'FullName','TTBUS2_MotivoCancelacion',v).
+ 
+tbl_prop_i(2,1,'CLUSTERIDX',0,v).
+ 
+tbl_att_prop_i(2,5,52,'AllowNulls',n).
+tbl_att_prop_i(2,5,52,'AUTONUMBER',y).
+tbl_att_prop_i(2,5,22,'AllowNulls',n).
+tbl_att_prop_i(2,5,48,'AllowNulls',n).
+tbl_att_prop_i(2,5,24,'AllowNulls',n).
+tbl_att_prop_i(2,5,45,'AllowNulls',n).
+tbl_att_prop_i(2,5,49,'AllowNulls',n).
+tbl_att_prop_i(2,5,25,'AllowNulls',n).
+tbl_att_prop_i(2,5,26,'AllowNulls',n).
+tbl_att_prop_i(2,5,47,'AllowNulls',n).
+tbl_att_prop_i(2,1,11,'AllowNulls',n).
+tbl_att_prop_i(2,1,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,1,23,'AllowNulls',n).
+tbl_att_prop_i(2,1,37,'AllowNulls',n).
+tbl_att_prop_i(2,1,38,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,23,'PTTBUS000_9',[ [ int,12,0,0 ] ],[ [ 'TTBUS2_IdMovimiento',inout,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+optimize_i(4,0,[ maxrows(1) ]).
+ 
+ 

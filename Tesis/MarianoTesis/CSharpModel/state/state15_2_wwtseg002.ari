@@ -1,0 +1,23 @@
+current_obj_i(2,web,15).
+ 
+called_tree_i(13,15,1,2).
+called_tree_i(13,15,1,4).
+called_tree_i(13,15,0,15).
+called_tree_i(13,15,13,1).
+called_tree_i(13,15,13,4).
+called_tree_i(13,15,13,24).
+ 
+ 
+ij_main_object(wwtseg002,'Work With ACT. USUARIOS','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(wwtseg002,[],[],[],15).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 
+ 

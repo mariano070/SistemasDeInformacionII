@@ -1,0 +1,157 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>3</ObjId>
+<ObjName>TTBUS000_b</ObjName>
+<ObjDesc>Baja de un Bien de Uso</ObjDesc>
+<ObjPgmName>TTBUS000_b</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Ttbus_id</VarId>
+<VarName>&amp;TTBUS_Id</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Gx_mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Sistema</VarId>
+<VarName>&amp;SISTEMA</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>1</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TTBUS_FechaBaja</AttriName>
+<Description>Fecha de Baja</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>TTBUS_MotivoBaja</AttriName>
+<Description>Motivo de Baja</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>TTBUS_UsuarioBaja</AttriName>
+<Description>Usuario que da la Baja</Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>TTBUS_MaquinaBaja</AttriName>
+<Description>Estación de Trabajo donde se da la baja</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>TTBUS_Estado</AttriName>
+<Description>Estado de bien de uso</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TTBUS_FechaBaja</AttriName>
+<Description>Fecha de Baja</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>TTBUS_MotivoBaja</AttriName>
+<Description>Motivo de Baja</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>TTBUS_UsuarioBaja</AttriName>
+<Description>Usuario que da la Baja</Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>TTBUS_MaquinaBaja</AttriName>
+<Description>Estación de Trabajo donde se da la baja</Description></Attribute>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>TTBUS_Estado</AttriName>
+<Description>Estado de bien de uso</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>TTBUS000</TableName>
+<Description>Maestro de Bienes de Uso Trazabilizados</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>3</TableId>
+<TableName>TTBUS000Documentacion</TableName>
+<Description>Documentacion de Bienes de Uso</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>2</TableId>
+<TableName>TTBUS000Identificadores</TableName>
+<Description>Identificadores de Bienes de Uso</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

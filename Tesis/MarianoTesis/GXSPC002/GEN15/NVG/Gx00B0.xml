@@ -1,0 +1,161 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>104</ObjId>
+<ObjName>Gx00B0</ObjName>
+<ObjDesc>Selection List Historial de Asociaciones de Bienes de Uso</ObjDesc>
+<ObjPgmName>Gx00B0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pttbus3_idbien</VarId>
+<VarName>&amp;pTTBUS3_IdBien</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pttbus3_nroasoc</VarId>
+<VarName>&amp;pTTBUS3_NroAsoc</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>11</TableId>
+<TableName>TTBUS003</TableName>
+<Description>Historial de Asociaciones de Bienes de Uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>105</AttriId>
+<AttriName>TTBUS3_IdBien</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>TTBUS3_NroAsoc</AttriName>
+<Description>Nro. de asociación</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITTBUS003</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>105</AttriId>
+<AttriName>TTBUS3_IdBien</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus3_idbien</VarId>
+<VarName>&amp;cTTBUS3_IdBien</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>TTBUS3_NroAsoc</AttriName>
+<Description>Nro. de asociación</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus3_nroasoc</VarId>
+<VarName>&amp;cTTBUS3_NroAsoc</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>107</AttriId>
+<AttriName>TTBUS3_Sist</AttriName>
+<Description>Sistema que realiza la asociación</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus3_sist</VarId>
+<VarName>&amp;cTTBUS3_Sist</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>108</AttriId>
+<AttriName>TTBUS3_HdwId</AttriName>
+<Description>Id de hardware</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus3_hdwid</VarId>
+<VarName>&amp;cTTBUS3_HdwId</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>109</AttriId>
+<AttriName>TTBUS3_BusEmp</AttriName>
+<Description>Cód. empresa</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus3_busemp</VarId>
+<VarName>&amp;cTTBUS3_BusEmp</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>110</AttriId>
+<AttriName>TTBUS3_BusRub</AttriName>
+<Description>Cód. de rubro</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus3_busrub</VarId>
+<VarName>&amp;cTTBUS3_BusRub</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>TTBUS3_BusCod</AttriName>
+<Description>Cód. de bien en contabilidad</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cttbus3_buscod</VarId>
+<VarName>&amp;cTTBUS3_BusCod</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>11</TableId>
+<TableName>TTBUS003</TableName>
+<Description>Historial de Asociaciones de Bienes de Uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>105</AttriId>
+<AttriName>TTBUS3_IdBien</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>106</AttriId>
+<AttriName>TTBUS3_NroAsoc</AttriName>
+<Description>Nro. de asociación</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

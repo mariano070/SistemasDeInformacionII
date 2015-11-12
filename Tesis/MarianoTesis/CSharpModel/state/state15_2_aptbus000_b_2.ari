@@ -1,0 +1,20 @@
+current_obj_i(2,proc,55).
+ 
+called_tree_i(1,55,1,56).
+called_tree_i(1,55,1,57).
+called_tree_i(1,55,1,58).
+ 
+ 
+ij_main_object(aptbus000_b_2,'Mail de baja de bien de uso','','""','CLINE').
+ 
+ 
+ 
+ 
+ij_object_dependency(aptbus000_b_2,[],[],[],55).
+ 
+ 
+obj_parms_i([ 'String aP0_cTTBUS_Id','long aP1_PRC_NRO' ],[ [ 'Cttbus_id',inout ],[ 'Prc_nro',inout ] ]).
+ 
+ 
+ 
+ 

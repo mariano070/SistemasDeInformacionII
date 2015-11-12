@@ -1,0 +1,340 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>72</ObjId>
+<ObjName>HPRC000_</ObjName>
+<ObjDesc>Procesos Sometidos por Usuario</ObjDesc>
+<ObjPgmName>HPRC000_</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description>
+<AttriOrder>Descending</AttriOrder></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in grid '</Token>
+<Token>Grid_usuario</Token>
+<Token>'</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Main>Yes</Main>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>4</ObjId>
+<ObjName>LoadContext</ObjName>
+<ObjPgmName>LoadContext</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Variable>
+<VarId>Context</VarId>
+<VarName>&amp;context</VarName></Variable></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Grid_activos.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>COL000</TableName>
+<Description>COLA DE PROCESOS BATCH</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description>
+<AttriOrder>Descending</AttriOrder></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>PRC_EST</AttriName>
+<Description>ESTADO DEL PROCESO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>1</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>PRC_EST</AttriName>
+<Description>ESTADO DEL PROCESO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>4</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>PRC_EST</AttriName>
+<Description>ESTADO DEL PROCESO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>5</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>PRC_EST</AttriName>
+<Description>ESTADO DEL PROCESO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>6</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>PRC_EST</AttriName>
+<Description>ESTADO DEL PROCESO</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>7</Token></Condition>
+<Condition>
+<Attribute>
+<AttriId>160</AttriId>
+<AttriName>PRC_INV</AttriName>
+<Description>INVISIBLE EN CONSULTA (*)</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>' '</Token></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>COL000</TableName>
+<Description>COLA DE PROCESOS BATCH</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Grid_usuario.Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>96</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>4</TableId>
+<TableName>COL000</TableName>
+<Description>COLA DE PROCESOS BATCH</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description>
+<AttriOrder>Descending</AttriOrder></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>94</AttriId>
+<AttriName>PRC_USR</AttriName>
+<Description>USUARIO RESPONSABLE</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>'SUPERVISOR'</Token>
+<Sp></Sp>
+<Token>or</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition>
+<Condition>
+<Attribute>
+<AttriId>160</AttriId>
+<AttriName>PRC_INV</AttriName>
+<Description>INVISIBLE EN CONSULTA (*)</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>' '</Token></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>4</TableId>
+<TableName>COL000</TableName>
+<Description>COLA DE PROCESOS BATCH</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>'Borrar'</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>28</ObjId>
+<ObjName>PWEB001</ObjName>
+<ObjPgmName>PWEB001</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Token>'X'</Token></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'Ejecutar Ahora'</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>31</ObjId>
+<ObjName>RPRC002</ObjName>
+<ObjPgmName>RPRC002</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>93</AttriId>
+<AttriName>PRC_NOM</AttriName>
+<Description>NOMBRE DEL PROCESO</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Usuario</VarId>
+<VarName>&amp;USUARIO</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Senial</VarId>
+<VarName>&amp;SENIAL</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Mensaje</VarId>
+<VarName>&amp;MENSAJE</VarName></Variable></Parameters>
+<IF></IF></CALL>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>PPRC001</ObjName>
+<ObjPgmName>PPRC001</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description></Attribute></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'Alta Prioridad'</EventName>
+<CALL>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>PPRC001p</ObjName>
+<ObjPgmName>PPRC001p</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description></Attribute></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'Establecer Hora de Inicio'</EventName>
+<CALL>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>2</ObjId>
+<ObjName>TCOL000</ObjName>
+<ObjPgmName>TCOL000</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Parameters>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>PRC_NRO</AttriName>
+<Description>NRO DE PROCESO</Description></Attribute></Parameters>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'First'</EventName></Event>
+<Event>
+<EventName>'Previous'</EventName></Event>
+<Event>
+<EventName>'Next'</EventName></Event>
+<Event>
+<EventName>'Last'</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

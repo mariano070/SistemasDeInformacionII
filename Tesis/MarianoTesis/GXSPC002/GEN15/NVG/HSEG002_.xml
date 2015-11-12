@@ -1,0 +1,27 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>181</ObjId>
+<ObjName>HSEG002_</ObjName>
+<ObjDesc>ABM Zonas de Promoción por Usuarios</ObjDesc>
+<ObjPgmName>HSEG002_</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'T11ZPR' attribute is not in a table (Events, Line: 6, Char: 14)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'T11ZPR' attribute is not in a table (Events, Line: 42, Char: 31)</Token></Message></Error>
+<Error>
+<MsgCode>spc0031</MsgCode>
+<Message>
+<Token>No relationship found among attributes</Token>
+<Token> in grid '</Token>
+<Token>Grid1</Token>
+<Token>'</Token>
+<Token>.</Token></Message></Error></Errors></ObjectSpec>

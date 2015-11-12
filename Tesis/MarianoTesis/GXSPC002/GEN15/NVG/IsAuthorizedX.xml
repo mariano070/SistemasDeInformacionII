@@ -1,0 +1,22 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>26</ObjId>
+<ObjName>IsAuthorizedX</ObjName>
+<ObjDesc>Autorización Master Page IntranetX</ObjDesc>
+<ObjPgmName>IsAuthorizedX</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'ACW_OBJ' attribute is not in a table (Source, Line: 20, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'ACW_OBS' attribute is not in a table (Source, Line: 21, Char: 2)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'ACW_MOM' attribute is not in a table (Source, Line: 22, Char: 2)</Token></Message></Error></Errors></ObjectSpec>

@@ -1,0 +1,28 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>81</ObjId>
+<ObjName>PHDW_REDES</ObjName>
+<ObjDesc>Obtiene un nuevo ID de red</ObjDesc>
+<ObjPgmName>PHDW_REDES</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'THDW_UBI_COD_' attribute is not in a table (Source, Line: 3, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'Red_Id' attribute is not in a table (Source, Line: 3, Char: 24)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'THDW_UBI_COD_' attribute is not in a table (Source, Line: 4, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'Red_Descripcion' attribute is not in a table (Source, Line: 5, Char: 13)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'Red_Id' attribute is not in a table (Source, Line: 7, Char: 12)</Token></Message></Error></Errors></ObjectSpec>

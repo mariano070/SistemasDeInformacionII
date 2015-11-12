@@ -1,0 +1,69 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>TBUS000_prompt</ObjName>
+<ObjDesc>Búsqueda de Bien de Uso en Contabilidad</ObjDesc>
+<ObjPgmName>TBUS000_prompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Rules, Line: 3, Char: 7)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Rules, Line: 3, Char: 16)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Rules, Line: 3, Char: 25)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Rules, Line: 3, Char: 34)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Conditions, Line: 1, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Conditions, Line: 2, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Conditions, Line: 3, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Conditions, Line: 4, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_DES' attribute is not in a table (Conditions, Line: 5, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_FAL' attribute is not in a table (Conditions, Line: 6, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_FAD' attribute is not in a table (Conditions, Line: 7, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_IDT' attribute is not in a table (Conditions, Line: 8, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Events, Line: 2, Char: 14)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Events, Line: 3, Char: 14)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Events, Line: 4, Char: 14)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Events, Line: 5, Char: 14)</Token></Message></Error>
+<Error>
+<MsgCode>spc0031</MsgCode>
+<Message>
+<Token>No relationship found among attributes</Token>
+<Token> in grid '</Token>
+<Token>Grid1</Token>
+<Token>'</Token>
+<Token>.</Token></Message></Error></Errors></ObjectSpec>

@@ -1,0 +1,22 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>109</ObjId>
+<ObjName>WWTSEG001</ObjName>
+<ObjDesc>WWTSEG001</ObjDesc>
+<ObjPgmName>WWTSEG001</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

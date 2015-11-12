@@ -1,0 +1,17 @@
+current_obj_i(2,web,8).
+ 
+called_tree_i(13,8,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(httbus_prompt1,[],[],[],8).
+ 
+ 
+obj_parms_i([ 'short aP0_pTTBUS7_Pos','String aP1_pTTBUS7_Des','String aP2_pTTBUS7_CodResp','String aP3_pTTBUS7_DesResp','String aP4_USUARIO','String aP5_Modo' ],[ [ 'Pttbus7_pos',out ],[ 'Pttbus7_des',out ],[ 'Pttbus7_codresp',out ],[ 'Pttbus7_desresp',out ],[ 'Usuario',in ],[ 'Modo',in ] ]).
+ 
+ 
+ 
+ 

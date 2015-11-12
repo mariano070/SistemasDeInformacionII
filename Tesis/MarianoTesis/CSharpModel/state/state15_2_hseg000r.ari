@@ -1,0 +1,19 @@
+current_obj_i(2,web,178).
+ 
+called_tree_i(13,178,1,91).
+called_tree_i(13,178,1,92).
+called_tree_i(13,178,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(hseg000r,[],[],[],178).
+ 
+ 
+obj_parms_i([ 'String aP0_SISTEMA','String aP1_USUARIO','int aP2_ID_SESION' ],[ [ 'Sistema',inout ],[ 'Usuario',inout ],[ 'Id_sesion',inout ] ]).
+ 
+ 
+ 
+ 

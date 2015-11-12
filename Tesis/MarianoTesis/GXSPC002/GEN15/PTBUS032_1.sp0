@@ -1,0 +1,424 @@
+spec_i([ proc,65,'Controles de validez de asociación Hardware - Trazabilidad','PTBUS032_1',78,spa,'10_1_5-42940' ]).
+ 
+struct_i(3,1,[ 'Hdw_idt' ],[]).
+struct_i(2,1,[ 'Hdw_idt' ],[]).
+ 
+level_i(3,[ 23,[ [ 23,many ] ],[],[],[ [ [ 23 ],[ 104,10 ] ] ],[ [ [ 23 ],[] ] ],[ 10,104 ],'UHARDWARE',[],[] ]).
+level_i(2,[ 1,[ [ 1,many ] ],[],[],[ [ [ 1 ],[ 11 ] ] ],[ [ [ 1 ],[] ] ],[ 11 ],'ITTBUS000',[ 1,[ [ [],'Hdw_idt',11 ] ] ],[] ]).
+ 
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [ c([ t(10,2),t(<>,10),t('Hardware_id',23) ],[ 10 ]),c([ t(104,2),t(=,10),t('Hdw_idt',23) ],[ 104 ]) ] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+ 
+ta_i(3,[ [ [ 23,104 ],[ 23,10 ] ] ]).
+ta_i(2,[ [ [ 1,11 ] ] ]).
+ 
+las_i(3,[ [ 104,10 ] ]).
+las_i(2,[ [ 11 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''SCR''')).
+ 
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'CC_USER_PASS','')).
+rule_i(0,datastore(3,'CC_USER_ID','')).
+rule_i(0,datastore(3,'CC_SERVER','')).
+rule_i(0,datastore(3,'CC_DBNAME','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD','')).
+rule_i(0,datastore(3,'USER_ID','')).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','')).
+rule_i(0,datastore(3,'CS_DBNAME','')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DESARROLLO')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','')).
+rule_i(0,datastore(2,'CC_USER_ID','')).
+rule_i(0,datastore(2,'CC_SERVER','')).
+rule_i(0,datastore(2,'CC_DBNAME','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','')).
+rule_i(0,datastore(2,'USER_ID','')).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','')).
+rule_i(0,datastore(2,'CS_DBNAME','')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME',soporte_notebook)).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Controles de validez de asociación Hardware - Trazabilidad')).
+rule_i(0,prop('ObjName','PTBUS032_1')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Hardware_id','Hdw_idt','Error','Mensaje' ],[])).
+rule_i(0,parmio([ [ 'Hardware_id',in ],[ 'Hdw_idt',in ],[ 'Error',out ],[ 'Mensaje',out ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,1,[],[ [ [ [],'Hdw_idt',11 ] ],'ITTBUS000',[] ]).
+a_i(3,3,t,23,[],[ [],'UHARDWARE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Hdw_idt').
+v_i(t,o,2,11).
+v_i(t,i,3,[]).
+v_i(t,o,3,104).
+v_i(t,o,3,10).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',17 ]).
+attri_i(104,[ 'HDW_IDT',int,8,0,'ZZZZZZZ9',0,'ID EN TRAZABILIDAD DE BIENES DE USO','',0 ]).
+attri_i(10,[ 'HARDWARE_ID',int,4,0,'ZZZ9',0,'ID','',0 ]).
+attri_i(11,[ 'TTBUS_Id',int,8,0,'ZZZZZZZ9',0,'Id del bien de uso','',0 ]).
+attri_i('GXLvl6',[ 'GXLvl6',int,1,0,'',0,'',[],15 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',13 ]).
+attri_i('Band',[ band,int,4,0,'ZZZ9',0,band,'',12 ]).
+attri_i('Hardware_id',[ 'HARDWARE_ID',int,4,0,'ZZZ9',0,'HARDWARE_ ID','',11 ]).
+attri_i('Error',[ error,int,1,0,'9',0,error,'',10 ]).
+attri_i('Mensaje',[ mensaje,char,150,0,'',0,mensaje,'',9 ]).
+attri_i('Hdw_idt',[ 'HDW_IDT',int,8,0,'ZZZZZZZ9',0,'HDW_ IDT','',8 ]).
+ 
+table_i(1,[ 'TTBUS000',[ 11 ],'Bienes de Uso (Trazabilidad)','TTBUS000' ]).
+table_i(23,[ 'HARDWARE',[ 10,104 ],'HARDWARE','HARDWARE' ]).
+ 
+index_i(1,[ 'ITTBUS000',u,[ 11 ],'ITTBUS000' ]).
+index_i(23,[ 'IHARDWARE',u,[ 10 ],'IHARDWARE' ]).
+index_i(23,[ 'UHARDWARE',d,[ 10,104 ],'UHARDWARE' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 11,23,'Hdw_idt',= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(11,2),t(=,10),t('Hdw_idt',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ 11 ],[ [ 11 ],[ 11 ],[] ]).
+break_i(3,nvg,1,[ 10,104 ],[ [ 10,104 ],[ 10,104 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,6,6).
+b_group_i(2,1,lit,0,7,7).
+b_group_i(1,3,lit,0,11,5).
+b_group_i(1,4,nvg,3,17,17).
+b_group_i(3,1,lit,0,18,18).
+b_group_i(1,5,lit,0,24,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,0,0),t('Error',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',107,0,0),t('Band',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(4,1,1,cmd,0,[]).
+b_line_i(5,1,1,cmd,0,[]).
+b_line_i([ 6,0 ],1,1,cmd,0,[ t('',107,0,0),t('GXLvl6',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(6,2,1,cmd,7,[ t('',121,6,0),t('ORDER',39,6,10),t(11,2,6,10) ]).
+b_line_i([ 6,1 ],2,1,cmd,6,[ t('',107,6,0),t('GXLvl6',23,6,0),t(=,10,6,0),t('1',3,6,0) ]).
+b_line_i(8,2,1,cmd,7,[ t('',107,7,0),t('Band',23,7,0),t(=,10,7,0),t('1',3,7,0) ]).
+b_line_i(9,2,1,cmd,7,[ t('',139,7,0) ]).
+b_line_i(10,2,1,cmd,7,[ t('',128,7,0) ]).
+b_line_i([ 10,1 ],1,3,cmd,4,[ t('',109,4,0),t('GXLvl6',23,4,0),t(=,10,4,0),t('0',3,4,0) ]).
+b_line_i(11,1,3,cmd,5,[ t('',107,5,0),t('Error',23,5,0),t(=,10,5,0),t('1',3,5,0) ]).
+b_line_i(12,1,3,cmd,5,[ t('',107,5,0),t('Mensaje',23,5,0),t(=,10,5,0),t('''EL NÚMERO DE BIEN ''',3,5,0),t(+,5,5,0),t('trim(',1,5,0),t('str(',1,5,0),t('Hdw_idt',23,5,0),t(',',7,5,0),t('8',3,5,0),t(')',4,5,0),t(')',4,5,0),t(+,5,5,0),t(''' NO EXISTE EN TRAZABILIDAD DE BIENES DE USO.''',3,5,0) ]).
+b_line_i(13,1,3,cmd,5,[ t('',111,5,0) ]).
+b_line_i(14,1,3,cmd,5,[]).
+b_line_i(15,1,3,cmd,5,[ t('',109,5,0),t('Band',23,5,4),t(=,10,5,10),t('1',3,5,12) ]).
+b_line_i(16,1,3,cmd,5,[]).
+b_line_i(17,3,1,cmd,18,[ t('',121,17,0),t('ORDER',39,17,11),t(10,2,17,11),t(104,2,17,23) ]).
+b_line_i(20,3,1,cmd,18,[ t('',107,18,0),t('Error',23,18,0),t(=,10,18,0),t('1',3,18,0) ]).
+b_line_i(21,3,1,cmd,18,[ t('',107,18,0),t('Mensaje',23,18,0),t(=,10,18,0),t('''EL HARDWARE Nº ''',3,18,0),t(+,5,18,0),t('trim(',1,18,0),t('str(',1,18,0),t(10,2,18,0),t(',',7,18,0),t('4',3,18,0),t(')',4,18,0),t(')',4,18,0),t(+,5,18,0),t(''' YA ESTÁ ASOCIADO AL BIEN DE USO Nº ''',3,18,0),t(+,5,18,0),t('trim(',1,18,0),t('str(',1,18,0),t('Hdw_idt',23,18,0),t(',',7,18,0),t('8',3,18,0),t(')',4,18,0),t(')',4,18,0),t(+,5,18,0),t('''.''',3,18,0) ]).
+b_line_i(22,3,1,cmd,18,[ t('',139,18,0) ]).
+b_line_i(23,3,1,cmd,18,[ t('',128,18,0) ]).
+b_line_i(24,1,5,cmd,12,[ t('',111,12,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,11,'ExternalName','TTBUS_Id',d).
+att_prop_i(2,11,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,11,'EmptyAsNull','Yes',d).
+att_prop_i(2,11,'AUTONUMBER','-1',v).
+att_prop_i(2,11,'AUTONUMBER_START','1',d).
+att_prop_i(2,11,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,11,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,11,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,11,'AttRegEx','',d).
+att_prop_i(2,11,'AttValidationFailedMsg','',d).
+att_prop_i(2,11,'FullName','TTBUS_Id',v).
+att_prop_i(2,10,'ExternalName','HARDWARE_ID',d).
+att_prop_i(2,10,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,10,'EmptyAsNull','Yes',d).
+att_prop_i(2,10,'AUTONUMBER','-1',v).
+att_prop_i(2,10,'AUTONUMBER_START','1',d).
+att_prop_i(2,10,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,10,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,10,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,10,'AttRegEx','',d).
+att_prop_i(2,10,'AttValidationFailedMsg','',d).
+att_prop_i(2,10,'FullName','HARDWARE_ID',v).
+att_prop_i(2,104,'ExternalName','HDW_IDT',d).
+att_prop_i(2,104,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,104,'EmptyAsNull','Yes',d).
+att_prop_i(2,104,'AUTONUMBER','0',d).
+att_prop_i(2,104,'ATT_INITIAL_VALUE',[ t('0',3) ],v).
+att_prop_i(2,104,'AttRegEx','',d).
+att_prop_i(2,104,'AttValidationFailedMsg','',d).
+att_prop_i(2,104,'FullName','HDW_IDT',v).
+ 
+tbl_prop_i(2,1,'AllDirSuper',[ [ 23,[ 10 ] ] ],v).
+tbl_prop_i(2,1,'DirSuperNull',[ [ 23,[ 10 ] ] ],v).
+tbl_prop_i(2,23,'DirSubor',[ [ 1,[ 10 ] ] ],v).
+tbl_prop_i(2,1,'DirSuper',[ [ 23,[ 10 ] ] ],v).
+ 
+tbl_att_prop_i(2,1,11,'AllowNulls',n).
+tbl_att_prop_i(2,1,11,'AUTONUMBER',y).
+tbl_att_prop_i(2,23,10,'AllowNulls',n).
+tbl_att_prop_i(2,23,10,'AUTONUMBER',y).
+tbl_att_prop_i(2,23,104,'AllowNulls',n).
+ 
+var_prop_i(2,'Hdw_idt','ATT_INITIAL_VALUE',[ t('0',3) ],d).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+optimize_i(2,0,[ maxrows(1) ]).
+optimize_i(3,0,[ maxrows(1) ]).
+ 
+ 

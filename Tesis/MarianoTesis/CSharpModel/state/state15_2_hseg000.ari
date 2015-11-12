@@ -1,0 +1,21 @@
+current_obj_i(2,web,176).
+ 
+called_tree_i(13,176,13,1).
+called_tree_i(13,176,13,173).
+called_tree_i(13,176,13,177).
+called_tree_i(13,176,13,178).
+ 
+ 
+ij_main_object(hseg000,'Menú Seguridad','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(hseg000,[],[],[],176).
+ 
+ 
+obj_parms_i([ 'String aP0_SISTEMA','String aP1_USUARIO','int aP2_ID_SESION' ],[ [ 'Sistema',inout ],[ 'Usuario',inout ],[ 'Id_sesion',inout ] ]).
+ 
+ 
+ 
+ 

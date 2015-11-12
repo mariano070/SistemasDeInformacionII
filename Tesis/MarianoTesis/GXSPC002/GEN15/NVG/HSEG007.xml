@@ -1,0 +1,16 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>185</ObjId>
+<ObjName>HSEG007</ObjName>
+<ObjDesc>Consulta de Usuarios</ObjDesc>
+<ObjPgmName>HSEG007</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'USU_EMP' attribute is not in a table (Conditions, Line: 2, Char: 1)</Token></Message></Error></Errors></ObjectSpec>

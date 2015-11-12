@@ -1,0 +1,23 @@
+current_obj_i(2,web,72).
+ 
+called_tree_i(13,72,1,4).
+called_tree_i(13,72,1,28).
+called_tree_i(13,72,1,29).
+called_tree_i(13,72,1,30).
+called_tree_i(13,72,1,31).
+called_tree_i(13,72,0,2).
+ 
+ 
+ij_main_object(hprc000_,'Procesos Sometidos por Usuario','','""','').
+ 
+ 
+ 
+ 
+ij_object_dependency(hprc000_,[],[],[],72).
+ 
+ 
+obj_parms_i([ 'String aP0_USUARIO' ],[ [ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,17 @@
+current_obj_i(2,web,198).
+ 
+called_tree_i(13,198,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx0150,[],[],[],198).
+ 
+ 
+obj_parms_i([ 'int aP0_pPV_NPRO' ],[ [ 'Ppv_npro',out ] ]).
+ 
+ 
+ 
+ 

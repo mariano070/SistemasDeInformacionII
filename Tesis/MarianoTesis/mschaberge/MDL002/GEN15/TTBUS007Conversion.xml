@@ -1,0 +1,194 @@
+
+<ReorgSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Administración de Responsables Trazabilidad</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>TTBUS007 needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description>
+<TakesValueFrom>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Administración de Responsables Trazabilidad</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>3</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description>
+<TakesValueFrom>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Administración de Responsables Trazabilidad</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>16</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>TTBUS7_DesResp</AttriName>
+<Description>Descripción Responsable</Description>
+<TakesValueFrom>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>SEG002</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>USU_DES</AttriName>
+<Description>DESCRIPCION</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>50</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriChangeType>nv</AttriChangeType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>TTBUS007</TableName>
+<Description>Administración de Responsables Trazabilidad</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ITTBUS007</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>ITTBUS0071</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>15</TableId>
+<TableName>SEG002</TableName>
+<Description>SEG002</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>TTBUS7_CodResp</AttriName>
+<Description>Código Responsable</Description></Attribute></Attributes></FKConstraint>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>31</TableId>
+<TableName>T53FPOS</TableName>
+<Description>Posiciones Sist. Web Gastos/ Sist. Trazabilidad</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>TTBUS7_Pos</AttriName>
+<Description>Id. de Posición</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>ALTER TABLE [TTBUS007] ADD [TTBUS7_DesResp] char(50) NOT NULL CONSTRAINT TTBUS7_DesRespTTBUS007_DEFAULT DEFAULT ''</Statement>
+<Statement>UPDATE [TTBUS007] SET [TTBUS7_DesResp]=T.[TTBUS7_DesResp] FROM (SELECT T1.[TTBUS7_Pos], T2.[USU_DES] AS TTBUS7_DesResp FROM ([TTBUS007] T1 INNER JOIN [SEG002] T2 ON T2.[USU_COD] = T1.[TTBUS7_CodResp])) T WHERE [TTBUS007].TTBUS7_Pos= T.TTBUS7_Pos</Statement>
+<Statement>ALTER TABLE [TTBUS007] DROP CONSTRAINT TTBUS7_DesRespTTBUS007_DEFAULT</Statement></Statements>
+<NeedReorganizationProgram>False</NeedReorganizationProgram>
+<Warnings>
+<Warning>
+<MsgCode>spc0043</MsgCode>
+<Message>
+<Token></Token>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>USU_DES</AttriName>
+<Description>DESCRIPCION</Description></Attribute>
+<Token> is not instantiated</Token>
+<Token> in group starting at line </Token>
+<Token>0</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0008</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>TTBUS7_DesResp</AttriName>
+<Description>Descripción Responsable</Description></Attribute>
+<Token> changed from AllowNulls=Yes to AllowNulls=No and no initial value was specified. Null values will be treated as empty ones.</Token></Message></Warning></Warnings>
+<Errors></Errors></ReorgSpec>

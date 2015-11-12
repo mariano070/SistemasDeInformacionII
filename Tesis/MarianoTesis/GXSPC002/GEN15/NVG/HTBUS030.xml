@@ -1,0 +1,113 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>12</ObjId>
+<ObjName>HTBUS030</ObjName>
+<ObjDesc>Consulta de Trazabilidad de Bienes de Uso</ObjDesc>
+<ObjPgmName>HTBUS030</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Conditions, Line: 7, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Conditions, Line: 8, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Conditions, Line: 9, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Conditions, Line: 10, Char: 1)</Token></Message></Error>
+<Error>
+<MsgCode>spc0027</MsgCode>
+<Message>
+<Token>No relationship found among attributes</Token>
+<Token> in grid '</Token>
+<Token>Grid1</Token>
+<Token>'</Token>
+<Token>. Attributes: </Token>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>BUS_EMP</AttriName>
+<Description>CODIGO DE EMPRESA</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>BUS_COD</AttriName>
+<Description>NUMERO DE CODIGO DEL BIEN</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>BUS_PAR</AttriName>
+<Description>NUMERO DE PARTIDA DEL BIEN</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>BUS_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Token> are incompatible with: </Token>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>TTBUS_Id</AttriName>
+<Description>Id del bien de uso</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>TTBUS_Descripcion</AttriName>
+<Description>Descripción</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>TTBUS_FechaCarga</AttriName>
+<Description>Fecha de Carga</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TTBUS_RubroBien</AttriName>
+<Description>Cód. Rubro del bien</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>TTBUS_RubroDesc</AttriName>
+<Description>Desc. Rubro del bien</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>TTBUS_FechaBaja</AttriName>
+<Description>Fecha de Baja</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TTBUS_Alquilado</AttriName>
+<Description>Marca Alquilado (SI/NO)</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>TTBUS_CodProveedor</AttriName>
+<Description>Cód. Proveedor</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>TTBUS_DesProveedor</AttriName>
+<Description>Desc. Proveedor</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>TTBUS_Estado</AttriName>
+<Description>Estado de bien de uso</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>TTBUS_CodPosicion</AttriName>
+<Description>Cod. Posición Actual Bien</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>TTBUS_DesPosicion</AttriName>
+<Description>Desc. Posición Actual Bien</Description></Attribute>
+<Token>.</Token></Message></Error></Errors></ObjectSpec>

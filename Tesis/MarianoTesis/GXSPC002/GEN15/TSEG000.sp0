@@ -1,0 +1,1282 @@
+spec_i([ trn,33,'ACT. SISTEMAS','TSEG000',[],spa,'10_1_5-42940' ]).
+ 
+struct_i(32,0,[ 'Pgmname','Isauthorized','Trncontext','Context','Mode','Sis_cod' ],[]).
+ 
+level_i(32,[ 32,[ [ 32,many ] ],[ 116 ],[],[],[],[ 116 ],'SISI01',[ 32,[] ],[] ]).
+ 
+tw_i(32,[]).
+ 
+lwi_i(32,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(32,[ [ [ 32,116 ],[ 32,259 ],[ 32,123 ],[ 32,125 ],[ 32,124 ],[ 32,365 ],[ 32,366 ] ] ]).
+ 
+las_i(32,[ [ 'Pgmname','Isauthorized','Trncontext','Context','Mode','Sis_cod',116,259,123,125,124,365,366 ] ]).
+ 
+lac_i(32,[ [ 116,259,123,125,365,366 ] ]).
+ 
+ 
+lits_i('Código',5,10).
+lits_i('Descripción',5,10).
+lits_i('Mostar Icono menú X',5,10).
+lits_i(Ícono,5,10).
+lits_i('Responsable del Sistema',5,10).
+lits_i('Mail para Informar Asignaciones',5,10).
+ 
+cls_i([ 0,0 ],[ 5,255 ]).
+ 
+pos_i(116,[ 0,0,0 ]).
+pos_i(259,[ 0,0,0 ]).
+pos_i(125,[ 0,0,0 ]).
+pos_i(123,[ 0,0,0 ]).
+pos_i(365,[ 0,0,0 ]).
+pos_i(366,[ 0,0,0 ]).
+ 
+ 
+default_i(e('Pgmname',2,2,'"TSEG000"')).
+ 
+rule_i(0,datastore(3,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(3,'LOCK_RETRY','10')).
+rule_i(0,datastore(3,'WAIT_RECORD','0')).
+rule_i(0,datastore(3,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(3,'COMMENT_ON','No')).
+rule_i(0,datastore(3,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(3,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(3,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(3,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(3,'CS_SCHEMA','')).
+rule_i(0,datastore(3,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(3,'JRN400','QSQJRN')).
+rule_i(0,datastore(3,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(3,'PGMLIB','')).
+rule_i(0,datastore(3,'DTALIB','')).
+rule_i(0,datastore(3,'CC_USER_PASS','')).
+rule_i(0,datastore(3,'CC_USER_ID','')).
+rule_i(0,datastore(3,'CC_SERVER','')).
+rule_i(0,datastore(3,'CC_DBNAME','')).
+rule_i(0,datastore(3,'RecycleRWMin','30')).
+rule_i(0,datastore(3,'RecycleRWType','1')).
+rule_i(0,datastore(3,'RecycleRW','-1')).
+rule_i(0,datastore(3,'POOL_STARTUP','No')).
+rule_i(0,datastore(3,'POOLSIZE_RW','10')).
+rule_i(0,datastore(3,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(3,'PoolRWEnabled','-1')).
+rule_i(0,datastore(3,'CS_RPCPGML','')).
+rule_i(0,datastore(3,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(3,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(3,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(3,'USER_PASSWORD','')).
+rule_i(0,datastore(3,'USER_ID','')).
+rule_i(0,datastore(3,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(3,'CS_CONNECT','First')).
+rule_i(0,datastore(3,'DBMS_PORT','')).
+rule_i(0,datastore(3,'CS_SERVER','')).
+rule_i(0,datastore(3,'CS_DBNAME','')).
+rule_i(0,datastore(3,'CS_FLEDSNAME','')).
+rule_i(0,datastore(3,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(3,'CS_DSNAME','')).
+rule_i(0,datastore(3,'DB_URL','')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(3,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(3,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(3,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(3,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(3,'MAIN_DS','-1')).
+rule_i(0,datastore(3,'REORG_GEN','8')).
+rule_i(0,datastore(3,'HelpKeyword','23')).
+rule_i(0,datastore(3,'DBMS',12)).
+rule_i(0,datastore(3,'NAME','DESARROLLO')).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA','')).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'CC_USER_PASS','')).
+rule_i(0,datastore(2,'CC_USER_ID','')).
+rule_i(0,datastore(2,'CC_SERVER','')).
+rule_i(0,datastore(2,'CC_DBNAME','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD','')).
+rule_i(0,datastore(2,'USER_ID','')).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','Yes')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','')).
+rule_i(0,datastore(2,'CS_SERVER','')).
+rule_i(0,datastore(2,'CS_DBNAME','')).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME',soporte_notebook)).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('AUTOENTER','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('BEEPONERROR','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('WBCHAR','')).
+rule_i(0,prop('WBATTR',none)).
+rule_i(0,prop('WBCOLOR',none)).
+rule_i(0,prop('WNDPOP','NO')).
+rule_i(0,prop('OKBUT','YES')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('DLT_BUTTON',i(98,'aa1ab5fc-b1c8-4d23-9ba5-98ca435ab24c'))).
+rule_i(0,prop('CNF_BUTTON',i(98,'6f51d721-a2c0-4f61-a087-97f3e2fdbaa8'))).
+rule_i(0,prop('UPD_BUTTON',i(98,'1d924cf2-f606-4bd3-9a66-7dc1bf7bf586'))).
+rule_i(0,prop('ADD_BUTTON',i(98,'429b3a58-af68-4143-bd10-de9adb36bd84'))).
+rule_i(0,prop('AUTOSCROLL_FORM','UMPV')).
+rule_i(0,prop('SHOW_FRM','UMPV')).
+rule_i(0,prop('MODAL','PARM')).
+rule_i(0,prop('CTRBOX','YES')).
+rule_i(0,prop('ICON','')).
+rule_i(0,prop('S_TASK','YES')).
+rule_i(0,prop('MINBUT','YES')).
+rule_i(0,prop('MAXBUT','YES')).
+rule_i(0,prop('BORSTY','2')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','SESSION')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'AppMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('ExternalNamespace','MarianoTesis')).
+rule_i(0,prop('ExternalName','TSEG000')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(idBC,'0')).
+rule_i(0,prop('Folder',o(8,'SEGURIDAD'))).
+rule_i(0,prop('ObjDesc','ACT. SISTEMAS')).
+rule_i(0,prop('ObjName','TSEG000')).
+rule_i(0,rule([ a(22,[ 'Dlt','"Eliminar"','' ]) ],[],[],[])).
+rule_i(0,maingen(15)).
+rule_i(0,rule([ a(10,[ 'Mode','Sis_cod' ]) ],[],[ insert,update,delete ],[])).
+rule_i(0,parmio([ [ 'Mode',in ],[ 'Sis_cod',in ] ])).
+rule_i(32,rule([ a(3,[ t(116,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Sis_cod',23),t(')',4) ],[ insert,update,delete ],[ 116,'Sis_cod' ])).
+rule_i(32,rule([ a(21,[ [ 116 ] ]) ],[],[ insert,update,delete ],[ 116 ])).
+rule_i(32,rule([ a(1,[ t('''Código NO debe ser NULO''',3) ]) ],[ t('null(',1),t(116,2),t(')',4) ],[ insert,update,delete ],[ 116 ])).
+rule_i(32,rule([ a(1,[ t('''Descripción NO debe ser NULA''',3) ]) ],[ t('null(',1),t(259,2),t(')',4) ],[ insert,update,delete ],[ 259 ])).
+rule_i(32,rule([ a(3,[ t(116,2) ]) ],[ t(update,1) ],[ update ],[ 116 ])).
+rule_i(0,rule([ a(22,[ '''DISPONIBLE''','''DISPONIBLE''','' ]) ],[],[],[])).
+ 
+a_i(1,32,f,116,[],[ [],[ t('Sis_cod',23),t('IF',17),t('.NOT.',8),t('null(',1),t('Sis_cod',23),t(')',4),t(';',18) ] ]).
+a_i(2,32,f,[ t(116,2),t('Enabled',3) ],[],[ [ update ],[ t(0,3),t('IF',17),t('.NOT.',8),t('null(',1),t('Sis_cod',23),t(')',4),t(';',18),t(1,3),t('OTHERWISE',19),t(';',18),t(0,3),t('IF',17),t(update,1),t(';',18) ] ]).
+a_i(3,32,f,[ t('Btndisponible',3),t('Visible',3) ],[],[ [ delete,update,insert ],[ t('0',3),t('IF',17),t(delete,1),t(';',18),t('0',3),t('IF',17),t(update,1),t(';',18),t('1',3),t('IF',17),t(insert,1),t(';',18) ] ]).
+a_i(4,32,b,3,[],[ [],[ a(3,[ t(116,2) ]) ],[ t('.NOT.',8),t('null(',1),t('Sis_cod',23),t(')',4) ] ]).
+a_i(5,32,b,5,[],[ [],[ a(1,[ t('''Código NO debe ser NULO''',3) ]) ],[ t('null(',1),t(116,2),t(')',4) ] ]).
+a_i(6,32,b,6,[],[ [],[ a(1,[ t('''Descripción NO debe ser NULA''',3) ]) ],[ t('null(',1),t(259,2),t(')',4) ] ]).
+a_i(7,32,b,7,[],[ [ update ],[ a(3,[ t(116,2) ]) ],[ t(update,1) ] ]).
+a_i(8,32,t,32,[],[ [ [ [],116,116 ] ],'SISI01',[] ]).
+a_i(9,32,f,'Pgmname',[],[ [],[ t('"TSEG000"',3) ] ]).
+ 
+v_i(f,i,1,'Sis_cod').
+v_i(f,o,1,116).
+v_i(f,i,2,'Sis_cod').
+v_i(f,o,2,[ t(116,2),t('Enabled',3) ]).
+v_i(f,i,3,[]).
+v_i(f,o,3,[ t('Btndisponible',3),t('Visible',3) ]).
+v_i(b,i,4,'Sis_cod').
+v_i(b,o,4,[]).
+v_i(b,i,5,116).
+v_i(b,o,5,[]).
+v_i(b,i,6,259).
+v_i(b,o,6,[]).
+v_i(b,i,7,[]).
+v_i(b,o,7,[]).
+v_i(t,i,8,116).
+v_i(t,o,8,259).
+v_i(t,o,8,123).
+v_i(t,o,8,125).
+v_i(t,o,8,124).
+v_i(t,o,8,365).
+v_i(t,o,8,366).
+v_i(f,i,9,[]).
+v_i(f,o,9,'Pgmname').
+ 
+ 
+tbl_to_delete_i(32,[ 27,[ [ 32,116,164 ] ],c,'PRGU03',[ [ 27,164 ],[ 27,126 ] ],[ 126 ] ]).
+tbl_to_delete_i(32,[ 30,[ [ 32,116,116 ] ],c,'ISEG009',[ [ 30,116 ],[ 30,126 ],[ 30,152 ] ],[ 116,126,152 ] ]).
+tbl_to_delete_i(32,[ 16,[ [ 32,116,116 ] ],c,'USII03',[ [ 16,116 ] ],[ 6,116 ] ]).
+ 
+ 
+ 
+attri_i(164,[ 'PRG_SIS',int,3,0,'ZZ9',0,'CODIGO DE SISTEMA','',0 ]).
+attri_i(152,[ 'ACW_OBJ',svchar,256,0,'',0,'NOMBRE OBJETO WEB','',0 ]).
+attri_i(126,[ 'PRG_COD',int,4,0,'ZZZ9',0,'CODIGO','',0 ]).
+attri_i(6,[ 'USU_COD',char,16,0,'@!',0,'CODIGO','',0 ]).
+attri_i(366,[ 'SIS_MAI',svchar,256,0,'',0,'MAIL PARA INFORMAR','',0 ]).
+attri_i(365,[ 'SIS_RSP',char,16,0,'',0,'RESPONSABLE DEL SISTEMA','',0 ]).
+attri_i(124,[ 'SIS_LINK',char,256,0,'',0,'LINK MENU PRINCIPAL','',0 ]).
+attri_i(125,[ 'SIS_MEX',char,1,0,'',0,'MOSTRAR MENU X','',0 ]).
+attri_i(123,[ 'SIS_ICO',char,100,0,'',0,'ICONO DEL SISTEMA','',0 ]).
+attri_i(259,[ 'SIS_DES',char,15,0,'@!',0,'DESCRIPCION','',0 ]).
+attri_i(116,[ 'SIS_COD',int,3,0,'ZZ9',0,'CODIGO','',0 ]).
+attri_i('Pgmname',[ 'Pgmname',char,32,0,'',1,'Program name','',18 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Dis',[ 'DIS',int,3,0,'ZZ9',0,'DIS','',17 ]).
+attri_i('Codigo',[ 'CODIGO',int,3,0,'ZZ9',0,'CODIGO','',16 ]).
+attri_i('Disponible',[ 'DISPONIBLE',int,3,0,'ZZ9',0,'DISPONIBLE','',15 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,'Web Session','',14 ]).
+attri_i('Trncontext',[ 'TrnContext',o('TransactionContext'),0,0,'',0,'Trn Context','',13 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,'Is Authorized','',12 ]).
+attri_i('Context',[ 'Context',o('Context'),0,0,'',0,'Context','',11 ]).
+attri_i('Sis_cod',[ 'SIS_COD',int,3,0,'ZZ9',0,'SIS_ COD','',10 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'@!',0,'USUARIO','',9 ]).
+attri_i('Sistema',[ 'SISTEMA',char,15,0,'',0,'SISTEMA','',8 ]).
+attri_i('Siscod',[ 'SISCOD',int,3,0,'ZZ9',0,'SISCOD','',7 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(27,[ 'SEG001',[ 126,164 ],'SEG001','SEG001' ]).
+table_i(30,[ 'SEG009',[ 116,126,152 ],'Relaciones Programas - Objetos web','SEG009' ]).
+table_i(16,[ 'SEG003',[ 6,116 ],'SEG003','SEG003' ]).
+table_i(32,[ 'SEG000',[ 116,259,123,125,124,365,366 ],'SEG000','SEG000' ]).
+ 
+index_i(32,[ 'SISI01',u,[ 116 ],'SISI01' ]).
+index_i(16,[ 'USII01',u,[ 6,116 ],'USII01' ]).
+index_i(16,[ 'USII03',d,[ 116 ],'USII03' ]).
+index_i(30,[ 'ISEG009',u,[ 116,126,152 ],'ISEG009' ]).
+index_i(27,[ 'PRGI01',u,[ 126 ],'PRGI01' ]).
+index_i(27,[ 'PRGU03',d,[ 164,126 ],'PRGU03' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(32,32,i,[ [ 116,259,123,125,124,365,366 ],[],'SISI01',[ [ [],116,116 ] ] ]).
+upd_i(32,32,u,[ [ 259,123,125,124,365,366 ],[],'SISI01',[] ]).
+upd_i(32,32,d,[ [],[],'SISI01',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enum_value_i(2,9,'"INS"','Insert','"Insert"').
+enum_value_i(2,9,'"UPD"','Update','"Update"').
+enum_value_i(2,9,'"DLT"','Delete','"Delete"').
+enum_value_i(2,9,'"DSP"','Display','"Display"').
+ 
+enum_value_info_i(2,9,'TrnMode').
+ 
+enum_type_i(2,9,char,3,0).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,1).
+b_group_i(2,2,lit,0,2,15).
+b_group_i(2,3,lit,0,16,29).
+b_group_i(2,4,lit,0,30,0).
+ 
+b_line_i(1,2,1,cmd,1,[ t('',146,1,0),t('Start',3,1,7) ]).
+b_line_i(5,2,2,cmd,1,[ t('',104,1,0),t(o(1,'IsAuthorized'),28,1,2),t('Pgmname',23,1,21),t(',',7,1,29),t('Isauthorized',23,1,31) ]).
+b_line_i(6,2,2,cmd,1,[ t('',109,1,0),t('(',0,1,5),t('.NOT.',8,1,6),t('Isauthorized',23,1,12),t(')',4,1,25) ]).
+b_line_i(7,2,2,cmd,1,[ t('',104,1,0),t(o(13,'NotAuthorized'),28,1,3),t('Pgmname',23,1,23) ]).
+b_line_i(8,2,2,cmd,1,[ t('',111,1,0) ]).
+b_line_i(10,2,2,cmd,1,[ t('',107,1,0),t([ t('Trncontext',23,10,2),t('fromxml(',1,10,14) ],31,10,2),t([ t('Websession',23,10,23),t('get(',1,10,35) ],31,10,35),t('"TrnContext"',3,10,40),t(')',4,2,53),t(')',4,2,54) ]).
+b_line_i(13,2,2,cmd,1,[ t('',147,1,0) ]).
+b_line_i(15,2,2,cmd,1,[ t('',146,1,0),t('After Trn',3,15,7) ]).
+b_line_i(16,2,3,cmd,1,[ t('',118,1,0) ]).
+b_line_i(20,2,3,cmd,1,[ t('',109,1,0),t('(',0,1,5),t('Mode',23,1,6),t(=,10,1,12),t([ 9,'Delete' ],44,20,14),t('.AND.',9,1,29),t('.NOT.',8,1,35),t([ t('Trncontext',23,20,41),t('Callerondelete',3,20,53) ],29,20,53),t(')',4,1,67) ]).
+b_line_i(21,2,3,cmd,1,[ t('',104,1,0),t(o(13,'WWTSEG000'),28,1,3) ]).
+b_line_i(22,2,3,cmd,1,[ t('',111,1,0) ]).
+b_line_i(24,2,3,cmd,1,[ t('',118,1,0) ]).
+b_line_i(27,2,3,cmd,1,[ t('',147,1,0) ]).
+b_line_i(29,2,3,cmd,1,[ t('',146,1,0),t('''DISPONIBLE''',3,29,7) ]).
+b_line_i(30,2,4,cmd,1,[ t('',104,1,0),t(o(13,'HSEG000_P'),28,1,7),t('Sistema',23,1,18),t(',',7,1,26),t('Usuario',23,1,28) ]).
+b_line_i(31,2,4,cmd,1,[ t('',147,1,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<TBODY>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(errview))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,table(8))).
+html_sub_i(8,0,html_i(0,html('<TBODY>'))).
+html_sub_i(8,9,html_i(1,row(9))).
+html_sub_i(9,10,html_i(0,cell(10))).
+html_sub_i(10,11,html_i(0,t('Código',3))).
+html_sub_i(9,12,html_i(1,cell(12))).
+html_sub_i(12,13,html_i(0,t(116,2))).
+html_sub_i(12,0,html_i(1,html('&nbsp;'))).
+html_sub_i(12,14,html_i(2,button('Get'))).
+html_sub_i(12,0,html_i(3,html('&nbsp;'))).
+html_sub_i(12,15,html_i(4,button('''DISPONIBLE'''))).
+html_sub_i(8,16,html_i(2,row(16))).
+html_sub_i(16,17,html_i(0,cell(17))).
+html_sub_i(17,18,html_i(0,t('Descripción',3))).
+html_sub_i(16,19,html_i(1,cell(19))).
+html_sub_i(19,20,html_i(0,t(259,2))).
+html_sub_i(8,21,html_i(3,row(21))).
+html_sub_i(21,22,html_i(0,cell(22))).
+html_sub_i(22,23,html_i(0,t('Mostar Icono menú X',3))).
+html_sub_i(21,24,html_i(1,cell(24))).
+html_sub_i(24,25,html_i(0,t(125,2))).
+html_sub_i(8,26,html_i(4,row(26))).
+html_sub_i(26,27,html_i(0,cell(27))).
+html_sub_i(27,28,html_i(0,t(Ícono,3))).
+html_sub_i(26,29,html_i(1,cell(29))).
+html_sub_i(29,30,html_i(0,t(123,2))).
+html_sub_i(8,31,html_i(5,row(31))).
+html_sub_i(31,32,html_i(0,cell(32))).
+html_sub_i(32,33,html_i(0,t('Responsable del Sistema',3))).
+html_sub_i(31,34,html_i(1,cell(34))).
+html_sub_i(34,35,html_i(0,t(365,2))).
+html_sub_i(8,36,html_i(6,row(36))).
+html_sub_i(36,37,html_i(0,cell(37))).
+html_sub_i(37,38,html_i(0,t('Mail para Informar Asignaciones',3))).
+html_sub_i(36,39,html_i(1,cell(39))).
+html_sub_i(39,40,html_i(0,t(366,2))).
+html_sub_i(8,0,html_i(7,html('</TBODY>'))).
+html_sub_i(2,41,html_i(3,row(41))).
+html_sub_i(41,42,html_i(0,cell(42))).
+html_sub_i(42,43,html_i(0,table(43))).
+html_sub_i(43,0,html_i(0,html('<TBODY>'))).
+html_sub_i(43,44,html_i(1,row(44))).
+html_sub_i(44,45,html_i(0,cell(45))).
+html_sub_i(45,46,html_i(0,button('Enter'))).
+html_sub_i(44,47,html_i(1,cell(47))).
+html_sub_i(47,48,html_i(0,button('Check'))).
+html_sub_i(44,49,html_i(2,cell(49))).
+html_sub_i(49,50,html_i(0,button('Cancel'))).
+html_sub_i(44,51,html_i(3,cell(51))).
+html_sub_i(51,52,html_i(0,button('Help'))).
+html_sub_i(43,0,html_i(2,html('</TBODY>'))).
+html_sub_i(2,0,html_i(4,html('</TBODY>'))).
+ 
+html_tags_i(1,'Style','MARGIN: 0px').
+html_tags_i(1,'Class','Form').
+html_tags_i(14,'GxHeight','19').
+html_tags_i(14,'GxWidth','27').
+html_tags_i(46,'GxHeight','20').
+html_tags_i(46,'GxWidth','158').
+html_tags_i(48,'GxHeight','20').
+html_tags_i(48,'GxWidth','84').
+html_tags_i(50,'GxHeight','20').
+html_tags_i(50,'GxWidth','63').
+html_tags_i(52,'GxHeight','20').
+html_tags_i(52,'GxWidth','62').
+ 
+html_comp_i(5,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Id','Table1',v,[ str ]).
+html_comp_i(2,'Class','Table',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','1',d,[ str ]).
+html_comp_i(2,'Cellspacing','2',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(5,'Controlname','Ctlerror',v,[ str ]).
+html_comp_i(5,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(5,'Displaymode',1,d,[ num ]).
+html_comp_i(5,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(8,'Id','Table2',v,[ str ]).
+html_comp_i(8,'Class','Table',v,[ str ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Backgroundgx','',d,[ str ]).
+html_comp_i(8,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Border','0',d,[ str ]).
+html_comp_i(8,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Cellpadding','1',d,[ str ]).
+html_comp_i(8,'Cellspacing','2',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Rules',none,d,[ str ]).
+html_comp_i(11,'Caption','Código',v,[ str ]).
+html_comp_i(11,'Id','Textblock1',v,[ str ]).
+html_comp_i(11,'Class','TextBlock',v,[ str ]).
+html_comp_i(11,'Event','',d,[ str ]).
+html_comp_i(11,'Returnonclick',0,d,[ bool ]).
+html_comp_i(11,'Gxformat',0,d,[ num ]).
+html_comp_i(11,'Title','',d,[ str ]).
+html_comp_i(11,'Fill',-1,d,[ bool ]).
+html_comp_i(11,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(11,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(11,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(13,'Attid',116,v,[ num ]).
+html_comp_i(13,'Class','Attribute',d,[ str ]).
+html_comp_i(13,'Controlname','Sis_cod',d,[ str ]).
+html_comp_i(13,'Returnonclick',0,d,[ bool ]).
+html_comp_i(13,'Controltype',2,d,[ num ]).
+html_comp_i(13,'Inputtype',0,d,[ num ]).
+html_comp_i(13,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(13,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(13,'Readonly',0,d,[ bool ]).
+html_comp_i(13,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(13,'Ispassword',0,d,[ bool ]).
+html_comp_i(13,'Autoresize',-1,d,[ bool ]).
+html_comp_i(13,'Gxwidth',measure(3,chr),v,[ measure ]).
+html_comp_i(13,'Gxheight',measure(1,row),v,[ measure ]).
+html_comp_i(13,'Ismultiline',0,d,[ bool ]).
+html_comp_i(13,'Fill',-1,d,[ bool ]).
+html_comp_i(13,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(13,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(13,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(13,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(13,'Gxformat',0,d,[ num ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(14,'Controlname','Btn_get',v,[ str ]).
+html_comp_i(14,'Class','BtnGet',v,[ str ]).
+html_comp_i(14,'Event','Get',v,[ str ]).
+html_comp_i(14,'Caption',=>,d,[ str ]).
+html_comp_i(14,'Title',=>,d,[ str ]).
+html_comp_i(14,'Type',0,d,[ num ]).
+html_comp_i(14,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(14,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(14,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(14,'Border','0',d,[ str ]).
+html_comp_i(14,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(14,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(15,'Controlname','Btndisponible',v,[ str ]).
+html_comp_i(15,'Class','Button',d,[ str ]).
+html_comp_i(15,'Event','''DISPONIBLE''',v,[ str ]).
+html_comp_i(15,'Caption','DISPONIBLE',d,[ str ]).
+html_comp_i(15,'Title','DISPONIBLE',d,[ str ]).
+html_comp_i(15,'Type',0,d,[ num ]).
+html_comp_i(15,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(15,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(15,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(15,'Border','0',d,[ str ]).
+html_comp_i(15,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(15,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(17,'Height',measure(21,px),v,[ measure ]).
+html_comp_i(18,'Caption','Descripción',v,[ str ]).
+html_comp_i(18,'Id','Textblock2',v,[ str ]).
+html_comp_i(18,'Class','TextBlock',v,[ str ]).
+html_comp_i(18,'Event','',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Fill',-1,d,[ bool ]).
+html_comp_i(18,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(18,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(18,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(20,'Attid',259,v,[ num ]).
+html_comp_i(20,'Class','Attribute',d,[ str ]).
+html_comp_i(20,'Controlname','Sis_des',d,[ str ]).
+html_comp_i(20,'Returnonclick',0,d,[ bool ]).
+html_comp_i(20,'Controltype',2,d,[ num ]).
+html_comp_i(20,'Inputtype',0,d,[ num ]).
+html_comp_i(20,'Editautocomplete',0,d,[ num ]).
+html_comp_i(20,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(20,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(20,'Readonly',0,d,[ bool ]).
+html_comp_i(20,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(20,'Ispassword',0,d,[ bool ]).
+html_comp_i(20,'Autoresize',-1,d,[ bool ]).
+html_comp_i(20,'Gxwidth',measure(15,chr),v,[ measure ]).
+html_comp_i(20,'Gxheight',measure(1,row),v,[ measure ]).
+html_comp_i(20,'Ismultiline',0,d,[ bool ]).
+html_comp_i(20,'Fill',-1,d,[ bool ]).
+html_comp_i(20,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(20,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(20,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(20,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(20,'Gxformat',0,d,[ num ]).
+html_comp_i(20,'Title','',d,[ str ]).
+html_comp_i(22,'Height',measure(21,px),v,[ measure ]).
+html_comp_i(23,'Caption','Mostar Icono menú X',d,[ str ]).
+html_comp_i(23,'Id','Textblock5',v,[ str ]).
+html_comp_i(23,'Class','TextBlock',v,[ str ]).
+html_comp_i(23,'Event','',d,[ str ]).
+html_comp_i(23,'Returnonclick',0,d,[ bool ]).
+html_comp_i(23,'Gxformat',0,d,[ num ]).
+html_comp_i(23,'Title','',d,[ str ]).
+html_comp_i(23,'Fill',-1,d,[ bool ]).
+html_comp_i(23,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(23,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(23,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(25,'Attid',125,v,[ num ]).
+html_comp_i(25,'Class','Attribute',d,[ str ]).
+html_comp_i(25,'Controlname','Sis_mex',d,[ str ]).
+html_comp_i(25,'Returnonclick',0,d,[ bool ]).
+html_comp_i(25,'Controltype',0,v,[ num ]).
+html_comp_i(25,'Controlvalues',[ [ 'Si','X' ],[ 'No','' ] ],v,[ values ]).
+html_comp_i(25,'Addemptyitem',0,d,[ bool ]).
+html_comp_i(25,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(25,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(25,'Readonly',0,d,[ bool ]).
+html_comp_i(25,'Autoresize',-1,d,[ bool ]).
+html_comp_i(25,'Gxwidth',measure(1,chr),d,[ measure ]).
+html_comp_i(25,'Ismultiline',0,d,[ bool ]).
+html_comp_i(25,'Fill',-1,d,[ bool ]).
+html_comp_i(25,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(25,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(25,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(25,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(25,'Title','',d,[ str ]).
+html_comp_i(28,'Caption',Ícono,d,[ str ]).
+html_comp_i(28,'Id','Textblock6',v,[ str ]).
+html_comp_i(28,'Class','TextBlock',v,[ str ]).
+html_comp_i(28,'Event','',d,[ str ]).
+html_comp_i(28,'Returnonclick',0,d,[ bool ]).
+html_comp_i(28,'Gxformat',0,d,[ num ]).
+html_comp_i(28,'Title','',d,[ str ]).
+html_comp_i(28,'Fill',-1,d,[ bool ]).
+html_comp_i(28,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(28,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(28,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(30,'Attid',123,v,[ num ]).
+html_comp_i(30,'Class','Attribute',d,[ str ]).
+html_comp_i(30,'Controlname','Sis_ico',d,[ str ]).
+html_comp_i(30,'Returnonclick',0,d,[ bool ]).
+html_comp_i(30,'Controltype',2,d,[ num ]).
+html_comp_i(30,'Inputtype',0,d,[ num ]).
+html_comp_i(30,'Editautocomplete',0,d,[ num ]).
+html_comp_i(30,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(30,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(30,'Readonly',0,d,[ bool ]).
+html_comp_i(30,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(30,'Ispassword',0,d,[ bool ]).
+html_comp_i(30,'Autoresize',-1,d,[ bool ]).
+html_comp_i(30,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(30,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(30,'Ismultiline',0,d,[ bool ]).
+html_comp_i(30,'Fill',-1,d,[ bool ]).
+html_comp_i(30,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(30,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(30,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(30,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(30,'Gxformat',0,d,[ num ]).
+html_comp_i(30,'Title','',d,[ str ]).
+html_comp_i(33,'Caption','Responsable del Sistema',d,[ str ]).
+html_comp_i(33,'Id','Textblock3',v,[ str ]).
+html_comp_i(33,'Class','TextBlock',v,[ str ]).
+html_comp_i(33,'Event','',d,[ str ]).
+html_comp_i(33,'Returnonclick',0,d,[ bool ]).
+html_comp_i(33,'Gxformat',0,d,[ num ]).
+html_comp_i(33,'Title','',d,[ str ]).
+html_comp_i(33,'Fill',-1,d,[ bool ]).
+html_comp_i(33,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(33,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(33,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(35,'Attid',365,v,[ num ]).
+html_comp_i(35,'Class','Attribute',d,[ str ]).
+html_comp_i(35,'Controlname','Sis_rsp',d,[ str ]).
+html_comp_i(35,'Returnonclick',0,d,[ bool ]).
+html_comp_i(35,'Controltype',2,d,[ num ]).
+html_comp_i(35,'Inputtype',0,d,[ num ]).
+html_comp_i(35,'Editautocomplete',0,d,[ num ]).
+html_comp_i(35,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(35,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(35,'Readonly',0,d,[ bool ]).
+html_comp_i(35,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(35,'Ispassword',0,d,[ bool ]).
+html_comp_i(35,'Autoresize',-1,d,[ bool ]).
+html_comp_i(35,'Gxwidth',measure(16,chr),d,[ measure ]).
+html_comp_i(35,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(35,'Ismultiline',0,d,[ bool ]).
+html_comp_i(35,'Fill',-1,d,[ bool ]).
+html_comp_i(35,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(35,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(35,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(35,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(35,'Gxformat',0,d,[ num ]).
+html_comp_i(35,'Title','',d,[ str ]).
+html_comp_i(38,'Caption','Mail para Informar Asignaciones',d,[ str ]).
+html_comp_i(38,'Id','Textblock4',v,[ str ]).
+html_comp_i(38,'Class','TextBlock',v,[ str ]).
+html_comp_i(38,'Event','',d,[ str ]).
+html_comp_i(38,'Returnonclick',0,d,[ bool ]).
+html_comp_i(38,'Gxformat',0,d,[ num ]).
+html_comp_i(38,'Title','',d,[ str ]).
+html_comp_i(38,'Fill',-1,d,[ bool ]).
+html_comp_i(38,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(38,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(38,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(40,'Attid',366,v,[ num ]).
+html_comp_i(40,'Class','Attribute',d,[ str ]).
+html_comp_i(40,'Controlname','Sis_mai',d,[ str ]).
+html_comp_i(40,'Returnonclick',0,d,[ bool ]).
+html_comp_i(40,'Controltype',2,d,[ num ]).
+html_comp_i(40,'Inputtype',0,d,[ num ]).
+html_comp_i(40,'Editautocomplete',0,d,[ num ]).
+html_comp_i(40,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(40,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(40,'Readonly',0,d,[ bool ]).
+html_comp_i(40,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(40,'Ispassword',0,d,[ bool ]).
+html_comp_i(40,'Autoresize',-1,d,[ bool ]).
+html_comp_i(40,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(40,'Gxheight',measure(4,row),d,[ measure ]).
+html_comp_i(40,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(40,'Fill',-1,d,[ bool ]).
+html_comp_i(40,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(40,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(40,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(40,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(40,'Gxformat',0,d,[ num ]).
+html_comp_i(40,'Title','',d,[ str ]).
+html_comp_i(43,'Id','Table3',v,[ str ]).
+html_comp_i(43,'Class','Table',v,[ str ]).
+html_comp_i(43,'Title','',d,[ str ]).
+html_comp_i(43,'Align',left,d,[ str ]).
+html_comp_i(43,'Backgroundgx','',d,[ str ]).
+html_comp_i(43,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(43,'Border','0',d,[ str ]).
+html_comp_i(43,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(43,'Cellpadding','1',d,[ str ]).
+html_comp_i(43,'Cellspacing','2',d,[ str ]).
+html_comp_i(43,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(43,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(43,'Rules',none,d,[ str ]).
+html_comp_i(46,'Controlname','Btn_enter',v,[ str ]).
+html_comp_i(46,'Class','BtnEnter',v,[ str ]).
+html_comp_i(46,'Event','Enter',v,[ str ]).
+html_comp_i(46,'Caption','Confirmar',d,[ str ]).
+html_comp_i(46,'Title','Confirmar',d,[ str ]).
+html_comp_i(46,'Type',0,d,[ num ]).
+html_comp_i(46,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(46,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(46,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(46,'Border','0',d,[ str ]).
+html_comp_i(46,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(46,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(48,'Controlname','Btn_check',v,[ str ]).
+html_comp_i(48,'Class','BtnCheck',v,[ str ]).
+html_comp_i(48,'Event','Check',v,[ str ]).
+html_comp_i(48,'Caption','Verificar',d,[ str ]).
+html_comp_i(48,'Title','Verificar',d,[ str ]).
+html_comp_i(48,'Type',0,d,[ num ]).
+html_comp_i(48,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(48,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(48,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(48,'Border','0',d,[ str ]).
+html_comp_i(48,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(48,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(50,'Controlname','Btn_cancel',v,[ str ]).
+html_comp_i(50,'Class','BtnCancel',v,[ str ]).
+html_comp_i(50,'Event','Cancel',v,[ str ]).
+html_comp_i(50,'Caption','Cancelar',d,[ str ]).
+html_comp_i(50,'Title','Cancelar',d,[ str ]).
+html_comp_i(50,'Type',0,d,[ num ]).
+html_comp_i(50,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(50,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(50,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(50,'Border','0',d,[ str ]).
+html_comp_i(50,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(50,'Buttonborderstyle',rounded,d,[ str ]).
+html_comp_i(52,'Controlname','Btn_help',v,[ str ]).
+html_comp_i(52,'Class','BtnHelp',v,[ str ]).
+html_comp_i(52,'Event','Help',v,[ str ]).
+html_comp_i(52,'Caption','Ayuda',d,[ str ]).
+html_comp_i(52,'Title','Ayuda',d,[ str ]).
+html_comp_i(52,'Type',0,d,[ num ]).
+html_comp_i(52,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(52,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(52,'Backcolor',rgb(154,198,242),d,[ color ]).
+html_comp_i(52,'Border','0',d,[ str ]).
+html_comp_i(52,'Bordercolor',rgb(121,121,121),d,[ color ]).
+html_comp_i(52,'Buttonborderstyle',rounded,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,comp(errview),[ ctlname('Ctlerror'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(11,1,t('Código',3),[ ctlname('Textblock1') ]).
+lit_i(13,1,t(116,2),[ ctlname(116),ctrltype(edit,13),pos(13),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(14,1,button('Get'),[ ctlname('Btn_get'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(15,1,button('''DISPONIBLE'''),[ ctlname('Btndisponible'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(18,1,t('Descripción',3),[ ctlname('Textblock2') ]).
+lit_i(20,1,t(259,2),[ ctlname(259),ctrltype(edit,20),pos(20),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(23,1,t('Mostar Icono menú X',3),[ ctlname('Textblock5') ]).
+lit_i(25,1,t(125,2),[ ctlname(125),ctrltype(combo,25),pos(25),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(28,1,t(Ícono,3),[ ctlname('Textblock6') ]).
+lit_i(30,1,t(123,2),[ ctlname(123),ctrltype(edit,30),pos(30),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(33,1,t('Responsable del Sistema',3),[ ctlname('Textblock3') ]).
+lit_i(35,1,t(365,2),[ ctlname(365),ctrltype(edit,35),pos(35),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(38,1,t('Mail para Informar Asignaciones',3),[ ctlname('Textblock4') ]).
+lit_i(40,1,t(366,2),[ ctlname(366),ctrltype(edit,40),pos(40),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(8,1,table(8),[ ctlname('Table2') ]).
+lit_i(46,1,button('Enter'),[ ctlname('Btn_enter'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(48,1,button('Check'),[ ctlname('Btn_check'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(50,1,button('Cancel'),[ ctlname('Btn_cancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(52,1,button('Help'),[ ctlname('Btn_help'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(43,1,table(43),[ ctlname('Table3') ]).
+lit_i(2,1,table(2),[ ctlname('Table1') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,25,[ [ [ 'Si','X' ],[ 'No','' ] ],[ '' ] ]).
+ 
+ 
+ 
+att_prop_i(2,116,'ExternalName','SIS_COD',d).
+att_prop_i(2,116,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,116,'EmptyAsNull','Yes',d).
+att_prop_i(2,116,'AUTONUMBER','0',d).
+att_prop_i(2,116,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,116,'AttRegEx','',d).
+att_prop_i(2,116,'AttValidationFailedMsg','',d).
+att_prop_i(2,116,'FullName','SIS_COD',v).
+att_prop_i(2,259,'ExternalName','SIS_DES',d).
+att_prop_i(2,259,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,259,'EmptyAsNull','Yes',d).
+att_prop_i(2,259,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,259,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,259,'AttRegEx','',d).
+att_prop_i(2,259,'AttValidationFailedMsg','',d).
+att_prop_i(2,259,'FullName','SIS_DES',v).
+att_prop_i(2,123,'ExternalName','SIS_ICO',d).
+att_prop_i(2,123,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,123,'EmptyAsNull','Yes',d).
+att_prop_i(2,123,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,123,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,123,'AttRegEx','',d).
+att_prop_i(2,123,'AttValidationFailedMsg','',d).
+att_prop_i(2,123,'FullName','SIS_ICO',v).
+att_prop_i(2,125,'ExternalName','SIS_MEX',d).
+att_prop_i(2,125,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,125,'EmptyAsNull','Yes',d).
+att_prop_i(2,125,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,125,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,125,'AttRegEx','',d).
+att_prop_i(2,125,'AttValidationFailedMsg','',d).
+att_prop_i(2,125,'FullName','SIS_MEX',v).
+att_prop_i(2,124,'ExternalName','SIS_LINK',d).
+att_prop_i(2,124,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,124,'EmptyAsNull','Yes',d).
+att_prop_i(2,124,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,124,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,124,'AttRegEx','',d).
+att_prop_i(2,124,'AttValidationFailedMsg','',d).
+att_prop_i(2,124,'FullName','SIS_LINK',v).
+att_prop_i(2,365,'ExternalName','SIS_RSP',d).
+att_prop_i(2,365,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,365,'EmptyAsNull','Yes',d).
+att_prop_i(2,365,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,365,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,365,'AttRegEx','',d).
+att_prop_i(2,365,'AttValidationFailedMsg','',d).
+att_prop_i(2,365,'FullName','SIS_RSP',v).
+att_prop_i(2,366,'ExternalName','SIS_MAI',d).
+att_prop_i(2,366,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,366,'EmptyAsNull','Yes',d).
+att_prop_i(2,366,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,366,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,366,'AttRegEx','',d).
+att_prop_i(2,366,'AttValidationFailedMsg','',d).
+att_prop_i(2,366,'FullName','SIS_MAI',v).
+att_prop_i(2,6,'ExternalName','USU_COD',d).
+att_prop_i(2,6,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'FullName','USU_COD',v).
+att_prop_i(2,126,'ExternalName','PRG_COD',d).
+att_prop_i(2,126,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,126,'EmptyAsNull','Yes',d).
+att_prop_i(2,126,'AUTONUMBER','0',d).
+att_prop_i(2,126,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,126,'AttRegEx','',d).
+att_prop_i(2,126,'AttValidationFailedMsg','',d).
+att_prop_i(2,126,'FullName','PRG_COD',v).
+att_prop_i(2,152,'ExternalName','ACW_OBJ',d).
+att_prop_i(2,152,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,152,'EmptyAsNull','Yes',d).
+att_prop_i(2,152,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,152,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,152,'AttRegEx','',d).
+att_prop_i(2,152,'AttValidationFailedMsg','',d).
+att_prop_i(2,152,'FullName','ACW_OBJ',v).
+att_prop_i(2,164,'ExternalName','PRG_SIS',d).
+att_prop_i(2,164,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,164,'EmptyAsNull','Yes',d).
+att_prop_i(2,164,'AUTONUMBER','0',d).
+att_prop_i(2,164,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,164,'AttRegEx','',d).
+att_prop_i(2,164,'AttValidationFailedMsg','',d).
+att_prop_i(2,164,'FullName','PRG_SIS',v).
+ 
+tbl_prop_i(2,30,'AllDirSuper',[ [ 27,[ 126 ] ],[ 32,[ 116 ] ] ],v).
+tbl_prop_i(2,16,'AllDirSuper',[ [ 32,[ 116 ] ] ],v).
+tbl_prop_i(2,27,'DirSubor',[ [ 30,[ 126 ] ] ],v).
+tbl_prop_i(2,32,'DirSubor',[ [ 16,[ 116 ] ],[ 30,[ 116 ] ],[ 27,[ 164 ] ] ],v).
+tbl_prop_i(2,30,'DirSuper',[ [ 27,[ 126 ] ],[ 32,[ 116 ] ] ],v).
+tbl_prop_i(2,16,'DirSuper',[ [ 32,[ 116 ] ] ],v).
+tbl_prop_i(2,32,'CLUSTERIDX',0,v).
+tbl_prop_i(2,32,'CACHE_LEVEL','1',v).
+tbl_prop_i(2,16,'CACHE_LEVEL','1',v).
+tbl_prop_i(2,30,'CACHE_LEVEL','1',v).
+tbl_prop_i(2,27,'CACHE_LEVEL','1',v).
+ 
+tbl_att_prop_i(2,32,116,'AllowNulls',n).
+tbl_att_prop_i(2,32,259,'AllowNulls',n).
+tbl_att_prop_i(2,32,123,'AllowNulls',n).
+tbl_att_prop_i(2,32,125,'AllowNulls',n).
+tbl_att_prop_i(2,32,124,'AllowNulls',n).
+tbl_att_prop_i(2,32,365,'AllowNulls',n).
+tbl_att_prop_i(2,32,366,'AllowNulls',n).
+tbl_att_prop_i(2,16,6,'AllowNulls',n).
+tbl_att_prop_i(2,16,116,'AllowNulls',n).
+tbl_att_prop_i(2,30,116,'AllowNulls',n).
+tbl_att_prop_i(2,30,126,'AllowNulls',n).
+tbl_att_prop_i(2,30,152,'AllowNulls',n).
+tbl_att_prop_i(2,27,126,'AllowNulls',n).
+tbl_att_prop_i(2,27,164,'AllowNulls',n).
+ 
+var_prop_i(2,'Context','ATT_INITIAL_VALUE',[ t('udp(',1),t(o(1,'LoadContext'),28),t(')',4) ],v).
+ 
+ 
+ 
+ 
+trn_level_i(32,[ [ 116,259,123,125,124,365,366 ],'TSEG000','ACT. SISTEMAS','TSEG000','',259 ]).
+ 
+struct_dt_i([ 26,3,0 ],name,'Context').
+struct_dt_i([ 26,3,0 ],namespace,'MarianoTesis').
+struct_dt_i([ 26,3,0 ],'ObjName','Context').
+struct_dt_i([ 26,3,0 ],'ObjDesc','Context').
+struct_dt_i([ 26,3,0 ],'ExternalName','Context').
+struct_dt_i([ 26,3,0 ],'ExternalNamespace','MarianoTesis').
+struct_dt_i([ 26,7,0 ],name,'TransactionContext').
+struct_dt_i([ 26,7,0 ],namespace,'MarianoTesis').
+struct_dt_i([ 26,7,0 ],'ObjName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ObjDesc','Transaction Context').
+struct_dt_i([ 26,7,0 ],'ExternalName','TransactionContext').
+struct_dt_i([ 26,7,0 ],'ExternalNamespace','MarianoTesis').
+struct_dt_i([ 26,7,9 ],name,'Attribute').
+struct_dt_i([ 26,7,9 ],namespace,'MarianoTesis.TransactionContext').
+struct_dt_i([ 26,3,0 ],fullname,'Context').
+struct_dt_i([ 26,7,0 ],fullname,'TransactionContext').
+struct_dt_i([ 26,7,9 ],fullname,'TransactionContext.Attribute').
+ 
+struct_dt_elem_i([ 26,3,0 ],1,name,'User').
+struct_dt_elem_i([ 26,3,0 ],1,camelname,'User').
+struct_dt_elem_i([ 26,3,0 ],1,length,20).
+struct_dt_elem_i([ 26,3,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],1,pic,'').
+struct_dt_elem_i([ 26,3,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],2,name,'Companycode').
+struct_dt_elem_i([ 26,3,0 ],2,camelname,'CompanyCode').
+struct_dt_elem_i([ 26,3,0 ],2,length,4).
+struct_dt_elem_i([ 26,3,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],2,sign,0).
+struct_dt_elem_i([ 26,3,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],3,name,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,camelname,'Profile').
+struct_dt_elem_i([ 26,3,0 ],3,length,20).
+struct_dt_elem_i([ 26,3,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,3,0 ],3,pic,'').
+struct_dt_elem_i([ 26,3,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],4,name,'Sistema').
+struct_dt_elem_i([ 26,3,0 ],4,camelname,'Sistema').
+struct_dt_elem_i([ 26,3,0 ],4,length,4).
+struct_dt_elem_i([ 26,3,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],4,sign,0).
+struct_dt_elem_i([ 26,3,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],5,name,'Programa').
+struct_dt_elem_i([ 26,3,0 ],5,camelname,'Programa').
+struct_dt_elem_i([ 26,3,0 ],5,length,4).
+struct_dt_elem_i([ 26,3,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],5,sign,0).
+struct_dt_elem_i([ 26,3,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,3,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 26,3,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],6,name,'Icono').
+struct_dt_elem_i([ 26,3,0 ],6,camelname,'Icono').
+struct_dt_elem_i([ 26,3,0 ],6,length,100).
+struct_dt_elem_i([ 26,3,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],6,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,3,0 ],6,pic,'').
+struct_dt_elem_i([ 26,3,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],7,name,'Sesion').
+struct_dt_elem_i([ 26,3,0 ],7,camelname,'Sesion').
+struct_dt_elem_i([ 26,3,0 ],7,basedon,12).
+struct_dt_elem_i([ 26,3,0 ],7,length,8).
+struct_dt_elem_i([ 26,3,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],7,sign,0).
+struct_dt_elem_i([ 26,3,0 ],7,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,3,0 ],7,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,3,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],8,name,'Denominacion').
+struct_dt_elem_i([ 26,3,0 ],8,camelname,'Denominacion').
+struct_dt_elem_i([ 26,3,0 ],8,length,50).
+struct_dt_elem_i([ 26,3,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],8,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,3,0 ],8,pic,'').
+struct_dt_elem_i([ 26,3,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],9,name,'Tipo').
+struct_dt_elem_i([ 26,3,0 ],9,camelname,'Tipo').
+struct_dt_elem_i([ 26,3,0 ],9,length,1).
+struct_dt_elem_i([ 26,3,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],9,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,3,0 ],9,pic,'').
+struct_dt_elem_i([ 26,3,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],10,name,'Codigo').
+struct_dt_elem_i([ 26,3,0 ],10,camelname,'Codigo').
+struct_dt_elem_i([ 26,3,0 ],10,length,8).
+struct_dt_elem_i([ 26,3,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],10,sign,0).
+struct_dt_elem_i([ 26,3,0 ],10,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,3,0 ],10,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,3,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],10,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],11,name,'Zona').
+struct_dt_elem_i([ 26,3,0 ],11,camelname,'Zona').
+struct_dt_elem_i([ 26,3,0 ],11,length,1).
+struct_dt_elem_i([ 26,3,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],11,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 26,3,0 ],11,pic,'').
+struct_dt_elem_i([ 26,3,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],11,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],12,name,'Plan').
+struct_dt_elem_i([ 26,3,0 ],12,camelname,'Plan').
+struct_dt_elem_i([ 26,3,0 ],12,length,5).
+struct_dt_elem_i([ 26,3,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],12,type,[ 5,5,0 ]).
+struct_dt_elem_i([ 26,3,0 ],12,pic,'').
+struct_dt_elem_i([ 26,3,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],12,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],13,name,'Mail').
+struct_dt_elem_i([ 26,3,0 ],13,camelname,'Mail').
+struct_dt_elem_i([ 26,3,0 ],13,length,256).
+struct_dt_elem_i([ 26,3,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],13,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,3,0 ],13,pic,'').
+struct_dt_elem_i([ 26,3,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],13,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],14,name,'Tipo_usuario').
+struct_dt_elem_i([ 26,3,0 ],14,camelname,tipo_usuario).
+struct_dt_elem_i([ 26,3,0 ],14,length,3).
+struct_dt_elem_i([ 26,3,0 ],14,decimals,0).
+struct_dt_elem_i([ 26,3,0 ],14,type,[ 5,3,0 ]).
+struct_dt_elem_i([ 26,3,0 ],14,pic,'').
+struct_dt_elem_i([ 26,3,0 ],14,collection,'False').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlType','Element').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlName','').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlNamespace','').
+struct_dt_elem_i([ 26,3,0 ],14,soaptype,'').
+struct_dt_elem_i([ 26,3,0 ],14,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,7,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,7,0 ],1,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],1,length,256).
+struct_dt_elem_i([ 26,7,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],1,pic,'').
+struct_dt_elem_i([ 26,7,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,7,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,7,0 ],2,length,4).
+struct_dt_elem_i([ 26,7,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,7,0 ],2,pic,'').
+struct_dt_elem_i([ 26,7,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,7,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,7,0 ],3,basedon,5).
+struct_dt_elem_i([ 26,7,0 ],3,length,1000).
+struct_dt_elem_i([ 26,7,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,0 ],3,pic,'').
+struct_dt_elem_i([ 26,7,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,7,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,7,0 ],4,basedon,4).
+struct_dt_elem_i([ 26,7,0 ],4,length,256).
+struct_dt_elem_i([ 26,7,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,7,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,7,0 ],4,pic,'').
+struct_dt_elem_i([ 26,7,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,7,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,type,[ [ 26,7,9 ],0,0 ]).
+struct_dt_elem_i([ 26,7,0 ],5,pic,'').
+struct_dt_elem_i([ 26,7,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,7,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,7,9 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,7,9 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,7,9 ],1,length,128).
+struct_dt_elem_i([ 26,7,9 ],1,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,7,9 ],1,pic,'').
+struct_dt_elem_i([ 26,7,9 ],1,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],1,soaptype,'').
+struct_dt_elem_i([ 26,7,9 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,7,9 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,7,9 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,7,9 ],2,length,1000).
+struct_dt_elem_i([ 26,7,9 ],2,decimals,0).
+struct_dt_elem_i([ 26,7,9 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,7,9 ],2,pic,'').
+struct_dt_elem_i([ 26,7,9 ],2,collection,'False').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlName','').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,7,9 ],2,soaptype,'').
+struct_dt_elem_i([ 26,7,9 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,3,0 ],7,pic,'@!').
+struct_dt_elem_i([ 26,7,0 ],1,pic,'Z9').
+struct_dt_elem_i([ 26,7,0 ],4,pic,'Z9').
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,4,'LOADCONTEXT',[ [ o('Context'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(web,115,'HSEG000_P',[ [ char,15,0,0 ],[ char,16,0,0 ] ],[ [ 'SISTEMA',inout,[] ],[ 'USUARIO',inout,[] ] ]).
+pgm_parm_i(web,114,'WWTSEG000',[],[]).
+pgm_parm_i(web,4,'NOTAUTHORIZED',[ [ svchar,256,0,0 ] ],[ [ 'GxObject',in,[] ] ]).
+pgm_parm_i(proc,2,'ISAUTHORIZED',[ [ svchar,256,0,0 ],[ boolean,4,0,0 ] ],[ [ 'GxObject',in,[] ],[ 'Authorized',out,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

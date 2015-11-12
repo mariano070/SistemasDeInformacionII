@@ -1,0 +1,303 @@
+ 
+ 
+ 
+pgm_main_i(web,188,'HTEST',[ 15,'HTEST','HTEST','','','','' ]).
+pgm_main_i(web,73,'HOMEINTRANET',[ 15,'HOMEINTRANET','','','','','' ]).
+pgm_main_i(proc,50,'PTBUS016_2',[ 15,'APTBUS016_2','Listado de Bienes de Uso y sus Identificadores (en excel)','','','','HTTP' ]).
+pgm_main_i(web,42,'HTBUS000',[ 15,'HTBUS000','','','','','' ]).
+pgm_main_i(web,54,'HTBUS000_P',[ 15,'HTBUS000_P','Menú de administración de accesos a trazabilidad de bienes de uso','','','','' ]).
+pgm_main_i(proc,51,'PTBUS020',[ 15,'APTBUS020','Reporte Cambio de Posiciones','','','','HTTP' ]).
+pgm_main_i(proc,49,'PTBUS016_1',[ 15,'APTBUS016_1','Listado de Bienes de Uso y sus Identificadores (en pdf)','','','','HTTP' ]).
+pgm_main_i(proc,46,'PTBUS014_4',[ 15,'APTBUS014_4','Listado de bienes por responsable (en pdf)','','','','HTTP' ]).
+pgm_main_i(proc,44,'PTBUS014_3',[ 15,'APTBUS014_3','Listado de bienes por posición (en pdf)','','','','HTTP' ]).
+pgm_main_i(proc,43,'PTBUS013',[ 15,'APTBUS013','Listado de Movimientos de Bienes de Uso','','','','HTTP' ]).
+pgm_main_i(proc,42,'PTBUS011',[ 15,'APTBUS011','Informe de envíos pendientes de recepción','','','','HTTP' ]).
+pgm_main_i(proc,18,'PTBUS012',[ 15,'APTBUS012','Listado de Movimientos de un Bien de Uso','','','','HTTP' ]).
+pgm_main_i(proc,53,'PTBUS035',[ 15,'APTBUS035','Listado de Asociaciones de Bienes de Uso','','','','HTTP' ]).
+pgm_main_i(trn,14,'TTBUS075',[ 15,'TTBUS075','Posiciones a cambiar','','','','' ]).
+pgm_main_i(proc,68,'PTBUS075',[ 15,'APTBUS075','Cambio de posiciones','','','','HTTP' ]).
+pgm_main_i(web,176,'HSEG000',[ 15,'HSEG000','Menú Seguridad','','','','' ]).
+pgm_main_i(web,72,'HPRC000_',[ 15,'HPRC000_','Procesos Sometidos por Usuario','','','','' ]).
+pgm_main_i(web,5,'HOME',[ 15,'HOME','Home','','','','' ]).
+pgm_main_i(proc,92,'SEG018',[ 15,'ASEG018','LISTADO USUARIO-PROGRAMAS POR VERSION','','','','HTTP' ]).
+pgm_main_i(proc,91,'SEG017',[ 15,'ASEG017','LISTADO USUARIO-PROGRAMAS POR RESPONSABLE','','','','HTTP' ]).
+pgm_main_i(proc,71,'PTTBUS000_3',[ 15,'APTTBUS000_3','Mail de remito de cambio de ubicación','','','','CLINE' ]).
+pgm_main_i(proc,69,'PTBUS150',[ 15,'APTBUS150','Alta masiva de bienes de uso (trazabilidad)','','','','HTTP' ]).
+pgm_main_i(proc,61,'PTBUS021',[ 15,'APTBUS021','Envía mails recordatorios de bienes no recibidos luego del plazo','','','','CLINE' ]).
+pgm_main_i(proc,60,'PTBUS005',[ 15,'APTBUS005','Mail de cancelación de cambio de ubicación','','','','CLINE' ]).
+pgm_main_i(proc,59,'PTBUS004_B_1',[ 15,'APTBUS004_B_1','Mail de baja de bien de uso a responsables de sistemas relacionados','','','','CLINE' ]).
+pgm_main_i(proc,55,'PTBUS000_B_2',[ 15,'APTBUS000_B_2','Mail de baja de bien de uso','','','','CLINE' ]).
+pgm_main_i(web,113,'WWSEG008L1',[ 15,'WWSEG008L1','Work With INFO MENUES X','','','','' ]).
+pgm_main_i(web,26,'WWTSEG003',[ 15,'WWTSEG003','Work With ACT. USUARIO/SISTEMA','','','','' ]).
+pgm_main_i(web,15,'WWTSEG002',[ 15,'WWTSEG002','Work With ACT. USUARIOS','','','','' ]).
+pgm_main_i(web,81,'WWTBUS000',[ 15,'WWTBUS000','Work With ACT. DE BIENES DE USO','','','','' ]).
+pgm_main_i(proc,41,'PTBUS010',[ 15,'APTBUS010','Listado de bienes de uso sin factura','','','','HTTP' ]).
+pgm_main_i(proc,40,'PTBUS006',[ 15,'APTBUS006','Informe de bienes no relacionados con ningún sistema','','','','HTTP' ]).
+pgm_main_i(web,187,'HTEST',[ 15,'HTEST','HTEST','','','','' ]).
+pgm_main_i(trn,21,'GPO_GES',[ 15,'GPO_GES','Gestores por Grupo','','','','' ]).
+ 
+pgm_prop_i(web,199,'GX0160','USE_ENCRYPTION','NO').
+pgm_prop_i(web,194,'GX00R0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,106,'GX00D0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,105,'GX00C0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,103,'GX00A0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,102,'GX0050','USE_ENCRYPTION','NO').
+pgm_prop_i(web,14,'HMASTER_SEG_P','WEB_COMP','Master').
+pgm_prop_i(web,6,'TABBEDVIEW','WEB_COMP','Yes').
+pgm_prop_i(web,6,'TABBEDVIEW','URLAccess','No').
+pgm_prop_i(web,77,'WCSEGURIDAD','WEB_COMP','Yes').
+pgm_prop_i(web,77,'WCSEGURIDAD','URLAccess','Yes').
+pgm_prop_i(web,1,'MPTRAZABILIDAD','WEB_COMP','Master').
+pgm_prop_i(web,2,'RECENTLINKS','WEB_COMP','Yes').
+pgm_prop_i(web,2,'RECENTLINKS','URLAccess','No').
+pgm_prop_i(trn,15,'TSEG002','USE_ENCRYPTION','SESSION').
+pgm_prop_i(web,168,'GX00V0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,97,'GX0081','USE_ENCRYPTION','NO').
+pgm_prop_i(web,99,'GX0080','USE_ENCRYPTION','NO').
+pgm_prop_i(web,101,'GX0090','USE_ENCRYPTION','NO').
+pgm_prop_i(web,30,'GX00F0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,52,'HTBUS003_B','WEB_COMP','Yes').
+pgm_prop_i(web,52,'HTBUS003_B','URLAccess','No').
+pgm_prop_i(web,88,'GX0060','USE_ENCRYPTION','NO').
+pgm_prop_i(web,60,'HTBUS003_','WEB_COMP','Yes').
+pgm_prop_i(web,60,'HTBUS003_','URLAccess','No').
+pgm_prop_i(web,59,'HTBUS004','WEB_COMP','Yes').
+pgm_prop_i(web,59,'HTBUS004','URLAccess','No').
+pgm_prop_i(web,198,'GX0150','USE_ENCRYPTION','NO').
+pgm_prop_i(web,155,'GX0110','USE_ENCRYPTION','NO').
+pgm_prop_i(web,98,'GX0070','USE_ENCRYPTION','NO').
+pgm_prop_i(web,91,'GX0031','USE_ENCRYPTION','NO').
+pgm_prop_i(web,90,'GX0021','USE_ENCRYPTION','NO').
+pgm_prop_i(web,89,'GX0010','USE_ENCRYPTION','NO').
+pgm_prop_i(web,3,'PROMPTMASTERPAGE','WEB_COMP','Master').
+pgm_prop_i(web,78,'HSI_HABILITADO','WEB_COMP','Yes').
+pgm_prop_i(web,78,'HSI_HABILITADO','URLAccess','No').
+pgm_prop_i(web,79,'HNO_HABILITADO','WEB_COMP','Yes').
+pgm_prop_i(web,79,'HNO_HABILITADO','URLAccess','No').
+pgm_prop_i(web,195,'HSEG102_POS','WEB_COMP','Yes').
+pgm_prop_i(web,195,'HSEG102_POS','URLAccess','No').
+pgm_prop_i(web,159,'GX00L1','USE_ENCRYPTION','NO').
+pgm_prop_i(web,156,'GX00L2','USE_ENCRYPTION','NO').
+pgm_prop_i(web,95,'GX00L0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,193,'GX0140','USE_ENCRYPTION','NO').
+pgm_prop_i(web,108,'GX00P0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,104,'GX00B0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,135,'GX00W0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,107,'GX00E0','USE_ENCRYPTION','NO').
+pgm_prop_i(trn,28,'TSEG001_','USE_ENCRYPTION','SESSION').
+pgm_prop_i(web,170,'GX0130','USE_ENCRYPTION','NO').
+pgm_prop_i(web,169,'GX0100','USE_ENCRYPTION','NO').
+pgm_prop_i(web,167,'GX00U0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,166,'GX00Q0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,165,'GX00N0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,116,'HMASTER_INTRANET','WEB_COMP','Master').
+pgm_prop_i(trn,33,'TSEG000','USE_ENCRYPTION','SESSION').
+pgm_prop_i(web,111,'HMASTER_SEG_CK','WEB_COMP','Master').
+pgm_prop_i(web,96,'GX00J1','USE_ENCRYPTION','NO').
+pgm_prop_i(web,7,'APPMASTERSD','WEB_COMP','Master').
+pgm_prop_i(web,19,'TSEG002EMPW000WC','WEB_COMP','Yes').
+pgm_prop_i(web,19,'TSEG002EMPW000WC','URLAccess','No').
+pgm_prop_i(web,27,'TSEG003GENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,27,'TSEG003GENERAL','URLAccess','No').
+pgm_prop_i(web,28,'TSEG003TSEG004_UWC','WEB_COMP','Yes').
+pgm_prop_i(web,28,'TSEG003TSEG004_UWC','URLAccess','No').
+pgm_prop_i(web,146,'SEG008L1GENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,146,'SEG008L1GENERAL','URLAccess','No').
+pgm_prop_i(web,144,'SEG008SEG008L1WC','WEB_COMP','Yes').
+pgm_prop_i(web,144,'SEG008SEG008L1WC','URLAccess','No').
+pgm_prop_i(web,164,'GX00T0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,163,'GX00S1','USE_ENCRYPTION','NO').
+pgm_prop_i(web,143,'SEG008GENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,143,'SEG008GENERAL','URLAccess','No').
+pgm_prop_i(web,162,'GX00S0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,148,'TSEG006GENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,148,'TSEG006GENERAL','URLAccess','No').
+pgm_prop_i(web,161,'GX00Y0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,23,'TSEG002TPRM005WC','WEB_COMP','Yes').
+pgm_prop_i(web,23,'TSEG002TPRM005WC','URLAccess','No').
+pgm_prop_i(web,22,'TSEG002TTBUS007_PWC','WEB_COMP','Yes').
+pgm_prop_i(web,22,'TSEG002TTBUS007_PWC','URLAccess','No').
+pgm_prop_i(web,21,'TSEG002PERMISOSWC','WEB_COMP','Yes').
+pgm_prop_i(web,21,'TSEG002PERMISOSWC','URLAccess','No').
+pgm_prop_i(web,20,'TSEG002TTBUS007WC','WEB_COMP','Yes').
+pgm_prop_i(web,20,'TSEG002TTBUS007WC','URLAccess','No').
+pgm_prop_i(web,17,'TSEG002TSEG003WC','WEB_COMP','Yes').
+pgm_prop_i(web,17,'TSEG002TSEG003WC','URLAccess','No').
+pgm_prop_i(trn,16,'TSEG003','USE_ENCRYPTION','SESSION').
+pgm_prop_i(web,100,'GX00G0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,16,'TSEG002GENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,16,'TSEG002GENERAL','URLAccess','No').
+pgm_prop_i(web,149,'TSEG006TSEG007WC','WEB_COMP','Yes').
+pgm_prop_i(web,149,'TSEG006TSEG007WC','URLAccess','No').
+pgm_prop_i(web,158,'GX00Z2','USE_ENCRYPTION','NO').
+pgm_prop_i(web,157,'GX00Y3','USE_ENCRYPTION','NO').
+pgm_prop_i(web,151,'TBUS002GENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,151,'TBUS002GENERAL','URLAccess','No').
+pgm_prop_i(web,152,'TBUS002TBUS000WC','WEB_COMP','Yes').
+pgm_prop_i(web,152,'TBUS002TBUS000WC','URLAccess','No').
+pgm_prop_i(web,153,'TBUS002TTBUS000WC','WEB_COMP','Yes').
+pgm_prop_i(web,153,'TBUS002TTBUS000WC','URLAccess','No').
+pgm_prop_i(web,85,'TBUS000GENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,85,'TBUS000GENERAL','URLAccess','No').
+pgm_prop_i(web,92,'GX00O0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,154,'TBUS002TTBUS000_BWC','WEB_COMP','Yes').
+pgm_prop_i(web,154,'TBUS002TTBUS000_BWC','URLAccess','No').
+pgm_prop_i(web,34,'GESTORESEMP_GSTWC','WEB_COMP','Yes').
+pgm_prop_i(web,34,'GESTORESEMP_GSTWC','URLAccess','No').
+pgm_prop_i(web,37,'GPO_GESGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,37,'GPO_GESGENERAL','URLAccess','No').
+pgm_prop_i(web,40,'EMP_GSTGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,40,'EMP_GSTGENERAL','URLAccess','No').
+pgm_prop_i(web,18,'TSEG002GESTORESWC','WEB_COMP','Yes').
+pgm_prop_i(web,18,'TSEG002GESTORESWC','URLAccess','No').
+pgm_prop_i(web,32,'GESTORESGENERAL','WEB_COMP','Yes').
+pgm_prop_i(web,32,'GESTORESGENERAL','URLAccess','No').
+pgm_prop_i(web,33,'GESTORESGPO_GESWC','WEB_COMP','Yes').
+pgm_prop_i(web,33,'GESTORESGPO_GESWC','URLAccess','No').
+pgm_prop_i(web,94,'GX00I0','USE_ENCRYPTION','NO').
+pgm_prop_i(web,93,'GX00H0','USE_ENCRYPTION','NO').
+ 
+ 
+model_wrkinfo_i([ '.Net Environment','CSharpModel' ]).
+ 
+model_info_i([ 'Design','CSharpModel',1 ]).
+ 
+datastore_i(1,'DS_LAST_CHANGE','').
+datastore_i(1,'LOCK_RETRY','10').
+datastore_i(1,'WAIT_RECORD','0').
+datastore_i(1,'SQLSERVER_VERSION','9').
+datastore_i(1,'COMMENT_ON','No').
+datastore_i(1,'DFT_TMP_TBLSPACE','').
+datastore_i(1,'DFT_IDX_TBLSPACE','').
+datastore_i(1,'DFT_TBL_TBLSPACE','').
+datastore_i(1,'DCL_REF_INT_DB','Yes').
+datastore_i(1,'PRIMARY_KEY_TYPE','PK').
+datastore_i(1,'CS_SCHEMA','').
+datastore_i(1,'SORT_ATTRIBUTES','Yes').
+datastore_i(1,'JRN400','QSQJRN').
+datastore_i(1,'CREATE_SAVF','Yes').
+datastore_i(1,'PGMLIB','').
+datastore_i(1,'DTALIB','').
+datastore_i(1,'CC_USER_PASS','').
+datastore_i(1,'CC_USER_ID','').
+datastore_i(1,'CC_SERVER','').
+datastore_i(1,'CC_DBNAME','').
+datastore_i(1,'RecycleRWMin','30').
+datastore_i(1,'RecycleRWType','1').
+datastore_i(1,'RecycleRW','-1').
+datastore_i(1,'POOL_STARTUP','No').
+datastore_i(1,'POOLSIZE_RW','10').
+datastore_i(1,'UnlimitedRWPool','-1').
+datastore_i(1,'PoolRWEnabled','-1').
+datastore_i(1,'CS_RPCPGML','').
+datastore_i(1,'JDBC_DATASOURCE','').
+datastore_i(1,'USE_JDBC_DATASOURCE','0').
+datastore_i(1,'DS_DBMS_ADDINFO','').
+datastore_i(1,'USER_PASSWORD',gx).
+datastore_i(1,'USER_ID',gx).
+datastore_i(1,'TRUSTED_CONNECTION','No').
+datastore_i(1,'CS_CONNECT','First').
+datastore_i(1,'DBMS_PORT','').
+datastore_i(1,'CS_SERVER','172.22.108.50').
+datastore_i(1,'CS_DBNAME','MarianoTesis').
+datastore_i(1,'CS_FLEDSNAME','').
+datastore_i(1,'CS_DRVNAME','sql server').
+datastore_i(1,'CS_DSNAME','').
+datastore_i(1,'DB_URL','').
+datastore_i(1,'JDBC_CUSTOM_URL','0').
+datastore_i(1,'JDBC_CUSTOM_DRIVER','').
+datastore_i(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver').
+datastore_i(1,'CONNECT_METHOD','OPSYS').
+datastore_i(1,'ACCESS_TECHNO','ADONET').
+datastore_i(1,'MAIN_DS','-1').
+datastore_i(1,'REORG_GEN','8').
+datastore_i(1,'HelpKeyword','20').
+datastore_i(1,'DBMS',12).
+datastore_i(1,'NAME','Default').
+ 
+subview_i(2,543,41).
+subview_i(2,544,37).
+subview_i(2,545,31).
+subview_i(2,546,15).
+subview_i(2,547,15).
+subview_i(2,548,15).
+subview_i(2,549,7).
+subview_i(2,550,6).
+ 
+subtype_group_i(1,8,[ 'TTBUS_TipoBien',[] ]).
+subtype_group_i(1,17,[ 'EMP_GST',[] ]).
+subtype_group_i(1,19,[ 'BUSCBT',[] ]).
+subtype_group_i(1,20,[ 'BUSARE',[] ]).
+subtype_group_i(1,21,[ 'BUSSED',[] ]).
+subtype_group_i(1,22,[ 'BUSTID',[] ]).
+subtype_group_i(1,24,[ 'COMUCO',[] ]).
+subtype_group_i(1,25,[ 'COMREV',[] ]).
+subtype_group_i(1,26,[ 'PRHLCO',[] ]).
+subtype_group_i(1,27,[ 'PRHNLD',[] ]).
+subtype_group_i(1,28,[ 'PRHDTO',[] ]).
+subtype_group_i(1,29,[ 'PRHOSO',[] ]).
+subtype_group_i(1,10,[ 'GES_ROL',[] ]).
+subtype_group_i(1,11,[ 'GES_RAM',[] ]).
+subtype_group_i(1,15,[ 'PROWEMPRESA',[] ]).
+subtype_group_i(1,23,[ 'PRGSIS',[ [ 164,116 ] ] ]).
+subtype_group_i(1,13,[ 'GES_GPO',[ [ 270,260 ],[ 277,269 ] ] ]).
+subtype_group_i(1,16,[ 'USU_ZNA2',[ [ 284,6 ],[ 288,7 ] ] ]).
+subtype_group_i(1,12,[ 'GPO_GES',[] ]).
+subtype_group_i(1,9,[ 'USU_GES',[] ]).
+subtype_group_i(1,18,[ 'GST_EMP',[] ]).
+subtype_group_i(1,14,[ 'EMPWUSU',[] ]).
+subtype_group_i(1,1,[ 'BUSRUB',[] ]).
+subtype_group_i(1,32,[ 'TBUSIDEN',[ [ 14,20 ] ] ]).
+subtype_group_i(1,2,[ 'TTBUS_CodProv',[ [ 27,28 ],[ 30,5 ] ] ]).
+subtype_group_i(1,3,[ 'TTBUS_RubroBien',[ [ 17,2 ],[ 18,19 ] ] ]).
+subtype_group_i(1,33,[ 'TTBUS2IDBIEN',[ [ 22,11 ] ] ]).
+subtype_group_i(1,4,[ 'TTBUS3_Pos',[ [ 33,31 ],[ 34,32 ] ] ]).
+subtype_group_i(1,5,[ 'TTBUS3_Responsable',[ [ 35,6 ],[ 36,7 ] ] ]).
+subtype_group_i(1,6,[ 'TTBUS3_CodUsuario',[ [ 39,6 ],[ 199,7 ] ] ]).
+subtype_group_i(1,7,[ 'TTBUS8_CodUsuario',[ [ 40,6 ],[ 200,7 ] ] ]).
+subtype_group_i(1,31,[ 'TTBUSPOS',[ [ 37,33 ] ] ]).
+subtype_group_i(2,1,[ 'BUSRUB',[] ]).
+subtype_group_i(2,2,[ 'TTBUS_CodProv',[ [ 27,28 ],[ 30,5 ] ] ]).
+subtype_group_i(2,3,[ 'TTBUS_RubroBien',[ [ 17,2 ],[ 18,19 ] ] ]).
+subtype_group_i(2,4,[ 'TTBUS3_Pos',[ [ 33,31 ],[ 34,32 ] ] ]).
+subtype_group_i(2,5,[ 'TTBUS3_Responsable',[ [ 35,6 ],[ 36,7 ] ] ]).
+subtype_group_i(2,6,[ 'TTBUS3_CodUsuario',[ [ 39,6 ],[ 199,7 ] ] ]).
+subtype_group_i(2,7,[ 'TTBUS8_CodUsuario',[ [ 40,6 ],[ 200,7 ] ] ]).
+subtype_group_i(2,8,[ 'TTBUS_TipoBien',[] ]).
+subtype_group_i(2,9,[ 'USU_GES',[] ]).
+subtype_group_i(2,10,[ 'GES_ROL',[] ]).
+subtype_group_i(2,11,[ 'GES_RAM',[] ]).
+subtype_group_i(2,12,[ 'GPO_GES',[] ]).
+subtype_group_i(2,14,[ 'EMPWUSU',[] ]).
+subtype_group_i(2,15,[ 'PROWEMPRESA',[] ]).
+subtype_group_i(2,17,[ 'EMP_GST',[] ]).
+subtype_group_i(2,18,[ 'GST_EMP',[] ]).
+subtype_group_i(2,19,[ 'BUSCBT',[] ]).
+subtype_group_i(2,20,[ 'BUSARE',[] ]).
+subtype_group_i(2,21,[ 'BUSSED',[] ]).
+subtype_group_i(2,22,[ 'BUSTID',[] ]).
+subtype_group_i(2,23,[ 'PRGSIS',[] ]).
+subtype_group_i(2,24,[ 'COMUCO',[] ]).
+subtype_group_i(2,25,[ 'COMREV',[] ]).
+subtype_group_i(2,26,[ 'PRHLCO',[] ]).
+subtype_group_i(2,27,[ 'PRHNLD',[] ]).
+subtype_group_i(2,28,[ 'PRHDTO',[] ]).
+subtype_group_i(2,29,[ 'PRHOSO',[] ]).
+subtype_group_i(2,31,[ 'TTBUSPOS',[ [ 37,33 ] ] ]).
+subtype_group_i(2,32,[ 'TBUSIDEN',[ [ 14,20 ] ] ]).
+ 
+ 
+culture_id_i(spa).
+ 
+lng_i(1,[ 'Spanish','Spanish',spa ]).
+ 
+lng_prop_i(1,'ISOLangCode','ES',v).
+lng_prop_i(1,'ISOCountryCode','ES',v).
+lng_prop_i(1,'Codepage','1252',v).
+lng_prop_i(1,'LanguageLocalization','',d).
+lng_prop_i(1,'LangDateFormat','SPA',v).
+lng_prop_i(1,'LangTimeFormat','24',v).
+lng_prop_i(1,'LangDecimalPoint',',',v).
+ 
+ver_stamp('20140205.155200').
+ 

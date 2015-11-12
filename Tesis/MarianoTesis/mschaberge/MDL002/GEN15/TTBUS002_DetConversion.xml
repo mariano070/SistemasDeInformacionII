@@ -1,0 +1,192 @@
+
+<ReorgSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de movimientos de bienes de uso</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>TTBUS002_Det needs conversion</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description>
+<TakesValueFrom>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de movimientos de bienes de uso</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>12</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description>
+<TakesValueFrom>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de movimientos de bienes de uso</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>16</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType>
+<AttriOldType>
+<DataType>C</DataType>
+<Presicion>15</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriOldType>
+<AttriChangeType>upd</AttriChangeType></Attribute>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>TTBUS2_TipoResp</AttriName>
+<Description>Tipo de responsable (Envía/Recibe)</Description>
+<TakesValueFrom>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de movimientos de bienes de uso</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>102</AttriId>
+<AttriName>TTBUS2_TipoResp</AttriName>
+<Description>Tipo de responsable (Envía/Recibe)</Description></Attribute></FromValue></TakesValueFrom>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>1</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<NavigationTree>
+<Table>
+<TableId>10</TableId>
+<TableName>TTBUS002_Det</TableName>
+<Description>Detalle de movimientos de bienes de uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ITTBUS002_DET</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>UTTBUS002_DET</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>TTBUS2_IdUsuario</AttriName>
+<Description>Id Usuario</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>5</TableId>
+<TableName>TTBUS002</TableName>
+<Description> T1452</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>TTBUS2_IdMovimiento</AttriName>
+<Description>Id Movimiento</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [GXA0010] ([TTBUS2_IdMovimiento] decimal( 12) NOT NULL , [TTBUS2_IdUsuario] char(16) NOT NULL , [TTBUS2_TipoResp] char(1) NOT NULL ) </Statement>
+<Statement>Run conversion program for table TTBUS002_Det</Statement>
+<Statement>DROP TABLE [TTBUS002_Det]</Statement>
+<Statement>CALL sp_rename('[GXA0010]', 'TTBUS002_Det')</Statement>
+<Statement>ALTER TABLE [TTBUS002_Det] ADD PRIMARY KEY([TTBUS2_IdMovimiento], [TTBUS2_IdUsuario])</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [UTTBUS002_DET] ON [TTBUS002_Det] ([TTBUS2_IdUsuario] ,[TTBUS2_IdMovimiento] )</Statement>
+<Statement>ALTER TABLE [TTBUS002_Det] ADD CONSTRAINT [ITTBUS002_DET1] FOREIGN KEY ([TTBUS2_IdMovimiento]) REFERENCES [TTBUS002] ([TTBUS2_IdMovimiento])</Statement></Statements>
+<NeedReorganizationProgram>True</NeedReorganizationProgram>
+<Warnings></Warnings>
+<Errors></Errors></ReorgSpec>

@@ -1,0 +1,17 @@
+current_obj_i(2,proc,39).
+ 
+called_tree_i(1,39,1,102).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbus004,[],[],[],39).
+ 
+ 
+obj_parms_i([ 'long aP0_TTBUS2_IdMovimiento','int aP1_TTBUS_Id' ],[ [ 'Ttbus2_idmovimiento',inout ],[ 'Ttbus_id',inout ] ]).
+ 
+ 
+ 
+ 

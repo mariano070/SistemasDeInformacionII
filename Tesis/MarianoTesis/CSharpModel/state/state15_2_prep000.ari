@@ -1,0 +1,16 @@
+current_obj_i(2,proc,17).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(prep000,[],[],[],17).
+ 
+ 
+obj_parms_i([ 'String aP0_NOMBRE_REPORTE','String aP1_TIPO' ],[ [ 'Nombre_reporte',inout ],[ 'Tipo',inout ] ]).
+ 
+ 
+ 
+ 

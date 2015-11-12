@@ -1,0 +1,395 @@
+spec_i([ proc,7,'Controla que la posición ingresada a mano no sea inválida','PTTBUS000_8',78,spa,'10_1_5-42940' ]).
+ 
+struct_i(4,1,[],[]).
+struct_i(5,4,[],[]).
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(4,[ 7,[ [ 7,many ] ],[],[],[ [ [ 7 ],[ 33,35 ] ] ],[ [ [ 7 ],[] ] ],[ 33 ],'ITTBUS007',[ 7,[ [ [],'Ttbus_codposicion',33 ] ] ],[] ]).
+level_i(5,[ 8,[ [ 8,many ] ],[],[],[ [ [ 8 ],[ 39,33,51 ] ] ],[ [ [ 8 ],[] ] ],[ 33,39 ],'ITTBUS007PERMISOS',[ 8,[ [ [],'Ttbus_codposicion',33 ],[ [],'Usuario',39 ] ] ],[] ]).
+level_i(3,[ 9,[ [ 9,many ] ],[],[],[ [ [ 9 ],[ 40 ] ] ],[ [ [ 9 ],[] ] ],[ 40 ],'IHTBUS008',[ 9,[ [ [],'Usuario',40 ] ] ],[] ]).
+level_i(2,[ 7,[ [ 7,many ] ],[],[],[ [ [ 7 ],[ 33 ] ] ],[ [ [ 7 ],[] ] ],[ 33 ],'ITTBUS007',[ 7,[ [ [],'Ttbus_codposicion',33 ] ] ],[] ]).
+ 
+tw_i(4,[]).
+tw_i(5,[]).
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(4,[ [] ]).
+lwi_i(5,[ [] ]).
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+level_option_i(2,usr_condition,y).
+level_option_i(3,usr_condition,y).
+level_option_i(4,usr_condition,y).
+level_option_i(5,usr_condition,y).
+ 
+ta_i(4,[ [ [ 7,33 ],[ 7,35 ] ] ]).
+ta_i(5,[ [ [ 8,39 ],[ 8,33 ],[ 8,51 ] ] ]).
+ta_i(3,[ [ [ 9,40 ] ] ]).
+ta_i(2,[ [ [ 7,33 ] ] ]).
+ 
+las_i(4,[ [ 33,35 ] ]).
+las_i(5,[ [ 39,33,51 ] ]).
+las_i(3,[ [ 40 ] ]).
+las_i(2,[ [ 33 ] ]).
+ 
+lac_i(4,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''SCR''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Controla que la posición ingresada a mano no sea inválida')).
+rule_i(0,prop('ObjName','PTTBUS000_8')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ttbus_codposicion','Modo','Usuario','Cod_error','Mje_error' ],[])).
+rule_i(0,parmio([ [ 'Ttbus_codposicion',in ],[ 'Modo',in ],[ 'Usuario',in ],[ 'Cod_error',out ],[ 'Mje_error',out ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,7,[],[ [ [ [],'Ttbus_codposicion',33 ] ],'ITTBUS007',[] ]).
+a_i(3,3,t,9,[],[ [ [ [],'Usuario',40 ] ],'IHTBUS008',[] ]).
+a_i(4,5,t,8,[],[ [ [ [],'Ttbus_codposicion',33 ],[ [],'Usuario',39 ] ],'ITTBUS007PERMISOS',[] ]).
+a_i(5,4,t,7,[],[ [ [ [],'Ttbus_codposicion',33 ] ],'ITTBUS007',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Ttbus_codposicion').
+v_i(t,o,2,33).
+v_i(t,i,3,'Usuario').
+v_i(t,o,3,40).
+v_i(t,i,4,'Ttbus_codposicion').
+v_i(t,i,4,'Usuario').
+v_i(t,o,4,39).
+v_i(t,o,4,33).
+v_i(t,o,4,51).
+v_i(t,i,5,'Ttbus_codposicion').
+v_i(t,o,5,33).
+v_i(t,o,5,35).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',20 ]).
+attri_i(35,[ 'TTBUS7_CodResp',char,16,0,'@!',0,'Código Responsable','',0 ]).
+attri_i(51,[ 'TTBUS7_RespAux',int,1,0,'9',0,'Responsable Auxiliar','',0 ]).
+attri_i(39,[ 'TTBUS7_CodUsuario',char,16,0,'@!',0,'Código de Usuario','',0 ]).
+attri_i(40,[ 'TTBUS8_CodUsuario',char,16,0,'@!',0,'Código de Usuario','',0 ]).
+attri_i(33,[ 'TTBUS7_Pos',int,3,0,'ZZ9',0,'Id. de Posición','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',15 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',14 ]).
+attri_i('Mje_error',[ mje_error,char,70,0,'',0,mje_error,'',13 ]).
+attri_i('Band',[ band,int,1,0,'9',0,band,'',12 ]).
+attri_i('Cod_error',[ cod_error,int,1,0,'9',0,cod_error,'',11 ]).
+attri_i('Ttbus_codposicion',[ 'TTBUS_CodPosicion',int,3,0,'ZZ9',0,'TTBUS_ Cod Posicion','',10 ]).
+attri_i('Modo',[ 'Modo',char,3,0,'',0,'Modo','',9 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',8 ]).
+ 
+table_i(9,[ 'TTBUS008',[ 40 ],'Maestro de Administradores del Sistema','TTBUS008' ]).
+table_i(8,[ 'TTBUS007Permisos',[ 33,39,51 ],'Maestro de Permisos a Posiciones','TTBUS007Permisos' ]).
+table_i(7,[ 'TTBUS007',[ 33,35 ],'Maestro de Responsables de Posiciones','TTBUS007' ]).
+ 
+index_i(7,[ 'ITTBUS007',u,[ 33 ],'ITTBUS007' ]).
+index_i(9,[ 'IHTBUS008',u,[ 40 ],'IHTBUS008' ]).
+index_i(8,[ 'ITTBUS007PERMISOS',u,[ 33,39 ],'ITTBUS007Permisos' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+start_i(4,0,0,[ [ [ 33,23,'Ttbus_codposicion',= ] ],one ]).
+start_i(5,0,0,[ [ [ 33,23,'Ttbus_codposicion',= ],[ 39,23,'Usuario',= ] ],one ]).
+start_i(3,0,0,[ [ [ 40,23,'Usuario',= ] ],one ]).
+start_i(2,0,0,[ [ [ 33,23,'Ttbus_codposicion',= ] ],one ]).
+ 
+end_i(4,0,0,[ [ [ t(33,2),t(=,10),t('Ttbus_codposicion',23) ] ] ]).
+end_i(5,0,0,[ [ [ t(33,2),t(=,10),t('Ttbus_codposicion',23) ],[ t(39,2),t(=,10),t('Usuario',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(40,2),t(=,10),t('Usuario',23) ] ] ]).
+end_i(2,0,0,[ [ [ t(33,2),t(=,10),t('Ttbus_codposicion',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[ 33 ],[ [ 33 ],[ 33 ],[] ]).
+break_i(3,nvg,1,[ 40 ],[ [ 40 ],[ 40 ],[] ]).
+break_i(5,nvg,4,[ 33,39 ],[ [ 33,39,51 ],[ 33,39 ],[] ]).
+break_i(4,nvg,1,[ 33 ],[ [ 33,35 ],[ 33 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,4,4).
+b_group_i(2,1,lit,0,5,5).
+b_group_i(1,3,lit,0,9,5).
+b_group_i(1,4,nvg,3,24,24).
+b_group_i(3,1,lit,0,25,25).
+b_group_i(1,5,lit,0,28,9).
+b_group_i(1,6,nvg,4,32,32).
+b_group_i(4,1,lit,0,33,33).
+b_group_i(4,2,nvg,5,38,38).
+b_group_i(5,1,lit,0,39,39).
+b_group_i(4,3,lit,0,45,40).
+b_group_i(1,7,lit,0,47,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,0,0),t('Cod_error',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,2,1,cmd,5,[ t('',121,4,0),t('ORDER',39,4,10),t(33,2,4,10) ]).
+b_line_i(6,2,1,cmd,5,[ t('',107,5,0),t('Cod_error',23,5,0),t(=,10,5,0),t('0',3,5,0) ]).
+b_line_i(7,2,1,cmd,5,[ t('',139,5,0) ]).
+b_line_i(8,2,1,cmd,5,[ t('',128,5,0) ]).
+b_line_i(9,1,3,cmd,5,[]).
+b_line_i(10,1,3,cmd,5,[ t('',109,5,0),t('Cod_error',23,5,4),t(=,10,5,15),t('1',3,5,17) ]).
+b_line_i(11,1,3,cmd,5,[ t('',107,5,0),t('Mje_error',23,5,0),t(=,10,5,0),t('''LA POSICIÓN INGRESADA NO EXITE.''',3,5,0) ]).
+b_line_i(12,1,3,cmd,5,[ t('',110,5,0) ]).
+b_line_i(13,1,3,cmd,5,[]).
+b_line_i(14,1,3,cmd,5,[ t('',109,5,0),t('Modo',23,5,5),t(=,10,5,11),t('''INS''',3,14,13) ]).
+b_line_i(15,1,3,cmd,5,[ t('',107,5,0),t('Cod_error',23,5,0),t(=,10,5,0),t('1',3,5,0) ]).
+b_line_i(16,1,3,cmd,5,[]).
+b_line_i(17,1,3,cmd,5,[]).
+b_line_i(18,1,3,cmd,5,[ t('',109,5,0),t('Usuario',23,5,6),t(=,10,5,15),t('''SUPERVISOR''',3,18,17) ]).
+b_line_i(19,1,3,cmd,5,[ t('',107,5,0),t('Cod_error',23,5,0),t(=,10,5,0),t('0',3,5,0) ]).
+b_line_i(20,1,3,cmd,5,[ t('',111,5,0) ]).
+b_line_i(21,1,3,cmd,5,[]).
+b_line_i(22,1,3,cmd,5,[ t('',109,5,0),t('Cod_error',23,5,6),t(=,10,5,17),t('1',3,5,19) ]).
+b_line_i(23,1,3,cmd,5,[]).
+b_line_i(24,3,1,cmd,25,[ t('',121,24,0),t('ORDER',39,24,13),t(40,2,24,13) ]).
+b_line_i(26,3,1,cmd,25,[ t('',107,25,0),t('Cod_error',23,25,0),t(=,10,25,0),t('0',3,25,0) ]).
+b_line_i(27,3,1,cmd,25,[ t('',128,25,0) ]).
+b_line_i(28,1,5,cmd,9,[ t('',111,9,0) ]).
+b_line_i(29,1,5,cmd,9,[]).
+b_line_i(30,1,5,cmd,9,[ t('',109,9,0),t('Cod_error',23,9,6),t(=,10,9,17),t('1',3,9,19) ]).
+b_line_i(31,1,5,cmd,9,[]).
+b_line_i(32,4,1,cmd,33,[ t('',121,32,0),t('ORDER',39,32,13),t(33,2,32,13) ]).
+b_line_i(34,4,1,cmd,33,[ t('',109,33,0),t(35,2,33,8),t(=,10,33,23),t('Usuario',23,33,25) ]).
+b_line_i(35,4,1,cmd,33,[ t('',107,33,0),t('Cod_error',23,33,0),t(=,10,33,0),t('0',3,33,0) ]).
+b_line_i(36,4,1,cmd,33,[ t('',110,33,0) ]).
+b_line_i(37,4,1,cmd,33,[]).
+b_line_i(38,5,1,cmd,39,[ t('',121,38,0),t('ORDER',39,38,15),t(33,2,38,15),t(39,2,38,26) ]).
+b_line_i(41,5,1,cmd,39,[ t('',109,39,0),t(51,2,39,10),t(=,10,39,25),t('1',3,39,27) ]).
+b_line_i(42,5,1,cmd,39,[ t('',107,39,0),t('Cod_error',23,39,0),t(=,10,39,0),t('0',3,39,0) ]).
+b_line_i(43,5,1,cmd,39,[ t('',111,39,0) ]).
+b_line_i(44,5,1,cmd,39,[ t('',128,39,0) ]).
+b_line_i(45,4,3,cmd,40,[ t('',111,40,0) ]).
+b_line_i(46,4,3,cmd,40,[ t('',128,40,0) ]).
+b_line_i(47,1,7,cmd,24,[ t('',111,24,0) ]).
+b_line_i(48,1,7,cmd,24,[]).
+b_line_i(49,1,7,cmd,24,[]).
+b_line_i(50,1,7,cmd,24,[ t('',109,24,0),t('Cod_error',23,24,6),t(=,10,24,17),t('1',3,24,19) ]).
+b_line_i(51,1,7,cmd,24,[ t('',107,24,0),t('Mje_error',23,24,0),t(=,10,24,0),t('''NO TIENE PERMISOS PARA DAR DE ALTA UN BIEN PARA EN ESTA POSICIÓN.''',3,24,0) ]).
+b_line_i(52,1,7,cmd,24,[ t('',111,24,0) ]).
+b_line_i(53,1,7,cmd,24,[ t('',111,24,0) ]).
+b_line_i(54,1,7,cmd,24,[ t('',111,24,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,33,'ExternalName','TTBUS7_Pos',d).
+att_prop_i(2,33,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,33,'EmptyAsNull','Yes',d).
+att_prop_i(2,33,'AUTONUMBER','0',d).
+att_prop_i(2,33,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,33,'AttRegEx','',d).
+att_prop_i(2,33,'AttValidationFailedMsg','',d).
+att_prop_i(2,33,'FullName','TTBUS7_Pos',v).
+att_prop_i(2,40,'ExternalName','TTBUS8_CodUsuario',d).
+att_prop_i(2,40,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,40,'EmptyAsNull','Yes',v).
+att_prop_i(2,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,40,'AttRegEx','',d).
+att_prop_i(2,40,'AttValidationFailedMsg','',d).
+att_prop_i(2,40,'FullName','TTBUS8_CodUsuario',v).
+att_prop_i(2,39,'ExternalName','TTBUS7_CodUsuario',d).
+att_prop_i(2,39,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,39,'EmptyAsNull','Yes',v).
+att_prop_i(2,39,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,39,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,39,'AttRegEx','',d).
+att_prop_i(2,39,'AttValidationFailedMsg','',d).
+att_prop_i(2,39,'FullName','TTBUS7_CodUsuario',v).
+att_prop_i(2,51,'ExternalName','TTBUS7_RespAux',d).
+att_prop_i(2,51,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,51,'EmptyAsNull','Yes',d).
+att_prop_i(2,51,'AUTONUMBER','0',d).
+att_prop_i(2,51,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,51,'AttRegEx','',d).
+att_prop_i(2,51,'AttValidationFailedMsg','',d).
+att_prop_i(2,51,'FullName','TTBUS7_RespAux',v).
+att_prop_i(2,35,'ExternalName','TTBUS7_CodResp',d).
+att_prop_i(2,35,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,35,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'FullName','TTBUS7_CodResp',v).
+ 
+tbl_prop_i(2,8,'AllDirSuper',[ [ 7,[ 33 ] ] ],v).
+tbl_prop_i(2,7,'DirSubor',[ [ 8,[ 33 ] ] ],v).
+tbl_prop_i(2,8,'DirSuper',[ [ 7,[ 33 ] ] ],v).
+ 
+tbl_att_prop_i(2,7,33,'AllowNulls',n).
+tbl_att_prop_i(2,7,35,'AllowNulls',n).
+tbl_att_prop_i(2,9,40,'AllowNulls',n).
+tbl_att_prop_i(2,8,33,'AllowNulls',n).
+tbl_att_prop_i(2,8,39,'AllowNulls',n).
+tbl_att_prop_i(2,8,51,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+optimize_i(2,0,[ maxrows(1) ]).
+ 
+ 

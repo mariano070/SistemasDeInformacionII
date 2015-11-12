@@ -1,0 +1,327 @@
+spec_i([ proc,52,'Carga de temporal de cambio de posiciones','PTBUS020_',78,spa,'10_1_5-42940' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 13,[ [ 13,many ] ],[],[],[ [ [ 13 ],[ 222,225,219,221,220,218,224,223 ] ] ],[ [ [ 13 ],[] ] ],[ 223 ],'ITTBUS020',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 13,222 ],[ 13,225 ],[ 13,219 ],[ 13,221 ],[ 13,220 ],[ 13,218 ],[ 13,224 ],[ 13,223 ] ] ]).
+ 
+las_i(2,[ [ 222,225,219,221,220,218,224,223 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''SCR''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('BEEPONMSG','UMPV')).
+rule_i(0,prop('GENERATE_ILE','UMPV')).
+rule_i(0,prop('PRT_DDS','UMPV')).
+rule_i(0,prop('TRNCMT','YES')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('OUTPUT','ASK')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Folder',o(8,'Objects'))).
+rule_i(0,prop('ObjDesc','Carga de temporal de cambio de posiciones')).
+rule_i(0,prop('ObjName','PTBUS020_')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Ttbus_id','Ttbus_descripcion','Ttbus20_mensaje','Ttbus20_motivoenvio','Ttbus20_observaciones','Usuario','Ttbus20_plazorecepcion' ],[])).
+rule_i(0,parmio([ [ 'Ttbus_id',inout ],[ 'Ttbus_descripcion',inout ],[ 'Ttbus20_mensaje',inout ],[ 'Ttbus20_motivoenvio',inout ],[ 'Ttbus20_observaciones',inout ],[ 'Usuario',inout ],[ 'Ttbus20_plazorecepcion',inout ] ])).
+rule_i(0,output('SCR')).
+rule_i(0,output('PRN')).
+rule_i(0,output('ASK')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,13,[],[ [],'ITTBUS020',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,222).
+v_i(t,o,2,225).
+v_i(t,o,2,219).
+v_i(t,o,2,221).
+v_i(t,o,2,220).
+v_i(t,o,2,218).
+v_i(t,o,2,224).
+v_i(t,o,2,223).
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',17 ]).
+attri_i(223,[ 'TTBUS20_IdBien',int,8,0,'ZZZZZZZ9',0,'Nº de bien de uso','',0 ]).
+attri_i(224,[ 'TTBUS20_Descripcion',char,50,0,'',0,'Descripción de bien de uso','',0 ]).
+attri_i(218,[ 'TTBUS20_Mensaje',svchar,100,0,'',0,'Mensaje de resultado de cambio de posición','',0 ]).
+attri_i(219,[ 'TTBUS20_Estacion',char,20,0,'',0,'Estación de trabajo','',0 ]).
+attri_i(225,[ 'TTBUS20_Usuario',char,16,0,'',0,'Usuario','',0 ]).
+attri_i(220,[ 'TTBUS20_MotivoEnvio',svchar,100,0,'',0,'Motivo de envío','',0 ]).
+attri_i(221,[ 'TTBUS20_Observaciones',svchar,500,0,'',0,'Observaciones','',0 ]).
+attri_i(222,[ 'TTBUS20_PlazoRecepcion',date,8,0,'99/99/9999',0,'Plazo límite recepción de un bien','',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',16 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',15 ]).
+attri_i('Ttbus20_plazorecepcion',[ 'TTBUS20_PlazoRecepcion',date,8,0,'99/99/9999',0,'TTBUS20_ Plazo Recepcion','',14 ]).
+attri_i('Ttbus20_observaciones',[ 'TTBUS20_Observaciones',svchar,500,0,'',0,'TTBUS20_ Observaciones','',13 ]).
+attri_i('Ttbus20_motivoenvio',[ 'TTBUS20_MotivoEnvio',svchar,100,0,'',0,'TTBUS20_ Motivo Envio','',12 ]).
+attri_i('Ttbus20_mensaje',[ 'TTBUS20_Mensaje',svchar,100,0,'',0,'TTBUS20_ Mensaje','',11 ]).
+attri_i('Ttbus_descripcion',[ 'TTBUS_Descripcion',svchar,50,0,'@!',0,'TTBUS_ Descripcion','',10 ]).
+attri_i('Ttbus_id',[ 'TTBUS_Id',int,8,0,'ZZZZZZZ9',0,'TTBUS_ Id','',9 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',8 ]).
+ 
+table_i(13,[ 'TTBUS020',[ 223,224,218,220,221,219,225,222 ],'Auxiliar para Mensajes de Administrador de Cambio de Posiciones','TTBUS020' ]).
+ 
+index_i(13,[ 'ITTBUS020',u,[ 223 ],'ITTBUS020' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+upd_i(2,13,i,[ [ 223,224,218,220,221,219,225,222 ],[],'ITTBUS020',[ [ [],223,223 ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,ins,1,[],[ [ 222,221,220,225,219,218,224,223 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,ins,2,1,1).
+b_group_i(2,1,lit,0,2,2).
+b_group_i(1,3,lit,0,11,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,2,1,cmd,2,[ t('',117,1,0) ]).
+b_line_i(2,2,1,cmd,2,[ t('',107,2,0),t(223,2,2,0),t(=,10,2,0),t('Ttbus_id',23,2,0) ]).
+b_line_i(3,2,1,cmd,2,[ t('',107,2,0),t(224,2,2,0),t(=,10,2,0),t('Ttbus_descripcion',23,2,0) ]).
+b_line_i(4,2,1,cmd,2,[ t('',107,2,0),t(218,2,2,0),t(=,10,2,0),t('Ttbus20_mensaje',23,2,0) ]).
+b_line_i(5,2,1,cmd,2,[ t('',107,2,0),t(219,2,2,0),t(=,10,2,0),t('wrkst(',1,2,0),t(')',4,2,0) ]).
+b_line_i(6,2,1,cmd,2,[ t('',107,2,0),t(225,2,2,0),t(=,10,2,0),t('Usuario',23,2,0) ]).
+b_line_i(7,2,1,cmd,2,[ t('',107,2,0),t(220,2,2,0),t(=,10,2,0),t('Ttbus20_motivoenvio',23,2,0) ]).
+b_line_i(8,2,1,cmd,2,[ t('',107,2,0),t(221,2,2,0),t(=,10,2,0),t('Ttbus20_observaciones',23,2,0) ]).
+b_line_i(9,2,1,cmd,2,[ t('',107,2,0),t(222,2,2,0),t(=,10,2,0),t('Ttbus20_plazorecepcion',23,2,0) ]).
+b_line_i(10,2,1,cmd,2,[ t('',127,2,0) ]).
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,222,'ExternalName','TTBUS20_PlazoRecepcion',d).
+att_prop_i(2,222,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,222,'EmptyAsNull','Yes',d).
+att_prop_i(2,222,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,222,'AttRegEx','',d).
+att_prop_i(2,222,'AttValidationFailedMsg','',d).
+att_prop_i(2,222,idDATEFORMAT,idDATEFORMAT_LONG,v).
+att_prop_i(2,222,'FullName','TTBUS20_PlazoRecepcion',v).
+att_prop_i(2,221,'ExternalName','TTBUS20_Observaciones',d).
+att_prop_i(2,221,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,221,'EmptyAsNull','Yes',v).
+att_prop_i(2,221,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,221,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,221,'AttRegEx','',d).
+att_prop_i(2,221,'AttValidationFailedMsg','',d).
+att_prop_i(2,221,'FullName','TTBUS20_Observaciones',v).
+att_prop_i(2,220,'ExternalName','TTBUS20_MotivoEnvio',d).
+att_prop_i(2,220,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,220,'EmptyAsNull','Yes',d).
+att_prop_i(2,220,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,220,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,220,'AttRegEx','',d).
+att_prop_i(2,220,'AttValidationFailedMsg','',d).
+att_prop_i(2,220,'FullName','TTBUS20_MotivoEnvio',v).
+att_prop_i(2,225,'ExternalName','TTBUS20_Usuario',d).
+att_prop_i(2,225,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,225,'EmptyAsNull','Yes',d).
+att_prop_i(2,225,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,225,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,225,'AttRegEx','',d).
+att_prop_i(2,225,'AttValidationFailedMsg','',d).
+att_prop_i(2,225,'FullName','TTBUS20_Usuario',v).
+att_prop_i(2,219,'ExternalName','TTBUS20_Estacion',d).
+att_prop_i(2,219,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,219,'EmptyAsNull','Yes',d).
+att_prop_i(2,219,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,219,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,219,'AttRegEx','',d).
+att_prop_i(2,219,'AttValidationFailedMsg','',d).
+att_prop_i(2,219,'FullName','TTBUS20_Estacion',v).
+att_prop_i(2,218,'ExternalName','TTBUS20_Mensaje',d).
+att_prop_i(2,218,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,218,'EmptyAsNull','Yes',d).
+att_prop_i(2,218,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,218,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,218,'AttRegEx','',d).
+att_prop_i(2,218,'AttValidationFailedMsg','',d).
+att_prop_i(2,218,'FullName','TTBUS20_Mensaje',v).
+att_prop_i(2,224,'ExternalName','TTBUS20_Descripcion',d).
+att_prop_i(2,224,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,224,'EmptyAsNull','Yes',d).
+att_prop_i(2,224,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,224,'DB_NLS_SUPPORT','No',d).
+att_prop_i(2,224,'AttRegEx','',d).
+att_prop_i(2,224,'AttValidationFailedMsg','',d).
+att_prop_i(2,224,'FullName','TTBUS20_Descripcion',v).
+att_prop_i(2,223,'ExternalName','TTBUS20_IdBien',d).
+att_prop_i(2,223,'ExternalNamespace','MarianoTesis',d).
+att_prop_i(2,223,'EmptyAsNull','Yes',d).
+att_prop_i(2,223,'AUTONUMBER','0',d).
+att_prop_i(2,223,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,223,'AttRegEx','',d).
+att_prop_i(2,223,'AttValidationFailedMsg','',d).
+att_prop_i(2,223,'FullName','TTBUS20_IdBien',v).
+ 
+ 
+tbl_att_prop_i(2,13,223,'AllowNulls',n).
+tbl_att_prop_i(2,13,224,'AllowNulls',n).
+tbl_att_prop_i(2,13,218,'AllowNulls',n).
+tbl_att_prop_i(2,13,220,'AllowNulls',n).
+tbl_att_prop_i(2,13,221,'AllowNulls',n).
+tbl_att_prop_i(2,13,219,'AllowNulls',n).
+tbl_att_prop_i(2,13,225,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,16 @@
+current_obj_i(2,proc,58).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pmail_html_b,[],[],[],58).
+ 
+ 
+obj_parms_i([ 'String aP0_SENDER_NAME','String aP1_SENDER_ADDRESS','String aP2_PASSWORD','String aP3_DestinatarioNom','String aP4_DIR_MAIL','String aP5_CC_MAIL','String aP6_ASUNTO','String aP7_MENSAJE','GxWebWrapper aP8_WEBWRAPP','IGxCollection aP9_SDTAttachs','String aP10_Gx_emsg' ],[ [ 'Sender_name',inout ],[ 'Sender_address',inout ],[ 'Password',inout ],[ 'Destinatarionom',inout ],[ 'Dir_mail',inout ],[ 'Cc_mail',inout ],[ 'Asunto',inout ],[ 'Mensaje',inout ],[ 'Webwrapp',inout ],[ 'Sdtattachs',inout ],[ 'Errmsg',inout ] ]).
+ 
+ 
+ 
+ 

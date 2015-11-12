@@ -1,0 +1,16 @@
+current_obj_i(2,mnproc,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(fisheyedatamenu,[],[],[],2).
+ 
+ 
+obj_parms_i([ 'String aP0_USU_COD','IGxCollection aP1_Gxm2rootcol' ],[ [ 'Usu_cod',in ],[ 'Gxm2rootcol',out ] ]).
+ 
+ 
+ 
+ 

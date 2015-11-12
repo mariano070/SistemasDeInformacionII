@@ -1,0 +1,16 @@
+current_obj_i(2,proc,9).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pttbus000_10,[],[],[],9).
+ 
+ 
+obj_parms_i([ 'int aP0_pTTBUS_Id','int aP1_pIdIdentificador','String aP2_pNumeroIdentificador','short aP3_error','String aP4_mensaje' ],[ [ 'Pttbus_id',in ],[ 'Pididentificador',in ],[ 'Pnumeroidentificador',in ],[ 'Error',out ],[ 'Mensaje',out ] ]).
+ 
+ 
+ 
+ 

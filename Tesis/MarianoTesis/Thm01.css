@@ -1,0 +1,2340 @@
+.BaseRBtn{
+	display:inline-block;
+}
+.BaseRBtn span, .RoundedBtn input{
+	display:block;
+	float: left;
+	position:relative;
+}
+.BaseRBtn .BtnLeft{
+	background: transparent no-repeat scroll 0 0;
+}
+.BaseRBtn .BtnRight{
+	background: transparent no-repeat scroll right 0;
+}
+.BaseRBtn .BtnBackground{
+	overflow:hidden;
+	background: transparent repeat-x scroll;
+}
+.BaseRBtn .BtnText{
+	border: 0px;
+	background: transparent;
+	margin:0;
+	white-space:nowrap;
+	width:auto;
+	overflow:visible;
+}
+.Attribute,.ReadonlyAttribute,.Nombre_programa,.desc_programa,.BlobContentAttribute,.ReadonlyBlobContentAttribute,.BlobInputAttribute,.Subtitulo,.ReadonlySubtitulo,.BlobInputSubtitulo,.BlobContentSubtitulo,.ReadonlyBlobContentSubtitulo,.Negrita,.ReadonlyNegrita,.BlobInputNegrita,.BlobContentNegrita,.ReadonlyBlobContentNegrita,.GridOdd,.ReadonlyGridOdd,.BlobInputGridOdd,.BlobContentGridOdd,.ReadonlyBlobContentGridOdd,.GridEven,.ReadonlyGridEven,.BlobInputGridEven,.BlobContentGridEven,.ReadonlyBlobContentGridEven,.AttributeDragging,.AttributeAcceptDrag,.AttributeNoAcceptDrag
+{
+	background-color: rgb(255, 255, 255);
+	border-bottom-color: rgb(176,196,222);
+	border-left-color: rgb(176,196,222);
+	border-right-color: rgb(176,196,222);
+	border-top-color: rgb(176,196,222);
+	border-style: ridge;
+	border-width: 1px;
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	ime-mode: auto;
+
+}
+
+.ReadonlyAttribute
+{
+	border-bottom-color: rgb(255,255,255);
+	border-left-color: rgb(255,255,255);
+	border-right-color: rgb(255,255,255);
+	border-top-color: rgb(255,255,255);
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.Nombre_programa
+{
+	border-bottom-color: rgb(255,255,255);
+	border-left-color: rgb(255,255,255);
+	border-right-color: rgb(255,255,255);
+	border-top-color: rgb(255,255,255);
+	border-style: none;
+	border-width: 0px;
+	font-size: 8.25pt;
+	color: rgb(0, 0, 64);
+
+}
+
+.desc_programa
+{
+	border-width: 0px;
+	font-weight: bold;
+	color: rgb(0, 128, 128);
+
+}
+
+
+
+
+.Subtitulo,.ReadonlySubtitulo,.BlobInputSubtitulo,.BlobContentSubtitulo,.ReadonlyBlobContentSubtitulo
+{
+	border-style: none;
+	border-width: 0px;
+	font-size: 11pt;
+	font-weight: bold;
+
+}
+
+
+
+
+
+.Negrita,.ReadonlyNegrita,.BlobInputNegrita,.BlobContentNegrita,.ReadonlyBlobContentNegrita
+{
+	border-style: none;
+	border-width: 0px;
+	font-weight: bold;
+
+}
+
+
+
+
+
+.GridOdd,.ReadonlyGridOdd,.BlobInputGridOdd,.BlobContentGridOdd,.ReadonlyBlobContentGridOdd
+{
+	background-color: #E0E0E0;
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: solid;
+
+}
+
+
+
+
+
+.GridEven,.ReadonlyGridEven,.BlobInputGridEven,.BlobContentGridEven,.ReadonlyBlobContentGridEven
+{
+	background-color: rgb(176, 196, 222);
+	border-bottom-color: White;
+	border-left-color: White;
+	border-right-color: White;
+	border-top-color: White;
+	border-style: solid;
+
+}
+
+.ReadonlyGridEven
+{
+	border-width: 0px;
+
+}
+
+
+
+
+
+
+
+.Button,.SpecialButtons,.BtnFirst,.BtnNext,.BtnPrevious,.BtnLast,.BtnSelect,.BtnGet,.BtnEnter,.BtnCheck,.BtnCancel,.BtnDelete,.BtnHelp,.BtnRefresh,.botones_mios,.boton_menu,.boton_soporte,.ButtonDragging,.ButtonAcceptDrag,.ButtonNoAcceptDrag
+{
+	margin-bottom: 1pt;
+	margin-left: 0pt;
+	margin-right: 1pt;
+	margin-top: 1pt;
+	background-color: #ECE9D8;
+	border-bottom-color: Transparent;
+	border-left-color: Transparent;
+	border-right-color: Transparent;
+	border-top-color: Transparent;
+	border-style: ridge;
+	border-width: 2px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: Navy;
+	height: 20px;
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+.RButton
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RButton .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: Navy;
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.SpecialButtons,.BtnFirst,.BtnNext,.BtnPrevious,.BtnLast,.BtnSelect,.BtnGet,.BtnEnter,.BtnCheck,.BtnCancel,.BtnDelete,.BtnHelp,.BtnRefresh
+{
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	color: rgb(128, 0, 128);
+
+}
+
+.RSpecialButtons
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RSpecialButtons .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.RBtnFirst
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnFirst .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.BtnNext
+{
+	border-style: outset;
+
+}
+
+.RBtnNext
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnNext .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.BtnPrevious
+{
+	border-style: outset;
+
+}
+
+.RBtnPrevious
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnPrevious .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.RBtnLast
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnLast .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.RBtnSelect
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnSelect .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.BtnGet
+{
+	margin-left: 5pt;
+	height: 0px;
+	vertical-align: baseline;
+
+}
+
+.RBtnGet
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 5pt;
+}
+
+.RBtnGet .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 0px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: baseline;
+
+}
+
+
+.BtnEnter
+{
+	border-style: outset;
+
+}
+
+.RBtnEnter
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnEnter .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.RBtnCheck
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnCheck .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.BtnCancel
+{
+	border-style: outset;
+
+}
+
+.RBtnCancel
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnCancel .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.RBtnDelete
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnDelete .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.BtnHelp
+{
+	border-style: outset;
+
+}
+
+.RBtnHelp
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnHelp .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.RBtnRefresh
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.RBtnRefresh .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.Rbotones_mios
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.Rbotones_mios .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: Navy;
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.boton_menu
+{
+	width: 150px;
+
+}
+
+.Rboton_menu
+{
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+	margin-right: 1pt;
+	margin-left: 0pt;
+}
+
+.Rboton_menu .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: Navy;
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.boton_soporte
+{
+	margin-bottom: 3pt;
+	margin-right: 3pt;
+	margin-top: 3pt;
+	width: 250px;
+
+}
+
+.Rboton_soporte
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.Rboton_soporte .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: Navy;
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.ButtonDragging
+{
+	margin-bottom: 3pt;
+	margin-right: 3pt;
+	margin-top: 3pt;
+	background-color: rgb(135, 206, 250);
+	color: rgb(128, 0, 128);
+
+}
+
+.RButtonDragging
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButtonDragging .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.ButtonAcceptDrag
+{
+	margin-bottom: 3pt;
+	margin-right: 3pt;
+	margin-top: 3pt;
+	background-color: rgb(135, 206, 250);
+	color: rgb(128, 0, 128);
+
+}
+
+.RButtonAcceptDrag
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButtonAcceptDrag .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.ButtonNoAcceptDrag
+{
+	margin-bottom: 3pt;
+	margin-right: 3pt;
+	margin-top: 3pt;
+	background-color: rgb(135, 206, 250);
+	color: rgb(128, 0, 128);
+
+}
+
+.RButtonNoAcceptDrag
+{
+	margin-bottom: 3pt;
+	margin-top: 3pt;
+	margin-right: 3pt;
+	margin-left: 0pt;
+}
+
+.RButtonNoAcceptDrag .BtnText
+{
+	cursor: pointer;
+	padding-left: 0;
+	padding-right: 0;
+	height: 20px;
+	font-family: "Verdana";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(128, 0, 128);
+	text-indent: 0pt;
+	vertical-align: bottom;
+
+}
+
+
+.ErrorViewer
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: "Microsoft Sans Serif";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(255, 0, 0);
+
+}
+
+.Form,.SubForm
+{
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	background-image: none;
+	border-style: none;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 8pt;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+
+}
+
+.SubForm
+{
+	background-color: rgb(245, 245, 245);
+	border-style: inset;
+
+}
+
+.FreeStyleGrid
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.FreeStyleGridUniform
+{
+	background-color: rgb(219, 236, 252);
+	font-family: "Arial";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.FreeStyleGridOdd
+{
+	font-family: "Arial";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(255, 255, 255);
+
+}
+
+.FreeStyleGridEven
+{
+	font-family: "Arial";
+	font-size: 8.25pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(219, 236, 252);
+
+}
+
+.FreeStyleGridUniformTitle
+{
+	background-color: rgb(219, 236, 252);
+
+}
+
+.FreeStyleGridTitle
+{
+
+}
+
+.Grid,.WorkWith,.GridDragging,.GridAcceptDrag,.GridNoAcceptDrag
+{
+	background-color: White;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	border-style: solid;
+	border-width: 0px;
+
+}
+
+.GridUniform
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridOdd
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridEven
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(219, 236, 252);
+
+}
+
+.GridUniformTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(31, 76, 135);
+
+}
+
+.GridTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgb(176, 196, 222);
+	color: rgb(31, 76, 135);
+
+}
+
+.WorkWithUniform
+{
+	background-color: rgb(219, 236, 252);
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+
+}
+
+.WorkWithOdd
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(219, 236, 252);
+	color: rgb(0, 0, 0);
+
+}
+
+.WorkWithEven
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(176, 196, 222);
+	color: rgb(0, 0, 0);
+
+}
+
+.WorkWithUniformTitle
+{
+	background-color: rgb(219, 236, 252);
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: underline;
+	color: rgb(0, 0, 0);
+
+}
+
+.WorkWithTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: underline;
+	background-color: rgb(70, 130, 180);
+	color: rgb(0, 0, 0);
+
+}
+
+.GridDragging
+{
+	background-color: Transparent;
+
+}
+
+.GridDraggingUniform
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridDraggingOdd
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridDraggingEven
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(219, 236, 252);
+
+}
+
+.GridDraggingUniformTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(31, 76, 135);
+
+}
+
+.GridDraggingTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgb(176, 196, 222);
+	color: rgb(31, 76, 135);
+
+}
+
+.GridAcceptDrag
+{
+	background-color: Transparent;
+
+}
+
+.GridAcceptDragUniform
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridAcceptDragOdd
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridAcceptDragEven
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(219, 236, 252);
+
+}
+
+.GridAcceptDragUniformTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(31, 76, 135);
+
+}
+
+.GridAcceptDragTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgb(176, 196, 222);
+	color: rgb(31, 76, 135);
+
+}
+
+.GridNoAcceptDrag
+{
+	background-color: Transparent;
+
+}
+
+.GridNoAcceptDragUniform
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridNoAcceptDragOdd
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.GridNoAcceptDragEven
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	background-color: rgb(219, 236, 252);
+
+}
+
+.GridNoAcceptDragUniformTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: rgb(31, 76, 135);
+
+}
+
+.GridNoAcceptDragTitle
+{
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: rgb(176, 196, 222);
+	color: rgb(31, 76, 135);
+
+}
+
+.Hyperlink
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.Image,.conborde,.ImageDragging,.ImageAcceptDrag,.ImageNoAcceptDrag,.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.conborde
+{
+	border-style: outset;
+	border-width: 3px;
+
+}
+
+
+
+
+.PagingButtons,.PagingButtonsFirst,.PagingButtonsLast,.PagingButtonsNext,.PagingButtonsPrevious
+{
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+
+}
+
+.PagingButtonsFirst
+{
+	background-image: url(PageFirst.gif);
+
+}
+
+.PagingButtonsLast
+{
+	background-image: url(PageLast.gif);
+
+}
+
+.PagingButtonsNext
+{
+	background-image: url(PageNext.gif);
+
+}
+
+.PagingButtonsPrevious
+{
+	background-image: url(PagePrevious.gif);
+
+}
+
+.Messages,.ErrorMessages,.WarningMessages
+{
+	background-color: #FFFFE1;
+	border-bottom-color: #716F64;
+	border-left-color: #716F64;
+	border-right-color: #716F64;
+	border-top-color: #716F64;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-family: Baskerville, serif;
+	font-size: 0.9em;
+	color: #000000;
+
+}
+
+.ErrorMessages
+{
+	border-bottom-color: Red;
+	border-left-color: Red;
+	border-right-color: Red;
+	border-top-color: Red;
+	font-size: 1em;
+	color: Red;
+
+}
+
+
+.Table,.TableGrid,.TableTop,.TableContent,.TableLeftMenu,.Table100Width,.Table100Wx580H,.Table100W5Padding,.Table100and5padding,.Table2Padding,.TableHorizontalLine,.TableHorizontalLineBlue,.TableHorizontalLineGray,.TableTopMenu,.TableVerticalLine,.TableVerticalLineBlue,.TableDragging,.TableAcceptDrag,.TableNoAcceptDrag
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+
+}
+
+.TableGrid
+{
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	background-color: rgb(232, 244, 255);
+	border-bottom-color: rgb(70,130,180);
+	border-left-color: rgb(70,130,180);
+	border-right-color: rgb(70,130,180);
+	border-top-color: rgb(70,130,180);
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.TableTop
+{
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	background-color: rgb(70, 130, 180);
+	height: 75px;
+	color: rgb(255, 255, 255);
+	width: 100%;
+	vertical-align: middle;
+
+}
+
+.TableContent
+{
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 10pt;
+	padding-left: 10pt;
+	padding-right: 10pt;
+	padding-top: 10pt;
+	color: rgb(0, 0, 0);
+	vertical-align: top;
+
+}
+
+.TableLeftMenu
+{
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	background-color: rgb(219, 236, 252);
+	font-size: 8.25pt;
+	width: 100%;
+	text-indent: 15pt;
+
+}
+
+.Table100Width,.Table100Wx580H,.Table100W5Padding,.Table100and5padding
+{
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 0pt;
+	padding-left: 0pt;
+	padding-right: 0pt;
+	padding-top: 0pt;
+	width: 100%;
+	vertical-align: top;
+
+}
+
+.Table100Wx580H
+{
+	height: 580px;
+
+}
+
+.Table100W5Padding
+{
+	padding-bottom: 5pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 5pt;
+
+}
+
+.Table100and5padding
+{
+	padding-bottom: 5pt;
+	padding-left: 5pt;
+	padding-right: 5pt;
+	padding-top: 5pt;
+
+}
+
+.Table2Padding
+{
+	margin-bottom: 0pt;
+	margin-left: 0pt;
+	margin-right: 0pt;
+	margin-top: 0pt;
+	padding-bottom: 2pt;
+	padding-left: 2pt;
+	padding-right: 2pt;
+	padding-top: 2pt;
+
+}
+
+.TableHorizontalLine,.TableHorizontalLineBlue,.TableHorizontalLineGray
+{
+	background-color: rgb(0, 0, 0);
+	font-size: 1.5pt;
+	height: 1px;
+	width: 100%;
+
+}
+
+.TableHorizontalLineBlue
+{
+	background-color: rgb(70, 130, 180);
+
+}
+
+.TableHorizontalLineGray
+{
+	background-color: rgb(211, 211, 211);
+
+}
+
+.TableTopMenu
+{
+	background-color: rgb(176, 196, 222);
+	font-size: 8.25pt;
+	text-indent: 0pt;
+
+}
+
+.TableVerticalLine,.TableVerticalLineBlue
+{
+	background-color: rgb(0, 0, 0);
+	font-size: 1.5pt;
+	height: 100%;
+	width: 1px;
+
+}
+
+.TableVerticalLineBlue
+{
+	background-color: rgb(70, 130, 180);
+
+}
+
+
+
+
+.TextBlock,.bullet,.subBullet,.TextTable,.TBTopMenu,.TBLeftMenu,.Title,.SubTitle,.intranet,.menu,.menu2,.busqueda,.mensaje,.home,.Blink,.TextBlockDragging,.TextBlockAcceptDrag,.TextBlockNoAcceptDrag
+{
+	border-style: none;
+	border-width: 0px;
+	font-family: "Verdana";
+	font-size: 9pt;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+	ime-mode: auto;
+
+}
+
+.bullet,.subBullet
+{
+	text-indent: 5pt;
+
+}
+
+.subBullet
+{
+	text-indent: 10pt;
+
+}
+
+.TextTable
+{
+	font-size: 8.25pt;
+
+}
+
+.TBTopMenu
+{
+	background-color: rgb(176, 196, 222);
+	font-size: 8.25pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: rgb(0, 0, 255);
+	text-indent: 3pt;
+
+}
+
+.TBLeftMenu
+{
+	background-color: rgb(219, 236, 252);
+	font-size: 8.25pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: rgb(0, 0, 255);
+
+}
+
+.Title,.SubTitle
+{
+	font-size: 12pt;
+	font-weight: bold;
+	color: rgb(70, 130, 180);
+
+}
+
+.SubTitle
+{
+	font-size: 10.2pt;
+	color: rgb(0, 0, 0);
+
+}
+
+
+.menu
+{
+	background-image: none;
+	font-size: 11.25pt;
+	font-weight: bold;
+	color: rgb(32, 178, 170);
+
+}
+
+.menu2
+{
+	font-size: 11.25pt;
+	color: rgb(255, 0, 255);
+
+}
+
+.busqueda
+{
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+
+}
+
+.mensaje
+{
+	font-size: 9.75pt;
+	font-weight: bold;
+	color: rgb(220, 20, 60);
+
+}
+
+.home
+{
+	font-family: Verdana;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #800080;
+
+}
+
+.Blink
+{
+	font-size: 11pt;
+	font-variant: normal;
+	text-decoration: blink;
+
+}
+
+
+
+
+.Section
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.Group
+{
+	border-style: none;
+	border-width: 0px;
+
+}
+
+.GroupTitle
+{
+
+}
+
+.Calendar 
+{
+	background-color: Window;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	position: relative;
+	display: none;
+	cursor: default;
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 11px;
+	color: WindowText;
+
+}
+
+.Calendar .CalendarButton 
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonShadow;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonShadow;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: center;
+
+}
+
+.Calendar .nav 
+{
+	background-color: ButtonFace;
+	background-image: url(menuarrow.gif);
+	background-position: 100% 100%;
+	background-repeat: no-repeat;
+
+}
+
+.Calendar  TABLE
+{
+	background-color: Window;
+	border-style: solid;
+	border-width: 1px;
+	cursor: default;
+	font-family: tahoma, verdana, sans-serif;
+	font-size: 11px;
+	color: WindowText;
+
+}
+
+.Calendar  TABLE.wn 
+{
+	background-color: ButtonFace;
+	border-right: 1px solid ButtonShadow;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 3px;
+	padding-top: 2px;
+	color: ButtonText;
+
+}
+
+
+
+
+.Calendar  THEAD.name 
+{
+	background-color: ButtonFace;
+	border-bottom: 1px solid ButtonShadow;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	color: ButtonText;
+	text-align: center;
+
+}
+
+.Calendar  THEAD.weekend 
+{
+	color: #f00;
+
+}
+
+.Calendar  THEAD.hilite 
+{
+	border-bottom-color: ButtonShadow;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonShadow;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 2px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+
+}
+
+.Calendar  THEAD.active 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonShadow;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonShadow;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+
+}
+
+.Calendar  THEAD.CalendarTitle 
+{
+	background-color: ActiveCaption;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	font-weight: bold;
+	color: CaptionText;
+	text-align: center;
+
+}
+
+
+.Calendar  TBODY.day 
+{
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 4px;
+	padding-top: 2px;
+	width: 2em;
+	text-align: right;
+
+}
+
+
+.Calendar  TBODY.rowhilite  TD
+{
+	background-color: Highlight;
+	color: HighlightText;
+
+}
+
+.Calendar  TBODY.emptyrow 
+{
+	display: none;
+
+}
+
+.Calendar  TBODY.emptycell 
+{
+	visibility: hidden;
+
+}
+
+.Calendar  TBODY TD.hilite
+{
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 3px;
+	padding-top: 1px;
+
+}
+
+.Calendar  TBODY TD.active
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonShadow;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonShadow;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+
+}
+
+.Calendar  TBODY TD.selected
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonShadow;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonShadow;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+	color: ButtonText;
+
+}
+
+.Calendar  TBODY TD.weekend
+{
+	color: #f00;
+
+}
+
+.Calendar  TBODY TD.today
+{
+	font-weight: bold;
+	color: #00f;
+
+}
+
+.Calendar  TBODY TD.disabled
+{
+	color: GrayText;
+
+}
+
+
+.Calendar  TBODY TD.hilite 
+{
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 3px;
+	padding-top: 1px;
+
+}
+
+.Calendar  TBODY TD.active 
+{
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+
+}
+
+.Calendar  TBODY TD.selected 
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-top: 2px;
+	font-weight: bold;
+	color: ButtonText;
+
+}
+
+.Calendar  TBODY TD.weekend 
+{
+	color: #f00;
+
+}
+
+.Calendar  TBODY TD.today 
+{
+	font-weight: bold;
+	color: #00f;
+
+}
+
+.Calendar  TBODY TD.disabled 
+{
+	color: GrayText;
+
+}
+
+.Calendar  TBODY TD.time 
+{
+	background-color: ButtonFace;
+	border-top: 1px solid ButtonShadow;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	text-align: center;
+
+}
+
+.Calendar  TBODY TD.time .hour 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+.Calendar  TBODY TD.time .minute 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+.Calendar  TBODY TD.time .ampm 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+
+.Calendar  TBODY TD.time  SPAN.hilite 
+{
+	background-color: Highlight;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	color: HighlightText;
+
+}
+
+.Calendar  TBODY TD.time  SPAN.active 
+{
+	background-color: #000;
+	border-bottom-color: #f00;
+	border-left-color: #f00;
+	border-right-color: #f00;
+	border-top-color: #f00;
+	color: #0f0;
+
+}
+
+.Calendar  TBODY TD.time .colon 
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 2px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+
+
+.Calendar  TFOOT.ttip 
+{
+	background-color: ButtonFace;
+	border-bottom-color: ButtonHighlight;
+	border-left-color: ButtonShadow;
+	border-right-color: ButtonHighlight;
+	border-top-color: ButtonShadow;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	color: ButtonText;
+	text-align: center;
+
+}
+
+.Calendar  TFOOT.hilite 
+{
+	background-color: #e4e0d8;
+	border-bottom-color: #000;
+	border-left-color: #fff;
+	border-right-color: #000;
+	border-top-color: #fff;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+
+}
+
+.Calendar  TFOOT.active 
+{
+	border-bottom-color: #fff;
+	border-left-color: #000;
+	border-right-color: #fff;
+	border-top-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	padding-right: 0px;
+	padding-top: 2px;
+
+}
+
+.Calendar  TD.time
+{
+	background-color: ButtonFace;
+	border-top: 1px solid ButtonShadow;
+	padding-bottom: 1px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 1px;
+	text-align: center;
+
+}
+
+.Calendar  TD.time.hour 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+.Calendar  TD.time.minute 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+.Calendar  TD.time.ampm 
+{
+	background-color: Menu;
+	border-bottom-color: #889;
+	border-left-color: #889;
+	border-right-color: #889;
+	border-top-color: #889;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.Calendar  TD.time.colon 
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 2px;
+	padding-top: 0px;
+	font-weight: bold;
+
+}
+
+.Calendar  TD.time SPAN.hilite
+{
+	background-color: Highlight;
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	color: HighlightText;
+
+}
+
+.Calendar  TD.time SPAN.active
+{
+	background-color: #000;
+	border-bottom-color: #f00;
+	border-left-color: #f00;
+	border-right-color: #f00;
+	border-top-color: #f00;
+	color: #0f0;
+
+}
+
+.CalendarCombo 
+{
+	background-color: Menu;
+	border-bottom-color: ButtonShadow;
+	border-left-color: ButtonHighlight;
+	border-right-color: ButtonShadow;
+	border-top-color: ButtonHighlight;
+	border-style: solid;
+	border-width: 1px;
+	left: 0px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	position: absolute;
+	top: 0px;
+	width: 4em;
+	display: none;
+	cursor: default;
+	font-size: 10px;
+	color: MenuText;
+
+}
+
+.CalendarCombo .label 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	text-align: center;
+
+}
+
+.CalendarCombo .label-IEfix 
+{
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-top: 1px;
+	width: 4em;
+	text-align: center;
+
+}
+
+.CalendarCombo .active 
+{
+	border-bottom-color: #000;
+	border-left-color: #000;
+	border-right-color: #000;
+	border-top-color: #000;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+
+}
+
+.CalendarCombo .hilite 
+{
+	background-color: Highlight;
+	color: HighlightText;
+
+}
+
+
+DIV.suggestions 
+{
+	background-color: White;
+	border-bottom-color: Black;
+	border-left-color: Black;
+	border-right-color: Black;
+	border-top-color: Black;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	position: absolute;
+	-moz-box-sizing: border-box;
+	font-family: Arial, Verdana;
+	font-size: 9px;
+
+}
+
+DIV.suggestions  DIV
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	cursor: default;
+	font-family: Arial, Verdana;
+	font-size: 9px;
+
+}
+
+DIV.suggestions  DIV.current 
+{
+	background-color: rgb(176,196,222);
+	font-family: Arial, Verdana;
+	font-size: 9px;
+	color: White;
+
+}
+
+
+.dojoDialog 
+{
+	background-color: #eee;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	border-right-color: #999;
+	border-top-color: #999;
+	border-style: solid;
+	border-width: 1px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 4px;
+
+}
+
+#gx_ajax_notification
+{
+	height: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 5px;
+	position: absolute;
+	top: 21px;
+	z-index: 999;
+	width: 100%;
+	display: block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+.PopupHeader 
+{
+	background-color: Blue;
+
+}
+
+.PopupHeaderButton 
+{
+	background-image: url(ClosePrompt.gif);
+
+}
+
+
+.RowDeleted 
+{
+	text-decoration: line-through;
+
+}
+
+DIV.suggestions
+{
+	background-color: white;
+	border-bottom-color: black;
+	border-left-color: black;
+	border-right-color: black;
+	border-top-color: black;
+	border-style: solid;
+	border-width: 1px;
+	box-sizing: border-box;
+	position: absolute;
+	-moz-box-sizing: border-box;
+
+}
+
+DIV.suggestions DIV
+{
+	padding-bottom: 0px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 0px;
+	cursor: default;
+
+}
+
+DIV.suggestions DIV.current
+{
+	background-color: #36c;
+	color: white;
+
+}
+

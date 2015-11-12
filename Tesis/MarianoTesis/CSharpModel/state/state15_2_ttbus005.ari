@@ -1,0 +1,18 @@
+current_obj_i(2,trn,5).
+ 
+called_tree_i(0,5,13,1).
+called_tree_i(0,5,13,88).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ttbus005,[],[],[],5).
+ 
+ 
+obj_parms_i([ 'int aP0_TTBUS5_IdIdentificador','String aP1_Gx_mode','String aP2_SISTEMA','String aP3_USUARIO' ],[ [ 'Ttbus5_ididentificador',inout ],[ 'Mode',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

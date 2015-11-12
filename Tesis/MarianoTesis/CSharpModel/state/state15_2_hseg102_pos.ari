@@ -1,0 +1,16 @@
+current_obj_i(2,web,195).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(hseg102_pos,[],[],[],195).
+ 
+ 
+obj_parms_i([ 'String aP0_USU_COD','String aP1_SISTEMA','String aP2_USUARIO' ],[ [ 'Usu_cod',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

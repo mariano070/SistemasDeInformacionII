@@ -1,0 +1,17 @@
+current_obj_i(2,web,172).
+ 
+called_tree_i(13,172,13,1).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(hseg004,[],[],[],172).
+ 
+ 
+obj_parms_i([ 'short aP0_PRGCOD','short aP1_SISCOD' ],[ [ 'Prgcod',inout ],[ 'Siscod',inout ] ]).
+ 
+ 
+ 
+ 

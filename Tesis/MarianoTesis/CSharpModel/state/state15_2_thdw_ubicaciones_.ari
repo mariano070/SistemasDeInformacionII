@@ -1,0 +1,18 @@
+current_obj_i(2,trn,26).
+ 
+called_tree_i(0,26,13,1).
+called_tree_i(0,26,13,166).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(thdw_ubicaciones_,[],[],[],26).
+ 
+ 
+obj_parms_i([ 'short aP0_THDW_UBI_COD_','String aP1_Gx_mode','String aP2_SISTEMA','String aP3_USUARIO' ],[ [ 'Thdw_ubi_cod_',inout ],[ 'Mode',inout ],[ 'Sistema',inout ],[ 'Usuario',inout ] ]).
+ 
+ 
+ 
+ 

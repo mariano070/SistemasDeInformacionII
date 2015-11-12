@@ -1,0 +1,46 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>75</ObjId>
+<ObjName>PHDW_IP_6</ObjName>
+<ObjDesc>Control de validez de IP de un hardware</ObjDesc>
+<ObjPgmName>PHDW_IP_6</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'THDW_UBI_COD_' attribute is not in a table (Source, Line: 5, Char: 10)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'Red_Id' attribute is not in a table (Source, Line: 5, Char: 24)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'Host_IpB4' attribute is not in a table (Source, Line: 5, Char: 31)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'THDW_UBI_COD_' attribute is not in a table (Source, Line: 6, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'Red_Id' attribute is not in a table (Source, Line: 7, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'Host_IpB4' attribute is not in a table (Source, Line: 8, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'THARDWARE_UBI' attribute is not in a table (Source, Line: 13, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_RED' attribute is not in a table (Source, Line: 14, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_IP' attribute is not in a table (Source, Line: 15, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Source, Line: 16, Char: 9)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Source, Line: 19, Char: 106)</Token></Message></Error></Errors></ObjectSpec>

@@ -1,0 +1,20 @@
+current_obj_i(2,web,21).
+ 
+called_tree_i(13,21,1,2).
+called_tree_i(13,21,1,4).
+called_tree_i(13,21,0,6).
+called_tree_i(13,21,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tseg002permisoswc,[],[],[],21).
+ 
+ 
+obj_parms_i([ 'String aP0_TTBUS7_CodUsuario' ],[ [ 'Ttbus7_codusuario',in ] ]).
+ 
+ 
+ 
+ 

@@ -1,0 +1,20 @@
+current_obj_i(2,web,17).
+ 
+called_tree_i(13,17,1,2).
+called_tree_i(13,17,1,4).
+called_tree_i(13,17,0,16).
+called_tree_i(13,17,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(tseg002tseg003wc,[],[],[],17).
+ 
+ 
+obj_parms_i([ 'String aP0_USU_COD' ],[ [ 'Usu_cod',in ] ]).
+ 
+ 
+ 
+ 

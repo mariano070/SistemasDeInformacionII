@@ -1,0 +1,432 @@
+spec_i([ web,4,'Not Authorized web panel','NotAuthorized',0,spa,'10_1_5-42940' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Gxobject','Usuario','Password' ] ]).
+ 
+lac_i(2,[ [ 'Usuario','Password' ] ]).
+ 
+ 
+lits_i('Usuario No Autorizado Para esta Acción',5,10).
+lits_i('Usuario:',5,10).
+lits_i('Contraseña:',5,10).
+ 
+cls_i([ 0,0 ],[ 5,47 ]).
+ 
+pos_i('Usuario',[ 0,0,0 ]).
+pos_i('Password',[ 0,0,0 ]).
+ 
+ 
+default_i(e('Pgmname',2,2,'"NotAuthorized"')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','9')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'CC_USER_PASS','')).
+rule_i(0,datastore(1,'CC_USER_ID','')).
+rule_i(0,datastore(1,'CC_SERVER','')).
+rule_i(0,datastore(1,'CC_DBNAME','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',gx)).
+rule_i(0,datastore(1,'USER_ID',gx)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','172.22.108.50')).
+rule_i(0,datastore(1,'CS_DBNAME','MarianoTesis')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','No')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142 spc0060')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('AjaxRequestsSecurity','High')).
+rule_i(0,prop('USE_ENCRYPTION','UMPV')).
+rule_i(0,prop('HTTP_PROTOCOL','UMPV')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'MPTrazabilidad'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(25,'Modern'))).
+rule_i(0,prop('Folder',o(8,'Security'))).
+rule_i(0,prop('ObjDesc','Not Authorized web panel')).
+rule_i(0,prop('ObjName','NotAuthorized')).
+rule_i(0,maingen(15)).
+rule_i(0,parm([ 'Gxobject' ],[])).
+rule_i(0,parmio([ [ 'Gxobject',in ] ])).
+ 
+a_i(1,1,f,'Pgmname',[],[ [],[ t('"NotAuthorized"',3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Pgmname').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+ 
+ 
+ 
+ 
+ 
+attri_i('Pgmname',[ 'Pgmname',char,32,0,'',1,'Program name','',10 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',9 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',8 ]).
+attri_i('Usuario',[ 'USUARIO',char,16,0,'',0,'USUARIO','',7 ]).
+attri_i('Password',[ 'PASSWORD',char,8,0,'',0,'PASSWORD','',6 ]).
+attri_i('Gxobject',[ 'GxObject',svchar,256,0,'',0,'Gx Object','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(4,2,2,cmd,2,[ t('',107,2,0),t([ t('Recentlinks',3,2,0),t('Object',3,2,0) ],29,2,0),t(=,10,2,0),t('create(',1,2,0),t(o(13,'RecentLinks'),28,2,0),t(',',7,2,0),t('"No Autorizado"',3,2,0),t(',',7,2,0),t('Pgmname',23,2,0),t(')',4,2,0) ]).
+b_line_i(5,2,2,cmd,2,[ t('',141,2,0),t('''Usuario no autorizado para esta acción''',3,5,6),t(')',4,2,46) ]).
+b_line_i(7,2,2,cmd,2,[ t('',147,2,0) ]).
+b_line_i(1000,2,2,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,2,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,2,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,comp(webcomp)).
+html_i(3,comp(webcomp)).
+html_i(4,table(4)).
+html_i(24,table(24)).
+html_i(27,table(27)).
+ 
+html_sub_i(4,0,html_i(0,html('<TBODY>'))).
+html_sub_i(4,5,html_i(1,row(5))).
+html_sub_i(5,6,html_i(0,cell(6))).
+html_sub_i(6,7,html_i(0,t('Usuario No Autorizado Para esta Acción',3))).
+html_sub_i(4,8,html_i(2,row(8))).
+html_sub_i(8,9,html_i(0,cell(9))).
+html_sub_i(9,10,html_i(0,comp(errview))).
+html_sub_i(4,11,html_i(3,row(11))).
+html_sub_i(11,12,html_i(0,cell(12))).
+html_sub_i(12,13,html_i(0,table(13))).
+html_sub_i(13,0,html_i(0,html('<TBODY>'))).
+html_sub_i(13,14,html_i(1,row(14))).
+html_sub_i(14,15,html_i(0,cell(15))).
+html_sub_i(15,16,html_i(0,t('Usuario:',3))).
+html_sub_i(14,17,html_i(1,cell(17))).
+html_sub_i(17,18,html_i(0,t('Usuario',23))).
+html_sub_i(13,19,html_i(2,row(19))).
+html_sub_i(19,20,html_i(0,cell(20))).
+html_sub_i(20,21,html_i(0,t('Contraseña:',3))).
+html_sub_i(19,22,html_i(1,cell(22))).
+html_sub_i(22,23,html_i(0,t('Password',23))).
+html_sub_i(13,0,html_i(3,html('</TBODY>'))).
+html_sub_i(4,0,html_i(4,html('</TBODY>'))).
+html_sub_i(24,0,html_i(0,html('<TBODY>'))).
+html_sub_i(24,25,html_i(1,row(25))).
+html_sub_i(25,26,html_i(0,cell(26))).
+html_sub_i(24,0,html_i(2,html('</TBODY>'))).
+html_sub_i(27,0,html_i(0,html('<TBODY>'))).
+html_sub_i(27,28,html_i(1,row(28))).
+html_sub_i(28,29,html_i(0,cell(29))).
+html_sub_i(27,0,html_i(2,html('</TBODY>'))).
+ 
+html_tags_i(1,'Class','Form').
+ 
+html_comp_i(10,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Controlname','Headerbc',v,[ str ]).
+html_comp_i(2,'Params',[],d,[ params ]).
+html_comp_i(3,'Controlname','Recentlinks',v,[ str ]).
+html_comp_i(3,'Params',[],d,[ params ]).
+html_comp_i(4,'Id','Table2',v,[ str ]).
+html_comp_i(4,'Class','ViewTable',v,[ str ]).
+html_comp_i(4,'Title','',d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Backgroundgx','',d,[ str ]).
+html_comp_i(4,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(4,'Border','0',d,[ str ]).
+html_comp_i(4,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(4,'Cellpadding','1',d,[ str ]).
+html_comp_i(4,'Cellspacing','2',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Rules',none,d,[ str ]).
+html_comp_i(6,'Height',measure(25,px),v,[ measure ]).
+html_comp_i(6,'Colspan',2,v,[ num ]).
+html_comp_i(7,'Caption','Usuario No Autorizado Para esta Acción',d,[ str ]).
+html_comp_i(7,'Id','Titletext',v,[ str ]).
+html_comp_i(7,'Class','SubTitle',v,[ str ]).
+html_comp_i(7,'Event','',d,[ str ]).
+html_comp_i(7,'Returnonclick',0,d,[ bool ]).
+html_comp_i(7,'Gxformat',0,d,[ num ]).
+html_comp_i(7,'Title','',d,[ str ]).
+html_comp_i(7,'Fill',-1,d,[ bool ]).
+html_comp_i(7,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(7,'Forecolor',rgb(106,172,194),d,[ color ]).
+html_comp_i(7,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(9,'Height',measure(35,px),v,[ measure ]).
+html_comp_i(9,'Colspan',2,v,[ num ]).
+html_comp_i(10,'Controlname','Errviewer1',v,[ str ]).
+html_comp_i(10,'Class','ErrorViewer',d,[ str ]).
+html_comp_i(10,'Displaymode',1,d,[ num ]).
+html_comp_i(10,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(10,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(10,'Fill',-1,d,[ bool ]).
+html_comp_i(12,'Align',center,v,[ str ]).
+html_comp_i(12,'Colspan',2,v,[ num ]).
+html_comp_i(13,'Id','Table1',v,[ str ]).
+html_comp_i(13,'Class','Table',v,[ str ]).
+html_comp_i(13,'Title','',d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Backgroundgx','',d,[ str ]).
+html_comp_i(13,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Border','0',d,[ str ]).
+html_comp_i(13,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(13,'Cellpadding','1',d,[ str ]).
+html_comp_i(13,'Cellspacing','2',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Rules',none,d,[ str ]).
+html_comp_i(15,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(15,'Width',measure(2,px),v,[ measure ]).
+html_comp_i(16,'Caption','Usuario:',d,[ str ]).
+html_comp_i(16,'Id','Textblock1',v,[ str ]).
+html_comp_i(16,'Class','TextBlock',d,[ str ]).
+html_comp_i(16,'Event','',d,[ str ]).
+html_comp_i(16,'Returnonclick',0,d,[ bool ]).
+html_comp_i(16,'Gxformat',0,d,[ num ]).
+html_comp_i(16,'Title','',d,[ str ]).
+html_comp_i(16,'Fill',-1,d,[ bool ]).
+html_comp_i(16,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(16,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(16,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(17,'Width',measure(3,px),v,[ measure ]).
+html_comp_i(18,'Attid',-7,v,[ num ]).
+html_comp_i(18,'Class','Attribute',d,[ str ]).
+html_comp_i(18,'Controlname','&Usuario',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Controltype',2,d,[ num ]).
+html_comp_i(18,'Inputtype',0,d,[ num ]).
+html_comp_i(18,'Editautocomplete',0,d,[ num ]).
+html_comp_i(18,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(18,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(18,'Readonly',0,d,[ bool ]).
+html_comp_i(18,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(18,'Ispassword',0,d,[ bool ]).
+html_comp_i(18,'Autoresize',-1,d,[ bool ]).
+html_comp_i(18,'Gxwidth',measure(16,chr),d,[ measure ]).
+html_comp_i(18,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(18,'Ismultiline',0,d,[ bool ]).
+html_comp_i(18,'Fill',-1,d,[ bool ]).
+html_comp_i(18,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(18,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(18,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(18,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(20,'Height',measure(22,px),v,[ measure ]).
+html_comp_i(21,'Caption','Contraseña:',d,[ str ]).
+html_comp_i(21,'Id','Textblock2',v,[ str ]).
+html_comp_i(21,'Class','TextBlock',d,[ str ]).
+html_comp_i(21,'Event','',d,[ str ]).
+html_comp_i(21,'Returnonclick',0,d,[ bool ]).
+html_comp_i(21,'Gxformat',0,d,[ num ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(21,'Fill',-1,d,[ bool ]).
+html_comp_i(21,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(21,'Forecolor',rgb(116,116,116),d,[ color ]).
+html_comp_i(21,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(23,'Attid',-6,v,[ num ]).
+html_comp_i(23,'Class','Attribute',d,[ str ]).
+html_comp_i(23,'Controlname','&Password',v,[ str ]).
+html_comp_i(23,'Returnonclick',0,d,[ bool ]).
+html_comp_i(23,'Controltype',2,d,[ num ]).
+html_comp_i(23,'Inputtype',0,d,[ num ]).
+html_comp_i(23,'Editautocomplete',0,d,[ num ]).
+html_comp_i(23,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(23,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(23,'Readonly',0,d,[ bool ]).
+html_comp_i(23,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(23,'Ispassword',0,d,[ bool ]).
+html_comp_i(23,'Autoresize',0,v,[ bool ]).
+html_comp_i(23,'Gxwidth',measure(8,chr),v,[ measure ]).
+html_comp_i(23,'Gxheight',measure(1,row),v,[ measure ]).
+html_comp_i(23,'Ismultiline',0,d,[ bool ]).
+html_comp_i(23,'Fill',-1,d,[ bool ]).
+html_comp_i(23,'Backcolor',name_argb('Transparent',0,255,255,255),d,[ color ]).
+html_comp_i(23,'Forecolor',rgb(64,64,64),d,[ color ]).
+html_comp_i(23,'Font',font('Microsoft Sans Serif',8,[]),d,[ font ]).
+html_comp_i(23,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(23,'Gxformat',0,d,[ num ]).
+html_comp_i(23,'Title','',d,[ str ]).
+html_comp_i(24,'Id','Table3',v,[ str ]).
+html_comp_i(24,'Class','HorizantalSpace',v,[ str ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Backgroundgx','',d,[ str ]).
+html_comp_i(24,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(24,'Border','0',d,[ str ]).
+html_comp_i(24,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(24,'Cellpadding','1',d,[ str ]).
+html_comp_i(24,'Cellspacing','2',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Rules',none,d,[ str ]).
+html_comp_i(27,'Id','Table4',v,[ str ]).
+html_comp_i(27,'Class','HorizontalLine',v,[ str ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Align',left,d,[ str ]).
+html_comp_i(27,'Backgroundgx','',d,[ str ]).
+html_comp_i(27,'Bgcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Border','0',d,[ str ]).
+html_comp_i(27,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Cellpadding','1',d,[ str ]).
+html_comp_i(27,'Cellspacing','2',d,[ str ]).
+html_comp_i(27,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Rules',none,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(2,1,comp(webcomp),[ ctlname('Headerbc'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(3,1,comp(webcomp),[ ctlname('Recentlinks'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(7,1,t('Usuario No Autorizado Para esta Acción',3),[ ctlname('Titletext') ]).
+lit_i(10,1,comp(errview),[ ctlname('Errviewer1'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(16,1,t('Usuario:',3),[ ctlname('Textblock1') ]).
+lit_i(18,1,t('Usuario',23),[ ctlname('&Usuario'),ctrltype(edit,18),pos(18),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(21,1,t('Contraseña:',3),[ ctlname('Textblock2') ]).
+lit_i(23,1,t('Password',23),[ ctlname('&Password'),ctrltype(edit,23),pos(23),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(13,1,table(13),[ ctlname('Table1') ]).
+lit_i(4,1,table(4),[ ctlname('Table2') ]).
+lit_i(24,1,table(24),[ ctlname('Table3') ]).
+lit_i(27,1,table(27),[ ctlname('Table4') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(web,2,'RECENTLINKS',[ [ char,100,0,0 ],[ svchar,256,0,0 ] ],[ [ 'FormCaption',in,[] ],[ 'FormPgmName',in,[] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

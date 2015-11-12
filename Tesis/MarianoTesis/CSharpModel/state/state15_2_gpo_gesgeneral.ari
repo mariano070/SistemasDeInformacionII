@@ -1,0 +1,19 @@
+current_obj_i(2,web,37).
+ 
+called_tree_i(13,37,1,2).
+called_tree_i(13,37,1,4).
+called_tree_i(13,37,13,4).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gpo_gesgeneral,[],[],[],37).
+ 
+ 
+obj_parms_i([ 'short aP0_Grupo_Cod','String aP1_Ges_Cod' ],[ [ 271,in ],[ 270,in ] ]).
+ 
+ 
+ 
+ 

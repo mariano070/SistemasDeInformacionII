@@ -1,0 +1,39 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>10</ObjId>
+<ObjName>HHARDWARE_prompt</ObjName>
+<ObjDesc>Búsqueda de bien de uso en Hardware</ObjDesc>
+<ObjPgmName>HHARDWARE_prompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Conditions, Line: 1, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_DESCRIPCION' attribute is not in a table (Conditions, Line: 2, Char: 7)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'NOMBRE_DEL_TIPO_DE_HD' attribute is not in a table (Conditions, Line: 3, Char: 7)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HDW_IDT' attribute is not in a table (Conditions, Line: 4, Char: 1)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HDW_IDT' attribute is not in a table (Conditions, Line: 4, Char: 21)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'HARDWARE_ID' attribute is not in a table (Events, Line: 2, Char: 18)</Token></Message></Error>
+<Error>
+<MsgCode>spc0031</MsgCode>
+<Message>
+<Token>No relationship found among attributes</Token>
+<Token> in grid '</Token>
+<Token>Grid1</Token>
+<Token>'</Token>
+<Token>.</Token></Message></Error></Errors></ObjectSpec>

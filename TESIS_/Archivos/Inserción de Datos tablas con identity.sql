@@ -1,0 +1,38 @@
+--TTBUS000
+SET IDENTITY_INSERT TTBUS000 ON
+
+INSERT INTO TTBUS000
+(TTBUS_Id,TTBUS_Descripcion,TTBUS_FechaCarga,TTBUS_Estado,TTBUS_CodProveedor,TTBUS_Alquilado,TTBUS_CodPosicion,
+TTBUS_DesPosicion,TTBUS_RubroBien,TTBUS_ContDocu,TTBUS_UsuarioAlta,TTBUS_MaquinaAlta,TTBUS_NroSerie,
+TTBUS_FechaBaja,TTBUS_MotivoBaja,TTBUS_UsuarioBaja,TTBUS_MaquinaBaja)
+SELECT
+TTBUS_Id,TTBUS_Descripcion,TTBUS_FechaCarga,TTBUS_Estado,TTBUS_CodProveedor,TTBUS_Alquilado,TTBUS_CodPosicion,
+TTBUS_DesPosicion,TTBUS_RubroBien,TTBUS_ContDocu,TTBUS_UsuarioAlta,TTBUS_MaquinaAlta,TTBUS_NroSerie,
+TTBUS_FechaBaja,TTBUS_MotivoBaja,TTBUS_UsuarioBaja,TTBUS_MaquinaBaja
+FROM IntranetX.dbo.TTBUS000
+
+SET IDENTITY_INSERT TTBUS000 OFF
+
+--TTBUS000Identificadores
+INSERT INTO TTBUS000Identificadores
+(TTBUS_Id, IdIdentificador, NumeroIdentificador)
+SELECT TTBUS_Id, IdIdentificador, NumeroIdentificador FROM IntranetX.dbo.TTBUS000Identificadores
+	
+--TTBUS002
+SET IDENTITY_INSERT TTBUS002 ON
+
+INSERT INTO TTBUS002 
+(TTBUS2_IdMovimiento,TTBUS2_MotivoCancelacion,TTBUS2_IdBien,TTBUS2_CodPosDesde,TTBUS2_RespDesde,TTBUS2_FechaEnvio,
+TTBUS2_CodPosHacia,TTBUS2_RespHacia,TTBUS2_FechaRecepcion,TTBUS2_EstadoEnvio,TTBUS2_MotivoEnvio,TTBUS2_Observaciones,
+TTBUS2_PlazoRecepcion)
+SELECT
+TTBUS2_IdMovimiento,TTBUS2_MotivoCancelacion,TTBUS2_IdBien,TTBUS2_CodPosDesde,TTBUS2_RespDesde,TTBUS2_FechaEnvio,
+TTBUS2_CodPosHacia,TTBUS2_RespHacia,TTBUS2_FechaRecepcion,TTBUS2_EstadoEnvio,TTBUS2_MotivoEnvio,TTBUS2_Observaciones,
+TTBUS2_PlazoRecepcion
+FROM IntranetX.dbo.TTBUS002
+
+SET IDENTITY_INSERT TTBUS002 OFF
+
+--TTBUS002_Det
+INSERT INTO TTBUS002_Det (TTBUS2_IdMovimiento, TTBUS2_IdUsuario,TTBUS2_TipoResp)
+SELECT TTBUS2_IdMovimiento, TTBUS2_IdUsuario,TTBUS2_TipoResp FROM IntranetX.dbo.TTBUS002_Det

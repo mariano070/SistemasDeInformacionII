@@ -1,0 +1,147 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>108</ObjId>
+<ObjName>Gx00P0</ObjName>
+<ObjDesc>Selection List Auxiliar de bienes de uso</ObjDesc>
+<ObjPgmName>Gx00P0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Pbus_aux_id</VarId>
+<VarName>&amp;pBUS_AUX_ID</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Load</EventName>
+<LoadMethod>Auto</LoadMethod>
+<ImplicitForEach>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>352</AttriId>
+<AttriName>BUS_AUX_ID</AttriName>
+<Description>Id de auxiliar</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITBUS000_AUX</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>352</AttriId>
+<AttriName>BUS_AUX_ID</AttriName>
+<Description>Id de auxiliar</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_aux_id</VarId>
+<VarName>&amp;cBUS_AUX_ID</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>353</AttriId>
+<AttriName>BUS_AUX_RUB</AttriName>
+<Description>RUBRO DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_aux_rub</VarId>
+<VarName>&amp;cBUS_AUX_RUB</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>354</AttriId>
+<AttriName>BUS_AUX_DES</AttriName>
+<Description>DESCRIPCIÓN DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_aux_des</VarId>
+<VarName>&amp;cBUS_AUX_DES</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>355</AttriId>
+<AttriName>BUS_AUX_FAL</AttriName>
+<Description>FECHA DE ALTA DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_aux_fal</VarId>
+<VarName>&amp;cBUS_AUX_FAL</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>356</AttriId>
+<AttriName>BUS_AUX_FAD</AttriName>
+<Description>FECHA DE ADQUISICIÓN DEL BIEN</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_aux_fad</VarId>
+<VarName>&amp;cBUS_AUX_FAD</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>357</AttriId>
+<AttriName>BUS_AUX_NCO</AttriName>
+<Description>NUMERO DEL COMP. DE COMPRA</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_aux_nco</VarId>
+<VarName>&amp;cBUS_AUX_NCO</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>358</AttriId>
+<AttriName>BUS_AUX_COM</AttriName>
+<Description>COMPROBANTE DE COMPRA</Description></Attribute>
+<Sp></Sp>
+<Token>like</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cbus_aux_com</VarId>
+<VarName>&amp;cBUS_AUX_COM</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>25</TableId>
+<TableName>TBUS000_AUX</TableName>
+<Description>Auxiliar de bienes de uso</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>352</AttriId>
+<AttriName>BUS_AUX_ID</AttriName>
+<Description>Id de auxiliar</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Event>
+<EventName>Enter</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

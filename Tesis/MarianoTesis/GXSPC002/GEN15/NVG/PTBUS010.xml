@@ -1,0 +1,25 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>41</ObjId>
+<ObjName>PTBUS010</ObjName>
+<ObjDesc>Listado de bienes de uso sin factura</ObjDesc>
+<ObjPgmName>PTBUS010</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>specfailed</Result>
+<Warnings></Warnings>
+<Errors>
+<Error>
+<Message>
+<Token>'BUS_COD' attribute is not in a table (Source, Line: 12, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_PAR' attribute is not in a table (Source, Line: 13, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_EMP' attribute is not in a table (Source, Line: 14, Char: 8)</Token></Message></Error>
+<Error>
+<Message>
+<Token>'BUS_RUB' attribute is not in a table (Source, Line: 15, Char: 8)</Token></Message></Error></Errors></ObjectSpec>

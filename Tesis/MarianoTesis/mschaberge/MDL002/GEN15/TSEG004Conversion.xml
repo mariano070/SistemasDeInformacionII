@@ -1,0 +1,199 @@
+
+<ReorgSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Table>
+<TableId>42</TableId>
+<TableName>TSEG004</TableName>
+<Description>ACT. USUARIOS</Description></Table>
+<ReorgCls>c</ReorgCls>
+<ReorgCode>pk</ReorgCode>
+<ReorgMsg>TSEG004 is new</ReorgMsg>
+<ReorgAction>#</ReorgAction>
+<TableAttributes>
+<AttrisInTable>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>' '</Token></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>C</DataType>
+<Presicion>16</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description>
+<TakesValueFrom>
+<FromValue>
+<Token>0</Token></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>3</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description>
+<TakesValueFrom>
+<Table>
+<TableId>27</TableId>
+<TableName>SEG001</TableName>
+<Description>Maestro de Programas</Description></Table>
+<FromValue>
+<Token>.</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></FromValue></TakesValueFrom>
+<OnPrimaryKey>Yes</OnPrimaryKey>
+<AttriType>
+<DataType>N</DataType>
+<Presicion>4</Presicion>
+<Scale>0</Scale>
+<Properties>
+<Property>
+<Name>Autonumber</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>Autogenerate</Name>
+<Value>No</Value></Property>
+<Property>
+<Name>AllowNulls</Name>
+<Value>No</Value></Property></Properties></AttriType></Attribute></AttrisInTable>
+<AttrisNoLongerInTable></AttrisNoLongerInTable>
+<AttrisInManyTables></AttrisInManyTables></TableAttributes>
+<TableIndices>
+<Indices>
+<Index>
+<IndexName>ITSEG004</IndexName>
+<IndexType>u</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description></Attribute>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>Yes</Clustered></Index>
+<Index>
+<IndexName>ITSEG0041</IndexName>
+<IndexType>d</IndexType>
+<IndexAttris>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></IndexAttris>
+<IndexExistance>AlreadyExist</IndexExistance>
+<Clustered>No</Clustered></Index></Indices></TableIndices>
+<FKConstraints>
+<FKConstraint>
+<ChangeType>none</ChangeType>
+<Table>
+<TableId>27</TableId>
+<TableName>SEG001</TableName>
+<Description>Maestro de Programas</Description></Table>
+<Attributes>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute></Attributes></FKConstraint></FKConstraints>
+<Statements>
+<Statement>CREATE TABLE [GXA0042] ([USU_COD_] char(16) NOT NULL , [SIS_COD] smallint NOT NULL , [PRG_COD] smallint NOT NULL ) </Statement>
+<Statement>Run conversion program for table TSEG004</Statement>
+<Statement>CALL sp_rename('[GXA0042]', 'TSEG004')</Statement>
+<Statement>ALTER TABLE [TSEG004] ADD PRIMARY KEY([USU_COD_], [SIS_COD], [PRG_COD])</Statement>
+<Statement>CREATE NONCLUSTERED INDEX [ITSEG0041] ON [TSEG004] ([PRG_COD] )</Statement>
+<Statement>ALTER TABLE [TSEG004] ADD CONSTRAINT [ITSEG0041] FOREIGN KEY ([PRG_COD]) REFERENCES [SEG001] ([PRG_COD])</Statement></Statements>
+<NeedReorganizationProgram>True</NeedReorganizationProgram>
+<Warnings>
+<Warning>
+<MsgCode>spc0043</MsgCode>
+<Message>
+<Token></Token>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token> is not instantiated</Token>
+<Token> in group starting at line </Token>
+<Token>3</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>569</AttriId>
+<AttriName>USU_COD_</AttriName>
+<Description>CÓDIGO DE USUARIO</Description></Attribute>
+<Token> does not allow nulls and has not a Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0007</MsgCode>
+<Message>
+<Token>Attribute </Token>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token> does not allow nulls and has not a Initial Value. An empty default value will be used.</Token></Message></Warning>
+<Warning>
+<MsgCode>rgz0004</MsgCode>
+<Message>
+<Token>For each value of </Token>
+<Token>att(2,569)</Token>
+<Token>, </Token>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>PRG_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token> there could be several records of </Token>
+<Attribute>
+<AttriId>116</AttriId>
+<AttriName>SIS_COD</AttriName>
+<Description>CODIGO</Description></Attribute>
+<Token> in table </Token>
+<Table>
+<TableId>21</TableId>
+<TableName>SEG004</TableName>
+<Description>Permisos de Usuarios a Programas</Description></Table>
+<Token>. Data may be lost.</Token></Message></Warning></Warnings>
+<Errors></Errors></ReorgSpec>

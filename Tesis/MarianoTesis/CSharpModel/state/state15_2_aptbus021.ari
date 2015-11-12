@@ -1,0 +1,21 @@
+current_obj_i(2,proc,61).
+ 
+called_tree_i(1,61,1,56).
+called_tree_i(1,61,1,57).
+called_tree_i(1,61,1,58).
+called_tree_i(1,61,1,62).
+ 
+ 
+ij_main_object(aptbus021,'Envía mails recordatorios de bienes no recibidos luego del plazo','','""','CLINE').
+ 
+ 
+ 
+ 
+ij_object_dependency(aptbus021,[],[],[],61).
+ 
+ 
+obj_parms_i([],[]).
+ 
+ 
+ 
+ 

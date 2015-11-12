@@ -1,0 +1,17 @@
+current_obj_i(2,web,96).
+ 
+called_tree_i(13,96,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00j1,[],[],[],96).
+ 
+ 
+obj_parms_i([ 'String aP0_pEMPW_USU','int aP1_pEMPW_EMP' ],[ [ 'Pempw_usu',in ],[ 'Pempw_emp',out ] ]).
+ 
+ 
+ 
+ 

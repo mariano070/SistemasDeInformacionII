@@ -1,0 +1,10 @@
+<ConnectionInformation>
+	<DBName>GX_KB_MarianoTesis</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DES1523\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Modelos\Tesis\MarianoTesis</Directory>
+	<DataFile>GX_KB_MarianoTesis.mdf</DataFile>
+	<LogFile>GX_KB_MarianoTesis_log.LDF</LogFile>
+	<HostName>DES1523</HostName>
+</ConnectionInformation>

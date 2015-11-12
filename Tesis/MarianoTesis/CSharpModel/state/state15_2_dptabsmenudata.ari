@@ -1,0 +1,16 @@
+current_obj_i(2,mnproc,5).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(dptabsmenudata,[],[],[],5).
+ 
+ 
+obj_parms_i([ 'IGxCollection aP0_Gxm2rootcol' ],[ [ 'Gxm2rootcol',out ] ]).
+ 
+ 
+ 
+ 

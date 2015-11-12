@@ -1,0 +1,156 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>0</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>TTBUS020</ObjName>
+<ObjDesc>Mensajes de Administrador de Cambio de Posiciones</ObjDesc>
+<ObjPgmName>TTBUS020</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>13</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>13</TableId>
+<TableName>TTBUS020</TableName>
+<Description>Auxiliar para Mensajes de Administrador de Cambio de Posiciones</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>13</TableId>
+<TableName>TTBUS020</TableName>
+<Description>Auxiliar para Mensajes de Administrador de Cambio de Posiciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>223</AttriId>
+<AttriName>TTBUS20_IdBien</AttriName>
+<Description>Nº de bien de uso</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>TTBUS020</TableName>
+<Description>Auxiliar para Mensajes de Administrador de Cambio de Posiciones</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>223</AttriId>
+<AttriName>TTBUS20_IdBien</AttriName>
+<Description>Nº de bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>224</AttriId>
+<AttriName>TTBUS20_Descripcion</AttriName>
+<Description>Descripción de bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>TTBUS20_Mensaje</AttriName>
+<Description>Mensaje de resultado de cambio de posición</Description></Attribute>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>TTBUS20_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>TTBUS20_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>TTBUS20_Estacion</AttriName>
+<Description>Estación de trabajo</Description></Attribute>
+<Attribute>
+<AttriId>225</AttriId>
+<AttriName>TTBUS20_Usuario</AttriName>
+<Description>Usuario</Description></Attribute>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>TTBUS20_PlazoRecepcion</AttriName>
+<Description>Plazo límite recepción de un bien</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>TTBUS020</TableName>
+<Description>Auxiliar para Mensajes de Administrador de Cambio de Posiciones</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>224</AttriId>
+<AttriName>TTBUS20_Descripcion</AttriName>
+<Description>Descripción de bien de uso</Description></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>TTBUS20_Mensaje</AttriName>
+<Description>Mensaje de resultado de cambio de posición</Description></Attribute>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>TTBUS20_MotivoEnvio</AttriName>
+<Description>Motivo de envío</Description></Attribute>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>TTBUS20_Observaciones</AttriName>
+<Description>Observaciones</Description></Attribute>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>TTBUS20_Estacion</AttriName>
+<Description>Estación de trabajo</Description></Attribute>
+<Attribute>
+<AttriId>225</AttriId>
+<AttriName>TTBUS20_Usuario</AttriName>
+<Description>Usuario</Description></Attribute>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>TTBUS20_PlazoRecepcion</AttriName>
+<Description>Plazo límite recepción de un bien</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>TTBUS020</TableName>
+<Description>Auxiliar para Mensajes de Administrador de Cambio de Posiciones</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>13</TableId>
+<TableName>TTBUS020</TableName>
+<Description>Auxiliar para Mensajes de Administrador de Cambio de Posiciones</Description></Table>
+<Object>
+<ObjCls>13</ObjCls>
+<ObjId>106</ObjId>
+<ObjName>Gx00D0</ObjName>
+<ObjPgmName>Gx00D0</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>223</AttriId>
+<AttriName>TTBUS20_IdBien</AttriName>
+<Description>Nº de bien de uso</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,17 @@
+current_obj_i(2,proc,12).
+ 
+called_tree_i(1,12,1,23).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(pttbus000_1,[],[],[],12).
+ 
+ 
+obj_parms_i([ 'int aP0_TTBUS2_IdBien','short aP1_TTBUS2_CodPosDesde','String aP2_TTBUS2_RespDesde','DateTime aP3_TTBUS2_FechaEnvio','short aP4_TTBUS2_CodPosHacia','String aP5_TTBUS2_RespHacia','DateTime aP6_TTBUS2_FechaRecepcion','short aP7_TTBUS2_EstadoEnvio','String aP8_TTBUS2_MotivoEnvio','String aP9_TTBUS2_Observaciones','String aP10_Modo','String aP11_USUARIO','DateTime aP12_TTBUS2_PlazoRecepcion' ],[ [ 'Ttbus2_idbien',inout ],[ 'Ttbus2_codposdesde',inout ],[ 'Ttbus2_respdesde',inout ],[ 'Ttbus2_fechaenvio',inout ],[ 'Ttbus2_codposhacia',inout ],[ 'Ttbus2_resphacia',inout ],[ 'Ttbus2_fecharecepcion',inout ],[ 'Ttbus2_estadoenvio',inout ],[ 'Ttbus2_motivoenvio',inout ],[ 'Ttbus2_observaciones',inout ],[ 'Modo',inout ],[ 'Usuario',inout ],[ 'Ttbus2_plazorecepcion',inout ] ]).
+ 
+ 
+ 
+ 

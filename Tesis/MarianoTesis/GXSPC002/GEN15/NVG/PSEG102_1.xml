@@ -1,0 +1,106 @@
+
+<ObjectSpec>
+<SpecVersion>10_1_5-42940</SpecVersion>
+<Object>
+<ObjCls>1</ObjCls>
+<ObjId>89</ObjId>
+<ObjName>PSEG102_1</ObjName>
+<ObjDesc>Borrado de asociaciones de zonas de promoción a usuarios</ObjDesc>
+<ObjPgmName>PSEG102_1</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (C#)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Delete</Type></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>2</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITPRM005</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Prm5_usu</VarId>
+<VarName>&amp;PRM5_USU</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>PRM5_USU</AttriName>
+<Description>Código de Usuario</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>PRM5_ZNA</AttriName>
+<Description>Zona de Promoción</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>20</TableId>
+<TableName>TPRM005</TableName>
+<Description>Actualización de Usuarios por Zonas de Promoción</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

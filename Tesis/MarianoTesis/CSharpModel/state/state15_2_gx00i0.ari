@@ -1,0 +1,17 @@
+current_obj_i(2,web,94).
+ 
+called_tree_i(13,94,13,3).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(gx00i0,[],[],[],94).
+ 
+ 
+obj_parms_i([ 'short aP0_pGrupo_Cod','String aP1_pGes_Cod' ],[ [ 'Pgrupo_cod',out ],[ 'Pges_cod',out ] ]).
+ 
+ 
+ 
+ 

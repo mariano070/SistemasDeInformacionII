@@ -1,0 +1,17 @@
+current_obj_i(2,proc,64).
+ 
+called_tree_i(1,64,1,24).
+ 
+ 
+ 
+ 
+ 
+ 
+ij_object_dependency(ptbus030_,[],[],[],64).
+ 
+ 
+obj_parms_i([ 'int aP0_HDW_IDT','int aP1_HDW_IDTa','short aP2_HARDWARE_ID','String aP3_USUARIO' ],[ [ 'Hdw_idt',in ],[ 'Hdw_idta',in ],[ 'Hardware_id',in ],[ 'Usuario',in ] ]).
+ 
+ 
+ 
+ 
