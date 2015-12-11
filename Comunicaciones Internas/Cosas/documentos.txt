@@ -1,5 +1,0 @@
-Para terminar la parte de documentos falta:
-
-- Controla tamaño de archivo
-- Controlar las extensiones
-- Ver como descargarlos

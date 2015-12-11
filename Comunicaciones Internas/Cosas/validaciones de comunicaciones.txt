@@ -1,8 +1,0 @@
-//Validaciones de configuración
-PWEB001X_1_V.Call(&COMX_FPD,&validado,&mje_error)
-
-//Validaciones de usuarios
-PWEB001Xb_V.Call(&COMX_ID,&COMX_TIP,&validado,&mje_error)
-
-//Validaciones de secciones
-PWEB001Xc_V.Call(&COMX_ID,&validado,&mje_error)
