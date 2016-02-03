@@ -1,0 +1,82 @@
+public class BienesController()
+{
+
+public BienViewData nuevoBien()
+{
+	
+	BienViewData model = new BienViewData();
+	model.bien = new Bien();
+	model.bien.setDatosAlta();
+	model.modo = "INS";
+	model.identificadores = new IdentificadorBienViewData();
+	model.identificadores.tiposIdentificadores = getTiposIdentificadores();
+	
+	
+}
+
+public list<Identificadores> getTiposIdentificadores()
+{
+	list<Identificadores> listaIdent = new list<Identificadores>;
+	
+	BaseDeDatos db = new BaseDeDatos();
+	var tiposIdent = db.getTiposIdentificadores().toList();
+	
+	foreach (tid in tiposIdent)
+	{
+		Identificadores item = new Identificadores
+		{
+			id = tid.id,
+			descripcion = tid.descripcion
+		}
+		listaIdent.add(item);
+	}
+	return(listaIdent);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public class Bien()
+{
+	public usuario usuario_carga;
+	public estadoBien estado_bien;
+	public string ip_maquina_alta;
+	public dateTime fecha_carga;
+	
+	public void setDatosAlta()
+	{
+		this.usuario_carga = Context.getUsuario();
+		this.estadoBien = new estadoBien()
+		this.estadoBien.setAsignado();
+		this.ip_maquina_alta = getIP();
+		this.fecha_carga = DateTime.now();
+	}
+}

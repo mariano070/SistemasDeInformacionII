@@ -1,0 +1,1289 @@
+/** Main Styles **/
+
+/* Hard Styled Links turned off to enable alternate css links */
+A:Link, A:Visited {
+	color: #084887;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 15px;
+	text-decoration: underline;
+}
+A:Hover {
+	color: #E14B1D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 15px;
+	text-decoration: underline;
+}
+A:Active {
+	color: #081C55;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 15px;
+	text-decoration: underline;
+}
+/**/
+BODY {
+	background: #EEEEEE url('http://sparxsystems.com.au/images/layout/bodyBg.gif');
+	border-left: 1px solid #333333 !important;
+	border-right: 1px solid #333333 !important;
+	color: #00274C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 0px auto !important;
+	max-width: 1000px;
+	width: 1000px;
+}
+BODY Table {
+	background: #FFFFFF;
+}
+BODY Table Table {
+	background: none;
+}
+H1.doctitle {
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.base-text {
+	color: #00274C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 15px;
+}
+.base-text A, .base-text A:Visited {
+	color: #00274C;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.base-text A:Active {
+	color: #00274C;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.base-text A:Hover {
+	color: #E14B1D;
+	font-size: 10px;
+	text-decoration: underline;
+}
+.body-text {
+	color: #081C55;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 15px;
+}
+.body-text-bld {
+	color: #084887;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 15px;
+	padding: 2px;
+}
+.body-text-bld-yellow {
+	color: #E14B1D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 15px;
+}
+.body-text-bld-yellow-h1 {
+	color: #E14B1D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 15px;
+}
+.bordered-table-cells {
+	background-color: #445F70;
+	border: 1px solid #9BABBA;
+	padding: 4px;
+}
+.breadcrumb {
+	font-size: 9px;
+}
+.breadcrumb A {
+	font-size: 9px;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+.breadcrumb B {
+	color: #E14B1D;
+}
+#calendarOfEvents {
+	margin-top: 10px;
+}
+#calendarOfEvents P {
+	margin: 8px 0px 0px 0px;
+}
+#calendarOfEventsTitle {
+	margin-top: 0px;
+	width: auto;
+}
+#copyright {
+	background: #FFFFFF;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	width: 1000px;
+	text-align: right;
+}
+#copyright A {
+	color: #999999;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+#copyright A:Active, #copyright A:Hover {
+	text-decoration: underline;
+}
+#copyright LI {
+	color: #999999;
+	float: left;
+	font-size: 9px;
+	padding: 0px 13px;
+}
+#copyright UL {
+	border-bottom: 1px solid #CFD2D7;
+	border-top: 1px solid #CFD2D7;
+	height: 19px;
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+}
+.front-links H1 {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 0px 0px 3px 0px;
+	text-decoration: underline;
+}
+.front-links A, .front-links A:Visited {
+	color: #084887;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	text-decoration: underline;
+}
+.front-links A:Active, .front-links A:Hover {
+	color: #E14B1D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	text-decoration: underline;
+}
+.front-products H1 {
+	color: #E14B1D;
+	font-size: 25px;
+	line-height:15px;
+	margin-top:6px;
+	text-decoration:none;
+}
+.front-products-1 {
+	color: #0068CF;
+	font-size: 14px;
+	font-weight: bold;
+	list-style: none;
+	margin: 0px;
+	padding: 4px 0px;
+}
+.front-products-2 {
+	color: #666666;
+	font-size: 10px;
+	font-weight: normal !important;
+	list-style: none;
+	margin: 0px 0px 0px 25px;
+	padding: 2px 0px;
+}
+.greycell {
+	background: #E9ECEE;
+}
+#header {
+	background: #FFFFFF;
+	height: 117px;
+}
+#headerLogo {
+	background: #003466;
+	float: left;
+	height: 117px;
+	width: 200px;
+}
+#headerNav {
+	height: 46px;
+	overflow: hidden;
+}
+#headerNav A {
+	color: #426489;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+#headerNav A:Active, #headerNav A:Hover {
+	text-decoration: underline;
+}
+#headerNav LI {
+	color: #426489;
+	float: left;
+	font-size: 9px;
+	padding: 17px 9px 0px 9px;	
+}
+#headerNav UL {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#headerSearch {
+	background: #CCCCCC url('http://sparxsystems.com.au/images/layout/headerFlare.gif') no-repeat;
+	float: left;
+	font-size: 9px;
+	height: 61px;
+	padding: 10px 10px 0px 0px;
+	text-align: right;
+	width: 790px;
+}
+#headerSearch #search {
+	border-color: #013366;
+	border-style: solid;
+	border-width: 1px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin: 0px 0px 6px 0px;
+	padding: 2px;
+	vertical-align: middle;
+	width: 155px;
+}
+#headerSearch #searchButton {
+	margin: 0px 0px 6px 0px;
+	height: 18px;
+	vertical-align: middle;
+}
+#headerTop {
+	background: url('http://sparxsystems.com.au/images/layout/headBg.gif') repeat-x;
+	height: 78px;
+	width: 1000px;
+}
+.heading2 {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	padding: 2px;
+}
+.headinglrg, .headinglrg h1 {
+	border: 0px;
+	color: #2D5F9B;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	margin: 0px;
+}
+.index-bg {
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+
+#latestReleases {
+	border: 1px solid #0066CB;
+	margin-top: 10px;
+	width: 558px;
+	overflow: hidden;
+}
+#latestReleases A {
+	font-size: 9px;
+	line-height: normal;
+	margin-right: 10px;
+}
+#latestReleases H2 {
+	background: #0066CB;
+	color: #FFFFFF;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+}
+#latestReleases H2 A {
+	color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: normal;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+}
+#latestReleases LI {
+	border-bottom: 1px solid #CCCCCC;
+	color: #000000;
+	display: block;
+	width: 538px;
+	font-size: 9px;
+	padding: 5px 0px;
+}
+#latestReleases UL {
+	background: #FFFFFF;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#latestReleases .content {
+	padding: 10px;
+}
+#latestReleases .content .logo {
+	display: block;
+	float: left;
+	width: 408px;
+}
+#latestReleases .content .logo {
+	display: block;
+	float: left;
+	height: 24px;
+	width: 130px;
+}
+#latestReleases .content .text {
+	display: block;
+	float: left;
+	font-weight: bold;
+	width: 408px;
+}
+#latestReleases .titles {
+	width: auto;
+}
+
+#latestNews H3 {
+	color: #000000;
+	font-size: 9px;
+	margin: 5px 0px 0px 0px;
+	padding: 0px;
+}
+#latestNews P {
+	font-size: 9px;
+	margin: 0px;
+	padding: 0px;
+}
+#latestNews .subtitle {
+	background: #0066CB;
+	margin-top: -7px;
+	padding: 0px 0px 3px 20px;
+}
+#latestNews .subtitle A {
+	color: #FFFFFF !important;
+	font-size: 9px;
+}
+#latestNewsTitle {
+	background: #003466;
+	width: auto;
+}
+
+#learningImage {
+	background: url('http://sparxsystems.com.au/images/layout/learning.png') no-repeat;
+	height: 84px;
+}
+#learningServices, #learningServices A {
+	font-size: 9px;
+}
+#learningServicesTitle {
+	margin-top: 10px;
+}
+
+.left-menu-cat + .left-menu-cat {
+	margin-top: 21px;
+}
+.left-menu-cat {
+	margin-left: -10px;
+	margin-bottom: 6px;
+}
+.left-menu-cat A {
+	display: block;
+	margin-bottom: 4px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.left-menu-cat A:Hover {
+	background: url('http://sparxsystems.com.au/images/layout/sideMenuRollover.gif') no-repeat 0px 7px;
+	line-height: normal;
+}
+.left-menu-cat A H1 {
+	line-height: normal;
+	padding-left: 0px !important;
+}
+.left-menu-cat H1 {
+	color: #003267;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 0px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.left-menu-cat H2 {
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+.left-menu-items {
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin-bottom: 2px;
+	text-decoration: none;
+}
+.left-menu-items A, .left-menu-items A:Visited {
+	color: #666666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px !important;
+	line-height: normal;
+	margin-bottom: 3px;
+	text-decoration: none;
+}
+.left-menu-items P {
+	color: #B3B3B3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin-bottom: 3px;
+	margin-left: 0px;
+	margin-top: 0px;
+	text-decoration: none;
+}
+.left-menu-items A:Hover, .left-menu-items A:Active {
+	color: #B3B3B3;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin-bottom: 3px;
+}
+#linkPortal {
+	background: #FF9934;
+	border: 1px solid #FF9934;
+	height: 147px;
+	margin-top: 10px;
+	padding: 10px 8px;
+	width: 544px;
+}
+.linksBox {
+	float: left;
+	width: 136px;
+}
+.linksBox A {
+	color: #333333;
+	font-size: 9px;
+	line-height: normal;
+	text-decoration: none;
+}
+.linksBox H3 {
+	border-bottom: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px 0px 0px 5px;
+}
+.linksBox LI {
+	color: #333333;
+	font-size: 9px;
+	padding-bottom: 5px;
+}
+.linksBox UL {
+	list-style: none;
+	margin: 15px 0px 0px 5px;
+	padding: 0px;
+}
+#localisationPartners {
+	margin-top: 10px;
+}
+#localisationPartners .links {
+	float: left;
+	height: 35px;
+	padding-left: 5px;
+	width: 128px;
+}
+#localisationPartners .links A {
+	font-size: 9px;
+	text-decoration: none;
+}
+#localisationPartners .links A STRONG {
+	color: #000000;
+}
+#localisationPartners .logo {
+	float: left;
+	height: 35px;
+	width: 47px;
+}
+#localisationPartners .logo IMG {
+	border: 1px solid #000000;
+	margin-bottom: 2px;
+}
+#localisationPartners .sideMenu {
+	height: 105px;
+}
+#main {
+	background: #FFFFFF;
+	width: 1000px;
+}
+#mainContent {
+	border: 1px solid #000000;
+	border-top: 0px;
+	width: 558px;
+}
+#mainContentBar {
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	font-size: 9px;
+	font-weight: bold;
+	height: 29px;
+	margin-top: 10px;
+}
+#mainContentBar A {
+	color: #FFFFFF;
+	font-size: 9px;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+#mainContentBarBuy {
+	background: url('http://sparxsystems.com.au/images/layout/gradientOrangeBg.png');
+	float: left;
+	height: 22px;
+	padding: 7px 0px 0px 11px;
+	width: 55px;
+}
+#mainContentBarMore {
+	background: url('http://sparxsystems.com.au/images/layout/gradientBlueBg.png');
+	float: left;
+	height: 22px;
+	padding: 7px 0px 0px 11px;
+	width: 68px;
+}
+#mainContentBarTitle {
+	background: url('http://sparxsystems.com.au/images/layout/gradientGrayBg.png');
+	float: left;
+	height: 22px;
+	padding: 7px 0px 0px 13px;
+	width: 362px;
+}
+#mainContentBarTry {
+	background: url('http://sparxsystems.com.au/images/layout/gradientRedBg.png');
+	float: left;
+	height: 22px;
+	padding: 7px 0px 0px 11px;
+	width: 27px;
+}
+#mainContentBottom {
+	border-top: 1px solid #999999;
+	height: 205px;
+	padding-top: 20px;
+}
+#mainContentBottom H3 {
+	font-size: 10px;
+	margin: 0px;
+	padding: 0px;
+}
+#mainContentBottom IMG {
+	padding: 15px 15px 0px 15px !important;
+}
+#mainContentBottom LI {
+	color: #666666;
+	font-size: 9px;	
+	padding-bottom: 2px;
+}
+#mainContentBottom UL {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#mainContentBottomLeft {
+	border-right: 1px solid #999999;
+	float: left;
+	height: 185px;
+	margin-left: 10px;
+	width: 270px;
+}
+#mainContentBottomMoreInfo {
+	border-top: 1px solid #999999;
+	padding: 10px 10px 0px 10px;
+}
+#mainContentBottomMoreInfo H2 {
+	font-size: 12px;
+	line-height: normal;
+	margin: 0px;
+	padding: 0px;
+}
+#mainContentBottomMoreInfo P {
+	color: #666666;
+	font-size: 9px;
+}
+#mainContentBottomRight {
+	float: left;
+	margin-left: 10px;
+}
+#mainContentFlash {
+	border-bottom: 1px solid #000000;
+	display: block;
+	height: 150px;
+}
+#mainContentImage {
+}
+#mainContentTop {
+	display: block;
+	height: 203px;
+}
+#mainContentTop IMG {
+	float: left;
+	padding-left: 20px;
+	padding-top: 0px;
+}
+#mainContentTopText {
+	height: 165px;
+	margin-left: 182px;
+	padding-top: 24px;
+	width: 358px;
+}
+#mainContentTopText H1 {
+	font-size: 24px;
+	margin: 0px;
+	padding: 0px;
+}
+#mainContentTopText H2 {
+	color: #333333;
+	font-size: 11px;
+	margin: 0px;
+	padding: 0px;
+}
+#mainContentTopText P {
+	color: #666666;
+	font-size: 9px;
+	line-height: 15px;
+}
+.news-text {
+	border-bottom: 1px solid #A7ABAC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	padding-bottom: 6px;
+}
+.news-text H1 {
+	color: #E14B1D;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	margin: 0px;
+	margin-bottom: 3px;
+}
+.news-text P {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin: 0px;
+	margin-bottom: 2px;
+}
+.news-text-more {
+	color: #0051FF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+}
+.newRelease {
+	border-top: 1px solid #CCCCCC;
+	line-height: 14px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+#newsletterSignup {
+	height: 23px;
+	margin-top: 10px;
+}
+#newsletterSignup FORM {
+	margin: 0px;
+	padding: 0px;
+}
+#newsletterSignupContent {
+	background: #E7E8EA;
+	border-bottom: 1px solid #D0D5D9;
+	border-top: 1px solid #D0D5D9;
+	color: #000000;
+	float: left;
+	font-size: 9px;
+	height: 19px;
+	padding-top: 2px;
+	width: 540px;
+}
+#newsletterSignupContent A {
+	font-size: 9px;
+	line-height: normal;
+	padding: 0px 10px;
+	text-decoration: none;
+}
+#newsletterSignupContent INPUT {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	margin: 0px 10px;
+	padding: 0px;
+	width: 150px;
+}
+#newsletterSignupLeft {
+	background: url('http://sparxsystems.com.au/images/layout/cornerCircleLeftGrey.gif');
+	float: left;
+	height: 23px;
+	width: 10px;
+}
+#newsletterSignupRight {
+	background: url('http://sparxsystems.com.au/images/layout/cornerCircleRightGrey.gif');
+	float: left;
+	height: 23px;
+	width: 10px;
+}
+.side-table {
+	margin: 10px 0px 0px 0px;
+}
+#sideLeft {
+	padding-right: 10px;
+	width: 200px;
+}
+.sideMenu {
+	background: #FFFFFF;
+	border-bottom: 1px solid #CFD2D7;
+	border-right: 1px solid #CFD2D7;
+	width: 189px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.sideMenu2 {
+	background: #FFFFFF;
+	border-bottom: 1px solid #CFD2D7;
+	border-left: 1px solid #CFD2D7;
+	color: #666666;
+	font-size: 9px;
+	width: 209px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.sideMenu2 A, .sideMenu2 A:Hover {
+	font-size: 9px;
+	line-height: normal;
+}
+#sideRight {
+	padding: 10px 0px 0px 10px;
+	width: 220px;
+}
+#strategicAlliance TD {
+	padding-bottom: 10px;
+}
+#strategicAllianceTitle {
+	width: auto;
+	margin-top: 10px;
+}
+.top-nav-links {
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	padding-left: 5px;
+	padding-right: 10px;
+	text-align: left;
+}
+.top-nav-links:Link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.top-nav-links:Active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.top-nav-links:Visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.top-nav-links:Hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.titles {
+	background: #0066CB;
+	border: 0px;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	height: 22px;
+	padding-left: 15px;
+	padding-top: 8px;
+	width: 185px;
+}
+.titles:Link {
+	color: #00274C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.titles:Visited {
+	color: #00274C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.titles:Hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.title-icon-pos {
+	margin: 2px 5px;
+}
+#testimonials {
+	background: #EEEEEE url('http://sparxsystems.com.au/images/layout/testimonials.png') no-repeat;
+	border-top: 1px solid #999999;
+	height: 111px;
+}
+#testimonials P {
+	font-size: 9px;
+	font-style: italic;
+	margin: 0px 0px 0px 154px;
+	padding: 10px;
+	text-align: right;
+	width: 384px;
+}
+.text-fields {
+	background-color: #FFFFFF;
+	border-color: #A7ABAC;
+	border-style: solid;
+	border-width: 1px;
+	color: #00274C;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	height: 16px;
+}
+.yellowcell {
+	background-color: #E14B1D;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.fontGreySmaller {
+	color: #666666;
+	font-size: 10px;
+	line-height: 13px;
+}
+.fontGreySmall {
+	color: #666666;
+	font-size: 11px;
+	line-height: 15px;
+}
+.fontGreyMedium {
+	color: #666666;
+	font-size: 13px;
+}
+.fontGreyLarge {
+	color: #666666;
+	font-size: 16px;
+}
+.fontGreySmaller {
+	color: #081C55;
+	font-size: 10px;
+	line-height: 13px;
+}
+.fontBlueSmall {
+	color: #081C55;
+	font-size: 11px;
+	line-height: 15px;
+}
+.fontBlueMedium {
+	color: #081C55;
+	font-size: 13px;
+}
+.fontBlueLarge {
+	color: #081C55;
+	font-size: 16px;
+}
+
+/** Menu Styles **/
+
+
+/* DEFAULT STYLES ---- NEEEDED START */
+.clCMEvent {
+	position: absolute;
+	width: 99%;
+	height: 99%;
+	clip: rect(0,100%,100%,0);
+	left: 0;
+	top: 0;
+	visibility: visible
+}
+.clCMAbs {
+	position: absolute;
+	visibility: hidden;
+	left: 0;
+	top: 0;
+}
+/* DEFAULT STYLES ---- NEEEDED END */
+  
+.clT, .clTover, .clS, .clSover, .clS2, .clS2over {
+	position: absolute;
+	width: 120;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+	cursor: hand;
+}
+.clT, .clTover {
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.clS, .clSover {
+	padding: 2px;
+	font-size: 9px; 
+	font-weight: bold;
+	text-align: center;
+}
+/*
+.clT, .clS, .clS2 {
+	color: #006699; 
+	background-color: #CDDBEB; 
+	layer-background-color: #CDDBEB;
+}
+*/
+.clTover {
+	color:#FCCE55; 
+	background-color:#336699; 
+	layer-background-color:#336699;
+}
+.clSover {
+	color: white; 
+	background-color: #084887; 
+	layer-background-color: #084887;
+}
+.clS2 {
+	background-color:silver; 
+	width:230; 
+	layer-background-color:silver;
+}
+.clS2over {
+	background-color:#00cccc; 
+	width:230; 
+	layer-background-color:#00cccc; 
+	color:black
+}
+.clStest {
+	position: absolute; 
+	font-family: verdana; 
+	font-size: 10px; 
+	color: red; 
+	layer-background-color: silver; 
+	background-color: silver;
+	cursor: pointer; 
+	cursor: hand;
+}
+.clStestover {
+	position: absolute; 
+	color: #FFFF33; 
+	font-weight: bold; 
+	font-family: courier; 
+	layer-background-color: #00CCFF; 
+	background-color: #00CCFF; 
+	cursor: pointer; 
+	cursor: hand;
+}
+.clB1 {
+	position:absolute; 
+	visibility:hidden
+}
+.clB2 {
+	position:absolute; 
+	layer-background-color:#996600; 
+	background-color:#996600; 
+	visibility:hidden
+}
+.clB3 {
+	position:absolute; 
+	layer-background-color:red; 
+	background-color:red; 
+	visibility:hidden
+}
+.clB {
+	position:absolute; 
+	background-color:#336699; 
+	layer-background-color:#336699; 
+	visibility:hidden
+}
+.clBar {
+	position:absolute; 
+	width:10; 
+	height:10; 
+	visibility:hidden; 
+	layer-background-color:#336699; 
+	background-color:#336699;
+}
+.clNoLink {
+	position:absolute; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.clNoLink2 {
+	position:absolute;
+	padding:2px;
+	font-size:11px;
+	color:#006699;
+	layer-background-color:silver;
+	background-color:silver;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+.clNoLink3 {
+	position:absolute;
+	background-color:#CDDBEB;
+	layer-background-color:#CDDBEB;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/* Index Page specific */
+
+#frontLogos IMG {
+	margin: 25px 5px;
+}
+#frontStatement {
+	color: #666666;
+	font-style: italic;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	text-align: justify;
+	line-height: 16px;
+	min-height: 142px;
+	height: 142px;
+}
+#frontStatement A {
+	color: #666666;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+/* News Container */
+/*
+#newsContainer {
+	border: 1px solid #000000;
+	color: #333333;
+	height: 272px;
+	margin-left: 10px;
+}
+#newsItems {
+	height: 228px;
+	line-height: 20px;
+	overflow: auto;
+	padding: 10px;
+}
+#newsTitleBar {
+	background: #D0D0D0;
+	border-bottom: 1px solid #000000;
+	padding: 5px 2px 0px 5px;
+	height: 19px;
+}
+#newsTitleBar A {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.newsItem {
+	border-bottom: 1px solid #F2F2F2;
+	font-size: 9px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+#newsItems .odd {
+	background: #F2F2F2;
+}
+.newsItem A, .newsItem A:hover, .newsItem A:visited, .newsItem A:active {
+	font-size: 9px;
+	font-weight: bold;
+}
+.newsItem h2 {
+	color: #E14B1D;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+*/
+/* Link Containers */
+#solutionsContainer, #resourcesContainer, #developersContainer, #tutorialsContainer {
+	background: #EEE;
+	border: 1px solid #B2B2B2;
+	height: 130px;
+}
+#solutionsContainer {
+	margin: 0px 4px 0px 0px;
+}
+#resourcesContainer {
+	margin: 0px 3px 0px 1px;
+}
+#developersContainer {
+	margin: 0px 1px 0px 3px;
+}
+#tutorialsContainer {
+	margin: 0px 0px 0px 4px;
+}
+#solutionsTitleBar, #resourcesTitleBar, #developersTitleBar, #tutorialsTitleBar {
+	background: #D0D0D0;
+	border-bottom: 1px solid #B2B2B2;
+	height: 19px;
+	padding: 5px 2px 0px 5px;
+}
+#solutionsTitleBar A, #resourcesTitleBar A, #developersTitleBar A, #tutorialsTitleBar A {
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#solutionsItems, #resourcesItems, #developersItems, #tutorialsItems {
+	margin: 5px;
+}
+
+
+/* Purchase Page Specific Items */
+.productListing {
+	border-bottom: 1px dashed #CCCCCC;
+	cursor: default;
+	padding-top: 10px;
+}
+.productListing H1 {
+	color: #E14B1D;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.productListing INPUT {
+	float: right;
+}
+.productListingHover {
+	background-color: #F2F2F2;
+}
+.productPriceList {
+	background: #FFFFFF;
+	border-bottom: 1px solid #00274C;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.productPriceList H2 {
+	background: #A4C4E1;
+	border-top: 1px solid #00274C;
+	border-bottom: 1px solid #00274C;
+	font-size: 13px;
+	margin: 0px 0px 5px 0px;
+	padding: 2px;
+}
+.productPriceList STRONG {
+	color: #E14B1D;
+}
+.productPriceList A STRONG {
+	background: #F2F2F2;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+.productPricingInfo {
+	cursor: pointer;
+	color: #E14B1D;
+	text-decoration: underline;
+}
+
+
+/* Press Events Page */
+#pressEvents {}
+#pressEvents .eventItem {
+	border: 1px solid #000000;
+	padding: 10px;
+	margin-top: 10px;
+}
+#pressEvents .eventItem P.date {
+	background: #0066CB;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	padding: 3px;
+	text-align: center;
+}
+
+
+/* Round Corner Code from Mixd.net */
+/* http://mixd.net/rounded_corners */
+
+/* rounded box margins */
+.round, .round2, .round3{
+	margin-bottom: 10px;
+	margin-left: 15px;
+	margin-right: 0px;
+	width: 162px !important;
+}
+
+/* inner content padding */
+.round .c, .round2 .c{
+	padding: 0px 3px;
+}
+.round3 .c{
+	padding: 0px 9px;
+}
+
+
+/* CSS below here probably shouldn't be messed with except for the image file name */
+.round .t, .round .b, .round .b b, .round .t b, .round2 .t, .round2 .b, .round2 .b b, .round2 .t b, .round3 .t, .round3 .b, .round3 .b b, .round3 .t b{
+	height: 10px;
+}
+.round .t, .round .b, .round .t b, .round .b b{
+	display: block;
+	overflow: hidden;
+}
+.round2 .t, .round2 .b, .round2 .t b, .round2 .b b{
+	display: block;
+	overflow: hidden;
+}
+.round3 .t, .round3 .b, .round3 .t b, .round3 .b b{
+	display: block;
+	overflow: hidden;
+}
+.round .c, .round2 .c, .round3 .c {
+	background: #FFFFFF;
+	border-right: 1px #CFD2D7 solid;
+}
+.round .t b, .round .b b, .round2 .t b, .round2 .b b{
+	float: right;
+	width: 90px;
+}
+.round3 .t b, .round3 .b b{
+	float: right;
+	width: 50%;
+}
+.round .t .r, .round2 .t .r, .round3 .t .r{
+	background-position: top right;
+}
+.round .b .r, .round2 .b .r, .round3 .b .r{
+	background-position: bottom right;
+}
+.round .b, .round2 .b, .round3 .b{
+	background-position: bottom left;
+}
+.round .br, .round2 .br, .round3 .br{
+	display: block;
+	overflow: hidden;
+	height: 0px;
+}

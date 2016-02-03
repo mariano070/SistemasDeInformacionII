@@ -1,0 +1,373 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0075)http://www.sparxsystems.com.ar/resources/tutorial/uml2_activitydiagram.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/Single Pane.dwt" codeOutsideHTMLIsLocked="false" --><!-- Mirrored from www.sparxsystems.com/resources/uml2_tutorial/uml2_activitydiagram.html by HTTrack Website Copier/3.x [XR&CO'2006], Fri, 19 Jan 2007 17:52:25 GMT --><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<!-- InstanceBeginEditable name="Title" -->
+<title>Sparx Systems - Tutorial UML 2 - Diagrama de Actividades</title>
+<!-- InstanceEndEditable -->
+
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+<link href="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/default.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" src="file://draco/_enterprise%20architect/Sparks%20systemas/www.sparxsystems.com/xtras/ss.js" type="text/javascript"></script>
+<script language="JavaScript" src="file://draco/_enterprise%20architect/Sparks%20systemas/www.sparxsystems.com/xtras/ss-temp.js" type="text/javascript"></script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td><!-- Top Panel Title etc -->
+      <script src="file://draco/_enterprise%20architect/Sparks%20systemas/www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+	_uacct = "UA-30239-1";
+	urchinTracker();
+</script>
+<script language="javascript" type="text/javascript" src="file://draco/_enterprise%20architect/Sparks%20systemas/auditor.whosclickingwho.com/wcwsc.js"></script>
+<script language="javascript" type="text/javascript">
+	try {
+		WCWAudit()
+	} catch(ex) {
+	}
+</script>
+<div id="header">
+	<div id="headerLogo">
+		<a href="http://www.sparxsystems.com.ar/index.html"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/headerLogo.gif" width="146" height="31" hspace="27" vspace="43" border="0"></a>
+	</div>
+	<div id="headerNav">
+		<ul>
+			<li><a href="http://www.sparxsystems.com.ar/products/index.html">Productos</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/resources/inedx.html">Recursos</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/foro/index.php">Foro</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/support/index.html">Soporte</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/partners/index.html">Socios</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/registered/index.html">Usuarios Registrados</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/products/ea.html" style="color: #F8981C;">Enterprise Architect</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/uml-tutorial.html" style="color: #F8981C;">Tutorial UML</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/products/mdg.html" style="color: #F8981C;">Vínculo MDG</a></li>
+			<li><a href="http://www.sparxsystems.com.ar/about.html" style="color: #F8981C;">Acerca de</a></li>
+		</ul>
+	</div>
+	<div id="headerSearch">
+		<!--form action="http://www.sparxsystems.com/cgi-bin/search/search.pl" method="get">
+			<input type="text" id="search" name="Terms" value="Buscar..." onfocus="this.value = '';" /><input type="image" name="submit" src="http://www.sparxsystems.com/images/layout/search.gif" id="searchButton" />
+			<br />
+			<input type="radio" name="Realm" value="Sparx Systems Web" checked="true" />Sparx Systems 
+			<input type="radio" name="Realm" value="EA User Guide" />Guía de Usuario de EA 
+		</form-->
+	</div>
+</div>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top"><table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td width="190" valign="top"><!-- InstanceBeginEditable name="Side-Menu" -->
+            <link href="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/default.css" rel="stylesheet" type="text/css">
+<div class="side-table">
+	<div class="titles">
+		Navegue
+	</div>
+	<div class="sideMenu">
+		<div class="left-menu-cat">
+			<a href="http://www.sparxsystems.com.ar/resources"><h1>Recursos</h1></a>
+			<div class="left-menu-items">
+				<h2><a href="http://www.sparxsystems.com.ar/resources/mdg_tech">Tecnologías MDG</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/uml_datamodel.html">Modelado de Bases de Datos UML</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/rtf">Documentación RTF</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/image_library.html">Librería de Imágenes</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/mda/index.html">Recursos MDA</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/xml_schema_generation.html">Generación de Esquema XML</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/links.html">Recursos extra UML</a></h2>
+			</div>
+		</div>
+		
+		<div class="left-menu-cat">
+			<a href="http://www.sparxsystems.com.ar/resources/developers"><h1>Desarrollos</h1></a>
+			<div class="left-menu-items">
+				<h2><a href="http://www.sparxsystems.com.ar/resources/developers/autint.html">Interfaz de Automatización</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/developers/uml_patterns.html">Patrones UML</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/developers/uml_profiles.html">Perfiles UML</a></h2>
+			</div>
+		</div>
+		
+		<div class="left-menu-cat">
+			<a href="http://www.sparxsystems.com.ar/resources/tutorial/uml-tutorial.html"><h1>Tutoriales UML</h1></a>
+			<div class="left-menu-items">
+				<h2><a href="http://www.sparxsystems.com.ar/uml-tutorial.html">Tutorial UML</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/tutorial/uml_tutorial2.html">Tutorial UML - Parte 2</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/uml2_tutorial">Tutorial UML 2.0</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/tutorial/business_process_model.html">Modelo de Procesos de Negocios</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/tutorial/dynamic_model.html">Modelo Dinámico</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/tutorial/logical_model.html">Modelo Lógico</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/tutorial/physical_models.html">Modelo Físico</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/tutorial/use_case_model.html">Modelo de Caso de Uso</a></h2>
+			</div>
+		</div>
+		<div class="left-menu-cat">
+			<h1>Tutoriales EA</h1>
+			<div class="left-menu-items">
+				<h2><a href="http://www.sparxsystems.com.ar/resources/resource_mng.html">Administración de Recursos</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/testing.html">Soporte de Prueba</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/traceability.html">Trazabilidad</a></h2>
+				<h2><a href="http://www.sparxsystems.com.ar/resources/ucmetrics.html">Métricas de Casos de Uso</a></h2>
+			</div>
+		</div>
+	</div>
+</div>              <!-- InstanceEndEditable --> </td>
+          <td width="100%" valign="top"><table width="97%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tbody><tr>
+                <td height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/spacer.gif" width="100%" height="10"></td>
+              </tr>
+              <tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody><tr>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-tlc.gif" width="10" height="10"></td>
+                      <td width="100%" height="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ts.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ts.gif" width="10" height="10"></td>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-trc.gif" width="10" height="10"></td>
+                    </tr>
+                    <tr>
+                      <td width="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ls.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ls.gif" width="10" height="9"></td>
+                      <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody><tr>
+                            <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tbody><tr class="greycell">
+                                  <td width="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/h-corner1.gif" width="10" height="19"></td>
+                                  <td width="100%" class="breadcrumb"><!-- InstanceBeginEditable name="Breadcrumb" --><a href="http://www.sparxsystems.com.ar/index.html">Inicio</a> &gt; <a href="http://www.sparxsystems.com.ar/resources">Recursos</a> &gt; <a href="http://www.sparxsystems.com.ar/resources/uml2_tutorial">Tutorial UML 2</a> &gt; <b>Diagrama de Actividades </b><!-- InstanceEndEditable --> </td>
+                                  <td width="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/h-corner2.gif" width="10" height="19"></td>
+                                </tr>
+                              </tbody></table></td>
+                          </tr>
+                        </tbody></table></td>
+                      <td width="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-rs.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-rs.gif" width="10" height="9"></td>
+                    </tr>
+                    <tr>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-blc.gif" width="10" height="10"></td>
+                      <td width="100%" height="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-bs.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-bs.gif" width="10" height="10"></td>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-brc.gif" width="10" height="10"></td>
+                    </tr>
+                  </tbody></table></td>
+              </tr>
+              <tr>
+                <td height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/spacer.gif" width="100%" height="10"></td>
+              </tr>
+              <tr>
+                <td valign="top"><!-- InstanceBeginEditable name="Page Content" -->
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tbody><tr>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-tlc.gif" width="10" height="10"></td>
+                      <td width="100%" height="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ts.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ts.gif" width="10" height="10"></td>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-trc.gif" width="10" height="10"></td>
+                    </tr>
+                    <tr>
+                      <td width="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ls.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-ls.gif" width="10" height="9"></td>
+                      <td width="100%" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                          <tbody>
+                            <tr>
+                              <td><!-- Insert heading into this table -->
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tbody>
+                                    <tr class="greycell">
+                                      <td width="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/h-corner1.gif" width="10" height="19"></td>
+                                      <td width="100%" align="center" class="headinglrg">Diagrama de Actividades UML 2 <br>
+                                      </td>
+                                      <td width="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/h-corner2.gif" width="10" height="19"></td>
+                                    </tr>
+                                  </tbody>
+                                </table></td>
+                            </tr>
+                            <tr>
+                              <td><!-- Insert content here -->
+                                <p class="body-text-bld"><br>
+                                  Diagrama de Actividades<br>
+                                  <span class="body-text">En UML un 
+								diagrama de actividades se usa para mostrar la 
+								secuencia de actividades. Los diagramas de 
+								actividades muestran el flujo de trabajo desde 
+								el punto de inicio hasta el punto final 
+								detallando muchas de las rutas de decisiones que 
+								existen en el progreso de eventos contenidos en 
+								la actividad. Estos también pueden usarse para 
+								detallar situaciones donde el proceso paralelo 
+								puede ocurrir en la ejecución de algunas 
+								actividades. Los Diagramas de Actividades son 
+								útiles para el Modelado de Negocios donde se 
+								usan para detallar el proceso involucrado en las 
+								actividades de negocio.<br>
+                                  <br>
+                                 Un ejemplo de 
+								un diagrama de actividades se muestra a 
+								continuación</span></p>
+                                <p class="body-text-bld"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad03.GIF" width="721" height="318"></p>
+                                <p class="body-text">Las siguientes secciones 
+								describen los elementos que constituyen un 
+								diagrama de actividades.</p>
+                                <p class="body-text-bld">Actividades<br>
+                                  <span class="body-text">Una actividad es la especificación de una 
+								secuencia parametrizada de comportamiento. Una 
+								actividad muestra un rectángulo con las puntas 
+								redondeadas adjuntando todas las acciones, 
+								flujos de control y otros elementos que 
+								constituyen la actividad.</span></p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad05.GIF" width="343" height="161"></p>
+                                <p><span class="body-text-bld">Acciones</span><br>
+                                  <span class="body-text">Una acción representa un solo paso dentro de una 
+								actividad. Las acciones se denotan por 
+								rectángulos con las puntas redondeadas.</span></p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad07.GIF" width="110" height="85"></p>
+                                <p><span class="body-text-bld">Restricciones de 
+								Acción</span><br>
+                                  <span class="body-text">Las restricciones se pueden adjuntar a una 
+								acción. El siguiente diagrama muestra una acción 
+								con pre y post condiciones locales.</span></p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad01.GIF" width="186" height="245"></p>
+                                <p><span class="body-text-bld">Flujo de Control</span><br>
+                                  <span class="body-text">Un flujo de control muestra el flujo de control 
+								de una acción a otra. Su notación es una línea 
+								con una punta de flecha.</span></p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad06.GIF" width="251" height="85"></p>
+                                <p><span class="body-text-bld">Nodo Inicial</span><br>
+                                  <span class="body-text">Un nodo inicial o de comienzo se describe por un 
+								gran punto negro, como se muestra a 
+								continuación. </span></p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad14.GIF" width="185" height="85"></p>
+                                <p class="body-text"></p>
+                                <p><span class="body-text-bld">Nodo Final</span><br>
+                                  <span class="body-text">Hay dos tipos de 
+								nodos finales: nodos finales de actividad y de 
+								flujo. El nodo final de actividad se describe 
+								como un círculo con un punto dentro del mismo.</span></p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad04.GIF" width="192" height="85"></p>
+                                <p class="body-text">El nodo final de 
+								flujo se describe como un círculo con una cruz 
+								dentro del mismo.</p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad09.GIF" width="170" height="85"></p>
+                                <p class="body-text">La diferencia entre los dos tipos de nodos es 
+								que el nodo final del flujo denota el final de 
+								un solo flujo de control, y el nodo final de 
+								actividad denota el final de todos los flujos 
+								finales dentro de la actividad.<br>
+                                </p>
+                                <p class="body-text"><span class="body-text-bld">Flujos 
+								de Objetos y Objeto</span><br>
+                                  Un flujo de objeto es la ruta a lo largo de la 
+								cual pueden pasar objetos o datos. Un objeto se 
+								muestra cómo un rectángulo.</p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad15.GIF" width="130" height="100"></p>
+                                <p class="body-text">Un flujo de objeto se muestra como un conector 
+								con una punta de flecha denotando la dirección a 
+								la cual se está pasando el objeto. </p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad16.GIF" width="340" height="100"><br>
+                                </p>
+                                <p class="body-text">Un flujo de objeto debe tener un objeto en por 
+								lo menos uno de sus extremos. Una notación de 
+								acceso rápido para el diagrama de arriba sería 
+								usar los pins de salidas y entradas. </p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad17.GIF" width="300" height="93"></p>
+                                <p class="body-text">Un almacén de 
+								clave se muestra como un objeto con las clave «datastore».</p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad18.GIF" width="130" height="100"></p>
+                                <p class="body-text"><span class="body-text-bld">Nodos de Decisión y Combinación</span><br>
+                                  Los nodos de decisión y combinación tienen la 
+								misma notación: una forma de diamante. Los dos 
+								se pueden nombrar. Los flujos de control que 
+								provienen de un nodo de decisión tendrán 
+								condiciones de guarda que permitirán el control 
+								para fluir si la condición de guarda se realiza. 
+								El siguiente diagrama muestra el uso de un nodo 
+								de decisión y un nodo de combinación.
+</p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad08.GIF" width="380" height="177"> </p>
+                                <p class="body-text"><span class="body-text-bld">Nodos de Bifurcación y Unión</span><br>
+                                  Las bifurcaciones 
+								y uniones tienen la misma notación: tanto una 
+								barra horizontal como vertical (la orientación 
+								depende de si el flujo de control va de derecha 
+								a izquierda o hacia abajo y arriba. Estos 
+								indican el comienzo y final de hilos actuales de 
+								control. El 
+								siguiente diagrama muestra un ejemplo de su uso. </p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad10.GIF" width="340" height="136"> </p>
+                                <p class="body-text">Una unión es diferente de una combinación ya que 
+								la unión sincroniza dos flujos de entrada y 
+								produce un solo flujo de salida. El flujo de 
+								salida desde una unión no se puede ejecutar 
+								hasta que todos los flujos se hayan recibido. 
+								Una combinación pasa cualquier flujo de control 
+								directamente a través de esta. Si dos o más 
+								flujos de entrada se reciben por un símbolo de 
+								combinación, la acción a la que el flujo de 
+								salida apunta se ejecuta dos o más veces.</p>
+                                <p class="body-text"><span class="body-text-bld">Región de Expansión</span><br>
+                                  Una región de expansión es una región de 
+								actividad estructurada que se ejecuta muchas 
+								veces. Los nodos de expansión de salida y 
+								entrada se dibujan como un grupo de tres 
+								casillas representando una selección múltiple de 
+								ítems. La clave reiterativa, paralelo, o flujo 
+								se muestra en la esquina izquierda arriba de la 
+								región.</p>
+                                <p><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad12.GIF" width="375" height="212"></p>
+                                <p class="body-text"><span class="body-text-bld">Gestores de Excepción</span><br>
+                                  Los gestores de Excepción se pueden modelar en 
+								diagramas de actividad como en siguiente 
+								ejemplo.</p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad11.GIF" width="451" height="125"></p>
+                                <p class="body-text"><span class="body-text-bld">Región de Actividad Interrumpible</span><br>
+                                  Una región de actividad interrumpible rodea un 
+								grupo de acciones que se pueden interrumpir. En 
+								un ejemplo simple como el siguiente, la acción 
+								Procesar Orden se ejecutará hasta su 
+								cumplimiento cuando pase control a la acción 
+								Cerrar Orden, a menos que una interrupción 
+								Cancelar Pedido se reciba, la cual pasará el 
+								control a la acción Cancelar Orden.</p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad13.GIF" width="426" height="207"></p>
+                                <p class="body-text"><span class="body-text-bld">Partición</span><br>
+                                 Una partición de una actividad se muestra como 
+								calles horizontales o verticales. En el 
+								siguiente diagrama, las particiones se usan para 
+								separar acciones dentro de una actividad en 
+								aquellas realizadas por el departamento de 
+								contabilidad y aquellas realizadas por el 
+								cliente. </p>
+                                <p class="body-text"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/ad19.GIF" width="410" height="303"></p></td>
+                            </tr>
+                          </tbody>
+                        </table></td>
+                      <td width="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-rs.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-rs.gif" width="10" height="9"></td>
+                    </tr>
+                    <tr>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-blc.gif" width="10" height="10"></td>
+                      <td width="100%" height="10" background="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-bs.gif"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-bs.gif" width="10" height="10"></td>
+                      <td width="10" height="10"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/box-brc.gif" width="10" height="10"></td>
+                    </tr>
+                  </tbody></table>
+                  <!-- InstanceEndEditable --> </td>
+              </tr>
+            </tbody></table></td>
+        </tr>
+        <tr>
+          <td valign="top" height="100%"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/spacer.gif" width="180" height="10"></td>
+          <td valign="top" height="100%"><img src="./Sparx Systems - Tutorial UML 2 - Diagrama de Actividades_files/spacer.gif" width="100%" height="10"></td>
+        </tr>
+      </tbody></table></td>
+  </tr>
+  <tr>
+    <td><div id="copyright" align="center"> 
+	<ul>
+		<li><a href="http://www.sparxsystems.com.ar/products/ea.html">Enterprise Architect</a></li>
+		<li><a href="http://www.sparxsystems.com.ar/resources">Recursos</a></li>
+		<li><a href="http://www.sparxsystems.com.ar/partners/index.html">Socios</a></li>
+		<li><a href="http://www.sparxsystems.com.ar/support/index.html">Soporte</a></li>
+		<li><a href="http://www.sparxsystems.com.ar/registered/index.html">Usuarios Registrados</a></li>
+		<li><a href="http://www.sparxsystems.com.ar/sitemap.html">Mapa del Sitio</a></li>
+		<li>© 2000-2007 <a href="http://www.sparxsystems.com.ar/index.html">Sparx Systems Pty Ltd.</a> Todos los derechos reservados.</li>
+	</ul>
+</div>
+    </td>
+  </tr>
+</tbody></table>
+
+<!-- InstanceEnd -->
+
+<!-- Mirrored from www.sparxsystems.com/resources/uml2_tutorial/uml2_activitydiagram.html by HTTrack Website Copier/3.x [XR&CO'2006], Fri, 19 Jan 2007 17:52:25 GMT -->
+
+</body></html>

@@ -1,1 +1,4 @@
 http://www.sparxsystems.com.ar/resources/tutorial/uml2_activitydiagram.html --> Diagramas de actividad
+https://www.youtube.com/watch?v=zgkwAGk0zrs -> diagramas de secuencia
+https://www.youtube.com/watch?v=ybawovX3qck -> diagramas de secuencia
+http://www.ibm.com/developerworks/rational/library/3101.html -> diagrama de secuencia (muy completo) :D
