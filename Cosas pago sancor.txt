@@ -1,0 +1,8 @@
+Cuando se hace una consulta
+
+1) La clase PagoSancorDataContext está dentro del archivo PagoSancor.designer.cs
+2) La clase PagoSancorDataContext contiene un método por cada tabla de PagoSancor (con el nombre de la tabla)
+3) A su vez, hay una clase dentro del archivo PagoSancor.designer.cs por cada tabla de PagoSancor
+4) A su vez, el PagoSancor.designer.cs pertenece al PagoSancor.dbml
+5) El PagoSancor.dbml se relaciona directamente (con un connectionString) a la base de datos de PagoSancor
+6) La base de datos de PagoSancor es la que contiene las tablas
