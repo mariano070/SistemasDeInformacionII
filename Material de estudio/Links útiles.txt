@@ -18,8 +18,8 @@ https://msdn.microsoft.com/es-es/library/dd409390.aspx
 http://www.sparxsystems.com.ar/resources/tutorial/uml2_componentdiagram.html
 http://es.slideshare.net/uitron/diagrama-de-componentes-7551535
 http://es.slideshare.net/joshell/diagramas-uml-componentes-y-despliegue?next_slideshow=1 (tambien muestra algo de diagrama de despliegue)
-https://www.youtube.com/watch?v=4JY5LORTGt8 (este video esta muy bueno)
-https://www.youtube.com/watch?v=vuuBjWmxciY (este video esta muy bueno)
+
+
 http://www.notodocodigo.com/blog/diagrama-de-componentes-y-diagrama-de-distribucion/
 http://www.uml-diagrams.org/component-diagrams.html (muy bueno porque explica los ejemplos) -> es bastante completa pero falta leer muchas cosas
 http://www.ibm.com/developerworks/rational/library/dec04/bell/ -> falta leer
